@@ -15,7 +15,7 @@ const questions: Question[] = [
   {
     id: 2,
     question: "Write down the names of different states of matter.",
-    answer: "There are three states of matter: (i) Solid, (ii) Liquid, (iii) Gas."
+    answer: "There are four states of matter: (i) Solid, (ii) Liquid, (iii) Gas, (iv) Plasma."
   },
   {
     id: 3,

@@ -22,6 +22,7 @@ const data: Section[] = [
   { id: "6", link: "/english", title: "English", color: "#54A0FF" },
   { id: "7", link: "/urdu", title: "Urdu", color: "#5F27CD" },
   { id: "9", link: "/tarjuma-tul-guran-ul-majeed", title: "TARJUMA -TUL-QURAN -UL MAJEED", color: "#01a3a4" },
+  { id: "9", link: "/islam-our-glorious-religion", title: "Hamara Islam", color: "#0da3a4" },
 ];
 
 const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
