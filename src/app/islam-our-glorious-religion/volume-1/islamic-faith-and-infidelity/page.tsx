@@ -9,7 +9,7 @@ const page = () => {
     <div className="space-y-6 mb-2">
       <div>
         <h2 className="text-lg font-semibold">Q 1: What is Islamic faith?</h2>
-        <p className="mt-2">A. Islamic faith is to firmly believe that the Holy Prophet Hazrat Mohammed (may the choicest blessings and peace of Allah be upon him) is a true Apostle and his every word and deed is also true. Whoever believes so is a Muslim.</p>
+        <p className="mt-2">A. Islamic faith is to firmly believe that the Holy Prophet Hazrat Mohammed (PBUH) is a true Apostle and his every word and deed is also true. Whoever believes so is a Muslim.</p>
       </div>
       
       <div>
