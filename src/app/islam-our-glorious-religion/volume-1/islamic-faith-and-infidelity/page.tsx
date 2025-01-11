@@ -65,6 +65,7 @@ const page = () => {
 ***_ Belief in Prophet Mohammed
 ***_ Following his words and deeds
 ***_ Reciting Kalemah with belief
+***_ Considered Muslim even without understanding Kalemah's meaning
 
 **[#Pink] Types of Non-Believers
 ***[#Orange] Infidels (Kaafir)
@@ -93,7 +94,8 @@ const page = () => {
 ***_ Correct terminology important
 ****_ Call Muslims as Muslims
 ****_ Call infidels as Kaafir
-@endmindmap`}
+@endmindmap
+`}
 />
   </div>
   );
