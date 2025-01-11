@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
       <h2 className="text-2xl font-bold text-gray-700 mb-4">
-        People's unawareness and ignorance:
+        People&apos;s unawareness and ignorance:
       </h2>
       <p className="text-lg leading-relaxed pb-5">
         Polytheism is generally widespread among the people and the concept of
@@ -20,7 +20,7 @@ const page = () => {
         <span className="italic text-blue-600">Tauhid</span> (Monotheism) and
         <span className="italic text-blue-600">Shirk</span> (polytheism) so that
         we may know about their advantages and disadvantages as directed by
-        Qur'an and
+        Qur&apos;an and
         <span className="italic text-blue-600">Sunnah</span>.
       </p>
       <PlantUMLDiagram
