@@ -33,7 +33,7 @@ const page = () => {
             enemies of Islam - particularly the eloquent poets of Arabia - put
             their heads together and strove hard to produce something like it
             but they failed miserably; they could not bring forth a single
-            chapter, not even a single verse like it. Thus, the Holy Qur'an is
+            chapter, not even a single verse like it. Thus, the Holy Qur&apos;an is
             an open and everlasting miracle and a challenge to infidels and
             disbelievers till the end of time.
           </p>
@@ -97,8 +97,8 @@ const page = () => {
             clean place preferably in mosque facing the Qibla (Holy Ka&apos;bah)
             placing the Holy Qur&apos;an before himself, on a raised surface. He
             should begin reciting the Glorious Qur&apos;an preceded by &quot;A&apos;oozu
-            bil-Laahi Minash Shaietaa-nir Rajeem" (I seek refuge with Allah from
-            the Devil, the accursed) and &quot;Bismil-Laahir Rahmaa-nir Raheem"
+            bil-Laahi Minash Shaietaa-nir Rajeem&quot; (I seek refuge with Allah from
+            the Devil, the accursed) and &quot;Bismil-Laahir Rahmaa-nir Raheem&quot;
             (Allah, beginning with the name of, the Most Affectionate, the Most
             Merciful) with sincerity and humility. Show no haste but recite
             carefully and with calmness. Mind it! The mouth should be free from

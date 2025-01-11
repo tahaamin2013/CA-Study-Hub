@@ -34,12 +34,12 @@ const page = () => {
       
       <div>
         <h2 className="text-lg font-semibold">Q 6: Who are polytheists (mushriks)?</h2>
-        <p className="mt-2">A. Polytheists are those wretched ones who worship different objects except Allah or consider someone or something as partners in Allah's absolute kingdom and power.</p>
+        <p className="mt-2">A. Polytheists are those wretched ones who worship different objects except Allah or consider someone or something as partners in Allah&apos;s absolute kingdom and power.</p>
       </div>
       
       <div>
         <h2 className="text-lg font-semibold">Q 7: Which communities are polytheists (Mushrik) in the world?</h2>
-        <p className="mt-2">A. For example, Hindus who worship idols and consider them partners in Allah&apos;s infinite Kingdom and eternal power, Christians, Jews, Parsis, etc., who believe either in duality of God or in trinity. All such people are "Mushriks".</p>
+        <p className="mt-2">A. For example, Hindus who worship idols and consider them partners in Allah&apos;s infinite Kingdom and eternal power, Christians, Jews, Parsis, etc., who believe either in duality of God or in trinity. All such people are &quot;Mushriks&quot;.</p>
       </div>
       
       <div>
