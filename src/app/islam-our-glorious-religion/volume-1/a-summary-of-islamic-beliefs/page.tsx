@@ -111,15 +111,15 @@ mindmapDiagram {
 *** Belief in all
 *** Respect and reverence
 *** Mohammed (PBUH)
-**** Leader of all Apostles
+**** Leader and The Last Prophet of all Apostles
 ** Revealed Books
 *** Kalaam Allah
 *** Faith in all books
 **** The Tawrat: The Torah
 **** The Zabur: The Psalms
 **** The Injeel: The Gospel
-**** The Holy Quran: The Quran (or The Holy Qurs1n)
-*** Qurs1n
+**** The Holy Quran: The Last and Final Revelation
+*** Quran
 **** Best of all books
 **** Protected by Allah
 *** Bible as a whole contains the Torah, Psalms, and Gospel
@@ -147,9 +147,10 @@ left side
 *** Sharper than sword
 *** Only path to Heaven
 ** Taqdeer (Predestination)
-*** Allahs1 eternal knowledge
+*** Allah's eternal knowledge
 *** Everything predetermined
-@endmindmap`}
+@endmindmap
+`}
       />
     </div>
   );
