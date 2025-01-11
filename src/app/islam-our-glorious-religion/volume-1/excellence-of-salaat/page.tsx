@@ -117,3 +117,4 @@ left side
 };
 
 export default page;
+
