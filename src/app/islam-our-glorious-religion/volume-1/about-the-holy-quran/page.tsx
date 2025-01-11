@@ -84,7 +84,7 @@ const page = () => {
           </h2>
           <p className="mt-2">
             A. The Holy Prophet has said &quot;the chest (of a believer) which has
-            nothing of the Qur&apos;an in it is like a deserted house".
+            nothing of the Qur&apos;an in it is like a deserted house&quot;.
           </p>
         </div>
 

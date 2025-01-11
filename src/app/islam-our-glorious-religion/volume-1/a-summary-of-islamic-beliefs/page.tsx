@@ -28,7 +28,7 @@ const page = () => {
         <li>
           <p>
             Allah, the Almighty has revealed books to some Apostles, which are
-            called "Kalaam Allah" (speech of Allah). To have faith and belief in
+            called &quot;Kalaam Allah&quot; (speech of Allah). To have faith and belief in
             all the revealed books and in their contents is essential. Of all
             the revealed books, the Glorious Qur’an which was gifted to our
             Beloved Prophet (Hazrat) Mohammed is the best and Allah Almighty
