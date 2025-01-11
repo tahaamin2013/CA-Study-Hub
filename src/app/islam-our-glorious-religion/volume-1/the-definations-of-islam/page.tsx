@@ -23,7 +23,7 @@ const page = () => {
         <ul className="list-decimal pl-6 mt-2 space-y-2">
           <li>To bear witness that there is no God except Allah and that Hazrat Mohammed (may the choicest blessings & peace of Allah be upon him) is His chosen servant and true Apostle.</li>
           <li>To offer prayer five times a day.</li>
-          <li>To pay "Zakaat" (charity) - only upon those who are rich.</li>
+          <li>To pay &quot;Zakaat&quot; (charity) - only upon those who are rich.</li>
           <li>To perform Hajj - only upon those who can reach the holy place.</li>
           <li>To observe fasts during the holy month of Ramadaan.</li>
         </ul>
@@ -34,7 +34,7 @@ const page = () => {
         <p className="mt-2 font-arabic text-xl text-green-600">
           َل ِؕ اّٰله َِؕ ُاَّٰلَ ِؕل ّال ِؕ ُمحََّمد ِؕ رَّهسُٰوْل ُِؕل ّال ِؕ
         </p>
-        <p className="mt-2">A. "Laa Ilaaha Illal Laahu Mohammedur Rasoolul Laah". (There is no God except Allah: Mohammed is the Apostle of Allah.)</p>
+        <p className="mt-2">A. &quot;Laa Ilaaha Illal Laahu Mohammedur Rasoolul Laah&quot;. (There is no God except Allah: Mohammed is the Apostle of Allah.)</p>
       </div>
     </div>
 

@@ -14,7 +14,7 @@ const page = () => {
           <p className="mt-2">
             A. Allah Almighty has created a dreadful place for the chastisement
             and punishment of infidels, disbelievers, and sinners, which is
-            called "Jahannam" (hell). It has seventy thousand dangerous and
+            called &quot;Jahannam&quot; (hell). It has seventy thousand dangerous and
             horrendous valleys, with each valley having seventy thousand similar
             horrid dells and pits. These valleys, dells, and pits are infested
             with innumerable frightful scorpions and serpents.
@@ -40,7 +40,7 @@ const page = () => {
             A. A believer will ultimately be absolved irrespective of his
             countless sins and admitted into paradise either by the forgiveness
             of Allah Almighty, or the intercession of His beloved, the chosen
-            Prophet Hazrat Mohammed Mustafa (may Allah's choicest blessings and
+            Prophet Hazrat Mohammed Mustafa (may Allah&apos;s choicest blessings and
             peace be upon him), or after having served his term of punishment in
             hell. Paradise is the last and ultimate abode of believers wherein
             they will live eternally.

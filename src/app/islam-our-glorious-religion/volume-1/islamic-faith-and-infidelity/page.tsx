@@ -19,7 +19,7 @@ const page = () => {
       
       <div>
         <h2 className="text-lg font-semibold">Q 3: What are those who do not believe in Islam, called?</h2>
-        <p className="mt-2">A. Such people are called "infidels" (kaafir).</p>
+        <p className="mt-2">A. Such people are called &quot;infidels&quot; (kaafir).</p>
       </div>
       
       <div>
@@ -39,22 +39,22 @@ const page = () => {
       
       <div>
         <h2 className="text-lg font-semibold">Q 7: Which communities are polytheists (Mushrik) in the world?</h2>
-        <p className="mt-2">A. For example, Hindus who worship idols and consider them partners in Allah's infinite Kingdom and eternal power, Christians, Jews, Parsis, etc., who believe either in duality of God or in trinity. All such people are "Mushriks".</p>
+        <p className="mt-2">A. For example, Hindus who worship idols and consider them partners in Allah&apos;s infinite Kingdom and eternal power, Christians, Jews, Parsis, etc., who believe either in duality of God or in trinity. All such people are "Mushriks".</p>
       </div>
       
       <div>
-        <h2 className="text-lg font-semibold">Q 8: Are there any "Mushriks" (polytheists) in Muslims?</h2>
-        <p className="mt-2">A. God forbid! How can a Muslim be a "Mushrik"? For, he firmly believes in Oneness of the true God i.e. Allah! Contrary to this, a Mushrik is one who considers one or the other human being or thing as a partner of Allah. No Mushrik can be called a Muslim and no Muslim can be described as a Mushrik.</p>
+        <h2 className="text-lg font-semibold">Q 8: Are there any &quot;Mushriks&quot; (polytheists) in Muslims?</h2>
+        <p className="mt-2">A. God forbid! How can a Muslim be a &quot;Mushrik&quot;? For, he firmly believes in Oneness of the true God i.e. Allah! Contrary to this, a Mushrik is one who considers one or the other human being or thing as a partner of Allah. No Mushrik can be called a Muslim and no Muslim can be described as a Mushrik.</p>
       </div>
       
       <div>
-        <h2 className="text-lg font-semibold">Q 9: What about those people who term Muslims as "Mushriks"?</h2>
-        <p className="mt-2">A. Some misguided and disgruntled groups of people have surfaced who call Muslims "polytheists" and "heretics" on one pretext or the other. Muslims must avoid and disassociate themselves from such misguided elements, in order to save their faith.</p>
+        <h2 className="text-lg font-semibold">Q 9: What about those people who term Muslims as &quot;Mushriks&quot;?</h2>
+        <p className="mt-2">A. Some misguided and disgruntled groups of people have surfaced who call Muslims &quot;polytheists&quot; and &quot;heretics&quot; on one pretext or the other. Muslims must avoid and disassociate themselves from such misguided elements, in order to save their faith.</p>
       </div>
       
       <div>
         <h2 className="text-lg font-semibold">Q 10: Can we call an infidel as infidel or not?</h2>
-        <p className="mt-2">A. A Muslim should be called a Muslim and an infidel should be called an infidel. There is no valid reason in forbidding one to call an infidel as "Kaafir". Allah Almighty Himself calls infidels as "Kaafir" in the Holy Qur’an i.e. "Qul Yaaa Aieyu-Hal Kaaferoon" (Say you [Mohammed] O' infidels!).</p>
+        <p className="mt-2">A. A Muslim should be called a Muslim and an infidel should be called an infidel. There is no valid reason in forbidding one to call an infidel as &quot;Kaafir&quot;. Allah Almighty Himself calls infidels as &quot;Kaafir&quot; in the Holy Qur’an i.e. &quot;Qul Yaaa Aieyu-Hal Kaaferoon&quot; (Say you [Mohammed] O&apos; infidels!).</p>
       </div>
     </div>
 <PlantUMLDiagram

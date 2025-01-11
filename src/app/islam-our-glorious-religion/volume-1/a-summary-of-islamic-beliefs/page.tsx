@@ -19,7 +19,7 @@ const page = () => {
           <p>
             We believe in all Apostles and Prophets whom Allah Almighty sent for
             the guidance of humanity. It is obligatory upon every believer to
-            respect and revere all Apostles and consider them as Allah's ‘loved
+            respect and revere all Apostles and consider them as Allahs1 ‘loved
             ones’. Our kind lord and master Hazrat Mohammed (may the choicest
             blessings & peace of Allah be upon him) is the leader and highest of
             all the Apostles and Prophets.
@@ -56,7 +56,7 @@ const page = () => {
             will perish like human beings. There will remain nothing in
             existence but Allah alone. Then all things will be re-created and
             the dead ones will be resurrected from their graves. All will be
-            made to gather in a particular field that is called "Mahshar". The
+            made to gather in a particular field that is called &quot;Mahshar&quot;. The
             Balance will be installed and deeds of each one will be weighed in
             it. Everyone will get the punishment of his/her misdeeds & sins and
             the reward of their own virtuous acts. Believers will be admitted
@@ -66,9 +66,9 @@ const page = () => {
         </li>
         <li>
           <p>
-            Hell has a bridge over it that leads to heaven. It is called "Pool
-            Siraat" (the path). It is thinner than a hair and sharper than a
-            sword. All people will have to cross this "Siraat". It is the one
+            Hell has a bridge over it that leads to heaven. It is called &quot;Pool
+            Siraat&quot; (the path). It is thinner than a hair and sharper than a
+            sword. All people will have to cross this &quot;Siraat&quot;. It is the one
             and only one pathway to reach heaven.
           </p>
         </li>
@@ -77,7 +77,7 @@ const page = () => {
             Whatever had to happen in the world and whatever one had to do -
             Allah Almighty wrote all of that with His eternally infinite
             knowledge. And whatever has been decreed will certainly happen
-            without the slightest change. This is called "Taqdeer"
+            without the slightest change. This is called &quot;Taqdeer&quot;
             (predestination).
           </p>
         </li>
@@ -118,8 +118,8 @@ mindmapDiagram {
 **** The Tawrat: The Torah
 **** The Zabur: The Psalms
 **** The Injeel: The Gospel
-**** The Holy Quran: The Quran (or The Holy Qur'an)
-*** Qur'an
+**** The Holy Quran: The Quran (or The Holy Qurs1n)
+*** Qurs1n
 **** Best of all books
 **** Protected by Allah
 *** Bible as a whole contains the Torah, Psalms, and Gospel
@@ -147,7 +147,7 @@ left side
 *** Sharper than sword
 *** Only path to Heaven
 ** Taqdeer (Predestination)
-*** Allah's eternal knowledge
+*** Allahs1 eternal knowledge
 *** Everything predetermined
 @endmindmap`}
       />

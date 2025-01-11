@@ -11,7 +11,7 @@ const page = () => {
       {/* Question 1 */}
       <div className="bg-white p-6 rounded shadow-lg">
         <h2 className="text-xl font-semibold">Q 1: What is Salaat (prayer)?</h2>
-        <p className="mt-2">A. Worship of Allah by the Muslims in a specific manner is called "Salaat" (prayer). This method of prayer has been taught to the Muslims by Allah Almighty, His Apostle, Holy Qur’an, and Sunnah.</p>
+        <p className="mt-2">A. Worship of Allah by the Muslims in a specific manner is called &quot;Salaat&quot; (prayer). This method of prayer has been taught to the Muslims by Allah Almighty, His Apostle, Holy Qur’an, and Sunnah.</p>
       </div>
 
       {/* Question 2 */}
@@ -29,7 +29,7 @@ const page = () => {
       {/* Question 4 */}
       <div className="bg-white p-6 rounded shadow-lg">
         <h2 className="text-xl font-semibold">Q 4: Please explain some excellences of prayer?</h2>
-        <p className="mt-2">A. The Beloved Prophet of Allah Hazrat Mohammed Mustafa (may Allah's choicest blessings & peace be upon him) has said: When a Muslim stands up to offer prayer, his sins are shed away, just like the leaves of a tree during autumn. In another tradition, it is reported that when a Muslim stands up to offer prayer, the gates of Paradise are opened up for him. Prayer is key to heavens. Prayer is the pillar of Islam; whoever establishes it strengthens Islam. If he abandons it, he demolishes the fortress of Islam. The Holy Qur’an says: Indeed, prayer keeps one away from shameful and forbidden acts. In summary, the believer who is steadfast in offering prayer is dear to Allah and His Apostle, and his livelihood, life, and faith are blessed by the grace of prayer.</p>
+        <p className="mt-2">A. The Beloved Prophet of Allah Hazrat Mohammed Mustafa (may Allah&apos;s choicest blessings & peace be upon him) has said: When a Muslim stands up to offer prayer, his sins are shed away, just like the leaves of a tree during autumn. In another tradition, it is reported that when a Muslim stands up to offer prayer, the gates of Paradise are opened up for him. Prayer is key to heavens. Prayer is the pillar of Islam; whoever establishes it strengthens Islam. If he abandons it, he demolishes the fortress of Islam. The Holy Qur’an says: Indeed, prayer keeps one away from shameful and forbidden acts. In summary, the believer who is steadfast in offering prayer is dear to Allah and His Apostle, and his livelihood, life, and faith are blessed by the grace of prayer.</p>
       </div>
 
       {/* Question 5 */}

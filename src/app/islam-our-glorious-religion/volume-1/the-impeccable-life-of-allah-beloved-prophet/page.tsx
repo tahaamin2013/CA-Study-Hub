@@ -5,18 +5,18 @@ const page = () => {
   return (
     <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-8">
       <h1 className="text-2xl font-bold text-center mb-6">
-        VOLUME 1 / LESSON NO: 6 - THE IMPECCABLE LIFE OF ALLAH'S BELOVED PROPHET
+        VOLUME 1 / LESSON NO: 6 - THE IMPECCABLE LIFE OF ALLAH&apos;S BELOVED PROPHET
       </h1>
 
       <div className="space-y-6">
         {/* Question 1 */}
         <div>
           <h2 className="text-lg font-semibold">
-            Q 1: To which Prophet's community (Ummah) do you belong?
+            Q 1: To which Prophet&apos;s community (Ummah) do you belong?
           </h2>
           <p className="mt-2">
-            A. We belong to the community (Ummah) of Allah's Beloved Prophet
-            Hazrat Mohammed Mustafa (may Allah's choicest blessings & peace be
+            A. We belong to the community (Ummah) of Allah&apos;s Beloved Prophet
+            Hazrat Mohammed Mustafa (may Allah&apos;s choicest blessings & peace be
             upon him).
           </p>
         </div>
@@ -27,7 +27,7 @@ const page = () => {
             Q 2: Briefly mention about the childhood of the Holy Prophet
           </h2>
           <p className="mt-2">
-            A. Our kind lord and master Hazrat Mohammed (may Allah's choicest
+            A. Our kind lord and master Hazrat Mohammed (may Allah&apos;s choicest
             blessings & peace be upon him) was born in Makkah city of Arabia.
             His father Hazrat Abdullah (may Allah be pleased with him) had
             passed away before his birth. His mother Hazrat Beebee Aminah (may
@@ -46,11 +46,11 @@ const page = () => {
             Q 3: At what age did Allah Almighty make him Prophet?
           </h2>
           <p className="mt-2">
-            A. The Holy Prophet Hazrat Mohammed Mustafa (may Allah's choicest
+            A. The Holy Prophet Hazrat Mohammed Mustafa (may Allah&apos;s choicest
             blessings & peace be upon him) formally received Prophethood and the
             first revelation at the age of 40 years, but in fact, he was the
-            "first" of all the Apostles and Prophets as he himself said that
-            "first of all Allah Almighty created my Noor (light)."
+            &quot;first&quot; of all the Apostles and Prophets as he himself said that
+            &quot;first of all Allah Almighty created my Noor (light).&quot;
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const page = () => {
           <p className="mt-2">
             A. Hazrat Abu Bakr (may Allah be pleased with him) was the first
             among men to embrace Islam, Hazrat Khudaija-tul-Kubra (may Allah be
-            pleased with her) was first among women, Hazrat 'Alee (may Allah be
+            pleased with her) was first among women, Hazrat &apos;Alee (may Allah be
             pleased with him) was the first among young boys, and among slaves,
             Hazrat Zaid bin Harisah (may Allah be pleased with him) was the
             first to embrace Islam.
@@ -106,9 +106,9 @@ const page = () => {
           </h2>
           <p className="mt-2">
             A. During the fifth year of Prophethood, the Holy Prophet was
-            blessed with "Me'raaj" (ascension to the heavens). He was taken on
-            the "Buraaq" by Hazrat Jibreel from Makkah to Masjid Al-Aqsa and
-            then to the skies. He saw Hell, Paradise, and Allah's Jamaal
+            blessed with &quot;Me&apos;raaj&quot; (ascension to the heavens). He was taken on
+            the &quot;Buraaq&quot; by Hazrat Jibreel from Makkah to Masjid Al-Aqsa and
+            then to the skies. He saw Hell, Paradise, and Allah&apos;s Jamaal
             (splendidly sublime sight). On this occasion, Salaat (prayer) five
             times a day was made obligatory on believers.
           </p>
@@ -118,11 +118,11 @@ const page = () => {
         <div>
           <h2 className="text-lg font-semibold">
             Q 8: Is there any successor to the Prophethood of Hazrat Mohammed
-            Mustafa (may Allah's choicest blessings & peace be upon him)?
+            Mustafa (may Allah&apos;s choicest blessings & peace be upon him)?
           </h2>
           <p className="mt-2">
-            A. No, absolutely not. Hazrat Mohammed Mustafa (may Allah's choicest
-            blessings & peace be upon him) is "Khaataman Nabiyyeen" (the Last
+            A. No, absolutely not. Hazrat Mohammed Mustafa (may Allah&apos;s choicest
+            blessings & peace be upon him) is &quot;Khaataman Nabiyyeen&quot; (the Last
             Prophet). Believing in another Prophet after him makes one an
             infidel.
           </p>
@@ -134,7 +134,7 @@ const page = () => {
             Q 9: What rank does the Holy Prophet hold among the Prophets?
           </h2>
           <p className="mt-2">
-            A. Hazrat Mohammed Mustafa (may Allah's choicest blessings & peace
+            A. Hazrat Mohammed Mustafa (may Allah&apos;s choicest blessings & peace
             be upon him) is the highest and leader of all Prophets. He is a
             perfect combination of all blessed traits, perfections, and miracles
             found individually in other Prophets.
@@ -160,7 +160,7 @@ const page = () => {
             Q 11: What does it mean to believe in the Holy Prophet?
           </h2>
           <p className="mt-2">
-            A. Belief in Hazrat Mohammed Mustafa (may Allah's choicest blessings
+            A. Belief in Hazrat Mohammed Mustafa (may Allah&apos;s choicest blessings
             & peace be upon him) means unwavering faith in his Prophethood,
             loving him more than anyone else, and following his teachings for
             salvation.
@@ -170,15 +170,15 @@ const page = () => {
         {/* Question 12 */}
         <div>
           <h2 className="text-lg font-semibold">
-            Q 12: Which deeds reflect "love" for the Holy Prophet?
+            Q 12: Which deeds reflect &quot;love&quot; for the Holy Prophet?
           </h2>
           <ul className="mt-2 list-disc list-inside">
             <li>Always speak highly of him with due reverence.</li>
             <li>
-              Invoke Allah's blessings on him profusely (recite Durood Shareef).
+              Invoke Allah&apos;s blessings on him profusely (recite Durood Shareef).
             </li>
             <li>Follow his Sunnah with heart and soul.</li>
-            <li>Organize and attend "Eid Meelaad-un-Nabee" programs.</li>
+            <li>Organize and attend &quot;Eid Meelaad-un-Nabee&quot; programs.</li>
           </ul>
         </div>
       </div>

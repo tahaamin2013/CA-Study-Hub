@@ -5,17 +5,17 @@ const page = () => {
   return (
     <div className="container mx-auto mt-20">
       <h1 className="text-2xl font-bold text-center mb-8">
-        VOLUME 1 / LESSON NO: 7 - ABOUT THE HOLY QUR'AN
+        VOLUME 1 / LESSON NO: 7 - ABOUT THE HOLY QUR&apos;AN
       </h1>
 
       <div className="space-y-6">
         <div className="bg-white p-6 rounded shadow-lg">
           <h2 className="text-xl font-semibold">
-            Q 1: What is the Holy Qur'an?
+            Q 1: What is the Holy Qur&apos;an?
           </h2>
           <p className="mt-2">
-            A. The Glorious Qur'an is the word of Allah (Kalaam Allah) which
-            Allah has gifted to His Beloved Prophet Hazrat Mohammed (may Allah's
+            A. The Glorious Qur&apos;an is the word of Allah (Kalaam Allah) which
+            Allah has gifted to His Beloved Prophet Hazrat Mohammed (may Allah&apos;s
             choicest blessings & peace be upon him). To believe in what it
             contains is a part and parcel of our faith.
           </p>
@@ -23,13 +23,13 @@ const page = () => {
 
         <div className="bg-white p-6 rounded shadow-lg">
           <h2 className="text-xl font-semibold">
-            Q 2: How do you know that the Holy Qur'an is the Speech of Allah?
+            Q 2: How do you know that the Holy Qur&apos;an is the Speech of Allah?
           </h2>
           <p className="mt-2">
-            A. The Holy Qur'an is itself a convincing proof of it being the
+            A. The Holy Qur&apos;an is itself a convincing proof of it being the
             Speech of Allah. It declares and challenges infidels and
-            disbelievers that "if you are in some doubt about what we have sent
-            to Our chosen bondman, then bring one chapter like it". All the
+            disbelievers that &quot;if you are in some doubt about what we have sent
+            to Our chosen bondman, then bring one chapter like it&quot;. All the
             enemies of Islam - particularly the eloquent poets of Arabia - put
             their heads together and strove hard to produce something like it
             but they failed miserably; they could not bring forth a single
@@ -41,11 +41,11 @@ const page = () => {
 
         <div className="bg-white p-6 rounded shadow-lg">
           <h2 className="text-xl font-semibold">
-            Q 3: What is the distinction of the Qur'an?
+            Q 3: What is the distinction of the Qur&apos;an?
           </h2>
           <p className="mt-2">
-            A. The ever-living miracle of the Glorious Qur'an is that the
-            believers & even their children can commit the entire Qur'an to
+            A. The ever-living miracle of the Glorious Qur&apos;an is that the
+            believers & even their children can commit the entire Qur&apos;an to
             their memory. Contrary to this, other revealed books could not be
             memorized by the followers of the books except the Prophets to whom
             the said books were revealed.
@@ -54,10 +54,10 @@ const page = () => {
 
         <div className="bg-white p-6 rounded shadow-lg">
           <h2 className="text-xl font-semibold">
-            Q 4: In how many days was the Holy Qur'an sent down?
+            Q 4: In how many days was the Holy Qur&apos;an sent down?
           </h2>
           <p className="mt-2">
-            A. The Holy Qur'an was sent down in 23 years. Its verses were sent
+            A. The Holy Qur&apos;an was sent down in 23 years. Its verses were sent
             down either singly or in batches as the need arose.
           </p>
         </div>
@@ -65,40 +65,40 @@ const page = () => {
         <div className="bg-white p-6 rounded shadow-lg">
           <h2 className="text-xl font-semibold">
             Q 5: How much reward does a believer get for reciting the Glorious
-            Qur'an?
+            Qur&apos;an?
           </h2>
           <p className="mt-2">
-            A. Our kind master Hazrat Mohammed Mustafa (may Allah's choicest
+            A. Our kind master Hazrat Mohammed Mustafa (may Allah&apos;s choicest
             blessings & peace be upon him) said, “He who recites a letter of the
-            Qur'an gets one goodness which is equal to ten good deeds” and
-            stressed "I do not say that "Alif-Laaam-Meeem" is one letter but
-            ‘Alif' is a letter, ‘Laam' is another letter and ‘Meem' is another
-            letter."
+            Qur&apos;an gets one goodness which is equal to ten good deeds” and
+            stressed &quot;I do not say that &quot;Alif-Laaam-Meeem&quot; is one letter but
+            ‘Alif&apos; is a letter, ‘Laam&apos; is another letter and ‘Meem&apos; is another
+            letter.&quot;
           </p>
         </div>
 
         <div className="bg-white p-6 rounded shadow-lg">
           <h2 className="text-xl font-semibold">
             Q 6: What does Islam say about a believer who does not learn the
-            Holy Qur'an?
+            Holy Qur&apos;an?
           </h2>
           <p className="mt-2">
-            A. The Holy Prophet has said "the chest (of a believer) which has
-            nothing of the Qur'an in it is like a deserted house".
+            A. The Holy Prophet has said &quot;the chest (of a believer) which has
+            nothing of the Qur&apos;an in it is like a deserted house".
           </p>
         </div>
 
         <div className="bg-white p-6 rounded shadow-lg">
           <h2 className="text-xl font-semibold">
-            Q 7: What are the basic rules of reciting the Holy Qur'an?
+            Q 7: What are the basic rules of reciting the Holy Qur&apos;an?
           </h2>
           <p className="mt-2">
             A. The believer should in the state of ablution (Wudu), and sit at a
-            clean place preferably in mosque facing the Qibla (Holy Ka'bah)
-            placing the Holy Qur'an before himself, on a raised surface. He
-            should begin reciting the Glorious Qur'an preceded by "A'oozu
+            clean place preferably in mosque facing the Qibla (Holy Ka&apos;bah)
+            placing the Holy Qur&apos;an before himself, on a raised surface. He
+            should begin reciting the Glorious Qur&apos;an preceded by &quot;A&apos;oozu
             bil-Laahi Minash Shaietaa-nir Rajeem" (I seek refuge with Allah from
-            the Devil, the accursed) and "Bismil-Laahir Rahmaa-nir Raheem"
+            the Devil, the accursed) and &quot;Bismil-Laahir Rahmaa-nir Raheem"
             (Allah, beginning with the name of, the Most Affectionate, the Most
             Merciful) with sincerity and humility. Show no haste but recite
             carefully and with calmness. Mind it! The mouth should be free from
@@ -106,7 +106,7 @@ const page = () => {
             or invalid talks...
           </p>
           <p className="mt-2">
-            It is sinful to touch the Holy Qur'an without ablution. Listeners
+            It is sinful to touch the Holy Qur&apos;an without ablution. Listeners
             should be attentive and respectful to the recitation.
           </p>
         </div>
@@ -114,10 +114,10 @@ const page = () => {
         <div className="bg-white p-6 rounded shadow-lg">
           <h2 className="text-xl font-semibold">
             Q 8: How should we dispose of an old worn-out & illegible copy of
-            the Qur'an?
+            the Qur&apos;an?
           </h2>
           <p className="mt-2">
-            A. A copy of the Holy Qur'an which is worn out and is no more
+            A. A copy of the Holy Qur&apos;an which is worn out and is no more
             legible, should be buried, wrapped up in a piece of clean cloth, at
             such a place that is not trodden by human beings and animals. It is
             better to bury it in a grave-like ditch so as to save it from the
@@ -127,10 +127,10 @@ const page = () => {
 
         <div className="bg-white p-6 rounded shadow-lg">
           <h2 className="text-xl font-semibold">
-            Q 9: Are copies of the Holy Qur'an with correct text available?
+            Q 9: Are copies of the Holy Qur&apos;an with correct text available?
           </h2>
           <p className="mt-2">
-            A. Yes, the copies of the Holy Qur'an with correct text - without
+            A. Yes, the copies of the Holy Qur&apos;an with correct text - without
             the slightest difference - are available everywhere. It is safe from
             being changed or corrupted as Allah Almighty is Himself its
             Protector.
@@ -140,10 +140,10 @@ const page = () => {
         <div className="bg-white p-6 rounded shadow-lg">
           <h2 className="text-xl font-semibold">
             Q 10: What is the divine wisdom in the revelation of the Holy
-            Qur'an?
+            Qur&apos;an?
           </h2>
           <p className="mt-2">
-            A. Allah Almighty has sent down the Holy Qur'an to guide His
+            A. Allah Almighty has sent down the Holy Qur&apos;an to guide His
             servants to the right path so that they may know Allah and His
             Apostle, follow their commands and abstain from evils.
           </p>

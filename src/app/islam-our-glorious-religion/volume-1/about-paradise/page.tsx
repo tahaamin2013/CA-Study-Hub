@@ -19,7 +19,7 @@ const page = () => {
       
       <div>
         <h2 className="text-lg font-semibold">Q 3: What will be the greatest blessing in paradise?</h2>
-        <p className="mt-2">A. The greatest favor bestowed to the believers in Paradise is the "vision (sight) of Allah". All divine bounties and favors will be eclipsed by Allah's vision. Once the believers experience this “vision” they would remain absorbed in its exquisite ecstasy forever.</p>
+        <p className="mt-2">A. The greatest favor bestowed to the believers in Paradise is the &quot;vision (sight) of Allah&quot;. All divine bounties and favors will be eclipsed by Allah&apos;s vision. Once the believers experience this “vision” they would remain absorbed in its exquisite ecstasy forever.</p>
       </div>
       
       <div>
