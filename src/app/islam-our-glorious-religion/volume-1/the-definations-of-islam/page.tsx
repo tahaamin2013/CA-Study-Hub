@@ -21,7 +21,7 @@ const page = () => {
         <h2 className="text-lg font-semibold">Q 3: On which principles is Islam based?</h2>
         <p className="mt-2">A. Islamic faith is based on five cardinal principles:</p>
         <ul className="list-decimal pl-6 mt-2 space-y-2">
-          <li>To bear witness that there is no God except Allah and that Hazrat Mohammed (may the choicest blessings & peace of Allah be upon him) is His chosen servant and true Apostle.</li>
+          <li>To bear witness that there is no God except Allah and that Hazrat Mohammed (PBUH) is His chosen servant and true Apostle.</li>
           <li>To offer prayer five times a day.</li>
           <li>To pay &quot;Zakaat&quot; (charity) - only upon those who are rich.</li>
           <li>To perform Hajj - only upon those who can reach the holy place.</li>

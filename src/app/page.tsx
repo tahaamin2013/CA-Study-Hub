@@ -26,7 +26,7 @@ const data: Section[] = [
   { id: "9", link: "/strengthening-of-the-faith", title: "Strengthening Of The Faith", color: "#0da3a4" },
 ];
 
-const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
+const UnitCard = ({ section, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
   const router = useRouter();
 
   const handleClick = (e: React.MouseEvent) => {

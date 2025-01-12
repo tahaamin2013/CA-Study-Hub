@@ -20,7 +20,7 @@ const page = () => {
             We believe in all Apostles and Prophets whom Allah Almighty sent for
             the guidance of humanity. It is obligatory upon every believer to
             respect and revere all Apostles and consider them as Allahs1 ‘loved
-            ones’. Our kind lord and master Hazrat Mohammed (may the choicest
+            ones&apos;. Our kind lord and master Hazrat Mohammed (may the choicest
             blessings & peace of Allah be upon him) is the leader and highest of
             all the Apostles and Prophets.
           </p>
@@ -30,7 +30,7 @@ const page = () => {
             Allah, the Almighty has revealed books to some Apostles, which are
             called &quot;Kalaam Allah&quot; (speech of Allah). To have faith and belief in
             all the revealed books and in their contents is essential. Of all
-            the revealed books, the Glorious Qur’an which was gifted to our
+            the revealed books, the Glorious Qur&apos;an which was gifted to our
             Beloved Prophet (Hazrat) Mohammed is the best and Allah Almighty
             Himself has taken up the responsibility of its protection.
           </p>
