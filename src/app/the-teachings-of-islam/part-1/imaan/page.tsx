@@ -130,12 +130,13 @@ left side
 
 ** Types of Imaan
 *** Imaan Mujmal (Faith in nutshell)
-**** Definition
+**** aamantu bil-laahi kamaa huwa bi as-maa-i-hi wa sifaatihi wa qabiltu jamee'a ahkaamihi. 'iqraarum bil-lisaani wa tasdeequm bil-qalb.
 **** Belief in Allah with His names and attributes
 **** Acceptance of His orders
 **** Verbal declaration and heart's confirmation
 
 *** Imaan Mufas-sal (Elaborated faith)
+**** Imaan mufas-sal is: aamantu bil-laahi wa ma-laa-i-katihi wa kutubihi wa rusulihi walyaumil-aakhiri wal-qadri khairihi wa shar-rihi minal-laahi ta'aalaa wal-ba'thi ba'dal-maut.
 **** Belief in Allah
 **** Belief in Angels
 **** Belief in Holy Books
