@@ -55,6 +55,7 @@ mindmapDiagram {
     BackgroundColor lightYellow
   }
   :depth(3) {
+    MaximumWidth 200
     BackgroundColor lightPink
   }
 }
@@ -65,21 +66,17 @@ mindmapDiagram {
 ** Who is a Muslim?
 *** Follower of Islamic faith
 ** Five Principles of Islam
-*** 1. Witness
-**** No God except Allah
-**** Mohammed is His Apostle
+*** 1. Witness (Kalemah of Islam)
+**** Laa Ilaaha Illal Laahu (No God except Allah)
+**** Mohammedur Rasoolul Laah (Mohammed (PBUH) is His Apostle)
 *** 2. Prayer
 **** Five times a day
-*** 3. Zakaat (Charity)
-**** For the rich
-*** 4. Hajj
-**** For those who can reach
-*** 5. Fasting
+*** 3. Fasting
 **** During Ramadaan
-** Kalemah of Islam
-*** Laa Ilaaha Illal Laahu Mohammedur Rasoolul Laah
-**** There is no God except Allah
-**** Mohammed is the Apostle of Allah
+*** 4. Zakaat (Charity)
+**** For the rich
+*** 5. Hajj
+**** For those who can reach Khana Kaaba
 @endmindmap`}
       />
   </div>
