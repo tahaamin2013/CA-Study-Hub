@@ -126,6 +126,26 @@ mindmapDiagram {
 **** I bear witness that there is no god except Allah
 **** Muhammad (pbuh) is Allah's worshipper and Messenger
 
+** Types of Non-Believers
+*** Infidels (Kaafir)
+**** Those who don't believe in Allah
+
+*** Polytheists (Mushriks)
+**** Those who worship others besides Allah
+**** Those who believe in multiple gods
+
+*** Hypocrites
+**** Claim to be Muslim
+**** Deny Islam in heart
+
+*** Renegade (Murtad)
+**** Embraces Islam then speaks against it
+**** Adamant in blasphemy
+
+*** Consequence
+**** No pardon for Kaafir and Mushrik
+**** Will face trouble in hereafter
+
 left side
 
 ** Types of Imaan
@@ -161,16 +181,6 @@ left side
 ***** the skies and the earth,
 ***** this universe and everything in it.
 **** Universe created by His power and command
-
-** Important Terms
-*** Kaafir
-**** Those who don't believe in Allah
-*** Mushrik
-**** Those who worship others besides Allah
-**** Those who believe in multiple gods
-*** Consequence
-**** No pardon for Kaafir and Mushrik
-**** Will face trouble in hereafter
 
 @endmindmap
 `}

@@ -1,4 +1,5 @@
 // pages/salah.tsx
+import PlantUMLDiagram from '@/components/PlantUMLDiagram';
 import { NextPage } from 'next';
 
 interface SalahQuestion {
@@ -61,6 +62,67 @@ const SalahPage: NextPage = () => {
              </div>
            </div>
          </div>
+         <PlantUMLDiagram
+            code={`
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+        FontColor black
+        FontSize 14
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor pink
+    }
+    :depth(3) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Salaah (Prayer)
+** Five Daily Prayers
+*** Fajr
+**** Before sunrise
+*** Zuhr
+**** Afternoon
+*** Asr
+**** Late afternoon
+*** Maghrib
+**** Just after sunset
+*** Isha
+**** 1.5-2 hours after sunset
+** Prerequisites
+*** Wuduu' (Ablution)
+**** Washing face, hands, feet
+**** Mandatory for valid prayer
+*** Facing Qiblah
+**** Direction towards Makkah
+**** Towards Ka'bah
+left side
+** Method of Prayer
+*** Standing before Allah
+*** Facing Qiblah
+*** Hands crossed on belly
+*** Reciting Qur'aan
+*** Praising Allah
+*** Bowing in respect
+*** Prostrating in humility
+** Location
+*** Mosque
+**** Preferred for men
+*** Home
+**** Acceptable for all
+*** Allah is Omnipresent
+left side
+
+@endmindmap
+`}
+          />
        </main>
      </div>
    </div>
