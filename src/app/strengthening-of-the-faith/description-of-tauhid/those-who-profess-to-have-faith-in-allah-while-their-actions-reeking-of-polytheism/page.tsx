@@ -19,7 +19,7 @@ const page = () => {
       </p>
       <p className="mb-4">
         Had we considered them on an equal status with Allah, it would have been
-        'an act of Shirk', but we merely consider them the slaves and creatures
+        &apos;an act of Shirk&apos;, but we merely consider them the slaves and creatures
         of Allah, Who had vested in them an authority and given them the
         capability to the effect that they manipulate the matters concerning
         this world by the Will of Allah. Therefore, calling upon them for help

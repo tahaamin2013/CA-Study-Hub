@@ -13,14 +13,14 @@ const page = () => {
       rejects the bounty of Allah.
     </p>
     <p className="mb-4">
-      Allah states in one of the Qur'anic verses:
+      Allah states in one of the Qur&apos;anic verses:
     </p>
     <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-700 bg-gray-50 p-3 rounded-md my-4">
       Say: In Whose Hand is the sovereignty of everything (i.e. treasures of each and everything)? 
       And He protects (all), while against Whom there is no protector, (i.e. if Allah saves anyone none 
       can punish or harm him, and if Allah punishes or harms anyone none can save him), if you know. 
-      They will say: '(All that belongs) to Allah.' Say: 'How then are you deceived and turn away 
-      from the truth?' (V.23:88-89)
+      They will say: &apos;(All that belongs) to Allah.&apos; Say: &apos;How then are you deceived and turn away 
+      from the truth?&apos; (V.23:88-89)
     </blockquote>
     <p className="mb-4">
       Even if the polytheists are asked about an entity who exercises an absolute control over the whole

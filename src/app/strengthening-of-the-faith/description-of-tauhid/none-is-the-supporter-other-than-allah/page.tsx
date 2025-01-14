@@ -15,7 +15,7 @@ const page = () => {
       </p>
       <p className="mb-4">
         These are the people who shamelessly turned down the bounty of Allah
-        that it is He who listens to everyone directly and fulfills everyone's
+        that it is He who listens to everyone directly and fulfills everyone&apos;s
         desires. Instead of turning to Allah, they started directing their
         prayers and invocations towards the so-called deities other than Allah
         for the fulfillment of their wishes.

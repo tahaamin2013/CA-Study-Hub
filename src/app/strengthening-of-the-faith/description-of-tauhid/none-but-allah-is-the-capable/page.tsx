@@ -15,7 +15,7 @@ const page = () => {
     <p className="mb-4">
       Do they profess to be more knowledgeable than Allah in regard to the matters of this world and the heavens 
       in what they believe to be their mediators with Allah on their behalf? Thus, it becomes known to us that there 
-      is no such mediator in this universe who, on the basis of people's belief or disbelief in them, can either 
+      is no such mediator in this universe who, on the basis of people&apos;s belief or disbelief in them, can either 
       benefit or harm someone. Even the intercession of the Prophets and saints itself is governed by Allah. Nothing 
       happens if someone calls upon them in distress.
     </p>
@@ -24,12 +24,12 @@ const page = () => {
       as stated by Allah in this verse:
     </p>
     <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-700 bg-gray-50 p-3 rounded-md my-4">
-      &#123; And those who take Auliya (protectors and helpers) besides Him (say): 'We worship them only 
-      that they may bring us near to Allah.' Verily, Allah will judge between them concerning that 
+      &#123; And those who take Auliya (protectors and helpers) besides Him (say): &apos;We worship them only 
+      that they may bring us near to Allah.&apos; Verily, Allah will judge between them concerning that 
       wherein they differ. Truly, Allah guides not him who is a liar, and a disbeliever. &#125; (V.39:3)
     </blockquote>
     <p className="text-sm text-gray-500 mt-4">
-      *Translation and interpretation of the Qur'anic verse provided for context.
+      *Translation and interpretation of the Qur&apos;anic verse provided for context.
     </p>
 <PlantUMLDiagram
   code={`

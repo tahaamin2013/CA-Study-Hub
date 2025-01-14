@@ -21,7 +21,7 @@ const page = () => {
         prostrations, sacrificing an animal in the Name of Allah, making vows,
         calling upon Him in distress, considering Allah to be Himself present
         everywhere, and maintaining that the others do have a role to play in
-        the matters of one's fate and destiny. All the above are different
+        the matters of one&apos;s fate and destiny. All the above are different
         shapes and varieties of Shirk.
       </p>
       <p className="mb-4">
@@ -43,7 +43,7 @@ const page = () => {
         on the Jews and Christians too even though they did not practice
         idolatry, but treated their Prophets and saints in a similar manner
         (i.e. they attributed to them the qualities which are purely Divine in
-        nature) as Allah has stated in the following Qur'anic verse:
+        nature) as Allah has stated in the following Qur&apos;anic verse:
       </p>
       <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-700 bg-gray-50 p-3 rounded-md my-4">
         They (Jews and Christians) took their rabbis and their monks to be their
@@ -64,7 +64,7 @@ const page = () => {
         are none but His helpless slaves.
       </p>
       <p className="mb-4">
-        Allah states in one of the verses of the Noble Qur'an:
+        Allah states in one of the verses of the Noble Qur&apos;an:
       </p>
       <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-700 bg-gray-50 p-3 rounded-md my-4">
         There is none in the heavens and the earth but comes unto the Most
@@ -77,16 +77,16 @@ const page = () => {
         It means that regardless of whether a creature happens to be an angel or
         a human being, it carries a status of no more than being a slave before
         Allah. A slave lies under an absolute hegemony of Allah and therefore,
-        is completely helpless and powerless. Everything lies under Allah's
-        control. He gives nobody under anyone's control. Everyone shall have to
+        is completely helpless and powerless. Everything lies under Allah&apos;s
+        control. He gives nobody under anyone&apos;s control. Everyone shall have to
         appear in His Presence to account for his deeds. No one will advocate
         for anyone there nor one could lend his support to anyone else.
       </p>
       <p className="mb-4">
         There are hundreds of verses mentioned in this regard in the Noble
-        Qur'an, whereas only we, as a specimen, have made a mention of a few of
+        Qur&apos;an, whereas only we, as a specimen, have made a mention of a few of
         them. Whosoever understands them clearly, shall have a clear
-        understanding of the concept of Shirk and Tauhid. In sha 'Allah.
+        understanding of the concept of Shirk and Tauhid. In sha &apos;Allah.
       </p>
       <PlantUMLDiagram
         code={`
