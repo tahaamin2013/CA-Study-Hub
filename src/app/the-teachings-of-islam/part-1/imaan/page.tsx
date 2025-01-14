@@ -149,8 +149,9 @@ left side
 **** 5. walyaumil-aakhiri
 ***** (Belief in Day of Judgment)
 **** 6. wal-qadri khairihi wa shar-rihi minal-laahi ta'aalaa
-***** Everything that happens, whether perceived as good or bad, is within the knowledge, will, and plan of Allah. (Belief in Divine Decree [Qadr])
+***** (Belief in Divine Decree [Qadr]) Everything that happens, whether perceived as good or bad, is within the knowledge, will, and plan of Allah.
 **** 7. wal-ba'thi ba'dal-maut
+***** Belief in Life after Death
 
 ** Core Beliefs
 *** Creation
