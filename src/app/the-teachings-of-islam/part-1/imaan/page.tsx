@@ -93,6 +93,11 @@ mindmapDiagram {
   }
   :depth(3) {
     BackgroundColor lightpink
+    MaximumWidth 300
+  }
+  :depth(4) {
+    BackgroundColor lightorange
+    MaximumWidth 200
   }
   arrow {
     LineColor black
@@ -137,11 +142,16 @@ left side
 **** Belief in Messengers
 **** Belief in Day of Judgment
 **** Belief in Divine Decree
+***** Divine decree is the belief that Allah has created all laws that govern the universe, including the laws of nature and religion.
 **** Belief in Life after Death
 
 ** Core Beliefs
 *** Creation
 **** Allah created everything
+***** Allah created us,
+***** our fathers and mothers,
+***** the skies and the earth,
+***** this universe and everything in it.
 **** Universe created by His power and command
 
 ** Important Terms
