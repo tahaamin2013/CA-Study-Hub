@@ -1,354 +1,116 @@
-// pages/adhaan.tsx
-import { NextPage } from "next";
+import React from "react";
 
-interface AdhaaanSection {
-  arabic: string;
-  transliteration: string;
-  translation: string;
-  repetitions?: string;
-  note?: string;
-}
-
-interface AdhaanBenefit {
-  text: string;
-}
-
-interface PrayerExpression {
-  arabic: string;
-  name: string;
-  note?: string;
-  transliteration?: string;
-  translation?: string;
-}
-
-const AdhaanPage: NextPage = () => {
+const AdhaanPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 to-emerald-100 py-8">
-      <div className="max-w-4xl mx-auto px-4">
-        <main className="bg-white rounded-2xl shadow-xl p-8">
-          {/* Header */}
-          <h1 className="text-4xl font-arabic text-center text-emerald-800 mb-12">
-            Adhaan (Call to Prayer)
-          </h1>
+    <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto bg-white p-8 shadow-md rounded-lg">
+        <h1 className="text-2xl font-bold text-blue-700 mb-6">Adhaan</h1>
 
-          {/* What is Adhaan */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-semibold text-emerald-900 mb-6">
-              What is Adhaan?
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-8">
-              When the time for salaah comes, a man stands up before the prayer
-              and calls aloud these words:
-            </p>
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">Q. What is Adhaan (call for prayer)?</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            A. When the time for salaah comes, a man stands up before the prayer and calls aloud these words:
+          </p>
+          <div className="bg-blue-50 p-4 rounded-md border-l-4 border-blue-500">
+            <p className="text-gray-900 font-medium mb-2">[Arabic here]</p>
+            <p className="text-gray-900 font-medium">Allaahu akbar – Allah is the Greatest (4 times)</p>
+            <p className="text-gray-900 font-medium">Ash-hadu an-laa ilaaha il-lal-laah – I bear witness that there is no god except Allah (2 times)</p>
+            <p className="text-gray-900 font-medium">Ash-hadu an-na Muhammadar-rasoolul-laah – I declare that Muhammad is Allah’s Messenger (2 times)</p>
+            <p className="text-gray-900 font-medium">Hay-ya ‘alas-salaah – Come for salaah (2 times, turning the head to the right both times)</p>
+            <p className="text-gray-900 font-medium">Hay-ya ‘alal-falaah – Come to success (2 times, turning the head to the left both times)</p>
+            <p className="text-gray-900 font-medium">Allaahu akbar – Allah is the Greatest (2 times)</p>
+            <p className="text-gray-900 font-medium">Laa ilaaha il-lal-laah – There is no god except Allah.</p>
+          </div>
+          <p className="text-gray-700 leading-relaxed mt-4">
+            These words are called adhaan. In the adhaan of Fajr after Hay-ya ‘alal-falaah, say 2 times:
+          </p>
+          <div className="bg-yellow-50 p-4 rounded-md border-l-4 border-yellow-500">
+            <p className="text-gray-900 font-medium">As-salaatu khairum-minan-naum – Prayer is better than sleep.</p>
+          </div>
+        </section>
 
-            {/* Adhaan Sections */}
-            <div className="space-y-6">
-              {adhaanSections.map((section, index) => (
-                <div key={index} className="bg-emerald-50 rounded-xl p-6">
-                  <div className="text-right mb-4">
-                    <p className="text-2xl font-arabic text-gray-800">
-                      {section.arabic}
-                    </p>
-                  </div>
-                  <div className="space-y-2">
-                    <p className="italic text-emerald-700">
-                      {section.transliteration}
-                    </p>
-                    <p className="text-gray-700">{section.translation}</p>
-                    {section.repetitions && (
-                      <p className="text-sm text-emerald-600">
-                        ({section.repetitions})
-                      </p>
-                    )}
-                    {section.note && (
-                      <p className="text-sm text-gray-500 italic">
-                        {section.note}
-                      </p>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">Q. What is iqaamah or takbeer (magnification of the Lord)?</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            A. When people stand up for salaah, a person repeats the words of adhaan, this is called iqaamah or takbeer. The words of adhaan are repeated exactly the same in iqaamah but, after hay-ya ‘alal-falaah, one says 2 times:
+          </p>
+          <div className="bg-green-50 p-4 rounded-md border-l-4 border-green-500">
+            <p className="text-gray-900 font-medium">Qad qaamatis-salaah – The prayer is ready.</p>
           </div>
+        </section>
 
-          {/* Iqaamah Section */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-semibold text-emerald-900 mb-6">
-              Iqaamah or Takbeer
-            </h2>
-            <div className="bg-emerald-50 rounded-xl p-6">
-              <p className="text-gray-700 leading-relaxed mb-4">
-                When people stand up for salaah, a person repeats the words of
-                adhaan, this is called iqaamah or takbeer. The words of adhaan
-                are repeated exactly the same in iqaamah but, after hay-ya
-                &apos;alal-falaah, one says 2 times:
-              </p>
-              <div className="text-right mb-4">
-                <p className="text-2xl font-arabic text-gray-800">
-                  قَدْ قَامَتِ الصَّلَاةُ
-                </p>
-              </div>
-              <div className="space-y-2">
-                <p className="italic text-emerald-700">Qad qaamatis-salaah</p>
-                <p className="text-gray-700">The prayer is ready</p>
-              </div>
-            </div>
-          </div>
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">Q. What name is given to the person who recites adhaan or takbeer?</h2>
+          <p className="text-gray-700 leading-relaxed">
+            A. The person who recites adhaan is called <span className="font-medium">mu-adh-dhin</span> and the one who recites takbeer is called <span className="font-medium">mukab-bir</span>.
+          </p>
+        </section>
 
-          {/* Important Terms */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-semibold text-emerald-900 mb-6">
-              Important Terms
-            </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              {terms.map((term, index) => (
-                <div
-                  key={index}
-                  className="bg-white border-2 border-emerald-100 rounded-xl p-6"
-                >
-                  <h3 className="font-semibold text-emerald-800 mb-2">
-                    {term.name}
-                  </h3>
-                  <p className="text-gray-700">{term.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">Q. When many people assemble and say salaah together, what do we call it?</h2>
+          <p className="text-gray-700 leading-relaxed">
+            A. Salaah which is offered, not individually, but along with other people is called <span className="font-medium">salaah bil-jamaa’ah</span> (namaaz ba jamaa’at or “prayer in congregation”). The person who leads the jamaa’ah is called the <span className="font-medium">imaam</span>. A person who says salaah behind the imaam is known as a <span className="font-medium">muqtadi</span>.
+          </p>
+        </section>
 
-          {/* Benefits of Salaah */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-semibold text-emerald-900 mb-6">
-              Benefits of Salaah
-            </h2>
-            <div className="bg-emerald-50 rounded-xl p-6">
-              <ul className="space-y-3">
-                {benefits.map((benefit, index) => (
-                  <li key={index} className="flex items-start">
-                    <span className="text-emerald-600 mr-2">♦</span>
-                    <span className="text-gray-700">{benefit.text}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">Q. What is the person called who says salaah alone?</h2>
+          <p className="text-gray-700 leading-relaxed">
+            A. He is called <span className="font-medium">munfarid</span> (“solitary” or “isolated”).
+          </p>
+        </section>
 
-          {/* Prayer Expressions */}
-          <div>
-            <h2 className="text-2xl font-semibold text-emerald-900 mb-6">
-              Expressions in Salaah
-            </h2>
-            <div className="grid md:grid-cols-2 gap-4">
-              {prayerExpressions.map((expression, index) => (
-                <div key={index} className="bg-emerald-50 rounded-xl p-4">
-                  <div className="space-y-2">
-                    {expression.arabic && (
-                      <p className="text-right text-xl font-arabic">
-                        {expression.arabic}
-                      </p>
-                    )}
-                    <p className="font-semibold text-emerald-800">
-                      {expression.name}
-                    </p>
-                    {expression.transliteration && (
-                      <p className="italic text-emerald-700">
-                        {expression.transliteration}
-                      </p>
-                    )}
-                    {expression.translation && (
-                      <p className="text-gray-700">{expression.translation}</p>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-          {/* Footer Section */}
-          <div className="mt-12">
-            <h2 className="text-2xl font-semibold text-emerald-900 mb-6 text-center">
-              Additional Information
-            </h2>
-            <div className="bg-emerald-50 rounded-xl p-6">
-              <p className="text-gray-700 leading-relaxed">
-                <span className="font-semibold">Q:</span> What are the wordings
-                of the above-mentioned expressions? Please recite a few Surah as
-                well.
-              </p>
-              <p className="mt-4 text-gray-700 leading-relaxed">
-                <span className="font-semibold">A:</span> The wordings of the
-                expressions are:
-              </p>
-              <div className="mt-4">
-                <p className="text-right text-2xl font-arabic text-gray-800">
-                  اللهُ أَكْبَر
-                </p>
-                <p className="italic text-emerald-700">Allaahu akbar</p>
-                <p className="text-gray-700">Allah is the Greatest</p>
-              </div>
-            </div>
-          </div>
-        </main>
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">Q. What is the house called that is specially built for salaah?</h2>
+          <p className="text-gray-700 leading-relaxed">
+            A. Such a place is called a <span className="font-medium">masjid</span> (mosque).
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">Q. What should one do in a masjid?</h2>
+          <p className="text-gray-700 leading-relaxed">
+            A. One should offer salaah, read the Holy Qur’aan or wazeefa or sit silently and respectfully. It is very bad to play, jump, make noise or talk of worldly affairs in a masjid.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">Q. What are the benefits of salaah?</h2>
+          <ul className="list-disc list-inside text-gray-700 leading-relaxed">
+            <li>The body and clothes of a namaazi (musalli or one who prays salaah) are always neat and clean.</li>
+            <li>Allah, the Almighty, is pleased with one who says salaah.</li>
+            <li>Prophet Muhammad ( ) is pleased with a musalli.</li>
+            <li>Allah, the Almighty, favours those who pray salaah.</li>
+            <li>Good men hold a musalli in high esteem.</li>
+            <li>A musalli is saved from many evil deeds.</li>
+            <li>Allah, the Almighty, keeps a musalli in peace and comfort after his death.</li>
+          </ul>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">Q. What are the names of the expressions or phrases said in salaah?</h2>
+          <p className="text-gray-700 leading-relaxed">
+            A. The names of the expressions said in salaah are:
+          </p>
+          <ul className="list-decimal list-inside text-gray-700 leading-relaxed">
+            <li>Takbeer</li>
+            <li>Thana</li>
+            <li>Ta-‘aw-wudh</li>
+            <li>Tasmiyah</li>
+            <li>Qiraa’at: Faatihah and another Surah or aayaat</li>
+            <li>Tas-beeh of ruku’</li>
+            <li>Tas-mee’a of ruku’</li>
+            <li>Tahmeed of ruku’</li>
+            <li>Tasbeeh of sajdah</li>
+            <li>Tashah-hud</li>
+            <li>Darood</li>
+            <li>Du’a after darood</li>
+            <li>Salaam</li>
+          </ul>
+        </section>
       </div>
     </div>
   );
 };
-
-const adhaanSections: AdhaaanSection[] = [
-  {
-    arabic: "اللهُ أَكْبَر",
-    transliteration: "Allaahu akbar",
-    translation: "Allah is the Greatest",
-    repetitions: "4 times",
-  },
-  {
-    arabic: "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ",
-    transliteration: "Ash-hadu an-laa ilaaha il-lal-laah",
-    translation: "I bear witness that there is no god except Allah",
-    repetitions: "2 times",
-  },
-  {
-    arabic: "أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
-    transliteration: "Ash-hadu an-na Muhammadar-rasoolul-laah",
-    translation: "I declare that Muhammad is Allah's Messenger",
-    repetitions: "2 times",
-  },
-  {
-    arabic: "حَيَّ عَلَى الصَّلَاةِ",
-    transliteration: "Hay-ya 'alas-salaah",
-    translation: "Come for salaah",
-    repetitions: "2 times",
-    note: "Turn head to the right",
-  },
-  {
-    arabic: "حَيَّ عَلَى الْفَلَاحِ",
-    transliteration: "Hay-ya 'alal-falaah",
-    translation: "Come to success",
-    repetitions: "2 times",
-    note: "Turn head to the left",
-  },
-  {
-    arabic: "اللهُ أَكْبَر",
-    transliteration: "Allaahu akbar",
-    translation: "Allah is the Greatest",
-    repetitions: "2 times",
-  },
-  {
-    arabic: "لَا إِلٰهَ إِلَّا اللهُ",
-    transliteration: "Laa ilaaha il-lal-laah",
-    translation: "There is no god except Allah",
-  },
-  {
-    arabic: "الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ",
-    transliteration: "As-salaatu khairum-minan-naum",
-    translation: "Prayer is better than sleep",
-    note: "Said only in Fajr adhaan after Hay-ya 'alal-falaah (2 times)",
-  },
-];
-
-const terms = [
-  {
-    name: "Mu-adh-dhin",
-    description: "The person who recites adhaan",
-  },
-  {
-    name: "Mukab-bir",
-    description: "The person who recites takbeer",
-  },
-  {
-    name: "Salaah bil-jamaa'ah",
-    description: "Prayer offered in congregation",
-  },
-  {
-    name: "Imaam",
-    description: "The person who leads the jamaa'ah",
-  },
-  {
-    name: "Muqtadi",
-    description: "A person who says salaah behind the imaam",
-  },
-  {
-    name: "Munfarid",
-    description: "Person who says salaah alone",
-  },
-];
-
-const benefits: AdhaanBenefit[] = [
-  {
-    text: "The body and clothes of a namaazi (musalli) are always neat and clean.",
-  },
-  {
-    text: "Allah, the Almighty, is pleased with one who says salaah.",
-  },
-  {
-    text: "Prophet Muhammad (ﷺ) is pleased with a musalli.",
-  },
-  {
-    text: "Allah, the Almighty, favours those who pray salaah.",
-  },
-  {
-    text: "Good men hold a musalli in high esteem.",
-  },
-  {
-    text: "A musalli is saved from many evil deeds.",
-  },
-  {
-    text: "Allah, the Almighty, keeps a musalli in peace and comfort after his death.",
-  },
-];
-
-const prayerExpressions: PrayerExpression[] = [
-  {
-    arabic: "تَكْبِير",
-    name: "Takbeer",
-  },
-  {
-    arabic: "ثَناء",
-    name: "Thana",
-  },
-  {
-    arabic: "تَعَوُّذ",
-    name: "Ta-'aw-wudh",
-  },
-  {
-    arabic: "تَسْمِيَة",
-    name: "Tasmiyah",
-  },
-  {
-    arabic: "قِرَاءَة",
-    name: "Qiraa'at",
-    note: "Faatihah and another Surah or aayaat",
-  },
-  {
-    arabic: "تَسْبِيح",
-    name: "Tas-beeh of ruku'",
-  },
-  {
-    arabic: "تَسْمِيع",
-    name: "Tas-mee'a of ruku'",
-  },
-  {
-    arabic: "تَحْمِيد",
-    name: "Tahmeed of ruku'",
-  },
-  {
-    arabic: "تَسْبِيح سَجْدَة",
-    name: "Tasbeeh of sajdah",
-  },
-  {
-    arabic: "تَشَهُّد",
-    name: "Tashah-hud",
-  },
-  {
-    arabic: "دُرُود",
-    name: "Darood",
-  },
-  {
-    arabic: "دُعَاء",
-    name: "Du'a after darood",
-  },
-  {
-    arabic: "سَلَام",
-    name: "Salaam",
-  },
-];
 
 export default AdhaanPage;

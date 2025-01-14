@@ -1,4 +1,5 @@
 // pages/index.tsx
+import PlantUMLDiagram from '@/components/PlantUMLDiagram';
 import { NextPage } from 'next';
 
 const Home: NextPage = () => {
@@ -75,6 +76,87 @@ const Home: NextPage = () => {
               </div>
             </section>
           </div>
+          <PlantUMLDiagram
+          code={`
+@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor lightblue
+    FontColor black
+  }
+  :depth(1) {
+    BackgroundColor lightgreen
+  }
+  :depth(2) {
+    BackgroundColor lightyellow
+  }
+  :depth(3) {
+    BackgroundColor lightpink
+  }
+  arrow {
+    LineColor black
+  }
+}
+</style>
+
+* Imaan (Faith)
+** Kalimah of Islam
+*** Arabic Text
+**** لَا اِلٰهَ اِلَّا اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِ
+*** Transliteration
+**** Laa ilaa-ha il-lal-laa-hu muhammadur-rasoolul-laah
+*** Meaning
+**** There is no god except Allah; Muhammad (pbuh) is His Messenger
+*** Also Known As
+**** Kalimah Tauheed
+**** Kalimah Tayyibah
+
+** Kalimah Shahaadah
+*** Arabic Text
+**** أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ
+*** Transliteration
+**** Ash-hadu an-laa ilaaha il-lal-laa-hu wa ash-hadu an-na Muhammadan 'ab-duhoo wa rasooluh
+*** Meaning
+**** I bear witness that there is no god except Allah
+**** Muhammad (pbuh) is Allah's worshipper and Messenger
+
+left side
+
+** Types of Imaan
+*** Imaan Mujmal (Faith in nutshell)
+**** Definition
+**** Belief in Allah with His names and attributes
+**** Acceptance of His orders
+**** Verbal declaration and heart's confirmation
+
+*** Imaan Mufas-sal (Elaborated faith)
+**** Belief in Allah
+**** Belief in Angels
+**** Belief in Holy Books
+**** Belief in Messengers
+**** Belief in Day of Judgment
+**** Belief in Divine Decree
+**** Belief in Life after Death
+
+** Core Beliefs
+*** Creation
+**** Allah created everything
+**** Universe created by His power and command
+
+** Important Terms
+*** Kaafir
+**** Those who don't believe in Allah
+*** Mushrik
+**** Those who worship others besides Allah
+**** Those who believe in multiple gods
+*** Consequence
+**** No pardon for Kaafir and Mushrik
+**** Will face trouble in hereafter
+
+@endmindmap
+`}
+        />
         </main>
       </div>
     </div>
