@@ -24,7 +24,7 @@ const PrayerMethod = () => {
                 
                 <p>Do not look hither and thither while saying prayers.11 Stand with respect and full attention to Allah.</p>
                 
-                <p>After crossing the hands, recite thana, then ta-&apos;awwudh and tasmiyah. Then recite al-Faatihah. After finishing al-Faatihah, say softly "aameen." Then recite another surah that you know.</p>
+                <p>After crossing the hands, recite thana, then ta-&apos;awwudh and tasmiyah. Then recite al-Faatihah. After finishing al-Faatihah, say softly &ldquo;aameen.&ldquo; Then recite another surah that you know.</p>
                 
                 <p>Then say Allaahu akbar and bow for ruku&apos;. In the ruku&apos;, catch hold of the knees with your hands and say the tasbeeh for ruku&apos; three or five times. Then, saying tasmee&apos;a stand upright again and also say tahmeed.</p>
                 
