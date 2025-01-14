@@ -96,7 +96,7 @@ mindmapDiagram {
     MaximumWidth 300
   }
   :depth(4) {
-    BackgroundColor lightorange
+    BackgroundColor lightblue
     MaximumWidth 200
   }
   arrow {
@@ -130,21 +130,27 @@ left side
 
 ** Types of Imaan
 *** Imaan Mujmal (Faith in nutshell)
-**** aamantu bil-laahi kamaa huwa bi as-maa-i-hi wa sifaatihi wa qabiltu jamee'a ahkaamihi. 'iqraarum bil-lisaani wa tasdeequm bil-qalb.
-**** Belief in Allah with His names and attributes
-**** Acceptance of His orders
-**** Verbal declaration and heart's confirmation
+**** 1. aamantu bil-laahi kamaa huwa bi as-maa-i-hi wa sifaatihi 
+***** Belief in Allah with His names and attributes
+**** 2. wa qabiltu jamee'a ahkaamihi
+***** Acceptance of His orders
+**** 3. 'iqraarum bil-lisaani wa tasdeequm bil-qalb.
+***** Verbal declaration and heart's confirmation
 
 *** Imaan Mufas-sal (Elaborated faith)
-**** Imaan mufas-sal is: aamantu bil-laahi wa ma-laa-i-katihi wa kutubihi wa rusulihi walyaumil-aakhiri wal-qadri khairihi wa shar-rihi minal-laahi ta'aalaa wal-ba'thi ba'dal-maut.
-**** Belief in Allah
-**** Belief in Angels
-**** Belief in Holy Books
-**** Belief in Messengers
-**** Belief in Day of Judgment
-**** Belief in Divine Decree
-***** Divine decree is the belief that Allah has created all laws that govern the universe, including the laws of nature and religion.
-**** Belief in Life after Death
+**** 1. aamantu bil-laahi
+***** (Belief in Allah)
+**** 2. wa ma-laa-i-katihi
+***** (Belief in Angels)
+**** 3. wa kutubihi
+***** (Belief in Holy Books)
+**** 4. wa rusulihi
+***** (Belief in Messengers)
+**** 5. walyaumil-aakhiri
+***** (Belief in Day of Judgment)
+**** 6. wal-qadri khairihi wa shar-rihi minal-laahi ta'aalaa
+***** Everything that happens, whether perceived as good or bad, is within the knowledge, will, and plan of Allah. (Belief in Divine Decree [Qadr])
+**** 7. wal-ba'thi ba'dal-maut
 
 ** Core Beliefs
 *** Creation
