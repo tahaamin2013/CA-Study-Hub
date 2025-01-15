@@ -5,7 +5,7 @@ import { NextPage } from 'next';
 const Home: NextPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-emerald-50 to-emerald-100 py-8">
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto px-4">
         {/* Main Container */}
         <main className="bg-white rounded-2xl shadow-xl p-8">
           {/* Header */}
@@ -87,6 +87,7 @@ mindmapDiagram {
   }
   :depth(1) {
     BackgroundColor lightgreen
+    MaximumWidth 200
   }
   :depth(2) {
     BackgroundColor lightyellow
@@ -106,22 +107,27 @@ mindmapDiagram {
 </style>
 
 * Imaan (Faith)
-** First Kalimah of Islam Kalimah Tayyibah & Tauheed 
+** First Kalimah of Islam Kalimah Tayyibah & Kalimah Tauheed 
 *** Arabic Text
 **** لَا اِلٰهَ اِلَّا اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِ
 *** Transliteration
 **** Laa ilaa-ha il-lal-laa-hu muhammadur-rasoolul-laah
 *** Meaning
-**** There is no god except Allah; Muhammad (pbuh) is His Messenger
+**** Laa ilaa-ha il-lal-laa-hu
+***** There is no god except Allah
+**** muhammadur-rasoolul-laah
+***** Muhammad (pbuh) is His Messenger
 
-** Kalimah Shahaadah
+** Second Kalimah of Islam Kalimah Shahaadah
 *** Arabic Text
 **** أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ
 *** Transliteration
 **** Ash-hadu an-laa ilaaha il-lal-laa-hu wa ash-hadu an-na Muhammadan 'ab-duhoo wa rasooluh
 *** Meaning
-**** I bear witness that there is no god except Allah
-**** Muhammad (pbuh) is Allah's worshipper and Messenger
+**** Ash-hadu an-laa ilaaha il-lal-laa-hu
+***** I bear witness that there is no god except Allah
+**** wa ash-hadu an-na Muhammadan 'ab-duhoo wa rasooluh
+***** Muhammad (pbuh) is Allah's worshipper and Messenger
 
 ** Types of Imaan
 *** Imaan Mujmal (Faith in nutshell)
