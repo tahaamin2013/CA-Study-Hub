@@ -94,7 +94,7 @@ mindmapDiagram {
   }
   :depth(3) {
     BackgroundColor lightpink
-    MaximumWidth 300
+    MaximumWidth 350
   }
   :depth(4) {
     BackgroundColor lightblue
@@ -109,7 +109,7 @@ mindmapDiagram {
 * Imaan (Faith)
 ** First Kalimah of Islam Kalimah Tayyibah & Kalimah Tauheed 
 *** Arabic Text
-**** لَا اِلٰهَ اِلَّا اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِ
+**** اللهِ رَّسُوْلُ مُحَمَّدٌ اللهُ اِلَّا اِلٰهَ لَا
 *** Transliteration
 **** Laa ilaa-ha il-lal-laa-hu muhammadur-rasoolul-laah
 *** Meaning
@@ -120,7 +120,7 @@ mindmapDiagram {
 
 ** Second Kalimah of Islam Kalimah Shahaadah
 *** Arabic Text
-**** أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ
+**** وَرَسُولُهُ عَبْدُهُ مُحَمَّدًا أَنَّ أَشْهَدُ وَاللهُ إِلَّا إِلٰهَ لَا أَنْ أَشْهَدُ
 *** Transliteration
 **** Ash-hadu an-laa ilaaha il-lal-laa-hu wa ash-hadu an-na Muhammadan 'ab-duhoo wa rasooluh
 *** Meaning
