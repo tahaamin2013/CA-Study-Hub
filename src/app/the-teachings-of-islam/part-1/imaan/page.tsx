@@ -106,16 +106,13 @@ mindmapDiagram {
 </style>
 
 * Imaan (Faith)
-** Kalimah of Islam
+** First Kalimah of Islam Kalimah Tayyibah & Tauheed 
 *** Arabic Text
 **** لَا اِلٰهَ اِلَّا اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِ
 *** Transliteration
 **** Laa ilaa-ha il-lal-laa-hu muhammadur-rasoolul-laah
 *** Meaning
 **** There is no god except Allah; Muhammad (pbuh) is His Messenger
-*** Also Known As
-**** Kalimah Tauheed
-**** Kalimah Tayyibah
 
 ** Kalimah Shahaadah
 *** Arabic Text
@@ -125,28 +122,6 @@ mindmapDiagram {
 *** Meaning
 **** I bear witness that there is no god except Allah
 **** Muhammad (pbuh) is Allah's worshipper and Messenger
-
-** Types of Non-Believers
-*** Infidels (Kaafir)
-**** Those who don't believe in Allah
-
-*** Polytheists (Mushriks)
-**** Those who worship others besides Allah
-**** Those who believe in multiple gods
-
-*** Hypocrites
-**** Claim to be Muslim
-**** Deny Islam in heart
-
-*** Renegade (Murtad)
-**** Embraces Islam then speaks against it
-**** Adamant in blasphemy
-
-*** Consequence
-**** No pardon for Kaafir and Mushrik
-**** Will face trouble in hereafter
-
-left side
 
 ** Types of Imaan
 *** Imaan Mujmal (Faith in nutshell)
@@ -173,6 +148,28 @@ left side
 **** 7. wal-ba'thi ba'dal-maut
 ***** Belief in Life after Death
 
+left side
+
+** Types of Non-Believers
+*** Infidels (Kaafir)
+**** Those who don't believe in Allah
+
+*** Polytheists (Mushriks)
+**** Those who worship others besides Allah
+**** Those who believe in multiple gods
+
+*** Hypocrites
+**** Claim to be Muslim
+**** Deny Islam in heart
+
+*** Renegade (Murtad)
+**** Embraces Islam then speaks against it
+**** Adamant in blasphemy
+
+*** Consequence
+**** No pardon for Kaafir, Mushrik, Hypocrites and Mushriks
+**** Will face trouble in hereafter
+
 ** Core Beliefs
 *** Creation
 **** Allah created everything
@@ -181,7 +178,6 @@ left side
 ***** the skies and the earth,
 ***** this universe and everything in it.
 **** Universe created by His power and command
-
 @endmindmap
 `}
         />
