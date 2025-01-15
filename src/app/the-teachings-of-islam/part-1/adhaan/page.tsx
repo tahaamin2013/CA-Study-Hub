@@ -142,7 +142,7 @@ export default function Adhaan() {
                   Q. When many people assemble and say salaah together, what do we call it?
                 </h2>
                 <p className="text-gray-700">
-                  Salaah which is offered not individually but along with other people is called salaah bil-jamaa&apos;ah (namaaz ba jamaa&apos;at or "prayer in congregation"). 
+                  Salaah which is offered not individually but along with other people is called salaah bil-jamaa&apos;ah (namaaz ba jamaa&apos;at or &quot;prayer in congregation&quot;). 
                   The person who leads the jamaa&apos;ah is called the imaam. A person who says salaah behind the imaam is known as a muqtadi.
                 </p>
               </div>
@@ -152,7 +152,7 @@ export default function Adhaan() {
                   Q. What is the person called who says salaah alone?
                 </h2>
                 <p className="text-gray-700">
-                  He is called munfarid ("solitary" or "isolated").
+                  He is called munfarid (&quot;solitary&quot; or &quot;isolated&quot;).
                 </p>
               </div>
 
