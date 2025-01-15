@@ -164,7 +164,7 @@ left side
 **** Those who worship others besides Allah
 **** Those who believe in multiple gods
 
-*** Hypocrites
+*** Hypocrites (Munafiqeen)
 **** Claim to be Muslim
 **** Deny Islam in heart
 
