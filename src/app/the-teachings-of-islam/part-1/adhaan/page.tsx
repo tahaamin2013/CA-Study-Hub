@@ -47,7 +47,7 @@ export default function Adhaan() {
                     أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ
                   </span>
                   <span className="text-emerald-600 italic">
-                    Ash-hadu an-na Muhammadan-rasool-ul-laah – I declare that Muhammad is Allah's Messenger (2 times)
+                    Ash-hadu an-na Muhammadan-rasool-ul-laah – I declare that Muhammad is Allah&apos;s Messenger (2 times)
                   </span>
                 </div>
 
@@ -56,7 +56,7 @@ export default function Adhaan() {
                     حَيَّ عَلَى الصَّلَاةِ
                   </span>
                   <span className="text-emerald-600 italic">
-                    Hay-ya 'alas-salaah – Come for salaah (2 times, turning the head to the right both times)
+                    Hay-ya &apos;alas-salaah – Come for salaah (2 times, turning the head to the right both times)
                   </span>
                 </div>
 
@@ -65,7 +65,7 @@ export default function Adhaan() {
                     حَيَّ عَلَى الْفَلَاحِ
                   </span>
                   <span className="text-emerald-600 italic">
-                    Hay-ya 'alal-falaah – Come to success (2 times, turning the head to the left both times)
+                    Hay-ya &apos;alal-falaah – Come to success (2 times, turning the head to the left both times)
                   </span>
                 </div>
 
@@ -90,7 +90,7 @@ export default function Adhaan() {
 
               <div className="mt-6 bg-emerald-50 p-4 rounded-lg">
                 <p className="text-gray-700">
-                  These words are called adhaan. In the adhaan of Fajr after Hay-ya 'alal-falaah, say 2 times:
+                  These words are called adhaan. In the adhaan of Fajr after Hay-ya &apos;alal-falaah, say 2 times:
                 </p>
                 <div className="flex flex-col mt-3">
                   <span className="text-xl text-gray-800 font-arabic mb-1 text-right">
@@ -112,7 +112,7 @@ export default function Adhaan() {
             <div className="space-y-4">
               <p className="text-gray-700">
                 When people stand up for salaah, a person repeats the words of adhaan, this is called iqaamah or takbeer. 
-                The words of adhaan are repeated exactly the same in iqaamah but, after hay-ya 'alal-falaah, one says 2 times:
+                The words of adhaan are repeated exactly the same in iqaamah but, after hay-ya &apos;alal-falaah, one says 2 times:
               </p>
               <div className="flex flex-col">
                 <span className="text-xl text-gray-800 font-arabic mb-1 text-right">
@@ -142,8 +142,8 @@ export default function Adhaan() {
                   Q. When many people assemble and say salaah together, what do we call it?
                 </h2>
                 <p className="text-gray-700">
-                  Salaah which is offered not individually but along with other people is called salaah bil-jamaa'ah (namaaz ba jamaa'at or "prayer in congregation"). 
-                  The person who leads the jamaa'ah is called the imaam. A person who says salaah behind the imaam is known as a muqtadi.
+                  Salaah which is offered not individually but along with other people is called salaah bil-jamaa&apos;ah (namaaz ba jamaa&apos;at or "prayer in congregation"). 
+                  The person who leads the jamaa&apos;ah is called the imaam. A person who says salaah behind the imaam is known as a muqtadi.
                 </p>
               </div>
 
@@ -170,7 +170,7 @@ export default function Adhaan() {
                   Q. What should one do in a masjid?
                 </h2>
                 <p className="text-gray-700">
-                  One should offer salaah, read the Holy Qur'aan or wazeefa, or sit silently and respectfully. 
+                  One should offer salaah, read the Holy Qur&apos;aan or wazeefa, or sit silently and respectfully. 
                   It is very bad to play, jump, make noise, or talk of worldly affairs in a masjid.
                 </p>
               </div>
@@ -211,9 +211,9 @@ export default function Adhaan() {
             </div>
           </div>
 
-          {/* Du'a Section */}
+          {/* Du&apos;a Section */}
           <div className="bg-white rounded-lg p-8 shadow-sm">
-            <h2 className="text-xl font-semibold text-emerald-700 mb-4">Various Du'as and Expressions:</h2>
+            <h2 className="text-xl font-semibold text-emerald-700 mb-4">Various Du&apos;as and Expressions:</h2>
             
             {duas.map((dua, index) => (
               <div key={index} className="mb-8 space-y-4">
