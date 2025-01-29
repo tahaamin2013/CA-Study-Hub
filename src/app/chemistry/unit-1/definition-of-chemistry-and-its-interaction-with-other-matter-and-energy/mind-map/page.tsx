@@ -13,14 +13,15 @@ const MagneticMindmap = () => {
 ITS INTERACTION WITH OTHER MATTER
 AND ENERGY;
 ** Definition
-*** Science studying materials of the universe
-*** Studies changes materials undergo
-** Understanding
-*** Composition of matter and energy
-*** Structure of matter and energy
-*** Properties of matter and energy
-*** Behavior of matter and energy
-*** Changes in matter and energy
+*** Science that Investigates
+**** The materials of the universe
+**** The changes that these materials undergo
+*** Chemistry deals with
+**** Composition of Matter & Energy
+**** Structure of Matter & Energy
+**** Properties of Matter & Energy
+**** Behavior of Matter & Energy
+**** Changes in Matter & Energy
 left side
 ** Applications
 *** Explaining natural phenomena
@@ -28,8 +29,8 @@ left side
 *** Development of drugs
 *** Development of technologies
 ** Green Chemistry
-*** Model for chemical products and processes
-*** Reduces use of hazardous substances
+*** Model for chemical products and processes that
+**** Reduces use of hazardous substances
 *** Helps understand pollution
 *** Aids in reducing pollution
 @endmindmap`}
