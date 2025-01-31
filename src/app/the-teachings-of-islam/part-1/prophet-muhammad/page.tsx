@@ -154,6 +154,95 @@ left side
 @endmindmap
 `}
         />
+
+
+        
+<PlantUMLDiagram
+        code={`
+@startmindmap
+<style>
+mindmapDiagram {
+    .important {
+        BackgroundColor lightblue
+    }
+    .life {
+        BackgroundColor lightgreen
+    }
+    .status {
+        BackgroundColor pink
+    }
+    .faith {
+        BackgroundColor lightyellow
+    }
+    .personal {
+        BackgroundColor #F3E5F5
+    }
+}
+</style>
+
+* Prophet Muhammad (PBUH)<<important>>
+** Early Life & Origin<<life>>
+*** Birth & Childhood
+**** Born in Makkah, Arabia
+**** Father Abdullah passed before birth
+**** Mother Aminah died when he was 6
+**** Nursed by Haleema
+**** Raised by grandfather Abdul-Muttalib until age 8
+
+** Divine Status & Identity<<status>>
+*** Allah's Worshipper and Messenger
+*** Last Prophet (Khaataman Nabiyyeen)
+*** Leader and Greatest of all Prophets
+*** Holiest of all creation
+*** Me'raaj (ascension to heavens)
+**** Visited seven skies
+**** Saw Paradise and Hell
+**** Prayer made obligatory
+
+** Life Journey & Mission<<life>>
+*** Makkah Period
+**** Lived for 53 years
+**** Received Prophethood at age 40
+**** First revelation
+**** Initially preached secretly
+**** Later preached openly
+*** Madinah Period
+**** Lived for 10 years
+**** Migrated by Allah's Command
+*** Passed away at age 63
+
+left side
+
+** First Followers<<life>>
+*** Abu Bakr (first among men)
+*** Khadija (first among women)
+*** Ali (first among young boys)
+*** Zaid bin Harisa (first among slaves)
+
+** Proof of Prophethood<<personal>>
+*** Holy Qur'aan
+**** Bears witness to his prophethood
+**** Revealed to him by Allah
+**** Unmatched teachings
+*** Personal Character
+**** Never lied in entire life
+**** Maintained prophetic standard
+
+** Faith & Devotion<<faith>>
+*** Belief Requirements
+**** Accept as Last Prophet
+**** Love him more than self (except Allah)
+**** Follow his teachings
+**** Obey his orders
+*** Expressions of Love
+**** Speak with reverence
+**** Recite Durood Shareef
+**** Follow his Sunnah
+**** Love his family & companions
+**** Show proper respect
+**** Rejection makes one a kaafir
+@endmindmap`}
+      />
       </div>
     </div>
   );
