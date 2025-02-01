@@ -32,9 +32,21 @@ mindmapDiagram {
 **** Made up of same type of atoms
 **** Same atomic number (proton number)
 **** Cannot be broken down chemically
+**** Examples
+***** Hydrogen (H)
+***** Oxygen (O)
+***** Gold (Au)
+***** Carbon (C)
+***** Iron (Fe)
 *** Compound
 **** Formed when two or more different atoms chemically combine
 **** New substance with different properties
+**** Examples
+***** Water (H₂O)
+***** Carbon Dioxide (CO₂)
+***** Sodium Chloride (NaCl)
+***** Glucose (C₆H₁₂O₆)
+***** Ammonia (NH₃)
 ** Mixture
 *** Homogeneous Mixtures
 **** Uniform Composition
@@ -44,6 +56,7 @@ mindmapDiagram {
 ***** Saltwater
 ***** Air
 ***** Vinegar
+***** Tea (milk, water, tea leaves, sugar)
 *** Heterogeneous Mixtures
 **** Colloid
 **** Suspension
@@ -56,29 +69,60 @@ mindmapDiagram {
 ***** Sand and Iron Filings
 *** Physical combination of substances
 *** Particles have different chemical compositions
-*** Example: Tea (milk, water, tea leaves, sugar)
 left side
 ** Differences Between Compounds and Mixtures
 *** Composition
 **** Compounds: Fixed ratio of elements
+***** Example: Water (H₂O) always has 2 hydrogen atoms and 1 oxygen atom
 **** Mixtures: Variable proportions of substances
+***** Example: Saltwater can have any amount of salt dissolved in water
 *** Bonding
 **** Compounds: Chemical bonds
+***** Example: Sodium (Na) and Chlorine (Cl) chemically bond to form Sodium Chloride (NaCl)
 **** Mixtures: No chemical bonds
+***** Example: Air is a mixture of gases (oxygen, nitrogen, etc.) without chemical bonding
 *** Separation
 **** Compounds: Need chemical reactions to separate
+***** Example: Electrolysis of water (H₂O) separates it into hydrogen and oxygen
 **** Mixtures: Can be separated physically
+***** Example: Filtration separates sand from water
 *** Properties
 **** Compounds: New properties different from elements
+***** Example: Sodium (Na) is reactive, Chlorine (Cl) is toxic, but Sodium Chloride (NaCl) is safe to eat
 **** Mixtures: Properties of original substances remain
+***** Example: Saltwater tastes salty (salt's property) and is liquid (water's property)
 ** Properties of Matter
 *** Physical Properties
+**** Examples
+***** Color (e.g., gold is yellow)
+***** Density (e.g., iron is dense)
+***** Melting Point (e.g., ice melts at 0°C)
+***** Boiling Point (e.g., water boils at 100°C)
+***** Solubility (e.g., sugar dissolves in water)
 *** Chemical Properties
+**** Examples
+***** Reactivity (e.g., sodium reacts with water)
+***** Flammability (e.g., gasoline is flammable)
+***** Toxicity (e.g., chlorine gas is toxic)
+***** Stability (e.g., gold is chemically inert)
+***** Oxidation (e.g., iron rusts in the presence of oxygen)
 ** Changes in Matter
 *** Physical Change
 **** Alters physical properties
+**** Examples
+***** Melting ice (solid to liquid)
+***** Boiling water (liquid to gas)
+***** Cutting paper (changes shape)
+***** Dissolving sugar in water (changes state)
+***** Crushing a can (changes shape and size)
 *** Chemical Change
 **** Forms a new substance
+**** Examples
+***** Burning wood (produces ash and smoke)
+***** Rusting iron (forms iron oxide)
+***** Cooking an egg (changes protein structure)
+***** Baking a cake (irreversible change)
+***** Digestion of food (breaks down into simpler substances)
 @endmindmap`}
                 />
                 <PlantUMLDiagram

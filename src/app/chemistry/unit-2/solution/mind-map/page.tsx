@@ -10,51 +10,67 @@ const MagneticMindmap = () => {
         <PlantUMLDiagram
           code={`
 @startmindmap
-* Solutions
-** Definition
-*** Homogeneous mixture of two or more substances
-** Key characteristics
-*** One substance dissolved in another
-*** No visible particles
-*** Uniform appearance
-** Components
-*** Solute
-*** Solvent
-** Particle size
-*** Microscopic (< 1 nm)
-** Stability
-*** Very stable
-** Types
-*** Gaseous solutions
-**** Solvent: Gas
-**** Solute: Gas, liquid, or solid
-**** Examples
-***** N₂ and H₂ mixture
-***** NH₃ and CO₂ mixture
-***** Fog, clouds, mist
-***** Smoke
-*** Liquid solutions
-**** Examples
-***** Carbonated drinks
-***** Rectified spirit
-***** Vinegar
-***** Brine
-***** Sugar syrup
-*** Solid solutions
-**** Examples
-***** H₂ on Ni surface
-***** Amalgam
-***** Alloys
-****** Brass
-****** Bronze
-****** Steel
-** Real-life Examples
-*** Air
-*** Seawater
-*** Alloy
+*[#lightblue] Solutions
+**[#lightcyan] Definition of Solution
+***[#white] Homogeneous mixture of two or more substances
+**[#palegreen] Key characteristics
+***[#white] One substance dissolved in another
+***[#white] No visible particles
+***[#white] Uniform appearance
+**[#pink] Components
+***[#white] Solute
+***[#white] Solvent
+**[#lavender] Particle size
+***[#white] Microscopic (< 1 nm)
+**[#lightyellow] Stability
+***[#white] Very stable
+left side
+**[#peachpuff] Types
+***[#lightsalmon] Gaseous solutions
+****[#white] Solute: Gas, liquid, or solid
+****[#white] Solvent: Gas
+****[#white] Examples
+*****[#white] Ammonia Solution in Haber's process
+****** Solute (nitrogen [N₂])
+****** Solvent (hydrogen [H₂])
+*****[#white] Urea Solution
+****** Solute (NH₃ [Ammonia])
+****** Solvent (CO₂ [Carbon Dioxide])
+*****[#white] Fog, clouds, mist are examples of solutions
+****** Solute (Liquid Water)
+****** Solvent (Air)
+*****[#white] Smoke (Solution)
+****** Solute (Carbon Particle)
+****** Solvent (Gaseous Air)
+***[#lightblue] Liquid solutions
+****[#white] Examples
+*****[#white] Carbonated drinks (Solutions)
+****** Solute (Gaseous Carbon dioxide)
+****** Solvent (Liquid Water)
+*****[#white] Rectified spirit Produced by fermentation of sugar cane
+****** Solute (Liquid)
+****** Solvent (Liquid)
+*****[#white] Vinegar (Acetic Acid in Water)
+****** Solute (Liquid)
+****** Solvent (Water)
+*****[#white] Brine & Sugar syrup (Solution)
+****** Solute (Solid Salt and Sugar)
+****** Solvent (Water)
+***[#plum] Solid solutions
+****[#white] Examples
+*****[#white] Hydrogen gas on Nickle Metal surface in Ghee Industry
+****** Solute (Hydrogen Gas)
+****** Solvent (Nickle Catalyst)
+*****[#white] Amalgam
+****** Solute (Any Metal [Solid])
+****** Solvent (Liquid Mercury)
+*****[#white] Alloys
+******[#white] Brass
+******[#white] Bronze
+******[#white] Steel
 @endmindmap`}
         />
-       <Image src="/solute-solvent-solution4 (1).png" alt="Solute Solvent Solution Image" width={600} height={600} />
+       <Image src="/solute-solvent-solution4 (1).png" alt="Solute Solvent Solution Image" className="fixed bottom-0 left-0" width={200} height={200} />
       </section>
 
       <div className="p-8 bg-gradient-to-r from-blue-50 to-teal-50 rounded-lg shadow-xl">
