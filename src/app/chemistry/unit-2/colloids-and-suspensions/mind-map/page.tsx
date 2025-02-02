@@ -25,7 +25,7 @@ mindmapDiagram {
   }
 }
 </style>
-* 2.5 Colloids & Suspensions
+* Types of Heterogeneous Mixtures
 ** Colloid
 *** Definition
 **** Heterogeneous mixture
@@ -44,6 +44,7 @@ mindmapDiagram {
 **** Ink
 **** Jelly
 **** Toothpaste
+left side
 ** Suspension
 *** Definition
 **** Heterogeneous mixture
@@ -52,45 +53,11 @@ mindmapDiagram {
 **** Particle size: > 1000 nm
 **** Visible to naked eye
 **** Settles when stationary
+**** Scatters light (Tyndall effect)
 *** Examples
 **** Chalk in water
 **** Paints
 **** Milk of magnesia
-** Comparison
-*** Solution
-**** Homogeneous mixture
-**** Particle size < 1 nm
-**** Passes through all filters
-**** Cannot scatter light
-**** Does not separate
-**** Example: Sea water
-*** Colloid
-**** Heterogeneous mixture
-**** Particle size 1-1000 nm
-**** Passes through normal filter, not ultra-filter
-**** Scatters light (Tyndall effect)
-**** Does not separate
-**** Example: Milk
-*** Suspension
-**** Heterogeneous mixture
-**** Particle size > 1000 nm
-**** Cannot pass through filters
-**** Scatters light
-**** Separates when stationary
-**** Example: Muddy water
-** Key Points
-*** Matter: Has mass and occupies space
-*** Plasma: Electrically charged gas
-*** Allotropy: Element existing in different physical forms
-*** Element: Simplest form of matter, same type of atoms
-*** Compound: Two or more different atoms chemically combined
-*** Solution: Homogeneous mixture of two or more components
-*** Aqueous solution: Substance dissolved in water
-*** Saturated solution: Maximum amount of solute at given temperature
-*** Unsaturated solution: Less solute than required for saturation
-*** Colloid: Mixture with particles 1-1000 nm in diameter
-*** Suspension: Heterogeneous mixture, solid particles in liquid
-
 center footer Comparison of Solution, Colloids, and Suspension
 @endmindmap`}
         />
@@ -157,9 +124,9 @@ center footer Comparison of Solution, Colloids, and Suspension
                 </tr>
                 <tr>
                     <td className="px-4 py-2 border">Filtration</td>
-                    <td className="px-4 py-2 border">Passes all filters</td>
-                    <td className="px-4 py-2 border">Passes normal filter, not ultra-filter</td>
-                    <td className="px-4 py-2 border">Cannot pass filters</td>
+                    <td className="px-4 py-2 border">Particles can pass through normal as well as ultra-filter paper</td>
+                    <td className="px-4 py-2 border">Passes normal filter paper, not ultra-filter paper</td>
+                    <td className="px-4 py-2 border">Cannot pass filter papers</td>
                 </tr>
                 <tr className="bg-gray-100">
                     <td className="px-4 py-2 border">Light scattering</td>
@@ -175,8 +142,8 @@ center footer Comparison of Solution, Colloids, and Suspension
                 </tr>
                 <tr className="bg-gray-100">
                     <td className="px-4 py-2 border">Example</td>
-                    <td className="px-4 py-2 border">Sea water</td>
-                    <td className="px-4 py-2 border">Milk</td>
+                    <td className="px-4 py-2 border">Salt Water</td>
+                    <td className="px-4 py-2 border">Soup Water</td>
                     <td className="px-4 py-2 border">Muddy water</td>
                 </tr>
             </tbody>

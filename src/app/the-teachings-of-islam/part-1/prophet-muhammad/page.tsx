@@ -155,10 +155,8 @@ left side
 `}
         />
 
-
-        
-<PlantUMLDiagram
-        code={`
+        <PlantUMLDiagram
+          code={`
 @startmindmap
 <style>
 mindmapDiagram {
@@ -242,7 +240,7 @@ left side
 **** Show proper respect
 **** Rejection makes one a kaafir
 @endmindmap`}
-      />
+        />
       </div>
     </div>
   );

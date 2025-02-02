@@ -55,6 +55,12 @@ const data: Section[] = [
     title: "The Teachings of Islam",
     color: "#0da3a4",
   },
+  {
+    id: "11",
+    link: "/islamic-theory-of-life",
+    title: "Islamic Theory of Life",
+    color: "#48C9B0",
+  },
 ];
 
 const UnitCard = ({

@@ -256,7 +256,7 @@ mindmapDiagram {
 }
 </style>
 * Types of Solutions
-** 2.4.2 Saturated Solution
+** Saturated Solution
 *** Definition
 **** Contains maximum amount of solute at given temperature
 *** Characteristics
@@ -268,13 +268,13 @@ mindmapDiagram {
 *** Process
 **** Dissolution and crystallization continue
 **** Net amount of dissolved solute remains constant
-** 2.4.3 Unsaturated Solution
+** Unsaturated Solution
 *** Definition
 **** Contains less solute than required for saturation
 *** Characteristics
 **** Can dissolve more solute
 **** Can become saturated by adding more solute
-** 2.4.5 Supersaturated Solution
+** Supersaturated Solution
 *** Definition
 **** More concentrated than saturated solution
 *** Characteristics
@@ -284,22 +284,6 @@ mindmapDiagram {
 **** Prepare saturated solution at high temperature
 **** Cool to lower temperature
 **** Excess solute crystallizes out
-** Activity 2.1
-*** Unsaturated Solution
-**** Can dissolve more solute
-*** Saturated Solution
-**** Cannot dissolve more solute
-**** Solute settles at bottom
-*** Supersaturated Solution
-**** Contains more solute than saturated solution
-**** Formed by heating saturated solution
-*** Distinguishing Supersaturated Solution
-**** Add crystal of solute
-**** Crystallization starts in supersaturated solution
-** Fig 2.4: Different types of solutions
-*** Unsaturated Solution
-*** Saturated Solution
-*** Supersaturated Solution
 @endmindmap`}
         />
       </section>
@@ -380,18 +364,56 @@ mindmapDiagram {
 **** Type of solvent
 **** Temperature
 **** Pressure
-*** Reference: Table 2.2
 ** 2.4.8 Effect of Temperature on Solubility
 *** Increase in solubility with temperature
 **** Examples: KCl, NH₄Cl
 *** Decrease in solubility with temperature
 **** Example: Ca(OH)₂
-*** No change in solubility with temperature
-**** Example: NaCl
 @endmindmap`}
         />
-       
+
+<div className="flex items-center justify-between sm:flex-row flex-col">
+<div class="w-full max-w-4xl p-6 bg-white shadow-lg rounded-lg">
+        <h2 class="text-2xl font-semibold text-center text-gray-700 mb-4">Solubility Table</h2>
+        <table class="w-full border-collapse border border-gray-300">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="border border-gray-300 px-4 py-2">Solute</th>
+                    <th class="border border-gray-300 px-4 py-2">Solubility (Amount of solute in 100g of solvent at 20°C)</th>
+                    <th class="border border-gray-300 px-4 py-2">Solubility (Amount of solute in 100g of solvent at 100°C)</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-300">
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2 text-center">NaCl</td>
+                    <td class="border border-gray-300 px-4 py-2 text-center">36.5g/100g H₂O</td>
+                    <td class="border border-gray-300 px-4 py-2 text-center">39.2g/100g H₂O</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2 text-center">KCl</td>
+                    <td class="border border-gray-300 px-4 py-2 text-center">24.7g/100g H₂O</td>
+                    <td class="border border-gray-300 px-4 py-2 text-center">56g/100g H₂O</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2 text-center">NH₂Cl</td>
+                    <td class="border border-gray-300 px-4 py-2 text-center">37.5g/100g H₂O</td>
+                    <td class="border border-gray-300 px-4 py-2 text-center">77g/100g H₂O</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2 text-center">Ca(OH)₂</td>
+                    <td class="border border-gray-300 px-4 py-2 text-center">0.173g/100g H₂O</td>
+                    <td class="border border-gray-300 px-4 py-2 text-center">0.066g/100g H₂O</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <Image src="/solubility_curves.png" alt="Solubility Curves" width={300} height={300} className="m-5 mt-10" />
+    </div>
+
       </section>
+
+
 
       <div className="p-8 bg-gradient-to-r from-yellow-100 to-orange-100 rounded-lg shadow-xl">
     <h1 className="text-3xl font-extrabold text-orange-800 mb-6">Types of Solutions and Solubility</h1>
