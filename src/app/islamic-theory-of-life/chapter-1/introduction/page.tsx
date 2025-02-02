@@ -114,17 +114,22 @@ mindmapDiagram {
 
 * Islamic Ideology of Life <<main>>
 
-** Complete Life System <<essence>>
-*** Divine Guidance Framework
-**** Personal Aspects
-**** Collective Dimensions
-**** Social Elements
-**** Cultural Components
-*** Universal Scope
-**** Material Matters
-**** Spiritual Concerns
-**** Economic Systems
-**** Political Framework
+** Islam as a Complete Code of Life <<essence>>
+*** Private and Personal Life
+**** Rituals
+**** Prayers
+**** Customs
+*** Social and Collective Life
+**** Social Structures
+**** Cultural Practices
+*** Material and Spiritual Aspects
+**** Material Guidance
+**** Spiritual Growth
+*** Economic and Political Systems
+**** Economic Policies
+**** Political Governance
+*** Sectarian and International Dimensions
+**** Unity Among Sects
 **** International Relations
 
 ** Core Message <<essence>>
