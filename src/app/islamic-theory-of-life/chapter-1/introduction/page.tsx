@@ -132,12 +132,22 @@ mindmapDiagram {
 **** Unity Among Sects
 **** International Relations
 
-** Core Message <<essence>>
-*** God's Law Supremacy
-*** Divine Will Implementation
-*** Universal Application
-**** Heart to Civilization
-**** Individual to Society
+** Core Message of Islam <<essence>>
+*** God's Law
+**** Prevails on Earth
+**** Fulfilled in All Aspects of Life
+***** From Human Heart
+***** To Civilization
+*** Revolutionary Outlook
+**** Differentiated from Limited Religious Perspective
+**** Allama Iqbal's Analysis
+***** Islamic Culture
+***** Essence of Islam
+*** Mi'raj Reflection
+**** Prophet Muhammad's Ascension
+**** Sufi's Remark
+***** "Muhammad of Arabia reached the highest heavens and returned."
+***** "By God, if I had reached that level, I would never have returned."
 
 left side
 
@@ -162,7 +172,6 @@ left side
 *** Universal Beautification
 
 @endmindmap
-          
           `}
       />
     </main>

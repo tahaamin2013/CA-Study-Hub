@@ -1,4 +1,5 @@
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
+import Image from 'next/image'
 import React from "react";
 
 const MagneticMindmap = () => {
@@ -115,10 +116,10 @@ left side
 **** Chemical Reactions
 ***** Atoms combine, separate, or rearrange
 ****** Example: 2H₂ + O₂ → 2H₂O (water formation)
-****** Example: CaCO₃ → CaO + CO₂ (limestone decomposition)
+****** Example: (limestone decomposition) CaCO₃ → CaO + CO₂
 ***** Combine in simple ratios
-****** Example: CO₂ has 1:2 ratio of C:O
-****** Example: NH₃ has 1:3 ratio of N:H
+****** Example: H₂O has 2:1 ratio of H:O
+****** Example: Ammonia NH₃ has 1:3 ratio of N:H
 **** Conservation Law
 ***** Atoms cannot be created
 ****** Example: Mass before = Mass after in chemical reactions
@@ -135,83 +136,161 @@ left side
 *** Limitations
 **** Later Experiments
 ***** 1850s experiments
-****** Example: Cathode ray experiments discovered electrons
 ***** Early 20th century discoveries
-****** Example: Thomson's discovery of electron (1897)
+****** Example: JJ. Thomson's discovery of electron In Cathode Ray Experiment (1897)
 **** Discovery of Atomic Structure
 ***** Atoms found to be divisible
 ****** Example: Uranium nuclear fission
 ***** Identification of subatomic particles
 ****** Electrons
-******* Example: Found in cathode rays (-1 charge)
 ****** Protons
-******* Example: H⁺ ion is a bare proton (+1 charge)
 ****** Neutrons
-******* Example: Different isotopes have different numbers of neutrons
 @endmindmap
 `} />
 <PlantUMLDiagram code={`
 @startmindmap
+<style>
+mindmapDiagram {
+  .background {
+    BackgroundColor #3498DB
+    LineColor #2980B9
+    FontColor white
+  }
+  .experiment {
+    BackgroundColor #F39C12
+    LineColor #D35400
+    FontColor black
+  }
+  .conclusion {
+    BackgroundColor #2ECC71
+    LineColor #27AE60
+    FontColor white
+  }
+  .defect {
+    BackgroundColor #E74C3C
+    LineColor #C0392B
+    FontColor white
+  }
+  .detail {
+    BackgroundColor #9B59B6
+    LineColor #8E44AD
+    FontColor white
+  }
+  .year {
+    BackgroundColor #1ABC9C
+    LineColor #16A085
+    FontColor white
+  }
+  .purpose {
+    BackgroundColor #8E44AD
+    LineColor #732D91
+    FontColor white
+  }
+  .setup {
+    BackgroundColor #D35400
+    LineColor #A04000
+    FontColor white
+  }
+  .observations {
+    BackgroundColor #C0392B
+    LineColor #922B21
+    FontColor white
+  }
+  .structure {
+    BackgroundColor #2980B9
+    LineColor #1F618D
+    FontColor white
+  }
+  .force {
+    BackgroundColor #27AE60
+    LineColor #1E8449
+    FontColor white
+  }
+  .properties {
+    BackgroundColor #F1C40F
+    LineColor #D4AC0D
+    FontColor black
+  }
+}
+</style>
 * Rutherford's Atomic Model
-** Background
-*** Year: 1911
-*** Purpose
-**** Understand arrangement of electrons and protons in atoms
-** Rutherford's Experiment (1911)
-*** Experimental Setup
-**** Gold Foil Properties
-***** Thickness: 0.00004 cm
-**** Alpha Particles
-***** Source: Polonium disintegration
-***** Properties
-****** Helium nuclei
-****** Doubly positively charged (He2+)
-*** Observations
-**** Primary Results
-***** Most particles passed straight through
-***** Few particles slightly deflected
-***** One in 1 million deflected > 90°
-**** Additional Testing
-***** Used thin foils of other elements
-***** Similar results observed
+** Background <<background>>
+*** Year: 1911 <<year>>
+*** Purpose <<purpose>>
+**** Understand arrangement of electrons and protons in atoms <<purpose>>
+** Rutherford's Experiment (1911) <<experiment>>
+*** Experimental Setup <<setup>>
+**** Gold Foil Properties <<properties>>
+***** Thickness: 0.00004 cm <<properties>>
+**** Alpha Particles <<properties>>
+***** Source: Polonium disintegration <<properties>>
+***** Properties <<properties>>
+****** Helium nuclei <<properties>>
+****** Doubly positively charged (He2+) <<properties>>
+*** Observations <<observations>>
+**** Primary Results <<observations>>
+***** Most particles passed straight through <<observations>>
+***** Few particles slightly deflected <<observations>>
+***** One in 1 million deflected > 90° <<observations>>
+**** Additional Testing <<observations>>
+***** Used thin foils of other elements <<observations>>
+***** Similar results observed <<observations>>
 left side
-** Key Conclusions
-*** Empty Space Theory
-**** Most of atom is empty space
-**** Explained undeflected particles
-*** Nuclear Structure
-**** Strong deflections due to electrostatic repulsion
-**** Indicated concentrated positive charge
-*** Electron Behavior
-**** Alpha particles not deflected by electrons
-** Proposed Model
-*** Fundamental Structure
-**** Planetary System Design
-***** Similar to solar system
-***** Dense positive nucleus at center
-**** Particle Arrangement
-***** Nucleus: Dense positively charged region
-***** Electrons revolve in circular orbits
-*** Force Balance
-**** Centrifugal force from electron revolution
-**** Balanced by electrostatic attraction
-*** Atomic Properties
-**** Overall neutral charge
-**** Mass concentrated in nucleus
-** Model Defects
-*** Classical Physics Contradiction
-**** Energy Loss Issue
-***** Electrons should emit energy while revolving
-***** Would lead to atomic collapse
-***** Electrons would spiral into nucleus
-*** Spectral Inconsistency
-**** Predicted continuous energy loss
-**** Should produce continuous spectrum
-**** Not observed in reality
+** Key Conclusions <<conclusion>>
+*** Empty Space Theory <<structure>>
+**** Most of atom is empty space <<structure>>
+**** Explained undeflected particles <<structure>>
+*** Nuclear Structure <<structure>>
+**** Strong deflections due to electrostatic repulsion <<structure>>
+**** Indicated concentrated positive charge <<structure>>
+*** Electron Behavior <<structure>>
+**** Alpha particles not deflected by electrons <<structure>>
+** Proposed Model <<background>>
+*** Fundamental Structure <<structure>>
+**** Planetary System Design <<structure>>
+***** Similar to solar system <<structure>>
+***** Dense positive nucleus at center <<structure>>
+**** Particle Arrangement <<structure>>
+***** Nucleus: Dense positively charged region <<structure>>
+***** Electrons revolve in circular orbits <<structure>>
+*** Force Balance <<force>>
+**** Centrifugal force from electron revolution <<force>>
+**** Balanced by electrostatic attraction <<force>>
+*** Atomic Properties <<properties>>
+**** Overall neutral charge <<properties>>
+**** Mass concentrated in nucleus <<properties>>
+** Defects in Rutherford's Atomic Model <<defect>>
+*** Classical Physics Issue <<defect>>
+**** Electrons emit energy continuously <<defect>>
+***** Orbit becomes smaller
+***** Eventually collapses into the nucleus
+***** Atomic structure collapse
+*** Energy Spectrum Issue <<defect>>
+**** Continuous energy emission <<defect>>
+***** Should form a continuous spectrum (not observed)
 @endmindmap
 `} />
+<Image
+width={800}
+height={800}
+alt="Plum Pudding Model"
+src="/plum_pudding_model.jpeg"
+/>
 
-
+<div className="flex items-center justify-between md:flex-row flex-col">
+<Image
+width={650}
+height={700}
+alt="RutherFord Model setup"
+src="/rutherford_model_setup.png"
+/>
+<Image
+width={650}
+height={700}
+alt="RutherFord Model setup"
+src="/Rutherfords-Experiment.png"
+/>
+</div>
       </section>
 
       <div className="p-8 bg-gradient-to-r from-teal-100 to-blue-100 rounded-lg shadow-xl">
