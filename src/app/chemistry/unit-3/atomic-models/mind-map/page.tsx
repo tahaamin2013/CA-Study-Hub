@@ -116,7 +116,7 @@ left side
 **** Chemical Reactions
 ***** Atoms combine, separate, or rearrange
 ****** Example: 2H₂ + O₂ → 2H₂O (water formation)
-****** Example: (limestone decomposition) CaCO₃ → CaO + CO₂
+****** Example: Breaking water into Hydrogen and Oxygen using electricity 2H₂O → 2H₂ + O₂ 
 ***** Combine in simple ratios
 ****** Example: H₂O has 2:1 ratio of H:O
 ****** Example: Ammonia NH₃ has 1:3 ratio of N:H
@@ -270,12 +270,36 @@ left side
 ***** Should form a continuous spectrum (not observed)
 @endmindmap
 `} />
+<div className="flex mt-5 justify-between md:flex-row flex-col">
+<div className='border-r border-2 text-center'>
 <Image
 width={800}
 height={800}
 alt="Plum Pudding Model"
-src="/plum_pudding_model.jpeg"
+src="/Group 243 (1).png"
 />
+</div>
+<div className='border-r border-2 text-center'>
+<Image
+width={800}
+height={800}
+alt="Plum Pudding Model"
+src="/Group 243.png"
+/>
+</div>
+<div className='border-r border-2 text-center'>
+<Image
+width={800}
+height={800}
+alt="Plum Pudding Model"
+src="/Rutherford.png"
+/>
+<video width="640" height="360" controls>
+  <source src="/videoplayback.mp4" type="video/mp4" />
+</video>
+</div>
+
+</div>
 
 <div className="flex items-center justify-between md:flex-row flex-col">
 <Image

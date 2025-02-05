@@ -218,6 +218,96 @@ left side
 
 @endmindmap`}
       />
+      <PlantUMLDiagram
+        code={`
+@startmindmap
+<style>
+mindmapDiagram {
+    .green {
+        BackgroundColor lightgreen
+    }
+    .blue {
+        BackgroundColor lightblue
+    }
+    .orange {
+        BackgroundColor #FFA0DD
+    }
+    .purple {
+        BackgroundColor #DDA0DD
+    }
+    .pink {
+        BackgroundColor pink
+    }
+}
+</style>
+
+* THE HOLY QUR'AN
+
+** Nature and Authenticity <<green>>
+*** Word of Allah (Kalaam Allah)
+*** Given to Prophet Mohammed (PBUH)
+*** Everlasting miracle and challenge
+*** Cannot be replicated by anyone
+
+** Revelation Process <<blue>>
+*** Duration: 23 years
+*** Through Angel Jibreel
+**** Recited to Prophet (PBUH)
+**** Prophet memorized it
+**** Written by companions
+*** Revealed in parts as needed
+**** One aayah (verse)
+**** Multiple aayaat (verses)
+**** Complete surah (chapter)
+*** Protected by Allah from corruption
+
+** Divine Messengers <<orange>>
+*** Prophet Muhammad (PBUH)
+**** Was ummiy (unlettered)
+**** Could not read or write
+**** No formal schooling
+**** Blessed with divine knowledge
+*** Angel Jibreel
+**** Divine messenger
+**** Brought Allah's orders
+**** Communicated with prophets
+
+left side
+
+** Unique Distinctions <<green>>
+*** Can be memorized by believers
+*** Memorization possible even by children
+*** Other religious books could not be memorized except by their prophets
+*** Preserved perfectly without changes
+
+** Rules and Etiquette <<blue>>
+*** Must have ablution (Wudu)
+*** Sit facing Qibla
+*** Begin with A'oozu and Bismillah
+*** Recite with sincerity
+*** Maintain cleanliness
+*** Place on raised surface
+*** Cannot touch without ablution
+
+** Divine Purpose <<orange>>
+*** Guide servants to right path
+*** Know Allah and His Apostle
+*** Follow divine commands
+*** Abstain from evils
+
+** Practical Aspects <<purple>>
+*** Available everywhere with correct text
+*** Proper disposal by burial
+*** Must be wrapped in clean cloth
+*** Buried in respectful location
+
+** Rewards and Importance <<pink>>
+*** One letter equals ten good deeds
+*** Essential for believers
+*** Chest without Qur'an like deserted house
+
+@endmindmap`}
+      />
     </div>
   );
 };
