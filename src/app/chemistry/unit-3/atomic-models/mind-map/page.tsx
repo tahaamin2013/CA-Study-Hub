@@ -110,13 +110,13 @@ left side
 ****** Example: Carbon atoms make up diamond
 ***** Atoms of same element are identical
 ****** Same mass
-******* Example: All carbon-12 atoms have mass of 12 u
+******* Example: All oxygen-16 atoms have mass of 16 u.
 ****** Same volume
 ******* Example: All oxygen atoms have radius of 60 picometers
 **** Chemical Reactions
 ***** Atoms combine, separate, or rearrange
-****** Example: 2H₂ + O₂ → 2H₂O (water formation)
-****** Example: Breaking water into Hydrogen and Oxygen using electricity 2H₂O → 2H₂ + O₂ 
+****** Example: H₂ + O → H₂O (water formation)
+****** Example: Breaking water into Hydrogen and Oxygen using electricity H₂O → H₂ + O
 ***** Combine in simple ratios
 ****** Example: H₂O has 2:1 ratio of H:O
 ****** Example: Ammonia NH₃ has 1:3 ratio of N:H
@@ -125,26 +125,22 @@ left side
 ****** Example: Mass before = Mass after in chemical reactions
 ***** Atoms cannot be destroyed
 ****** Example: Burning wood transforms atoms but doesn't destroy them
-*** Historical Impact
-**** Explained quantitative experimental results
-***** Example: Law of Multiple Proportions in CO and CO₂
-**** Explained laws of chemical combinations
-***** Example: Law of Constant Composition in H₂O
-**** Stimulated rapid progress in chemistry during 19th century
-***** Example: Development of chemical formulas
-***** Example: Understanding of chemical equations
-*** Limitations
-**** Later Experiments
-***** 1850s experiments
-***** Early 20th century discoveries
-****** Example: JJ. Thomson's discovery of electron In Cathode Ray Experiment (1897)
-**** Discovery of Atomic Structure
-***** Atoms found to be divisible
-****** Example: Uranium nuclear fission
-***** Identification of subatomic particles
-****** Electrons
-****** Protons
-****** Neutrons
+** Historical Impact of Dalton's Atomic Model
+*** Explained Quantitative Experimental Results
+*** Explained Laws of Chemical Combinations
+*** Stimulated Rapid Progress in Chemistry
+** Limitations
+*** Later Experiments
+**** 1850s experiments
+**** Early 20th century discoveries
+***** Example: JJ. Thomson's discovery of electron In Cathode Ray Experiment (1897)
+*** Discovery of Atomic Structure
+**** Atoms found to be divisible
+***** Example: Uranium nuclear fission
+**** Identification of subatomic particles
+***** Electrons
+***** Protons
+***** Neutrons
 @endmindmap
 `} />
 <PlantUMLDiagram code={`
@@ -245,29 +241,43 @@ left side
 **** Indicated concentrated positive charge <<structure>>
 *** Electron Behavior <<structure>>
 **** Alpha particles not deflected by electrons <<structure>>
-** Proposed Model <<background>>
-*** Fundamental Structure <<structure>>
-**** Planetary System Design <<structure>>
-***** Similar to solar system <<structure>>
-***** Dense positive nucleus at center <<structure>>
-**** Particle Arrangement <<structure>>
-***** Nucleus: Dense positively charged region <<structure>>
-***** Electrons revolve in circular orbits <<structure>>
-*** Force Balance <<force>>
-**** Centrifugal force from electron revolution <<force>>
-**** Balanced by electrostatic attraction <<force>>
-*** Atomic Properties <<properties>>
-**** Overall neutral charge <<properties>>
-**** Mass concentrated in nucleus <<properties>>
+** Proposed Model <<conclusion>>
+*** Structure <<structure>>
+**** Nucleus <<structure>>
+***** Dense center <<structure>>
+***** Positively charged <<structure>>
+***** Contains most mass <<structure>>
+**** Electrons <<structure>>
+***** Negatively charged <<structure>>
+***** Revolve in orbits <<structure>>
+***** Very light mass <<structure>>
+*** Forces <<structure>>
+**** Electrostatic Force <<structure>>
+***** Attracts electrons to nucleus <<structure>>
+***** Due to opposite charges <<structure>>
+**** Centrifugal Force <<structure>>
+***** Due to circular motion <<structure>>
+***** Balances electrostatic force <<structure>>
+*** Analogy <<structure>>
+**** Solar System <<structure>>
+***** Sun like nucleus <<structure>>
+***** Planets like electrons <<structure>>
+*** Properties <<structure>>
+**** Neutral Atom <<structure>>
+***** Equal positive & negative charges <<structure>>
+**** Mostly Empty Space <<structure>>
+***** Mass concentrated in nucleus <<structure>>
 ** Defects in Rutherford's Atomic Model <<defect>>
-*** Classical Physics Issue <<defect>>
-**** Electrons emit energy continuously <<defect>>
-***** Orbit becomes smaller
-***** Eventually collapses into the nucleus
-***** Atomic structure collapse
+*** Electrons emit energy continuously <<defect>>
+**** Orbit becomes smaller
+**** Eventually collapses into the nucleus
+**** Atomic structure collapse
+
+
 *** Energy Spectrum Issue <<defect>>
 **** Continuous energy emission <<defect>>
 ***** Should form a continuous spectrum (not observed)
+
 @endmindmap
 `} />
 <div className="flex mt-5 justify-between md:flex-row flex-col">
@@ -301,7 +311,7 @@ src="/Rutherford.png"
 
 </div>
 
-<div className="flex items-center justify-between md:flex-row flex-col">
+<div className="flex  items-center justify-between md:flex-row flex-col">
 <Image
 width={650}
 height={700}
@@ -313,6 +323,21 @@ width={650}
 height={700}
 alt="RutherFord Model setup"
 src="/Rutherfords-Experiment.png"
+/>
+
+</div>
+<div className="flex  items-center justify-between md:flex-row flex-col">
+<Image
+width={650}
+height={700}
+alt="RutherFord Model setup"
+src="/a-Scattering-Experiment-i2tutorials.jpg"
+/>
+<Image
+width={650}
+height={700}
+alt="RutherFord Model setup"
+src="/rutherford-atomic-model.png"
 />
 </div>
       </section>
