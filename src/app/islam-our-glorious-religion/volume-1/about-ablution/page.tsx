@@ -23,9 +23,9 @@ const WuduInfo = () => {
           <div>
             <h2 className="text-2xl font-bold">Q2: What is the method of performing Wudu?</h2>
             <p className="text-gray-700">
-              Sit at a clean elevated place facing the Qibla to perform ablution and then recite “Bism-Allah
-              irRahmaan irRaheem” with the intention of gaining reward and carrying out the command of Allah
-              Almighty. Wash both hands up to the wrists and then apply "Miswaak" (soft brush of plant stem) to
+              Sit at a clean elevated place facing the Qibla to perform ablution and then recite &quot;Bism-Allah
+              irRahmaan irRaheem&quot; with the intention of gaining reward and carrying out the command of Allah
+              Almighty. Wash both hands up to the wrists and then apply &quot;Miswaak&quot; (soft brush of plant stem) to
               the teeth if available; otherwise, rub the teeth with the forefinger. Rinse the mouth thoroughly thrice
               and also gargle if not observing fast. Sniff up water into the nostrils with the right hand three times
               ensuring that the water reaches the soft spot of the nose and wash the nose with the left hand.
@@ -48,7 +48,7 @@ const WuduInfo = () => {
             <div className="p-4 bg-gray-100 rounded-md text-center font-semibold text-lg">
               <p>اللَُّهم َِّؕ اجْعَلْنٰي مٰن َِؕ التَّوَّابٰين َِؕ وَاجْعَلْنٰي مٰن َِؕ اْلُمتَطَهرٰين َِؕ</p>
               <p>
-                "Allaa-hummaj 'Alnee Minat-tawwaabeena waj'alnee Minal Mutatah-hareen" (O' Allah! make me
+              &quot;Allaa-hummaj 'Alnee Minat-tawwaabeena waj'alnee Minal Mutatah-hareen&quot; (O&apos; Allah! make me
                 of those who have repented and make me of those who have been purified).
               </p>
             </div>

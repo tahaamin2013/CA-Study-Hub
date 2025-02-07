@@ -27,7 +27,7 @@ const SalaatTimings = () => {
             <li>Salaat-ul-Zuhr (afternoon prayer)</li>
             <li>Salaat-ul-Asr (late afternoon prayer)</li>
             <li>Salaat-ul-Maghrib (evening prayer)</li>
-            <li>Salaat-ul-'Ishaa (night prayer)</li>
+            <li>Salaat-ul-&apos;Ishaa (night prayer)</li>
           </ul>
         </div>
 
@@ -41,7 +41,7 @@ const SalaatTimings = () => {
             the shadow of everything doubles excepting the real shadow. Asr time
             begins when the Zuhr time ends and lasts until before sunset.
             Maghrib time begins after the sun has set and lasts till the
-            complete disappearance of evening twilight. 'Ishaa time begins after
+            complete disappearance of evening twilight. &apos;Ishaa time begins after
             the evening twilight has vanished and lasts until before dawn.
           </p>
         </div>

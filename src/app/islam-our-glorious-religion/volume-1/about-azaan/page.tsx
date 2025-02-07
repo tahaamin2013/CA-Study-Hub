@@ -42,8 +42,8 @@ const AzaanInfo = () => {
             Allaaa Ilaaha IllalLaah. Ash-hadu Allaaa Ilaaha IllalLaah. Ash-hadu
             Anna Mohammedar Rasoolul Laah. Ash-hadu Anna Mohammedar Rasoolul
             Laah. Ash-hadu Anna Mohammedar Rasoolul Laah. Haiey-ya
-            'Alas-Salaah.Haiey-ya 'Alas-Salaah. Haiey-ya 'Alal Falaah. Haiey-ya
-            'Alal Falaah. Allaho Akbar,Allaho Akbar. Laa Ilaaha IllalLaah.
+            &apos;Alas-Salaah.Haiey-ya &apos;Alas-Salaah. Haiey-ya &apos;Alal Falaah. Haiey-ya
+            &apos;Alal Falaah. Allaho Akbar,Allaho Akbar. Laa Ilaaha IllalLaah.
           </p>
 
           <div>
@@ -71,7 +71,7 @@ const AzaanInfo = () => {
               Q5: What is the proclaimer of Azaan called?
             </h2>
             <p className="text-gray-700">
-              The one who proclaims Azaan is called a Mu'azzin.
+              The one who proclaims Azaan is called a Mu&apos;azzin.
             </p>
           </div>
 
@@ -90,31 +90,31 @@ const AzaanInfo = () => {
               Q7: What should one say in response to Azaan?
             </h2>
             <p className="text-gray-700">
-              Repeat the Mu'azzin’s words except for "Haie-ya 'AlasSalaah" and
-              "Haie-ya 'Alal-Falaa", where one should say "Laa Haula wa-Laa
+              Repeat the Mu&apos;azzin&apos;s words except for &quot;Haie-ya &apos;AlasSalaah&quot; and
+              &quot;Haie-ya &apos;Alal-Falaa&quot;, where one should say "Laa Haula wa-Laa
               Quwwata Illaa Billaah".
             </p>
           </div>
 
           <div>
             <h2 className="text-2xl font-bold">
-              Q8: What should a believer do on hearing the Prophet’s name in
+              Q8: What should a believer do on hearing the Prophet&apos;s name in
               Azaan?
             </h2>
             <p className="text-gray-700">
-              Invoke blessings upon the Prophet and say "Qurratu 'Aienee Beka
-              Yaa Rasoolal Laah..." while kissing the thumbs and touching the
+              Invoke blessings upon the Prophet and say &quot;Qurratu &apos;Aienee Beka
+              Yaa Rasoolal Laah...&quot; while kissing the thumbs and touching the
               eyes.
             </p>
           </div>
 
           <div>
             <h2 className="text-2xl font-bold">
-              Q9: What should be recited on hearing "As-Salaatu Khaierum Minan
-              Naum"?
+              Q9: What should be recited on hearing &quot;As-Salaatu Khaierum Minan
+              Naum&quot;?
             </h2>
             <p className="text-gray-700">
-              Say "Sadaqta wa-Bararta wa-Bil-haqi Nataqta".
+              Say &quot;Sadaqta wa-Bararta wa-Bil-haqi Nataqta&quot;.
             </p>
           </div>
 
@@ -125,11 +125,11 @@ const AzaanInfo = () => {
             <p className="text-gray-700">Recite Durood Sharif followed by:</p>
             <div className="p-4 bg-gray-100 rounded-md text-center font-semibold text-lg">
               <p>
-                Allaa-humma Rabba Haazihid-Da'watit-Taaammati was-Salaatil
+                Allaa-humma Rabba Haazihid-Da&apos;watit-Taaammati was-Salaatil
                 Qaa-imati Aati Saiey-yidinaa Mohammeda nil-Waseelata
-                wal-Fadeelata wad-Darajatar Rafee'ata wab-As-hu MaqaamamMahmooda
-                nil-Lazee wa'Attahu waj'alnaa Shafaa'atehee Yaumal Qi-yaamah.
-                Innaka Laa Tukhliful-Mee'aad.
+                wal-Fadeelata wad-Darajatar Rafee&apos;ata wab-As-hu MaqaamamMahmooda
+                nil-Lazee wa&apos;Attahu waj&apos;alnaa Shafaa&apos;atehee Yaumal Qi-yaamah.
+                Innaka Laa Tukhliful-Mee&apos;aad.
               </p>
             </div>
             <p>

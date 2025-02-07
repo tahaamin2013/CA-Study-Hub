@@ -30,8 +30,8 @@ const IqaamahInfo = () => {
               while Iqaamah is made inside the mosque in the first row behind
               (right-side or left-side of) the Prayer Leader (Imaam) without
               putting forefingers into the ears. Besides, in Iqaamah the words
-              "Qad Qaamatis Salaah, Qad Qaamatis Salaah" (the prayer has been
-              established) are recited after "Haie-ya 'Alal Falaah".
+              &quot;Qad Qaamatis Salaah, Qad Qaamatis Salaah&quot; (the prayer has been
+              established) are recited after &quot;Haie-ya &apos;Alal Falaah&quot;.
             </p>
           </div>
 
@@ -41,9 +41,9 @@ const IqaamahInfo = () => {
             </h2>
             <p className="text-gray-700">
               Iqaamah should be responded to in a way similar to the Azaan.
-              However, in response to "Qad Qaamatis Salaah" these words should
-              be uttered: "Aqaamahal Laahu Ta'aalaa wa Adaamahaa
-              Maadaamatis-Samaawaatu wal-Ard" (Allah has established it, and
+              However, in response to &quot;Qad Qaamatis Salaah&quot; these words should
+              be uttered: &quot;Aqaamahal Laahu Ta&apos;aalaa wa Adaamahaa
+              Maadaamatis-Samaawaatu wal-Ard&quot; (Allah has established it, and
               will keep it intact forever, until the sky and the earth are in
               existence).
             </p>
@@ -56,7 +56,7 @@ const IqaamahInfo = () => {
             </h2>
             <p className="text-gray-700">
               The Prayer Leader (Imaam) and the follower (Muqtadi) should stand
-              up upon hearing "Haie-ya 'Alal Falaah". It is undesirable to
+              up upon hearing &quot;Haie-ya &apos;Alal Falaah&quot;. It is undesirable to
               listen to the Iqaamah while standing.
             </p>
           </div>
@@ -66,7 +66,7 @@ const IqaamahInfo = () => {
               Q5: What is the proclaimer of the Iqaamah called?
             </h2>
             <p className="text-gray-700">
-              He who proclaims the Iqaamah is called a "Mukabbir".
+              He who proclaims the Iqaamah is called a &quot;Mukabbir&quot;.
             </p>
           </div>
 
@@ -75,7 +75,7 @@ const IqaamahInfo = () => {
               Q6: Who should proclaim the Iqaamah?
             </h2>
             <p className="text-gray-700">
-              The first right of proclaiming the Iqaamah is that of the Mu'azzin
+              The first right of proclaiming the Iqaamah is that of the Mu&apos;azzin
               (one who proclaimed the Azaan). However, any other person can also
               make Iqaamah with his permission or in his absence.
             </p>

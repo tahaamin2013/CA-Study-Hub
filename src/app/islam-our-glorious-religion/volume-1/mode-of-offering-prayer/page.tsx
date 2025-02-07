@@ -29,25 +29,25 @@ export default function PrayerModePage() {
                     should raise his hands upto the ear-lobes in such a way that
                     the palms face the Qiblah and the fingers remain in their
                     normal condition (neither separated nor close together) and
-                    then bring them down saying "Allah-o-Akbar" and put them
+                    then bring them down saying &quot;Allah-o-Akbar&quot; and put them
                     below his navel. The right hand should be placed on the
                     wrist of the left hand with the thumb and the little finger
                     encircling the wrist and the remaining three fingers resting
-                    on it. Now recite "Sanaa" (Subhaanak-Allahomma wa Bi-Hamdeka
-                    wa Tabaarakasmuka wa Ta'aalaa Jadduka Walaaa Ilaaha Ghairuk)
-                    followed by "Ta'awuz" (A'oozu Billaahi Minash Shaietaa-nir
-                    Rajeem) and "Tasmiyah"(Bism-Allah irRahmaan irRaheem). Then
-                    recite "Surah Faateha" (say Ameen at the end of it in a low
+                    on it. Now recite &quot;Sanaa&quot; (Subhaanak-Allahomma wa Bi-Hamdeka
+                    wa Tabaarakasmuka wa Ta&apos;aalaa Jadduka Walaaa Ilaaha Ghairuk)
+                    followed by &quot;Ta&apos;awuz&quot; (A&apos;oozu Billaahi Minash Shaietaa-nir
+                    Rajeem) and &quot;Tasmiyah&quot;(Bism-Allah irRahmaan irRaheem). Then
+                    recite &quot;Surah Faateha&quot; (say Ameen at the end of it in a low
                     voice) followed by any Surah or three small verses. After
-                    this he should go into "Rukoo" saying "Allah-o-Akbar" i.e.
+                    this he should go into &quot;Rukoo&quot; saying &quot;Allah-o-Akbar&quot; i.e.
                     bow down placing hands on the knees with the fingers
                     well-spread thereon and grasp the knees. The back and the
                     head should be straight in level and the eyes pinned on to
-                    the toes. In this posture say "Subhaana Rabbi-yal Azeem"
+                    the toes. In this posture say &quot;Subhaana Rabbi-yal Azeem&quot;
                     (Glory be to my Lord, the Most Great) at least three times
-                    and stand erect reciting "Tasmeey"(Sami 'Allaahu Liman
-                    Hamedah) and also say "Tahmeed" (Allaa-humma Rabbanaa wa
-                    Lakal-Hamd or Rabbanaa Lakal Hamd) and then go into "Sajdah"
+                    and stand erect reciting &quot;Tasmeey&quot;(Sami &apos;Allaahu Liman
+                    Hamedah) and also say &quot;Tahmeed&quot; (Allaa-humma Rabbanaa wa
+                    Lakal-Hamd or Rabbanaa Lakal Hamd) and then go into &quot;Sajdah&quot;
                     i.e. prostrate in such a manner that first the knees should
                     be placed on the ground then the hands and thereafter the
                     nose and the forehead be placed firmly between both the
@@ -56,34 +56,34 @@ export default function PrayerModePage() {
                     toes of both the feet should be set firmly on the ground
                     facing the Qiblah. Palms should rest on the ground with the
                     fingers pointing towards the Qiblah. In this position say
-                    "Subhaana Rabbi-yal 'Alaa" (Glory be to my Lord, the Most
+                    &quot;Subhaana Rabbi-yal &apos;Alaa&quot; (Glory be to my Lord, the Most
                     High) three or five times. Then he should rise reciting
-                    "Takbeer" and sit in "Jalsah" i.e. first raise his head,
+                    &quot;Takbeer&quot; and sit in &quot;Jalsah&quot; i.e. first raise his head,
                     then the hands and then sit upright with his left foot under
                     him and the right foot in a vertical position, resting on
                     the insides of the toes facing Qibla. He should put his
                     palms on the thighs near the knees with fingers facing the
-                    Qibla. Now he should perform second "Sajdah" reciting
-                    "Takbeer" in the same way as the first one. After having
+                    Qibla. Now he should perform second &quot;Sajdah&quot; reciting
+                    &quot;Takbeer&quot; in the same way as the first one. After having
                     observed the second Sajdah he should rise, putting his
                     weight on the front portion of the feet and placing hands on
                     the knees, and stand erect. Do not place hand(s) on the
                     ground for support except for any disability. Now, he is in
-                    second Rak'ah. He should recite Tasmiyah, Surah Faateha
+                    second Rak&apos;ah. He should recite Tasmiyah, Surah Faateha
                     followed by any other Surah and then perform Rukoo and
-                    Sujood like that of the first Rak ah and observe "Qa'adah"
+                    Sujood like that of the first Rak ah and observe &quot;Qa&apos;adah&quot;
                     i.e. sit spreading the left foot under him and the right
-                    foot in vertical position on the pattern of "Jalsah" and
-                    recite "Tashah'hud" and when he reaches the word "Laa" raise
+                    foot in vertical position on the pattern of &quot;Jalsah&quot; and
+                    recite &quot;Tashah&apos;hud&quot; and when he reaches the word &quot;Laa&quot; raise
                     the index finger of the right hand. To do this, join the
                     middle finger with the thumb to make a circle with the
                     little and ring fingers bent towards the palm; then lower
-                    the index finger whilst uttering "Illal Laahu" and then let
+                    the index finger whilst uttering &quot;Illal Laahu&quot; and then let
                     all the fingers rest straight like that of the left hand,
-                    followed by Durood Shareef and Du&apos;aa. And then say "Salaam"
-                    i.e. "As-Salaamu 'Alaiekum wa Rahmatul Laah"(peace be on you
-                    and Allah's mercy) turning the face first towards the right
-                    side and then towards the left. Now two Rak'ahs' prayer is
+                    followed by Durood Shareef and Du&apos;aa. And then say &quot;Salaam&quot;
+                    i.e. &quot;As-Salaamu &apos;Alaiekum wa Rahmatul Laah&quot;(peace be on you
+                    and Allah&apos;s mercy) turning the face first towards the right
+                    side and then towards the left. Now two Rak&apos;ahs&apos; prayer is
                     over.
                   </span>
                 </div>
@@ -96,16 +96,16 @@ export default function PrayerModePage() {
               <div className="space-y-4">
                 <div className="flex gap-2">
                   <span className="font-semibold">Q 1:</span>
-                  <span>How to offer three or four Rak'ahs prayer?</span>
+                  <span>How to offer three or four Rak&apos;ahs prayer?</span>
                 </div>
                 <div className="flex gap-2">
                   <span className="font-semibold">A.</span>
                   <span className="text-slate-700">
-                    If one has to offer more than two Rak'ahs then he should
-                    stand up from Qa'adah after having recited Tashah'hud
-                    (Attahyaat) and offer the remaining Rak'ah(s) which he has
+                    If one has to offer more than two Rak&apos;ahs then he should
+                    stand up from Qa&apos;adah after having recited Tashah&apos;hud
+                    (Attahyaat) and offer the remaining Rak&apos;ah(s) which he has
                     to say. He should recite only Surah Faateha in the remaining
-                    Rak'ah(s) of Fard prayer, but in case of Sunnat, Nafil and
+                    Rak&apos;ah(s) of Fard prayer, but in case of Sunnat, Nafil and
                     Waajib, Surah Fateha has to be followed by any other Surah
                     or minimum three verses.
                   </span>
@@ -128,12 +128,12 @@ export default function PrayerModePage() {
                   <span className="font-semibold">A.</span>
                   <span className="text-slate-700">
                     What mode of offering prayer described here is meant for the
-                    Imaam as well as male individual, but in Jamaa'at, Muqtadi
+                    Imaam as well as male individual, but in Jamaa&apos;at, Muqtadi
                     does not have to recite Surah Faateha and any other Surah or
-                    verses and even not to recite Ta'awuz and Tasmiyah. He has
+                    verses and even not to recite Ta&apos;awuz and Tasmiyah. He has
                     only to recite Sanaa and then to be quiet. While rising from
-                    Rukoo he should say "Allaa-humma Rabbanaa wa Lakal-Hamd or
-                    Rabbanaa Lakal Hamd".
+                    Rukoo he should say &quot;Allaa-humma Rabbanaa wa Lakal-Hamd or
+                    Rabbanaa Lakal Hamd&quot;.
                   </span>
                 </div>
               </div>
@@ -179,13 +179,13 @@ export default function PrayerModePage() {
                       After Fard prayer the following Du&apos;aa should be recited:
                     </p>
                     <p className="text-right font-arabic">
-                      "Allaa-humma Antas-Salaamu wa-Minkas-Salaamu wa Ilaieka
-                      Yarji'us-Salaam. Tabaarakta Rabbanaa wa Ta'aa-laieta Yaa
-                      Zal-Jalaale wal-Ikraam"
+                      &quot;Allaa-humma Antas-Salaamu wa-Minkas-Salaamu wa Ilaieka
+                      Yarji&apos;us-Salaam. Tabaarakta Rabbanaa wa Ta&apos;aa-laieta Yaa
+                      Zal-Jalaale wal-Ikraam&quot;
                     </p>
                     <p className="italic">
-                      (O' Allah! You are the Giver of Peace and peace is from
-                      You and peace turns towards You. O' our Sovereign Lord!
+                      (O&apos; Allah! You are the Giver of Peace and peace is from
+                      You and peace turns towards You. O&apos; our Sovereign Lord!
                       You are the Most Auspicious, and the Supreme – O the
                       possessor of all Majesty and Honour!)
                     </p>
