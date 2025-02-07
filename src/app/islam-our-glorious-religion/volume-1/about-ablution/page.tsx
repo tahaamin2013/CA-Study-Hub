@@ -48,7 +48,7 @@ const WuduInfo = () => {
             <div className="p-4 bg-gray-100 rounded-md text-center font-semibold text-lg">
               <p>اللَُّهم َِّؕ اجْعَلْنٰي مٰن َِؕ التَّوَّابٰين َِؕ وَاجْعَلْنٰي مٰن َِؕ اْلُمتَطَهرٰين َِؕ</p>
               <p>
-              &quot;Allaa-hummaj 'Alnee Minat-tawwaabeena waj'alnee Minal Mutatah-hareen&quot; (O&apos; Allah! make me
+              &quot;Allaa-hummaj &apos;Alnee Minat-tawwaabeena waj&apos;alnee Minal Mutatah-hareen&quot; (O&apos; Allah! make me
                 of those who have repented and make me of those who have been purified).
               </p>
             </div>

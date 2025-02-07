@@ -51,8 +51,8 @@ const AzaanInfo = () => {
               Q3: Are the same words repeated in every Azaan?
             </h2>
             <p className="text-gray-700">
-              Yes, except for Fajr Azaan where the words "asSalaatu Khaierum
-              Minan Naum" (prayer is better than sleep) are added.
+              Yes, except for Fajr Azaan where the words &quot;asSalaatu Khaierum
+              Minan Naum&quot; (prayer is better than sleep) are added.
             </p>
           </div>
 
@@ -91,8 +91,8 @@ const AzaanInfo = () => {
             </h2>
             <p className="text-gray-700">
               Repeat the Mu&apos;azzin&apos;s words except for &quot;Haie-ya &apos;AlasSalaah&quot; and
-              &quot;Haie-ya &apos;Alal-Falaa&quot;, where one should say "Laa Haula wa-Laa
-              Quwwata Illaa Billaah".
+              &quot;Haie-ya &apos;Alal-Falaa&quot;, where one should say &quot;Laa Haula wa-Laa
+              Quwwata Illaa Billaah&quot;.
             </p>
           </div>
 
