@@ -243,11 +243,27 @@ export default function Adhaan() {
             </div>
           </div>
 
+          <div className="bg-white shadow-lg rounded-lg p-6 max-w-full text-center">
+            <h1 className="text-xl font-bold text-gray-800 mb-4">
+              Q. What are the wordings of the above-mentioned expressions?
+              Please recite a few surahs as well.
+            </h1>
+            <p className="text-lg font-semibold text-gray-700">
+              A. The wordings of the expressions are:
+            </p>
+            <div className="mt-4 p-4 bg-gray-200 rounded-lg">
+              <h2 className="text-lg font-bold text-gray-800">Takbeer:</h2>
+              <p className="text-2xl font-arabic mt-2">اللهُ أَكْبَرُ</p>
+              <p className="text-lg text-gray-700">Allaahu Akbar</p>
+              <p className="text-lg text-gray-700">Allah is the Greatest</p>
+            </div>
+          </div>
+
           {/* Du&apos;a Section */}
           <div className="bg-white rounded-lg p-8 shadow-sm">
-            <h2 className="text-xl font-semibold text-emerald-700 mb-4">
+            {/* <h2 className="text-xl font-semibold text-emerald-700 mb-4">
               Various Du&apos;as and Expressions:
-            </h2>
+            </h2> */}
 
             {duas.map((dua, index) => (
               <div key={index} className="mb-8 space-y-4">
@@ -309,6 +325,52 @@ const duas = [
     arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
     transliteration: "Bismillaahir-rahmaanir-raheem",
     translation: "In the name of Allah, Most Gracious, Most Merciful.",
+  },
+  // Add these entries to your duas array
+  {
+    title: "Qiraa'at - Suratil-Faatihah",
+    arabic:
+      "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿١﴾ الرَّحْمَٰنِ الرَّحِيمِ ﴿٢﴾ مَالِكِ يَوْمِ الدِّينِ ﴿٣﴾ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿٤﴾ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿٥﴾ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿٦﴾",
+    transliteration:
+      "Al-hamdu lil-laahi rabbil-'aalameen. Ar-rahmaanir-raheem. Maaliki yawmid-deen. Iyyaaka na'budu wa iyyaaka nasta'een. Ihdinas-siraatal-mustaqeem. Siraatal-ladheena an'amta 'alaihim ghairil-maghdoobi 'alaihim wa lad-daal-leen.",
+    translation:
+      "All praise is for Allah, the Sustainer of the worlds; Most Gracious, Most Merciful; Master of the Day of Judgment. Thee do we worship and Thee alone do we ask for help. Guide us to the straight way – the way of those upon whom Thou has bestowed Thy blessing; not those who earn Thy anger nor those who go astray.",
+  },
+  {
+    title: "Qiraa'at - Suratul-Kauthar",
+    arabic:
+      "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ ﴿١﴾ فَصَلِّ لِرَبِّكَ وَانْحَرْ ﴿٢﴾ إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ ﴿٣﴾",
+    transliteration:
+      "Innaa a'tainaakal-kauthar. Fasalli li-rabbika wanhar. Inna shaani'aka huwal-abtar.",
+    translation:
+      "Lo! We have given you Abundance. So pray unto your Lord and sacrifice. Lo! It is your insulter who is without posterity.",
+  },
+  {
+    title: "Qiraa'at - Suratul-Ikhlaas",
+    arabic:
+      "قُلْ هُوَ اللَّهُ أَحَدٌ ﴿١﴾ اللَّهُ الصَّمَدُ ﴿٢﴾ لَمْ يَلِدْ وَلَمْ يُولَدْ ﴿٣﴾ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ ﴿٤﴾",
+    transliteration:
+      "Qul huwal-laahu ahad. Allaahus-samad. Lam yalid wa lam yoolad. Wa lam yakul-lahu kufuwan ahad.",
+    translation:
+      "Say: He is Allah, the One! Allah, the eternally Besought of all! He begets not nor was He begotten. And there is none comparable to Him.",
+  },
+  {
+    title: "Qiraa'at - Suratul-Falaq",
+    arabic:
+      "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ﴿١﴾ مِن شَرِّ مَا خَلَقَ ﴿٢﴾ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ﴿٣﴾ وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ﴿٤﴾ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ ﴿٥﴾",
+    transliteration:
+      "Qul a'oodhu bi-rabbil-falaq. Min sharri maa khalaq. Wa min sharri ghaasiqin idhaa waqab. Wa min sharrin-naffaathaati fil-'uqad. Wa min sharri haasidin idhaa hasad.",
+    translation:
+      "Say: I seek refuge in the Lord of the Daybreak. From the evil of that which He created; From the evil of the darkness when it is intense, and from the evil of malignant witchcraft, and from the evil of the envier when he envies.",
+  },
+  {
+    title: "Qiraa'at - Suratum-Naas",
+    arabic:
+      "قُلْ أَعُوذُ بِرَبِّ النَّاسِ ﴿١﴾ مَلِكِ النَّاسِ ﴿٢﴾ إِلَٰهِ النَّاسِ ﴿٣﴾ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ﴿٤﴾ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ﴿٥﴾ مِنَ الْجِنَّةِ وَالنَّاسِ ﴿٦﴾",
+    transliteration:
+      "Qul a'oodhu bi-rabbin-naas. Malikin-naas. Ilaahin-naas. Min sharril-waswaasil-khannaas. Alladhee yuwaswisu fee sudoorin-naas. Minal-jinnati wan-naas.",
+    translation:
+      "Say: I seek refuge in the Lord of mankind, the King of mankind, the God of mankind, from the evil of the sneaking whisperer, who whispers in the hearts of mankind – of the jinn and mankind.",
   },
   {
     title: "Tasbeeh of ruku'",
@@ -375,6 +437,15 @@ const duas = [
     arabic: "ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ",
     transliteration: "As-salaamu 'alaikum wa rahmatul-laah",
     translation: "Peace and blessings of Allah be upon you.",
+  },
+  {
+    title: "Du'a after prayers",
+    arabic:
+      "اللَّهُمَّ أَنْتَ السَّلامُ وَمِنْكَ السَّلامُ تَبَارَكْتَ يَا ذَا الْجَلالِ وَالإِكْرَامِ",
+    transliteration:
+      "Allaahum-ma an-tas-salaamu wa min-kas-salaamu, tabarak-ta yaa dhal-jalaali wal-ikraam",
+    translation:
+      "O Allah! We ask Thy help and ask for Thy pardon and believe in Thee and rely upon Thee. And we praise Thee in the best way and we thank Thee and we are not ungrateful to Thee. And we cast off and leave one who disobeys Thee. O Allah! Thee alone we worship and to Thee do we pray and prostrate. And to Thee to we turn in haste. And we hope for Thy blessings and fear Thy punishment. Truly Thy punishment is for the disbelievers unavoidable.",
   },
   {
     title: "Du'a Qunoot",
