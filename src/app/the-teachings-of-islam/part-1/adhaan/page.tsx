@@ -1,4 +1,5 @@
 // app/page.tsx
+import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
@@ -283,6 +284,114 @@ export default function Adhaan() {
             ))}
           </div>
         </section>
+        <PlantUMLDiagram
+          code={`
+@startmindmap
+skinparam backgroundColor #EEEEEE
+
+<style>
+mindmapDiagram {
+    .prayer {
+        BackgroundColor #E1F5FE
+    }
+    .adhaan {
+        BackgroundColor #FFE0B2
+    }
+    .people {
+        BackgroundColor #C8E6C9
+    }
+    .place {
+        BackgroundColor #F8BBD0
+    }
+    .benefits {
+        BackgroundColor #D1C4E9
+    }
+    .expressions {
+        BackgroundColor #B2EBF2
+    }
+    .duas {
+        BackgroundColor #FFCCBC
+    }
+    .types {
+        BackgroundColor #F0F4C3
+    }
+}
+</style>
+
+* Prayer (Salaah) <<prayer>>
+** Adhaan (Call for Prayer) <<adhaan>>
+*** Words of Adhaan
+**** Allaahu akbar (4 times)
+**** Ash-hadu an-laa ilaaha il-lal-laah (2 times)
+**** Ash-hadu an-na Muhammadan-rasool-ul-laah (2 times)
+**** Hay-ya 'alas-salaah (2 times)
+**** Hay-ya 'alal-falaah (2 times)
+**** Allaahu akbar (2 times)
+**** Laa ilaaha il-lal-laah
+*** Special Fajr Addition
+**** As-salaatu khairum-minan-naum (2 times)
+
+** People <<people>>
+*** Mu-adh-dhin (Person who recites Adhaan)
+*** Mukab-bir (Person who recites Takbeer)
+*** Imaam (Prayer leader)
+*** Muqtadi (Person praying behind Imaam)
+*** Munfarid (Person praying alone)
+
+** Place of Prayer <<place>>
+*** Masjid (Mosque)
+**** Proper Conduct
+***** Offer salaah
+***** Read Holy Qur'aan
+***** Read wazeefa
+***** Sit silently and respectfully
+***** Avoid
+****** Playing
+****** Jumping
+****** Making noise
+****** Worldly talk
+
+** Benefits of Salaah <<benefits>>
+*** Clean body and clothes
+*** Allah's pleasure
+*** Prophet's pleasure
+*** Allah's favor
+*** Respect from good people
+*** Protection from evil
+*** Peace after death
+
+left side
+** Special Du'as <<duas>>
+*** Du'a for Parents
+*** Du'a after prayers
+*** Du'a Qunoot
+
+** Prayer Types <<types>>
+*** Salaah bil-jamaa'ah (Congregational)
+*** Individual Prayer
+
+** Prayer Expressions <<expressions>>
+*** Takbeer
+*** Thana
+*** Ta-'aw-wudh
+*** Tasmiyah
+*** Qiraa'at
+**** Suratil-Faatihah
+**** Suratul-Kauthar
+**** Suratul-Ikhlaas
+**** Suratul-Falaq
+**** Suratum-Naas
+*** Tas-beeh of ruku'
+*** Tas-mee'a of ruku'
+*** Tah-meed of ruku'
+*** Tasbeeh of sajdah
+*** Tashah-hud
+*** Darood
+*** Du'a after darood
+*** Salaam
+@endmindmap
+          `}
+        />
       </div>
     </div>
   );
@@ -428,7 +537,7 @@ const duas = [
     arabic:
       "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلاَةِ وَمِنْ ذُرِّيَّتِي رَبَّنَا وَتَقَبَّلْ دُعَاءِ رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
     transliteration:
-      "Rabbij-'alniy muqeemaṣ-ṣalaati wa min dhurriyyatiy rabbanaa wa taqabbal du'aa'. Rabbanaa ighfir-lee wa li-waalidayya wa lil-mu'mineena yawma yaqoomul-hisaab.",
+      "Rabbij-'alniy muqeemaṣ-ṣalaati wa min dhurriyyatiy rabbanaa wa taqabbal Du&apos;aa'. Rabbanaa ighfir-lee wa li-waalidayya wa lil-mu'mineena yawma yaqoomul-hisaab.",
     translation:
       "O Lord! Make me and my children steadfast in salah. Our Lord! Accept the prayer. Our Lord! Forgive me and my parents and the believers on the Day of Judgement.",
   },

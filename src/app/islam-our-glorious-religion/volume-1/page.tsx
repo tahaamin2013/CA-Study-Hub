@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { BookOpen, Brain, HelpCircle, FileText, List } from "lucide-react";
+import { BookOpen, Brain, HelpCircle, FileText, List, Timer, BookCheck, PhoneCallIcon, Droplets } from "lucide-react";
 import Link from "next/link";
 
 const data = [
@@ -44,9 +44,55 @@ const data = [
         text: "ABOUT THE HOLY QUR'AN",
         icon: Brain,
       },
+    ],
+  },
+  {
+    id: "2",
+    title: "Salaat (Prayer)",
+    links: [
       {
         href: "/islam-our-glorious-religion/volume-1/excellence-of-salaat",
         text: "EXCELLENCE OF SALAAT (PRAYER).",
+        icon: Brain,
+      },
+      {
+        href: "/islam-our-glorious-religion/volume-1/timings-of-salaat",
+        text: "TIMINGS OF SALAAT (PRAYER)",
+        icon: Timer,
+      },
+      {
+        href: "/islam-our-glorious-religion/volume-1/rakahs-of-prayer",
+        text: "RAK'AHS (CYCLES) OF PRAYER",
+        icon: BookCheck,
+      },
+      {
+        href: "/islam-our-glorious-religion/volume-1/about-azaan",
+        text: "ABOUT AZAAN (CALL TO PRAYER)",
+        icon: PhoneCallIcon,
+      },
+      {
+        href: "/islam-our-glorious-religion/volume-1/about-iqaamah",
+        text: "ABOUT IQAAMAH",
+        icon: PhoneCallIcon,
+      },
+      {
+        href: "/islam-our-glorious-religion/volume-1/about-ablution",
+        text: "ABOUT ABLUTION (WUDU)",
+        icon: Droplets,
+      },
+      {
+        href: "/islam-our-glorious-religion/volume-1/words-of-salaat",
+        text: "WORDS OF SALAAT (PRAYER)",
+        icon: FileText,
+      },
+      {
+        href: "/islam-our-glorious-religion/volume-1/mode-of-offering-prayer",
+        text: "MODE OF OFFERING PRAYER",
+        icon: Brain,
+      },
+      {
+        href: "/islam-our-glorious-religion/volume-1/some-good-supplications",
+        text: "SOME GOOD SUPPLICATIONS",
         icon: Brain,
       },
     ],

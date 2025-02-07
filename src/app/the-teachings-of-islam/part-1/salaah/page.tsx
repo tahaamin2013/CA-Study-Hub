@@ -156,21 +156,33 @@ mindmapDiagram {
 *** Required for sane & mature Muslims
 *** Denial makes one infidel
 *** Maturity age: 15 years
+*** Mandatory 5 times daily
+*** Covers full day (24 hours)
+
 ** Children's Prayer Rules
 *** Age 7: Should be taught
 *** Age 10: Should be enforced
 *** Not obligatory before maturity
+
 ** Five Daily Prayers <<times>>
 *** Fajr
+**** Time: Dawn to Sunrise
 **** Before sunrise
 *** Zuhr
+**** Time: After Sun Passes Meridian until Shadow Doubles
 **** Afternoon
 *** Asr
+**** Time: After Zuhr Time until Before Sunset
 **** 1.5-2 hours before sunset
 *** Maghrib
+**** Time: After Sunset until Twilight Disappears
 **** Just after sunset
 *** Isha
+**** Time: After Evening Twilight until Before Dawn
 **** 1.5-2 hours after sunset
+
+left side
+
 ** Prerequisites
 *** Wuduu' (Ablution)
 **** Washing face, hands, feet
@@ -178,7 +190,7 @@ mindmapDiagram {
 *** Facing Qiblah
 **** Direction towards Makkah
 **** Towards Ka'bah
-left side
+
 ** Method of Prayer
 *** Standing before Allah
 *** Facing Qiblah
@@ -187,12 +199,14 @@ left side
 *** Praising Allah
 *** Bowing in respect
 *** Prostrating in humility
+
 ** Location
 *** Mosque
 **** Preferred for men
 *** Home
 **** Acceptable for all
 *** Allah is Omnipresent
+
 ** Excellence of Prayer <<excellence>>
 *** Sheds sins like autumn leaves
 *** Opens gates of Paradise
@@ -203,10 +217,12 @@ left side
 **** Livelihood
 **** Life
 **** Faith
-** Consequences of Abandoning Prayer <<warning>>
+
+** Consequences <<warning>>
 *** Name written on gates of Hell
 *** Disgust from Allah and Prophet
 *** Raised with Pharaoh on Doomsday
+
 ** Remedial Actions <<punishment>>
 *** Excommunication as deterrent
 *** Aim to improve prayer habits
