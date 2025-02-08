@@ -340,6 +340,112 @@ alt="RutherFord Model setup"
 src="/rutherford-atomic-model.png"
 />
 </div>
+<PlantUMLDiagram 
+code={`
+@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor white
+    FontColor black
+  }
+  :depth(1) {
+    BackgroundColor #2E86C1
+  }
+  :depth(2) {
+    BackgroundColor #3498DB
+    FontColor white
+  }
+  :depth(3) {
+    BackgroundColor #85C1E9
+    FontColor black
+  }
+  :depth(4) {
+    BackgroundColor #D6EAF8
+    FontColor black
+  }
+  .rutherford {
+    BackgroundColor #E74C3C
+    FontColor white
+  }
+  .discovery {
+    BackgroundColor #F1948A
+  }
+  .limitations {
+    BackgroundColor #EC7063
+  }
+  .bohr {
+    BackgroundColor #27AE60
+    FontColor white
+  }
+  .energy {
+  FontColor black
+  BackgroundColor #82E0AA
+  }
+  .momentum {
+    BackgroundColor #58D68D
+    FontColor black
+  }
+}
+</style>
+
+* /
+
+** Rutherford's Atomic Model <<rutherford>>
+*** Discovery <<discovery>>
+**** Effectively determined nucleus existed
+*** Limitations <<limitations>>
+**** Could not explain electron movement
+***** Electron Energy Loss (emission): Continuous emission of photons
+****** Issue 1: Electron spirals into nucleus
+******* Atomic structure collapses
+****** Issue 2: Spectrum Problem
+******* Expected: Continuous spectrum (rainbow-like)
+******* Observed: Only specific colors (line spectrum)
+
+** Bohr's Atomic Theory (1913) <<bohr>>
+*** Published by Neils Bohr (Rutherford Student)
+*** Circular Orbits
+**** <b>Electrons in fixed circular orbits
+**** Each orbit has fixed energy
+**** Orbits = Energy levels
+*** Energy Levels <<energy>>
+**** Energy ∝ Distance from nucleus
+**** Further = Higher energy
+
+*** Angular Momentum <<momentum>>
+**** Must be integral multiple of h/2π
+**** h = Planck's constant
+**** h = 6.626 × 10⁻³⁴ J.s
+**** Pi (π) = approximately 3.14159
+
+*** Energy Transfer <<energy>>
+**** Absorption: electron jumps to higher orbit
+**** Emission: electron falls to lower orbit
+**** No radiation in stable orbit
+
+*** Energy Change <<energy>>
+**** ΔE = E₂ - E₁
+**** Energy difference = Light energy
+
+legend right
+|= Color |= Section |
+|<#E74C3C>| Rutherford's Model |
+|<#27AE60>| Bohr's Theory |
+|<#85C1E9>| Key Concepts |
+|<#D6EAF8>| Details |
+endlegend
+
+@endmindmap
+`}
+/>
+
+<Image
+src="/bohrs-atomic-model.gif"
+alt="Bohr's Atomic Model"
+width={700}
+height={700}
+/>
       </section>
 
       <div className="p-8 bg-gradient-to-r from-teal-100 to-blue-100 rounded-lg shadow-xl">

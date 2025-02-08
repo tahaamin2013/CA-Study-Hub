@@ -211,9 +211,9 @@ left side
 *** For Fajr addition
 **** Say "Sadaqta wa-Bararta..."
 
-** Post-Azaan Du&apos;aa <<dua>>
+** Post-Azaan Du'aa <<dua>>
 *** Recite Durood Sharif
-*** Special Du&apos;aa
+*** Special Du'aa
 **** Allaa-humma Rabba Haazihid-Da'watit...
 **** Asking for Prophet's intercession
 **** Seeking highest ranks for Prophet
