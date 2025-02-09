@@ -1,11 +1,13 @@
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 import React from "react";
+import Image from 'next/image'
 
 const MagneticMindmap = () => {
   return (
     <div className="p-8 flex flex-col gap-8">
       <section>
-        <h1 className="text-4xl font-bold text-blue-500">Subatomic Particles
+        <h1 className="text-4xl font-bold text-blue-500">
+          Subatomic Particles
         </h1>
         <PlantUMLDiagram
           code={`
@@ -29,6 +31,19 @@ mindmapDiagram {
   :depth(4) {
     BackgroundColor lightGray
   }
+      .radioisotopes {
+    BackgroundColor lightyellow
+  }
+  .isotopes {
+    BackgroundColor lightblue
+  }
+  .unstable {
+    BackgroundColor lightpink
+  }
+  .examples {
+    BackgroundColor lightgreen
+  }
+}
 }
 </style>
 
@@ -56,99 +71,182 @@ left side
 *** Protons: Deflected towards negative plate
 *** Electrons: Deflected towards positive plate
 *** Neutrons: Go straight ahead
-*** Electrons deflected more strongly than protons
+*** Electrons deflected more strongly than protons due to light mass
 ** Charge Neutrality
 *** Number of protons = Number of electrons
 *** Net charge on atoms is zero
-** Radioisotopes
-*** Unstable combination of neutrons and protons
-*** Show radioactive decay
-*** Examples: hydrogen-3, carbon-14, uranium-238
-
+** Radioisotopes <<radioisotopes>>
+*** Isotopes <<isotopes>>
+**** Same element, same protons
+**** Different neutrons
+*** Unstable Isotopes <<unstable>>
+**** Undergo radioactive decay
+**** Contain excess energy in nucleas
+**** contains an unstable neutron-proton combination
+*** Examples <<examples>>
+**** Hydrogen-3 (Tritium)
+**** Carbon-14
+**** Uranium-238
 @endmindmap`}
         />
-       
+
+        <Image
+          src="/1000447338.jpg"
+          alt='forces'
+          width={300}
+          height={300}
+          className="w-full"
+        />
+        <Image
+          src="/isotopes-of-hydrogen.webp"
+          alt='isotopes-of-hydrogen'
+          width={600}
+          height={600}
+        />
+        <span className="font-bold my-5 text-xl">isotopes, protium <sup>1</sup> <sub>1</sub> H, deuterium <sup>2</sup> <sub>1</sub> H or D, and <sup>3</sup> <sub>1</sub> H, Tritium or T</span>
+        <Image
+          src="/IsotopesofCarbon.png"
+          alt='IsotopesofCarbon'
+          width={600}
+          height={600}
+        />
+        <Image
+          src="/uranium.jpg"
+          alt='uranium'
+          width={600}
+          height={600}
+        />
       </section>
       <div className="p-8 bg-gradient-to-r from-indigo-100 to-blue-200 rounded-lg shadow-xl">
-    <h1 className="text-3xl font-extrabold text-blue-800 mb-6">3.2 Subatomic Particles</h1>
+        <h1 className="text-3xl font-extrabold text-blue-800 mb-6">
+          3.2 Subatomic Particles
+        </h1>
 
-    <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-indigo-700 mb-4">Main Subatomic Particles</h2>
-        
-        <div className="bg-white p-4 rounded-lg shadow-md mb-4">
-            <h3 className="text-xl font-semibold text-blue-700 mb-2">1. Proton</h3>
+        <div className="mb-8">
+          <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
+            Main Subatomic Particles
+          </h2>
+
+          <div className="bg-white p-4 rounded-lg shadow-md mb-4">
+            <h3 className="text-xl font-semibold text-blue-700 mb-2">
+              1. Proton
+            </h3>
             <ul className="list-disc list-inside text-blue-900 ml-6">
-                <li>Relative charge: +1</li>
-                <li>Relative mass: ~1 atomic mass unit (amu) or 1.6726 x 10<sup>-27</sup> kg</li>
+              <li>Relative charge: +1</li>
+              <li>
+                Relative mass: ~1 atomic mass unit (amu) or 1.6726 x 10
+                <sup>-27</sup> kg
+              </li>
             </ul>
+          </div>
+
+          <div className="bg-white p-4 rounded-lg shadow-md mb-4">
+            <h3 className="text-xl font-semibold text-blue-700 mb-2">
+              2. Neutron
+            </h3>
+            <ul className="list-disc list-inside text-blue-900 ml-6">
+              <li>Relative charge: 0 (neutral)</li>
+              <li>
+                Relative mass: ~1 atomic mass unit (amu) or 1.6749 x 10
+                <sup>-27</sup> kg
+              </li>
+            </ul>
+          </div>
+
+          <div className="bg-white p-4 rounded-lg shadow-md mb-4">
+            <h3 className="text-xl font-semibold text-blue-700 mb-2">
+              3. Electron
+            </h3>
+            <ul className="list-disc list-inside text-blue-900 ml-6">
+              <li>Relative charge: -1</li>
+              <li>
+                Relative mass: ~1/1836 amu or 9.11 x 10<sup>-31</sup> kg
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div className="bg-white p-4 rounded-lg shadow-md mb-4">
-            <h3 className="text-xl font-semibold text-blue-700 mb-2">2. Neutron</h3>
-            <ul className="list-disc list-inside text-blue-900 ml-6">
-                <li>Relative charge: 0 (neutral)</li>
-                <li>Relative mass: ~1 atomic mass unit (amu) or 1.6749 x 10<sup>-27</sup> kg</li>
-            </ul>
-        </div>
-
-        <div className="bg-white p-4 rounded-lg shadow-md mb-4">
-            <h3 className="text-xl font-semibold text-blue-700 mb-2">3. Electron</h3>
-            <ul className="list-disc list-inside text-blue-900 ml-6">
-                <li>Relative charge: -1</li>
-                <li>Relative mass: ~1/1836 amu or 9.11 x 10<sup>-31</sup> kg</li>
-            </ul>
-        </div>
-    </div>
-
-    <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-indigo-700 mb-4">Location and Interactions</h2>
-        <ul className="list-disc list-inside text-blue-900 ml-6">
+        <div className="mb-8">
+          <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
+            Location and Interactions
+          </h2>
+          <ul className="list-disc list-inside text-blue-900 ml-6">
             <li>Protons and neutrons: Found in the nucleus</li>
-            <li>Electrons: Orbit around the nucleus in energy levels or shells</li>
-            <li>Nuclear force: Holds neutrons and protons together in the nucleus
-                <ul className="list-disc list-inside text-blue-900 ml-6">
-                    <li>Exists between: neutron-neutron, proton-proton, and neutron-proton</li>
-                </ul>
+            <li>
+              Electrons: Orbit around the nucleus in energy levels or shells
             </li>
-        </ul>
-    </div>
+            <li>
+              Nuclear force: Holds neutrons and protons together in the nucleus
+              <ul className="list-disc list-inside text-blue-900 ml-6">
+                <li>
+                  Exists between: neutron-neutron, proton-proton, and
+                  neutron-proton
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
 
-    <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-indigo-700 mb-4">Mass and Charge Relationships</h2>
-        <ul className="list-disc list-inside text-blue-900 ml-6">
-            <li>Protons and neutrons: Similar mass (~1 amu), significant contribution to total atomic mass</li>
-            <li>Electrons: Much less mass, negligible contribution to total atomic mass</li>
-            <li>Atom cohesion: Interaction between negatively charged electrons and positively charged protons</li>
-        </ul>
-    </div>
+        <div className="mb-8">
+          <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
+            Mass and Charge Relationships
+          </h2>
+          <ul className="list-disc list-inside text-blue-900 ml-6">
+            <li>
+              Protons and neutrons: Similar mass (~1 amu), significant
+              contribution to total atomic mass
+            </li>
+            <li>
+              Electrons: Much less mass, negligible contribution to total atomic
+              mass
+            </li>
+            <li>
+              Atom cohesion: Interaction between negatively charged electrons
+              and positively charged protons
+            </li>
+          </ul>
+        </div>
 
-    <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-indigo-700 mb-4">Behavior in Electric Fields</h2>
-        <ul className="list-disc list-inside text-blue-900 ml-6">
+        <div className="mb-8">
+          <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
+            Behavior in Electric Fields
+          </h2>
+          <ul className="list-disc list-inside text-blue-900 ml-6">
             <li>Protons: Deflected towards negative plate</li>
-            <li>Electrons: Deflected towards positive plate (more strongly than protons at same speed)</li>
+            <li>
+              Electrons: Deflected towards positive plate (more strongly than
+              protons at same speed)
+            </li>
             <li>Neutrons: No deflection, travel straight</li>
-        </ul>
-    </div>
+          </ul>
+        </div>
 
-    <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-indigo-700 mb-4">Charge Neutrality</h2>
-        <ul className="list-disc list-inside text-blue-900 ml-6">
+        <div className="mb-8">
+          <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
+            Charge Neutrality
+          </h2>
+          <ul className="list-disc list-inside text-blue-900 ml-6">
             <li>Atoms are electrically neutral</li>
             <li>Number of protons = Number of electrons in a neutral atom</li>
-        </ul>
-    </div>
+          </ul>
+        </div>
 
-    <div>
-        <h2 className="text-2xl font-semibold text-indigo-700 mb-4">Radioisotopes</h2>
-        <ul className="list-disc list-inside text-blue-900 ml-6">
-            <li>Definition: Atoms with unstable combination of neutrons and protons or excess energy in nucleus</li>
-            <li>Isotopes: Same number of protons, different number of neutrons</li>
+        <div>
+          <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
+            Radioisotopes
+          </h2>
+          <ul className="list-disc list-inside text-blue-900 ml-6">
+            <li>
+              Definition: Atoms with unstable combination of neutrons and
+              protons or excess energy in nucleus
+            </li>
+            <li>
+              Isotopes: Same number of protons, different number of neutrons
+            </li>
             <li>Examples: hydrogen-3 (protium), carbon-14, uranium-238</li>
-        </ul>
-    </div>
-</div>
-
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
