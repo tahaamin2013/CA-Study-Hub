@@ -1,5 +1,5 @@
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
-import Image from 'next/image'
+import Image from "next/image";
 import React from "react";
 
 const MagneticMindmap = () => {
@@ -99,7 +99,8 @@ left side
 @endmindmap`}
         />
 
-        <PlantUMLDiagram code={`
+        <PlantUMLDiagram
+          code={`
 @startmindmap
 * Atomic Models
 ** Dalton's Model 1803
@@ -142,8 +143,10 @@ left side
 ***** Protons
 ***** Neutrons
 @endmindmap
-`} />
-<PlantUMLDiagram code={`
+`}
+        />
+        <PlantUMLDiagram
+          code={`
 @startmindmap
 <style>
 mindmapDiagram {
@@ -279,69 +282,68 @@ left side
 ***** Should form a continuous spectrum (not observed)
 
 @endmindmap
-`} />
-<div className="flex mt-5 justify-between md:flex-row flex-col">
-<div className='border-r border-2 text-center'>
-<Image
-width={800}
-height={800}
-alt="Plum Pudding Model"
-src="/Group 243 (1).png"
-/>
-</div>
-<div className='border-r border-2 text-center'>
-<Image
-width={800}
-height={800}
-alt="Plum Pudding Model"
-src="/Group 243.png"
-/>
-</div>
-<div className='border-r border-2 text-center'>
-<Image
-width={800}
-height={800}
-alt="Plum Pudding Model"
-src="/Rutherford.png"
-/>
-<video width="640" height="360" controls>
-  <source src="/videoplayback.mp4" type="video/mp4" />
-</video>
-</div>
+`}
+        />
+        <div className="flex mt-5 justify-between md:flex-row flex-col">
+          <div className="border-r border-2 text-center">
+            <Image
+              width={800}
+              height={800}
+              alt="Plum Pudding Model"
+              src="/Group 243 (1).png"
+            />
+          </div>
+          <div className="border-r border-2 text-center">
+            <Image
+              width={800}
+              height={800}
+              alt="Plum Pudding Model"
+              src="/Group 243.png"
+            />
+          </div>
+          <div className="border-r border-2 text-center">
+            <Image
+              width={800}
+              height={800}
+              alt="Plum Pudding Model"
+              src="/Rutherford.png"
+            />
+            <video width="640" height="360" controls>
+              <source src="/videoplayback.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
 
-</div>
-
-<div className="flex  items-center justify-between md:flex-row flex-col">
-<Image
-width={650}
-height={700}
-alt="RutherFord Model setup"
-src="/rutherford_model_setup.png"
-/>
-<Image
-width={650}
-height={700}
-alt="RutherFord Model setup"
-src="/Rutherfords-Experiment.png"
-/>
-
-</div>
-<div className="flex  items-center justify-between md:flex-row flex-col">
-<Image
-width={650}
-height={700}
-alt="RutherFord Model setup"
-src="/a-Scattering-Experiment-i2tutorials.jpg"
-/>
-<Image
-width={650}
-height={700}
-alt="RutherFord Model setup"
-src="/rutherford-atomic-model.png"
-/>
-</div>
-<PlantUMLDiagram 
-code={`
+        <div className="flex  items-center justify-between md:flex-row flex-col">
+          <Image
+            width={650}
+            height={700}
+            alt="RutherFord Model setup"
+            src="/rutherford_model_setup.png"
+          />
+          <Image
+            width={650}
+            height={700}
+            alt="RutherFord Model setup"
+            src="/Rutherfords-Experiment.png"
+          />
+        </div>
+        <div className="flex  items-center justify-between md:flex-row flex-col">
+          <Image
+            width={650}
+            height={700}
+            alt="RutherFord Model setup"
+            src="/a-Scattering-Experiment-i2tutorials.jpg"
+          />
+          <Image
+            width={650}
+            height={700}
+            alt="RutherFord Model setup"
+            src="/rutherford-atomic-model.png"
+          />
+        </div>
+        <PlantUMLDiagram
+          code={`
 @startmindmap
 <style>
 mindmapDiagram {
@@ -438,14 +440,14 @@ endlegend
 
 @endmindmap
 `}
-/>
+        />
 
-<Image
-src="/bohrs-atomic-model.gif"
-alt="Bohr's Atomic Model"
-width={700}
-height={700}
-/>
+        <Image
+          src="/bohrs-atomic-model.gif"
+          alt="Bohr's Atomic Model"
+          width={700}
+          height={700}
+        />
       </section>
 
       <div className="p-8 bg-gradient-to-r from-teal-100 to-blue-100 rounded-lg shadow-xl">
@@ -584,6 +586,229 @@ height={700}
           </ul>
         </div>
       </div>
+
+      <PlantUMLDiagram
+        code={`
+@startmindmap
+<style>
+mindmapDiagram {
+  .definition {
+    BackgroundColor yellow
+  }
+  .key_statement {
+    BackgroundColor lightgreen
+  }
+  .observation_example {
+    BackgroundColor orange
+  }
+  .electron_orbitals {
+    BackgroundColor pink
+  }
+  .wave_particle_duality {
+    BackgroundColor lightpurple
+  }
+}
+</style>
+* The Heisenberg Uncertainty Principle #LightBlue
+** Wave-Particle Duality <<duality>>
+*** Proposed by Louis de Broglie in 1924
+*** Electrons exhibit both particle-like and wave-like behavior
+*** Opened new possibilities in quantum mechanics
+
+** Contribution to Quantum Mechanics <<contribution>>
+*** Significant impact on the field
+*** Changed understanding of sub-atomic particles
+
+** Uncertainty Principle <<definition>>
+*** Fundamental concept of quantum mechanics
+*** Formulated by Werner Heisenberg in 1927
+** Key Statement <<key_statement>>
+*** Impossible to determine exact location and trajectory of an electron
+*** Electron orbit around nucleus cannot be precisely plotted
+
+** Observation Example <<observation_example>>
+*** Observation Process <<observation>>
+**** Observing electron position at a moment
+**** Electron moves unpredictably
+**** Repeated observations build a 3D probability map
+*** Uncertainty in Position <<uncertainty>>
+**** Impossible to determine exact movement
+**** Electron's path from one position to another remains unknown
+*** Electron Orbitals <<electron_orbitals>>
+**** Electron exists in a spherical region around the nucleus
+**** 95% probability in a specific region called an orbital
+**** Orbital is where the electron resides
+
+** Experimental Confirmation <<confirmation>>
+*** Confirmed by Davisson and Germer in 1927
+*** Proved electrons have wave-like properties
+*** Laid foundation for Modern Quantum Mechanics
+@endmindmap
+
+`}
+      />
+      <PlantUMLDiagram
+        code={`
+@startmindmap
+<style>
+mindmapDiagram {
+  .yellow {
+    BackgroundColor yellow
+  }
+  .lightgreen {
+    BackgroundColor LightGreen
+  }
+  .orange {
+    BackgroundColor Orange
+  }
+  .lightblue {
+    BackgroundColor LightBlue
+  }
+  .explain {
+    BackgroundColor LightYellow
+  }
+}
+</style>
+* Quantum Mechanical Model <<lightblue>>
+** Definition <<Yellow>>
+*** Current model used by modern science <<explain>>
+*** Describes the structure of the atom <<explain>>
+** Key Principles <<lightgreen>>
+*** Incorporates quantum mechanics principles <<explain>>
+*** Treats electrons as wave-particle entities <<explain>>
+** Electron Behavior <<orange>>
+*** No exact orbits <<explain>>
+*** Defines probability distributions (orbitals) <<explain>>
+*** Electrons are likely found in orbitals <<explain>>
+@endmindmap
+`}
+      />
+      <Image
+        src="/electron-theory-Bohr-point-mass-energy-levels.webp"
+        alt="Electron Theory Bohr Point Mass Energy Levels"
+        className="w-full"
+        width={300}
+        height={300}
+      />
+
+      <PlantUMLDiagram
+        code={`
+  @startmindmap
+<style>
+mindmapDiagram {
+  .definition {
+    BackgroundColor yellow
+  }
+  .conceptualization {
+    BackgroundColor lightblue
+  }
+  .importance {
+    BackgroundColor lightgreen
+  }
+  .evolution {
+    BackgroundColor orange
+  }
+}
+</style>
+* Understanding Atomic Models
+** Atomic Model <<definition>>
+*** Tool for understanding atomic structure and behavior
+*** Understanding interactions of atoms in chemical reactions
+** Conceptualization <<conceptualization>>
+*** Not a physical model
+*** Represents conceptual imagination
+*** Helps explain experimental observations
+** Importance <<importance>>
+*** Simplifies complex atomic reality
+*** Enhances understanding of atomic behavior
+** Evolution of Atomic Models <<evolution>>
+*** Research and technology improve models
+*** Knowledge about atoms continuously refined
+@endmindmap
+`}
+      />
+
+      <PlantUMLDiagram code={`
+        @startmindmap
+<style>
+mindmapDiagram {
+  .nucleus {
+    BackgroundColor yellow
+  }
+  .nucleons {
+    BackgroundColor lightblue
+  }
+  .electrons {
+    BackgroundColor lightgreen
+  }
+  .mass_distribution {
+    BackgroundColor orange
+  }
+}
+</style>
+* A Simple View of Atomic Structure #LightPurple
+** Nucleus <<nucleus>>
+*** Located at the center of the atom
+*** Contains protons and neutrons
+** Nucleons <<nucleons>>
+*** Protons and neutrons together are called nucleons
+*** Massive particles
+** Electrons <<electrons>>
+*** Surround the nucleus in shells
+*** Have very small mass
+** Mass Distribution <<mass_distribution>>
+*** Atom's mass is concentrated in the nucleus
+*** Electron mass is negligible in comparison
+@endmindmap
+`} />
+
+<PlantUMLDiagram code={`
+@startmindmap
+<style>
+mindmapDiagram {
+    .nucleus {
+        BackgroundColor #FFB6C1
+    }
+    .particles {
+        BackgroundColor #98FB98
+    }
+    .force {
+        BackgroundColor #87CEEB
+    }
+    .properties {
+        BackgroundColor #DDA0DD
+    }
+    .interactions {
+        BackgroundColor #F0E68C
+    }
+}
+</style>
+
+* Nuclear Force<<nucleus>>
+** Nucleus Composition<<particles>>
+*** Contains protons (positive charge)
+*** Contains neutrons (neutral charge)
+*** No negative charge
+** Stability Paradox<<properties>>
+*** Protons should repel
+*** Yet atoms are stable
+*** Existed for billions of years
+left side
+** Strong Nuclear Force<<force>>
+*** Definition
+**** Powerful attractive force
+**** Binds nucleons together
+*** Properties
+**** Stronger than electrostatic or magnetic forces
+**** Not electrostatic
+**** Not magnetic
+** Particle Interactions<<interactions>>
+*** Neutron-Neutron binding
+*** Proton-Proton binding
+*** Neutron-Proton binding
+
+@endmindmap
+`} />
     </div>
   );
 };

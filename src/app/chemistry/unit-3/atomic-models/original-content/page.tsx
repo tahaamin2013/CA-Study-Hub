@@ -174,22 +174,89 @@ const AtomicModels = () => {
           exact orbits, it defines probability distributions known as orbitals
           where electrons are likely to be found.
         </p>
-        <p>
-          The quantum mechanical model explains many phenomena that could not be
-          explained by earlier models, such as the distribution of electrons in
-          atoms and their arrangement in energy levels and sublevels.
-        </p>
-
         <h3 className="text-2xl font-semibold mt-4 mb-2">
-          Limitations of Atomic Models
+          The Heisenberg Uncertainty Principle
         </h3>
         <p>
-          All models of the atom have limitations. The Rutherford model could
-          not explain why electrons do not spiral into the nucleus. Bohr&apos;s
-          model accurately described hydrogen spectra but failed for more
-          complex atoms. The quantum mechanical model, while successful in
-          explaining many observations, is complex and involves probability
-          rather than definitive paths for electrons.
+          Heisenberg uncertainty principle is one of the fundamental concepts of
+          quantum mechanics and is named after the German physicist Werner
+          Heisenberg, who formulated it in 1927. This principle states that it
+          is impossible to simultaneously determine the exact location and
+          future trajectory of an electron. As a result, plotting the electron
+          orbit around the nucleus becomes an irresistible challenge.
+        </p>
+        <br />
+        <p>
+          Imagine that you have a single hydrogen atom and you decide to observe
+          the position of that single electron at a given moment. Shortly after
+          you repeated this process, the electron moved to another position.
+          This means that from the original location to the next one is
+          completely unknown to you. Continuous repetition of this process
+          allows the gradual construction of a three-dimensional map
+          representing the likely locations where the electron is expected to
+          exist. You cannot know for sure where an electron is and where it goes
+          next. This makes it impossible to draw the orbit of the electron
+          around the nucleus.
+          <br />
+          <p>
+            in hydrogen, the electron has the potential to exist anywhere in the
+            spherical region surrounding the nucleus. 95% (or whatever you want)
+            of the time, the electron will be in a relatively simple region of
+            space close to the nucleus, called an orbital. An orbital is the
+            region of space where the electron lives.
+          </p>{" "}
+          <br />
+          <p>
+            Louis de Broglie, a French physicist, in 1924 proposed duel nature
+            of electrons. He suggested that sub-atomic particles like electrons,
+            can exhibit both particle-like and wave-like behaviour. His idea
+            opened the door for new possibilities in understanding behaviour of
+            sub-atomic particles.
+          </p>
+          This concept made a significant contribution to the development of
+          quantum mechanics. In 1927, Davisson and Germer, experimently
+          confirmed the de Broglie hypothesis that electron has wave like
+          behaviour. This discovery laid the foundation for the Modern Quantum
+          Mechanics.
+        </p>
+        <h3 className="text-2xl font-semibold mt-4 mb-2">
+          Understanding Atomic Models
+        </h3>
+        <p>
+          An atomic model is a tool for understanding the structure and behavior
+          of atoms and their interactions in chemical reactions. Any atomic
+          model helps us understand the structure of an atom. An atomic model is
+          not a physical model, but represents a conceptual imagination. This
+          helps to explain experimental observations of atomic behavior. The
+          atomic model gives us a simplified representation of complex reality.
+          As research and technology progress, scientists continue to improve
+          our knowledge and atomic models.
+        </p>
+        <h3 className="text-2xl font-semibold mt-4 mb-2">
+          A simple view of the structure of an atom
+        </h3>
+        <p>
+          The nucleus of an atom is in the center. It contains protons and
+          neutrons, Protons and neutrons are collectively called nucleons. The
+          nucleus is surrounded by electrons in shells. Protons and neutrons are
+          massive particles. The mass of electrons is so small. So, in practice,
+          the mass of an atom is concentrated in the nucleus.
+        </p>
+        <h3 className="text-2xl font-semibold mt-4 mb-2">Nuclear Force</h3>
+        <p>
+          The nucleus contains protons and neutrons. Protons are positively
+          charged and neutrons are neutral. The nucleus has no negative charge.
+          The positively charged protons must cancel each other out and the
+          nucleus must break apart. But atoms are stable and have existed for
+          billions of years. Therefore, there must be some kind of attraction
+          that connects them. No electrostatic or magnetic forces occur within
+          the core. This is because these forces involve both attraction and
+          repulsion. Therefore, the force that binds protons and neutrons
+          together is a strong force. This force is called strong nuclear force.
+          This is defined as the strong attractive force that binds protons and
+          neutrons together. This force is stronger than electrostatic or
+          magnetic forces. This force exists between neutrons and neutrons,
+          protons and protons, and neutrons and protons.
         </p>
       </section>
     </div>
