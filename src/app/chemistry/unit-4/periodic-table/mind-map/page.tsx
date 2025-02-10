@@ -77,6 +77,213 @@ mindmapDiagram {
 @endmindmap`}
         />
         <Image alt="fd" height={7000} src="/table.jpg" width={700} />
+
+        <PlantUMLDiagram code={`@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+      BackgroundColor lightGreen
+    }
+    :depth(2) {
+      BackgroundColor lightYellow
+    }
+    :depth(3) {
+      BackgroundColor lightPink
+    }
+}
+</style>
+* Periodic Table
+** Introduction to Chemistry & Periodic Table
+*** Evolution of the Periodic Table
+**** Only **23 elements** known until **18th century**
+**** Now contains **118 elements**
+*** Need for Organization
+**** Remembering element reactions, properties, atomic masses is difficult
+**** A system is needed to **organize information**
+*** Importance of the Periodic Table
+**** **One of the most important tools in chemistry**
+**** Helps in **understanding & predicting** properties of elements
+**** If you know the **properties of one element in a group**, you can predict others
+**** **Relates element reactivity** to atomic structure
+**** **Predicts**:
+***** **Reactivity trends** of elements
+***** **Formation of ionic & covalent bonds**
+** Periodic Table (4.1)
+*** Search for Order
+**** Observations & objects are grouped by **common features**
+**** Makes it **easier to describe** elements
+*** Role of Atomic Number
+**** Discovered by **Moseley (1913)**
+**** **Atomic number** serves as a base for systematic arrangement
+**** Elements arranged in **increasing atomic number**
+*** Definition of Periodic Table
+**** A **table showing systematic arrangement** of elements
+**** **Based on Periodic Law**
+*** Periodic Law
+**** **Elements arranged by increasing atomic numbers**
+**** Their **properties repeat in a periodic manner**
+
+** Periods and Groups of Elements (4.1.1)
+*** Periods
+**** **Definition**: Horizontal rows in the periodic table
+**** **Arrangement**: Elements listed in order of increasing atomic numbers
+**** **Total Periods**: 7
+**** **Elements Per Period**: 
+***** **Period 1** → 2 elements
+***** **Period 2 & 3** → Short periods
+***** **Period 4 - 7** → Long periods
+**** **Periodic Law**: Properties **repeat** when moving to the next period
+*** Groups (Columns)
+**** **Definition**: Vertical columns in the periodic table
+**** **Similar Properties**: Elements in the same group have similar properties
+**** **Numbering Systems**
+***** **Traditional System (Old IUPAC)**
+****** Groups **IA, IIA** (1-2)
+****** Groups **IIIA - VIIIA** (13-18)
+****** Groups **B** → Transition elements
+***** **New IUPAC System**
+****** Groups **1-18** from left to right
+**** **Valence Electrons**
+***** Group number indicates **valence electrons** count
+***** **Examples**:
+****** **Group 1** → 1 valence electron
+****** **Group 2** → 2 valence electrons
+****** **Group 13 - 18** → Valence electrons = Group Number - 10
+*** Element Classification
+**** **Group A** → Normal/Representative Elements (Main Group Elements)
+**** **Group B** → Transition Elements
+** Names of Some Groups in the Periodic Table
+*** Group Names
+**** **Group 1** → **Alkali Metals** (Highly reactive metals)
+**** **Group 2** → **Alkaline Earth Metals** (Less reactive than alkali metals)
+**** **Group 17 (VIIA)** → **Halogens** (Highly reactive non-metals)
+**** **Group 18 (VIIIA)** → **Noble Gases** (Inert, do not readily react)
+*** Atomic Number
+**** **Definition**: Unique identification number for elements
+**** **Represents**: Number of **protons** or **electrons** in an atom
+*** Aufbau Principle
+**** **Determines**: Order of electron orbital filling
+@endmindmap
+`} />
+
+<PlantUMLDiagram code={`
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+      BackgroundColor lightGreen
+    }
+    :depth(2) {
+      BackgroundColor lightYellow
+    }
+    :depth(3) {
+      BackgroundColor lightPink
+    }
+}
+</style>
+* Electronic Configuration
+** Aufbau Principle
+*** **Order of Orbital Filling**
+**** 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p...
+*** **Orbital Capacities**
+**** s-orbital → 2 electrons
+**** p-orbital → 6 electrons
+**** d-orbital → 10 electrons
+**** f-orbital → 14 electrons
+** Placement of Elements
+*** **Block of an Element**
+**** Determined by the orbital where the last electron is placed
+*** **Period of an Element**
+**** Determined by the **principal quantum number (n)** of the valence electron
+*** **Group of an Element**
+**** **s-block** → Group number = Number of valence electrons
+**** **p-block** → Group number = Valence electrons + 10
+** Example: Sodium (Na)
+*** **Atomic Number** → 11
+*** **Electronic Configuration** → 1s², 2s², 2p⁶, 3s¹
+*** **Block** → **s-block** (last electron in 3s)
+*** **Period** → 3 (principal quantum number of valence electron)
+*** **Group** → 1 (valence electron count in s-block)
+** **Note**
+*** Electrons fill orbitals in the order dictated by the Aufbau principle.
+** Example 4.1: Identifying the Group and Period of an Element
+*** Problem Solving Strategy
+**** Write the electronic configuration of the element
+**** Identify the **valence shell** (highest n value)
+**** **Period Number** → n value of valence shell
+**** **Group Number** 
+***** **s-block** → Number of valence electrons
+***** **p-block** → Valence electrons + 10
+*** **Solution**
+**** **1. Aluminium (Al, Atomic No. 13)**
+***** **Electronic Configuration** → 1s², 2s², 2p⁶, 3s², 3p¹
+***** **Valence Sub-shell** → 3p (belongs to **p-block**)
+***** **Period Number** → n = 3 (**3rd Period**)
+***** **Total Valence Electrons** → 2 + 1 = 3
+***** **Group Number** → 3 + 10 = **13**
+***** **Conclusion** → Al is in **Group 13, Period 3, p-block**
+**** **2. Potassium (K, Atomic No. 19)**
+***** **Electronic Configuration** → 1s², 2s², 2p⁶, 3s², 3p⁶, 4s¹
+***** **Valence Sub-shell** → 4s (belongs to **s-block**)
+***** **Period Number** → n = 4 (**4th Period**)
+***** **Total Valence Electrons** → 1
+***** **Group Number** → **1**
+***** **Conclusion** → K is in **Group 1, Period 4, s-block**
+** Example 4.2: Classifying Elements into Groups and Periods
+*** Problem Solving Strategy
+**** Elements with **similar valence shell electronic configuration** belong to the **same group**.
+**** The **n value of the valence shell** determines the **period**.
+**** Elements with the **same valence shell (same n value)** lie in the **same period**.
+*** Solution
+**** **Period 2**
+***** **Group IIA (2A)** → A: **1s² 2s²**
+***** **Group VA (5A)** → B: **1s² 2s² 2p³**
+***** **Group VIIA (7A)** → C: **1s² 2s² 2p⁵**
+**** **Period 3**
+***** **Group IIA (2A)** → D: **1s² 2s² 2p⁶ 3s²**
+***** **Group IIIA (3A)** → F: **1s² 2s² 2p⁶ 3s² 3p¹**
+***** **Group VIIA (7A)** → E: **1s² 2s² 2p⁶ 3s² 3p⁵**
+@endmindmap
+`} />
+
+<PlantUMLDiagram code={`
+  @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* 4.1.2 s and p Blocks in the Periodic Table
+** **s-block Elements** 
+*** Group 1 & Group 2 elements
+*** Valence electrons in **s sub-shell**
+*** Example: **Li (1s², 2s¹) → s-block**
+** **p-block Elements** 
+*** Group 13 to 18 (except He)
+*** Valence electrons in **p sub-shell**
+*** Example: **C (1s², 2s², 2p²) → p-block**
+** **f-block Elements** 
+*** **Lanthanides & Actinides**
+*** Valence electrons in **f sub-shell**
+
+@endmindmap
+
+  `} />
       </section>
 
       <div className="bg-gradient-to-r from-blue-100 to-purple-100 p-10 font-sans">

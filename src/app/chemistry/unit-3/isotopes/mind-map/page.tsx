@@ -163,7 +163,6 @@ mindmapDiagram {
 **** 17 protons
 **** 20 neutrons
 **** Natural abundance: 24.23%
-*** Activity 3.2
 
 left side
 ** Isotopes of Uranium
@@ -207,7 +206,8 @@ left side
         />
 
         <PlantUMLDiagram
-          code={`@startmindmap
+          code={`
+            @startmindmap
 <style>
 mindmapDiagram {
     node {
@@ -230,16 +230,42 @@ mindmapDiagram {
 *** Weighted average of all naturally occurring isotopes
 ** Example: Carbon
 *** Natural Abundance
-**** ₆¹²C = 98.8%
-**** ₆¹³C = 1.1%
-**** ₆¹⁴C = 0.009%
+**** ¹²₆C = 98.8%
+**** ¹³₆C = 1.1%
+**** ¹⁴₆C = 0.009%
 *** Formula:
+**** RA = Relative Abundance
 **** Relative atomic mass of C =
 **** (RA of C-12 × Mass of C-12 + RA of C-13 × Mass of C-13 + RA of C-14 × Mass of C-14) / 100
 *** Calculation:
 **** (98.8 × 12 + 1.1 × 13 + 0.009 × 14) / 100
 **** (1185.6 + 14.3 + 0.126) / 100
 **** 12.00026 amu
+** Example: Hydrogen
+*** Natural Abundance
+**** ¹₁H (Protium) = 99.99%
+**** ²₁H (Deuterium) = 0.0015%
+**** ³₁H (Tritium) = Rare (Radioactive)
+*** Formula:
+**** RA = Relative Abundance
+**** Relative atomic mass of H =
+**** (RA of H-1 × Mass of H-1 + RA of H-2 × Mass of H-2 + RA of H-3 × Mass of H-3) / 100
+*** Calculation:
+**** (99.99 × 1 + 0.0015 × 2 + 0 × 3) / 100
+**** (99.99 + 0.003) / 100
+**** ≈ 1.008 amu
+** Example: Chlorine
+*** Natural Abundance
+**** ³⁵₁₇Cl = 75.77%
+**** ³⁷₁₇Cl = 24.23%
+*** Formula:
+**** RA = Relative Abundance
+**** Relative atomic mass of Cl =
+**** (RA of Cl-35 × Mass of Cl-35 + RA of Cl-37 × Mass of Cl-37) / 100
+*** Calculation:
+**** (75.77 × 35 + 24.23 × 37) / 100
+**** (2651.95 + 896.51) / 100
+**** ≈ 35.5 amu
 ** Concept Assessment Exercise 3.1
 *** Problem:
 **** An element has two isotopes A & B

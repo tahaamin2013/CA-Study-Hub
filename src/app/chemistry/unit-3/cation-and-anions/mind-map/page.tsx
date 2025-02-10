@@ -65,6 +65,114 @@ mindmapDiagram {
 @endmindmap`}
         />
        
+       <PlantUMLDiagram code={`
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+      BackgroundColor lightGreen
+    }
+    :depth(2) {
+      BackgroundColor lightYellow
+    }
+    :depth(3) {
+      BackgroundColor lightPink
+    }
+}
+</style>
+* Cations
+** Definition
+*** Positively charged ions
+*** Formed when an atom loses one or more electrons
+** Formation
+*** Usually formed from metal atoms
+*** Metals lose electrons to achieve noble gas configuration
+*** Example:
+**** Na → Na⁺ + e⁻
+**** Mg → Mg²⁺ + 2e⁻
+** Charge Acquisition
+*** Neutral atoms have equal protons and electrons
+*** Losing electrons increases proton count relative to electrons
+*** Results in a positive charge
+** Electronic Configuration
+*** Cations attain noble gas configuration
+*** More stable than the neutral atom
+** Example 3.1: Formation of Cations
+*** Problem Statement
+**** Describe the formation of Na⁺ and Mg²⁺ cations
+*** Problem Solving Strategy
+**** Sodium (Na)
+***** Belongs to Group IA
+***** Has **one** valence electron
+***** Loses **one** electron to achieve an octet
+**** Magnesium (Mg)
+***** Belongs to Group IIA
+***** Has **two** valence electrons
+***** Loses **two** electrons to achieve noble gas configuration
+*** Solution
+**** (a) Formation of Na⁺ Ion
+***** Na: 1s² 2s² 2p⁶ 3s¹ (-e) → Na⁺: 1s² 2s² 2p⁶
+**** (b) Formation of Mg²⁺ Ion
+***** Mg: 1s² 2s² 2p⁶ 3s² (-2e) → Mg²⁺: 1s² 2s² 2p⁶
+@endmindmap
+        `} />
+
+        <PlantUMLDiagram
+        code={`
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+      BackgroundColor lightGreen
+    }
+    :depth(2) {
+      BackgroundColor lightYellow
+    }
+    :depth(3) {
+      BackgroundColor lightPink
+    }
+}
+</style>
+* Anions
+** Definition
+*** Negatively charged ions
+*** Form when an atom **gains** one or more electrons
+** Formation Process
+*** Atoms with **high electron affinity** attract electrons
+*** Gaining electrons helps achieve **noble gas configuration**
+*** Number of **electrons > protons**, resulting in **negative charge**
+** Example 3.1: Formation of Anions
+*** Problem Statement
+**** Describe anion formation for:
+***** (a) Oxygen (atomic no. 8)
+***** (b) Fluorine (atomic no. 9)
+*** Problem-Solving Strategy
+**** Write **electronic configuration** or **dot structure**
+**** Find **electrons needed** to complete **octet**
+**** Represent **addition of electrons**
+*** Solution
+**** (a) Formation of O²⁻ (Oxide Ion)
+***** Oxygen belongs to **Group VIA**
+***** Has **6 valence electrons**
+***** Needs **2 electrons** to achieve noble gas configuration
+***** **Reaction:**
+****** O 1s² 2s² 2p⁴ **+2e⁻** → O²⁻ 1s² 2s² 2p⁶ (Octet achieved)
+**** (b) Formation of F⁻ (Fluoride Ion)
+***** Fluorine belongs to **Group VIIA**
+***** Has **7 valence electrons**
+***** Needs **1 electron** to complete octet
+***** **Reaction:**
+****** F 1s² 2s² 2p⁵ **+ e⁻** → F⁻ 1s² 2s² 2p⁶ (Octet achieved)
+@endmindmap
+`}
+        />
+
       </section>
       <div className="p-8 bg-gradient-to-r from-blue-100 to-purple-200 rounded-lg shadow-xl">
     <h1 className="text-3xl font-extrabold text-purple-800 mb-6">3.6 Cations and Anions</h1>

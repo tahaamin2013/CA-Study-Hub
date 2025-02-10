@@ -28,41 +28,53 @@ mindmapDiagram {
 </style>
 * Electronic Configuration
 ** Shells
-*** Circular paths around nucleus
-*** Fixed energy levels
-*** Labeled by n values (1, 2, 3, ...)
-**** K shell (n = 1)
-**** L shell (n = 2)
-**** M shell (n = 3)
-*** Energy increases with n
+*** Defined by Bohr’s atomic theory
+*** Electrons revolve in circular paths (shells/orbits)
+*** Each shell has **fixed energy** (energy level)
+*** **Shell notation:**
+**** n = 1 → **K shell**
+**** n = 2 → **L shell**
+**** n = 3 → **M shell**
+**** As **n increases** → Energy & distance from nucleus increase
 ** Sub-Shells
-*** Subdivisions of shells
-*** Types: s, p, d, f
-*** Maximum electrons
-**** s: 2 electrons
-**** p: 6 electrons
-**** d: 10 electrons
-**** f: 14 electrons
-*** Energy order
+*** Shells are subdivided into **sub-shells (sub-energy levels)**
+*** **Notation:**
+**** **K shell (n = 1):** 1s
+**** **L shell (n = 2):** 2s, 2p
+**** **M shell (n = 3):** 3s, 3p, 3d
+**** **N shell (n = 4):** 4s, 4p, 4d, 4f
+*** **Electron Capacity:**
+**** **s-sub-shell:** max **2** electrons
+**** **p-sub-shell:** max **6** electrons
+**** **d-sub-shell:** max **10** electrons
+**** **f-sub-shell:** max **14** electrons
+*** **Energy order of sub-shells:**
 **** 1s < 2s < 2p < 3s < 3p < 4s < 3d ...
-** Auf Bau Principle
-*** Electrons fill lowest energy sub-shell first
+*** **The arrangement of electrons in sub-shells is called the electronic configuration.**
 left side
-** Atomic Symbols
-*** Element symbol
-*** Mass number (left superscript)
-*** Atomic number (left subscript)
-*** Charge (right superscript)
-*** Example: Mg12242+
-** Key Points
-*** Rutherford&apos;s planetary model
-*** Bohr&apos;s circular orbits
-*** Isotopes
-*** Uranium isotope uses
-*** Radioactive isotope applications
-*** Sub-shell types
-*** Auf Bau Principle
-@endmindmap`}
+** Aufbau Principle
+*** **Electrons fill the lowest energy sub-shells first**
+*** **Filling Order:** 
+**** **1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s → 4f → 5d → 6p → 7s → 5f → 6d → 7p**
+** Symbols for Atoms and Ions
+*** Definition
+**** The symbol for an atom represents the element.
+**** Consists of:
+***** **Element symbol** (one or two letters)
+***** **Mass number** (left superscript)
+***** **Atomic number** (left subscript)
+***** **Charge** (right superscript)
+*** Example: Magnesium Ion (Mg²⁺)
+**** **Symbol:** ²⁴₁₂Mg²⁺
+**** **Explanation:**
+***** **Mg** represents Magnesium.
+***** **Upper left (24):** Mass number.
+***** **Lower left (12):** Atomic number.
+***** **Upper right (+2):** Charge.
+**** The atomic number is often omitted.
+
+@endmindmap
+`}
                 />
 
             </section>
