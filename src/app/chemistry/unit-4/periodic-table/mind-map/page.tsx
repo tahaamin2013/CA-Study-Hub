@@ -3,6 +3,18 @@ import React from "react";
 import Image from "next/image";
 
 const MagneticMindmap = () => {
+  const elements = [
+    { element: "Na", atomicNo: 11, config: "1s² 2s² 2p⁶ 3s¹", group: 1, period: 3, block: "s-block" },
+    { element: "Al", atomicNo: 13, config: "1s² 2s² 2p⁶ 3s² 3p¹", group: 13, period: 3, block: "p-block" },
+    { element: "K", atomicNo: 19, config: "1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹", group: 1, period: 4, block: "s-block" },
+    { element: "Be", atomicNo: 4, config: "1s² 2s²", group: 2, period: 2, block: "s-block" },
+    { element: "N", atomicNo: 7, config: "1s² 2s² 2p³", group: 15, period: 2, block: "p-block" },
+    { element: "F", atomicNo: 9, config: "1s² 2s² 2p⁵", group: 17, period: 2, block: "p-block" },
+    { element: "Mg", atomicNo: 12, config: "1s² 2s² 2p⁶ 3s²", group: 2, period: 3, block: "s-block" },
+    { element: "Cl", atomicNo: 17, config: "1s² 2s² 2p⁶ 3s² 3p⁵", group: 17, period: 3, block: "p-block" },
+    { element: "P", atomicNo: 15, config: "1s² 2s² 2p⁶ 3s² 3p³", group: 15, period: 3, block: "p-block" },
+  ];
+  
   return (
     <div className="p-8 flex flex-col gap-8">
       <section>
@@ -123,7 +135,23 @@ mindmapDiagram {
 ** **Arrangement**: Elements listed in order of increasing atomic numbers
 ** **Total Periods**: 7
 left side
-** **Elements Per Period**: 
+** **Elements Per Period**
+*** 1st
+**** 2
+*** 2nd
+**** 8
+*** 3rd
+**** 8
+*** 4th
+**** 18
+*** 5th
+**** 18
+*** 6th
+**** 32
+*** 7th
+**** 32
+
+** **Types of Periods**
 *** **Period 1** → 2 elements
 *** **Period 2 & 3** → Short periods
 *** **Period 4 - 7** → Long periods
@@ -250,7 +278,7 @@ mindmapDiagram {
 }
 </style>
 * Electronic Configuration
-** Aufbau Principle
+** Aufbau Principle by Niels Bohr
 *** **Order of Orbital Filling**
 **** 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p...
 *** **Orbital Capacities**
@@ -266,54 +294,45 @@ mindmapDiagram {
 *** **Group of an Element**
 **** **s-block** → Group number = Number of valence electrons
 **** **p-block** → Group number = Valence electrons + 10
-** Example: Sodium (Na)
-*** **Atomic Number** → 11
-*** **Electronic Configuration** → 1s², 2s², 2p⁶, 3s¹
-*** **Block** → **s-block** (last electron in 3s)
-*** **Period** → 3 (principal quantum number of valence electron)
-*** **Group** → 1 (valence electron count in s-block)
 ** **Note**
 *** Electrons fill orbitals in the order dictated by the Aufbau principle.
-** Example 4.1: Identifying the Group and Period of an Element
-*** Problem Solving Strategy
-**** Write the electronic configuration of the element
-**** Identify the **valence shell** (highest n value)
-**** **Period Number** → n value of valence shell
-**** **Group Number** 
-***** **s-block** → Number of valence electrons
-***** **p-block** → Valence electrons + 10
-*** **Solution**
-**** **1. Aluminium (Al, Atomic No. 13)**
-***** **Electronic Configuration** → 1s², 2s², 2p⁶, 3s², 3p¹
-***** **Valence Sub-shell** → 3p (belongs to **p-block**)
-***** **Period Number** → n = 3 (**3rd Period**)
-***** **Total Valence Electrons** → 2 + 1 = 3
-***** **Group Number** → 3 + 10 = **13**
-***** **Conclusion** → Al is in **Group 13, Period 3, p-block**
-**** **2. Potassium (K, Atomic No. 19)**
-***** **Electronic Configuration** → 1s², 2s², 2p⁶, 3s², 3p⁶, 4s¹
-***** **Valence Sub-shell** → 4s (belongs to **s-block**)
-***** **Period Number** → n = 4 (**4th Period**)
-***** **Total Valence Electrons** → 1
-***** **Group Number** → **1**
-***** **Conclusion** → K is in **Group 1, Period 4, s-block**
-** Example 4.2: Classifying Elements into Groups and Periods
-*** Problem Solving Strategy
-**** Elements with **similar valence shell electronic configuration** belong to the **same group**.
-**** The **n value of the valence shell** determines the **period**.
-**** Elements with the **same valence shell (same n value)** lie in the **same period**.
-*** Solution
-**** **Period 2**
-***** **Group IIA (2A)** → A: **1s² 2s²**
-***** **Group VA (5A)** → B: **1s² 2s² 2p³**
-***** **Group VIIA (7A)** → C: **1s² 2s² 2p⁵**
-**** **Period 3**
-***** **Group IIA (2A)** → D: **1s² 2s² 2p⁶ 3s²**
-***** **Group IIIA (3A)** → F: **1s² 2s² 2p⁶ 3s² 3p¹**
-***** **Group VIIA (7A)** → E: **1s² 2s² 2p⁶ 3s² 3p⁵**
 @endmindmap
 `}
         />
+
+        <Image
+          src="/Aufbau-Principle.png"
+          alt="Aufbau Principle"
+          width={1000}
+          height={1000}
+        />
+
+<div className="overflow-x-auto p-4">
+      <table className="min-w-full border border-gray-300 bg-white shadow-md rounded-lg">
+        <thead className="bg-gray-200">
+          <tr>
+            <th className="border px-4 py-2">Element</th>
+            <th className="border px-4 py-2">Atomic No.</th>
+            <th className="border px-4 py-2">Configuration</th>
+            <th className="border px-4 py-2">Group</th>
+            <th className="border px-4 py-2">Period</th>
+            <th className="border px-4 py-2">Block</th>
+          </tr>
+        </thead>
+        <tbody>
+          {elements.map((el, index) => (
+            <tr key={index} className="odd:bg-gray-100 even:bg-white">
+              <td className="border px-4 py-2 font-bold">{el.element}</td>
+              <td className={`border px-4 py-2 ${el.element === "Al" || el.element === "K" || el.element === "Na" ? "font-bold text-red-500" : ""}`}>{el.atomicNo}</td>
+              <td className={`border px-4 py-2 ${el.element !== "Al" && el.element !== "K" && el.element !== "Na" ? "font-bold text-red-500" : ""}`}>{el.config}</td>
+              <td className="border px-4 py-2">{el.group}</td>
+              <td className="border px-4 py-2">{el.period}</td>
+              <td className="border px-4 py-2">{el.block}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+</div>
       </section>
 
       <div className="bg-gradient-to-r from-blue-100 to-purple-100 p-10 font-sans">

@@ -6,8 +6,7 @@ const MagneticMindmap = () => {
   return (
     <div className="p-8 flex flex-col gap-8">
       <section>
-        <h1 className="text-4xl font-bold text-blue-500">Periodicity of Properties
-       
+        <h1 className="text-4xl font-bold text-blue-500">Group Number & Charge on an ion
         </h1>
         <PlantUMLDiagram
           code={`
@@ -79,6 +78,76 @@ mindmapDiagram {
 **** O > N
 @endmindmap`}
         />
+
+        <PlantUMLDiagram code={`
+@startmindmap
+<style>
+mindmapDiagram {
+  .sblock {
+    BackgroundColor lightblue
+  }
+  .pblock {
+    BackgroundColor lightgreen
+  }
+  .cations {
+    BackgroundColor #FFBBCC
+  }
+  .anions {
+    BackgroundColor #FFD700
+  }
+  .alkali {
+    BackgroundColor #FFA07A
+  }
+  .alkaline {
+    BackgroundColor #20B2AA
+  }
+  .halogens {
+    BackgroundColor #87CEEB
+  }
+  .chalcogens {
+    BackgroundColor #DDA0DD
+  }
+  .noble {
+    BackgroundColor #E0FFFF
+  }
+}
+</style>
+* Group Number and Charge on an Ion
+** Group Number and Valence Electrons <<sblock>>
+*** s-block: Group number = valence electrons
+*** p-block: Valence electrons = Group number - 10 <<pblock>>
+** Formation of Ions
+*** Elements with 1-3 valence electrons -> Lose electrons -> Form +1, +2, +3 cations <<cations>>
+*** Elements with 5-7 valence electrons -> Gain electrons -> Form -3, -2, -1 anions <<anions>>
+*** Elements with 4 valence electrons -> Can form +4 or -4 ions
+** Group 1 (Alkali Metals) <<alkali>>
+*** Elements: Li, Na, K
+*** 1 valence electron
+*** Lose 1 electron -> Form +1 ion
+**** Example: Na → Na⁺
+left side
+** Group 2 (Alkaline Earth Metals) <<alkaline>>
+*** Elements: Be, Mg, Ca
+*** 2 valence electrons
+*** Lose 2 electrons -> Form +2 ion
+**** Example: Mg → Mg²⁺
+** Group 17 (Halogens) <<halogens>>
+*** Elements: F, Cl, Br
+*** 7 valence electrons
+*** Gain 1 electron -> Form -1 ion
+**** Example: Cl → Cl⁻
+** Group 16 (Chalcogens) <<chalcogens>>
+*** Elements: O, S, Se
+*** 6 valence electrons
+*** Gain 2 electrons -> Form -2 ion
+**** Example: O → O²⁻
+** Group 18 (Noble Gases) <<noble>>
+*** Elements: He, Ne, Ar
+*** Full valence shell (He has 2, others have 8)
+*** Chemically stable, do not form ions
+@endmindmap
+
+`} />
       </section>
       <div className="bg-gradient-to-r from-green-100 to-yellow-100 p-10 font-sans">
     <div className="max-w-5xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">
