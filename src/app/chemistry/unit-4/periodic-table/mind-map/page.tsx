@@ -9,6 +9,7 @@ const MagneticMindmap = () => {
         <h1 className="text-4xl font-bold text-blue-500">
           Periodic Table and Periodicity
         </h1>
+
         <PlantUMLDiagram
           code={`
 @startmindmap
@@ -28,57 +29,44 @@ mindmapDiagram {
     }
 }
 </style>
-* Periodic Table and Periodicity
-** Structure
-*** Periods (horizontal rows)
-**** 7 periods
-**** Short periods (1-3)
-**** Long periods (4-7)
-*** Groups (vertical columns)
-*** Blocks
-**** s-block (Groups 1-2)
-**** p-block (Groups 13-18)
-**** d-block (Transition elements)
-**** f-block (Lanthanides and Actinides)
-** Element Properties
-*** Group 1 (Alkali Metals)
-**** Soft metals
-**** Decreasing melting point
-**** Increasing density
-**** Increasing reactivity
-*** Group 7 (Halogens)
-**** Diatomic non-metals
-**** Increasing density
-**** Decreasing reactivity
-**** Appearances at room temperature
-*** Group 18 (Noble Gases)
-**** Unreactive monoatomic gases
-*** Transition Elements
-**** High densities
-**** High melting points
-**** Variable oxidation numbers
-**** Colored compounds
-**** Catalytic properties
-** Periodic Law
-*** Elements arranged by atomic number
-*** Properties repeat periodically
-** Predicting Properties
-*** Based on group trends
-*** Based on period trends
-** Metal vs Non-metal Properties
-*** Thermal conductivity
-*** Electrical conductivity
-*** Malleability and ductility
-*** Melting and boiling points
-** Applications
-*** Predicting reactivity
-*** Understanding bonding
-*** Catalysts in industrial processes
-@endmindmap`}
-        />
-        <Image alt="fd" height={7000} src="/table.jpg" width={700} />
 
-        <PlantUMLDiagram code={`@startmindmap
+* Introduction to Periodic Table
+** Evolution of the Periodic Table
+*** Only **23 elements** known until **18th century**
+*** Now contains **118 elements**
+** Need for Organization
+*** Remembering element reactions, properties, atomic masses is difficult
+*** A system is needed to **organize information**
+** Importance of the Periodic Table
+*** **One of the most important tools in chemistry**
+*** Helps in **understanding & predicting** properties of elements
+*** If you know the **properties of one element in a group**, you can predict others
+*** **Relates element reactivity** to atomic structure
+*** **Predicts**:
+**** **Reactivity trends** of elements
+**** **Formation of ionic & covalent bonds**
+left side
+** Search for Order
+*** Observations & objects are grouped by **common features**
+*** Makes it **easier to describe** elements
+** Role of Atomic Number
+*** Discovered by **Moseley (1913)**
+*** **Atomic number** serves as a base for systematic arrangement
+*** Elements arranged in **increasing atomic number**
+** Definition of Periodic Table
+*** A **table showing systematic arrangement** of elements
+*** **Based on Periodic Law**
+** Periodic Law
+*** **Elements arranged by increasing atomic numbers**
+*** Their **properties repeat in a periodic manner**
+
+@endmindmap
+`}
+        />
+
+        <PlantUMLDiagram
+          code={`
+@startmindmap
 <style>
 mindmapDiagram {
     node {
@@ -95,81 +83,155 @@ mindmapDiagram {
     }
 }
 </style>
-* Periodic Table
-** Introduction to Chemistry & Periodic Table
-*** Evolution of the Periodic Table
-**** Only **23 elements** known until **18th century**
-**** Now contains **118 elements**
-*** Need for Organization
-**** Remembering element reactions, properties, atomic masses is difficult
-**** A system is needed to **organize information**
-*** Importance of the Periodic Table
-**** **One of the most important tools in chemistry**
-**** Helps in **understanding & predicting** properties of elements
-**** If you know the **properties of one element in a group**, you can predict others
-**** **Relates element reactivity** to atomic structure
-**** **Predicts**:
-***** **Reactivity trends** of elements
-***** **Formation of ionic & covalent bonds**
-** Periodic Table (4.1)
-*** Search for Order
-**** Observations & objects are grouped by **common features**
-**** Makes it **easier to describe** elements
-*** Role of Atomic Number
-**** Discovered by **Moseley (1913)**
-**** **Atomic number** serves as a base for systematic arrangement
-**** Elements arranged in **increasing atomic number**
-*** Definition of Periodic Table
-**** A **table showing systematic arrangement** of elements
-**** **Based on Periodic Law**
-*** Periodic Law
-**** **Elements arranged by increasing atomic numbers**
-**** Their **properties repeat in a periodic manner**
-
-** Periods and Groups of Elements (4.1.1)
-*** Periods
-**** **Definition**: Horizontal rows in the periodic table
-**** **Arrangement**: Elements listed in order of increasing atomic numbers
-**** **Total Periods**: 7
-**** **Elements Per Period**: 
-***** **Period 1** → 2 elements
-***** **Period 2 & 3** → Short periods
-***** **Period 4 - 7** → Long periods
-**** **Periodic Law**: Properties **repeat** when moving to the next period
-*** Groups (Columns)
-**** **Definition**: Vertical columns in the periodic table
-**** **Similar Properties**: Elements in the same group have similar properties
-**** **Numbering Systems**
-***** **Traditional System (Old IUPAC)**
-****** Groups **IA, IIA** (1-2)
-****** Groups **IIIA - VIIIA** (13-18)
-****** Groups **B** → Transition elements
-***** **New IUPAC System**
-****** Groups **1-18** from left to right
-**** **Valence Electrons**
-***** Group number indicates **valence electrons** count
-***** **Examples**:
-****** **Group 1** → 1 valence electron
-****** **Group 2** → 2 valence electrons
-****** **Group 13 - 18** → Valence electrons = Group Number - 10
-*** Element Classification
-**** **Group A** → Normal/Representative Elements (Main Group Elements)
-**** **Group B** → Transition Elements
-** Names of Some Groups in the Periodic Table
-*** Group Names
-**** **Group 1** → **Alkali Metals** (Highly reactive metals)
-**** **Group 2** → **Alkaline Earth Metals** (Less reactive than alkali metals)
-**** **Group 17 (VIIA)** → **Halogens** (Highly reactive non-metals)
-**** **Group 18 (VIIIA)** → **Noble Gases** (Inert, do not readily react)
-*** Atomic Number
-**** **Definition**: Unique identification number for elements
-**** **Represents**: Number of **protons** or **electrons** in an atom
-*** Aufbau Principle
-**** **Determines**: Order of electron orbital filling
+            * Structure of the Periodic Table
+** Periods (horizontal rows)
+*** 7 periods
+*** Short periods (1-3)
+*** Long periods (4-7)
+** Groups (vertical columns)
+left side
+** Blocks
+*** s-block (Groups 1-2)
+*** p-block (Groups 13-18)
+*** d-block (Transition elements)
+*** f-block (Lanthanides and Actinides)
 @endmindmap
-`} />
+`}
+        />
 
-<PlantUMLDiagram code={`
+        <PlantUMLDiagram
+          code={`
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+      BackgroundColor lightGreen
+    }
+    :depth(2) {
+      BackgroundColor lightYellow
+    }
+    :depth(3) {
+      BackgroundColor lightPink
+    }
+}
+</style>
+* Periods
+** **Definition**: Horizontal rows in the periodic table
+** **Arrangement**: Elements listed in order of increasing atomic numbers
+** **Total Periods**: 7
+left side
+** **Elements Per Period**: 
+*** **Period 1** → 2 elements
+*** **Period 2 & 3** → Short periods
+*** **Period 4 - 7** → Long periods
+** **Periodic Law**: Properties **repeat** when moving to the next period
+@endmindmap
+`}
+        />
+
+        <PlantUMLDiagram
+          code={`@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+      BackgroundColor lightGreen
+    }
+    :depth(2) {
+      BackgroundColor lightYellow
+    }
+    :depth(3) {
+      BackgroundColor lightPink
+    }
+}
+</style>
+
+* Groups (columns)
+** **Definition**: Vertical columns in the periodic table
+** **Similar Properties**: Elements in the same group have similar properties
+** **Numbering Systems**
+*** IUPAC = International union of applied and pure chemistry
+*** **New IUPAC System**
+**** Groups **1-18** from left to right
+***** **Group 1** → **Alkali Metals** (Highly reactive metals)
+***** **Group 2** → **Alkaline Earth Metals** (Less reactive than alkali metals)
+***** **Group 3-12** → Transition Elements
+***** **Group 13** → **Boron Group**
+***** **Group 14** → **Carbon Group**
+***** **Group 15** → **Nitrogen Group (Pnictogens)**
+***** **Group 16** → **Oxygen Group (Chalcogens)**
+***** **Group 17** → **Halogens** (Highly reactive non-metals)
+***** **Group 18** → **Noble Gases** (Inert, do not readily react)
+
+*** **Traditional System (Old IUPAC)**
+**** **Group A** (1-2 & 13-18) → Normal/Representative Elements (Main Group Elements)
+***** Groups **IA, IIA** (1-2)
+****** **Group 1 (IA)** → **Alkali Metals** (Highly reactive metals)
+****** **Group 2 (IIA)** → **Alkaline Earth Metals** (Less reactive than alkali metals)
+***** Groups **IIIA - VIIIA** (13-18)
+****** **Group 13 (IIIA)** → **Boron Group**
+****** **Group 14 (IVA)** → **Carbon Group**
+****** **Group 15 (VA)** → **Nitrogen Group (Pnictogens)**
+****** **Group 16 (VIA)** → **Oxygen Group (Chalcogens)**
+****** **Group 17 (VIIA)** → **Halogens** (Highly reactive non-metals)
+****** **Group 18 (VIIIA)** → **Noble Gases** (Inert, do not readily react)
+**** **Group B** (3-12) → Transition Elements
+** **Valence Electrons**
+*** Group number indicates **valence electrons** count
+*** **Examples**:
+**** **Group 1** → 1 valence electron
+**** **Group 2** → 2 valence electrons
+**** **Group 13 - 18** → Valence electrons = Group Number - 10
+@endmindmap
+`}
+        />
+
+        <PlantUMLDiagram
+          code={`
+  @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Blocks in the Periodic Table
+** **s-block Elements** 
+*** Group 1 & Group 2 elements
+*** Valence electrons in **s sub-shell**
+*** Example: **Li (1s², 2s¹) → s-block**
+** **p-block Elements** 
+*** Group 13 to 18 (except He)
+*** Valence electrons in **p sub-shell**
+*** Example: **C (1s², 2s², 2p²) → p-block**
+left side
+** **d-block Elements** 
+*** Transition metals (Group 3 to 12)
+*** Valence electrons in **d sub-shell**
+*** Example: **Fe (1s², 2s², 2p⁶, 3s², 3p⁶, 3d⁶, 4s²) → d-block**
+** **f-block Elements** 
+*** **Lanthanides & Actinides**
+*** Valence electrons in **f sub-shell**
+@endmindmap
+
+  `}
+        />
+
+        <PlantUMLDiagram
+          code={`
 @startmindmap
 <style>
 mindmapDiagram {
@@ -250,40 +312,8 @@ mindmapDiagram {
 ***** **Group IIIA (3A)** → F: **1s² 2s² 2p⁶ 3s² 3p¹**
 ***** **Group VIIA (7A)** → E: **1s² 2s² 2p⁶ 3s² 3p⁵**
 @endmindmap
-`} />
-
-<PlantUMLDiagram code={`
-  @startmindmap
-<style>
-mindmapDiagram {
-    node {
-        BackgroundColor lightBlue
-    }
-    :depth(1) {
-        BackgroundColor lightGreen
-    }
-    :depth(2) {
-        BackgroundColor lightYellow
-    }
-}
-</style>
-
-* 4.1.2 s and p Blocks in the Periodic Table
-** **s-block Elements** 
-*** Group 1 & Group 2 elements
-*** Valence electrons in **s sub-shell**
-*** Example: **Li (1s², 2s¹) → s-block**
-** **p-block Elements** 
-*** Group 13 to 18 (except He)
-*** Valence electrons in **p sub-shell**
-*** Example: **C (1s², 2s², 2p²) → p-block**
-** **f-block Elements** 
-*** **Lanthanides & Actinides**
-*** Valence electrons in **f sub-shell**
-
-@endmindmap
-
-  `} />
+`}
+        />
       </section>
 
       <div className="bg-gradient-to-r from-blue-100 to-purple-100 p-10 font-sans">
@@ -298,8 +328,8 @@ mindmapDiagram {
             </h2>
             <p className="text-lg text-gray-700 mb-4">
               Use chemical periodicity to predict properties of elements in a
-              group. Deduce unknown elements&apos; nature and position from given
-              properties.
+              group. Deduce unknown elements&apos; nature and position from
+              given properties.
             </p>
           </section>
 
