@@ -14,7 +14,7 @@ const HalogensPage = () => {
           <div className="space-y-6">
             <div className="bg-blue-50 p-6 rounded-lg">
               <p className="text-lg">
-                The elements in group 17 (or Gruop VII-A) are called halogens. The name halogen is derived from the Greek words "halous" meaning salt and "gen" meaning former. Halogens include fluorine, chlorine, bromine, fodine, astatine, and tenessine (astatine and tenessine are radio- active elements. Little is known about their properties). All halogens are reactive non-metals and exist as diatomic molecules.
+                The elements in group 17 (or Gruop VII-A) are called halogens. The name halogen is derived from the Greek words &quot;halous&quot; meaning salt and &quot;gen&quot; meaning former. Halogens include fluorine, chlorine, bromine, fodine, astatine, and tenessine (astatine and tenessine are radio- active elements. Little is known about their properties). All halogens are reactive non-metals and exist as diatomic molecules.
               </p>
             </div>
 
@@ -83,7 +83,7 @@ const HalogensPage = () => {
                 The reactivity of halogens is directly related to their ability to gain an electron and form a halide ion (fluoride ion F⁻, chloride ion Cl⁻, bromide ion Br⁻, iodide ion I⁻) when they react with other elements. Fluorine has the greatest tendency to gain electrons and form a halide ion, making it the most reactive halogen. As you move down the group, the electronegativity of the halogens decreases. This leads to a decrease in reactivity. Which halogen is the least reactive? Bromine or lodine. Because halogens have a strong tendency to gain electrons, they have a strong oxidizing power, and this power decreases down the group. Thus, the order of decreasing oxidizing power is:
               </p>
               <p className="text-lg text-center font-bold">
-                F₂ > Cl₂ > Br₂ > I₂
+                F₂ &gt; Cl₂ &gt; Br₂ &gt; I₂
               </p>
             </div>
 
@@ -120,7 +120,7 @@ const HalogensPage = () => {
                 Consequently, the energy needed to break H-X decreases in the following orders:
               </p>
               <p className="text-lg text-center font-bold mt-2">
-                HF > HCl > HBr > HI
+                HF &gt; HCl &gt; HBr &gt; HI
               </p>
             </div>
 
