@@ -247,7 +247,7 @@ const CharacteristicPropertiesPage = () => {
                 </p>
                 <div className="space-y-4">
                   <p className="text-lg">
-                    The electronic configuration of an element strongly influences its chemical behaviour. Elements within the group have similar electronic configuration, and therefore similar properties. By examining the electronic configuration of unknown element and comparing it to the known elements in the periodic table, it's likely position in the periodic table can be determined.
+                    The electronic configuration of an element strongly influences its chemical behaviour. Elements within the group have similar electronic configuration, and therefore similar properties. By examining the electronic configuration of unknown element and comparing it to the known elements in the periodic table, it&apos;s likely position in the periodic table can be determined.
                   </p>
                   <p className="text-lg">
                     The periodic table allows for the identification of trends and patterns across periods and groups. These trends include variations in atomic size, ionization energy, electron affinity, electronegativity, reactivity, and other properties. By analyzing these trends, it becomes possible to estimate the general properties of unknown element and make guess about its position in the periodic table.
@@ -277,9 +277,9 @@ const CharacteristicPropertiesPage = () => {
                   {/* Solution */}
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="text-lg font-bold mb-3">Solution:</h4>
-                    <p className="text-lg mb-2">Electronic configuration: 1s², 2s², 2p, 3s, 3p, 4s'</p>
+                    <p className="text-lg mb-2">Electronic configuration: 1s², 2s², 2p, 3s, 3p, 4s&apos;</p>
                     <p className="text-lg">
-                      Valence shell electronic configuration is 4s', which shows it is an alkali metal, because, Group 1 elements have one electron in valence sub-shell s. As n value of valence sub-shell is 4, this unknown element must lie in the 4th period in the periodic table. From its position in the periodic table, you can predict its properties. For example will it possess higher or lower melting point, density, reactivity, etc. than the element above or below it.
+                      Valence shell electronic configuration is 4s&apos;, which shows it is an alkali metal, because, Group 1 elements have one electron in valence sub-shell s. As n value of valence sub-shell is 4, this unknown element must lie in the 4th period in the periodic table. From its position in the periodic table, you can predict its properties. For example will it possess higher or lower melting point, density, reactivity, etc. than the element above or below it.
                     </p>
                   </div>
                 </div>
