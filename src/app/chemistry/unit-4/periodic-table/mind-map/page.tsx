@@ -300,12 +300,20 @@ mindmapDiagram {
 `}
         />
 
-        <Image
+     <div className="flex flex-col sm:flex-row justify-between">
+     <Image
           src="/Aufbau-Principle.png"
           alt="Aufbau Principle"
           width={1000}
           height={1000}
         />
+          <Image
+          src="/my.png"
+          alt="Aufbau Principle"
+          width={1000}
+          height={1000}
+        />
+     </div>
 
 <div className="overflow-x-auto p-4">
       <table className="min-w-full border border-gray-300 bg-white shadow-md rounded-lg">

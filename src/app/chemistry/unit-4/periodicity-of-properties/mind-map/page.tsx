@@ -101,13 +101,14 @@ mindmapDiagram {
 ** **Periodic Fluctuation** 
 *** Electronic configuration changes with atomic number
 *** Leads to periodic variation in properties
-** **Chemical Properties** 
-*** Depend on valence shell electronic configuration
-*** Elements in the same group have similar properties
-** **Physical Properties** 
-*** Depend on atomic size
-*** Gradual change from top to bottom in a group
-** **Variation Across a Period** 
+** **Variation Across a Group**
+*** **Chemical Properties** 
+**** Depend on valence shell electronic configuration
+**** Elements in the same group have similar properties
+*** **Physical Properties** 
+**** Depend on atomic size
+**** Gradual change from top to bottom in a group
+** **Variation Across a Period**
 *** Number of valence electrons increases left to right
 *** Chemical & physical properties change systematically
 
