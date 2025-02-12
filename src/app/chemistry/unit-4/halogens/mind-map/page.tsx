@@ -72,6 +72,94 @@ mindmapDiagram {
 @endmindmap`}
         />
 
+<PlantUMLDiagram code={`
+  @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **4.7 Halogens**
+** **Definition**
+*** Found in **Group 17 (VIIA)**
+*** Name derived from Greek words: **"halous" (salt) + "gen" (former)**
+*** Includes **F, Cl, Br, I, At, Ts** (At & Ts are radioactive)
+*** Exist as **diatomic molecules**
+*** Highly **reactive non-metals**
+
+** **4.7.1 Appearance of Halogens**
+*** Exist as **diatomic, colored molecular substances**
+*** Color **darkens down the group**
+**** **Fluorine (F₂):** Pale yellow gas
+**** **Chlorine (Cl₂):** Yellow-green gas
+**** **Bromine (Br₂):** Red-brown liquid
+**** **Iodine (I₂):** Grey-black solid (sublimates to purple vapor)
+
+** **Electronic Configuration**
+*** **ns²np⁵** configuration
+*** Have **7 valence electrons**
+*** **Tend to gain 1 electron** to form univalent negative ions (F⁻, Cl⁻, Br⁻, I⁻)
+
+** **Density of Halogens**
+*** **Increases down the group** (Mass ↑ faster than Volume ↑)
+*** **Stronger intermolecular forces down the group**
+**** **Fluorine:** 0.0017 g/cm³
+**** **Chlorine:** 0.0032 g/cm³
+**** **Bromine:** 3.1028 g/cm³
+**** **Iodine:** 4.933 g/cm³
+
+** **Reactivity of Halogens**
+*** **Reactivity decreases down the group**
+**** **Fluorine is the most reactive**
+**** **Iodine is the least reactive**
+*** **Electronegativity decreases down the group**
+*** **Strong oxidizing power** (Decreases in order: F₂ > Cl₂ > Br₂ > I₂)
+left side
+
+** **Displacement Reactions**
+*** **Stronger halogens displace weaker halide ions**
+*** **Examples**:
+**** **F₂ + 2KCl → 2KF + Cl₂**
+**** **Cl₂ + 2KBr → 2KCl + Br₂**
+**** **Br₂ + 2KI → 2KBr + I₂**
+*** **I₂ cannot displace any halide ion**
+
+
+** **Hydrogen Halides & Thermal Stability**
+*** Halogens react with hydrogen to form **hydrogen halides** (**HX**)
+**** **H₂ + X₂ → 2HX** (where X = F, Cl, Br, I)
+*** **Thermal stability decreases** from **HF > HCl > HBr > HI**
+**** **HF has the strongest bond**
+**** **HI has the weakest bond**
+
+** **Prediction of Group 17 Properties**
+*** **Poisonous non-metals**
+*** **Low melting & boiling points** (Increase down the group)
+*** **State at Room Temperature:**
+**** **Fluorine, Chlorine → Gases**
+**** **Bromine → Liquid**
+**** **Iodine → Solid**
+*** **Color darkens down the group**
+
+** **Concept Assessment Exercise 4.9**
+*** Identify **which displacement reactions will occur**:
+**** **(1) Cl₂ + 2NaF → 2NaCl + F₂** ❌ (Won't happen)
+**** **(2) Br₂ + 2KI → 2KBr + I₂** ✅ (Will happen)
+**** **(3) I₂ + 2KBr → 2KI + Br₂** ❌ (Won't happen)
+**** **(4) Cl₂ + 2KBr → 2KCl + Br₂** ✅ (Will happen)
+**** **(5) Cl₂ + 2NaI → 2NaCl + I₂** ✅ (Will happen)
+
+@endmindmap
+`} />
       </section>
        
 

@@ -1,88 +1,59 @@
-import { NextPage } from 'next';
-import Head from 'next/head';
+import React from 'react';
 
-const NobleGases: NextPage = () => {
+const NobleGasesPage = () => {
+  const tableData = [
+    { element: "Helium", atomicNumber: 2, config: "1s²" },
+    { element: "Neon", atomicNumber: 10, config: "1s²2s²2p⁶" },
+    { element: "Argon", atomicNumber: 18, config: "1s²2s²2p⁶3s²3p⁶" },
+    { element: "Krypton", atomicNumber: 36, config: "1s²2s²2p⁶3s²3p⁶3d¹⁰4s²4p⁶" },
+    { element: "Xenon", atomicNumber: 54, config: "1s²2s²2p⁶3s²3p⁶3d¹⁰4s²4p⁶4d¹⁰5s²5p⁶" }
+  ];
+
   return (
-    <div className="min-h-screen bg-white text-gray-900">
-      <Head>
-        <title>Noble Gases</title>
-        <meta name="description" content="Learn about Noble Gases including their properties, electronic configurations, and applications." />
-      </Head>
+    <div className="min-h-screen bg-gray-50 py-8 px-4">
+      <main className="max-w-4xl mx-auto">
+        <article className="bg-white rounded-lg shadow-lg p-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-6">4.8 NOBLE GASES</h1>
+          
+          <div className="prose max-w-none">
+            <p className="text-gray-700 mb-6 leading-relaxed">
+              Noble gases, also known as inert gases, are a group of chemical elements found in Group 18 (or Group VIII-A) of the periodic table. They have general electron configuration ns², np⁶ except He, which has 1s². They are characterized by unique properties. They are odorless, colorless mono atomic gases and possess very low reactivity with other elements. This low reactivity is due to the presence of a complete valence shell, which makes them stable and unlikely to form chemical bonds with other elements under normal conditions. Noble gases include elements: Helium (He), neon (Ne), argon (Ar), krypton (Kr), xenon (Xe), radon (Rn), and oganesson (Og).
+            </p>
 
-      <main className="p-6 max-w-4xl mx-auto">
-        <header className="mb-8">
-          <h1 className="text-3xl font-bold mb-4">4.8 Noble Gases</h1>
-          <p>
-            Noble gases, also known as inert gases, are a group of chemical elements found in Group 18 (or Group VIII-A) of the periodic table. They have the general electron configuration ns²np⁶, except for helium (He), which has 1s². These gases are characterized by their unique properties: they are odorless, colorless, monoatomic gases with very low reactivity. Their low reactivity is due to the presence of a complete valence shell, making them stable and unlikely to form chemical bonds with other elements under normal conditions. The noble gases include Helium (He), Neon (Ne), Argon (Ar), Krypton (Kr), Xenon (Xe), Radon (Rn), and Oganesson (Og).
-          </p>
-        </header>
+            <div className="bg-blue-50 rounded-lg p-6 mb-8">
+              <h2 className="text-2xl font-semibold text-blue-900 mb-3">Did you know?</h2>
+              <p className="text-blue-800">
+                Due to their non-reactive nature, noble gases are used in many ways, such as in lighting (e.g. neon signs), refrigeration systems and welding. They are also used in special applications, including filling gas exhaust lines and as a shielding gas in certain industrial processes.
+              </p>
+            </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Applications of Noble Gases</h2>
-          <p>
-            Due to their non-reactive nature, noble gases are used in various applications:
-          </p>
-          <ul className="list-disc ml-6">
-            <li>Lighting (e.g., neon signs)</li>
-            <li>Refrigeration systems</li>
-            <li>Welding</li>
-            <li>Filling gas exhaust lines</li>
-            <li>Shielding gas in certain industrial processes</li>
-          </ul>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Table 4.1: Electronic Configuration of Noble Gases</h2>
-          <table className="min-w-full bg-gray-100 border border-gray-300">
-            <thead>
-              <tr>
-                <th className="py-2 px-4 border-b">Element</th>
-                <th className="py-2 px-4 border-b">Atomic Number</th>
-                <th className="py-2 px-4 border-b">Electronic Configuration</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="py-2 px-4 border-b">Helium</td>
-                <td className="py-2 px-4 border-b">2</td>
-                <td className="py-2 px-4 border-b">1s²</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4 border-b">Neon</td>
-                <td className="py-2 px-4 border-b">10</td>
-                <td className="py-2 px-4 border-b">1s² 2s² 2p⁶</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4 border-b">Argon</td>
-                <td className="py-2 px-4 border-b">18</td>
-                <td className="py-2 px-4 border-b">1s² 2s² 2p⁶ 3s² 3p⁶</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4 border-b">Krypton</td>
-                <td className="py-2 px-4 border-b">36</td>
-                <td className="py-2 px-4 border-b">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4 border-b">Xenon</td>
-                <td className="py-2 px-4 border-b">54</td>
-                <td className="py-2 px-4 border-b">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4 border-b">Radon</td>
-                <td className="py-2 px-4 border-b">86</td>
-                <td className="py-2 px-4 border-b">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4 border-b">Oganesson</td>
-                <td className="py-2 px-4 border-b">118</td>
-                <td className="py-2 px-4 border-b">1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d¹⁰ 7p⁶</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Table 4.1: Electronic Configuration of Noble Gases</h2>
+            
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="border px-4 py-2 text-left">Element</th>
+                    <th className="border px-4 py-2 text-left">Atomic Number</th>
+                    <th className="border px-4 py-2 text-left">Electronic Configuration</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {tableData.map((row, index) => (
+                    <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                      <td className="border px-4 py-2">{row.element}</td>
+                      <td className="border px-4 py-2">{row.atomicNumber}</td>
+                      <td className="border px-4 py-2 font-mono">{row.config}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </article>
       </main>
     </div>
   );
 };
 
-export default NobleGases;
+export default NobleGasesPage;

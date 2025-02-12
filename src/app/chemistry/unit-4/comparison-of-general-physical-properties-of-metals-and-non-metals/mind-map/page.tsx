@@ -65,6 +65,55 @@ mindmapDiagram {
 @endmindmap`}
         />
 
+        <PlantUMLDiagram code={`
+                @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **4.9 Comparison of Metals and Non-Metals**
+** **Thermal Conductivity**
+*** **Metals**: High thermal conductivity → **Good heat conductors**
+*** **Non-Metals**: Poor thermal conductivity → **Bad heat conductors**
+
+** **Electrical Conductivity**
+*** **Metals**: **Good conductors** (due to **free electrons**)
+*** **Non-Metals**: **Poor conductors** (**except graphite**)
+
+left side
+
+** **Adaptability**
+*** **Metals**:
+**** **Malleable** (can be hammered into sheets)
+**** **Ductile** (can be drawn into wires)
+**** **Due to metallic bonding**
+*** **Non-Metals**:
+**** **Brittle** (breaks easily)
+**** **Not malleable or ductile**
+
+** **Melting & Boiling Points**
+*** **Metals**:
+**** **High melting & boiling points** (due to **strong metallic bonds**)
+*** **Non-Metals**:
+**** **Low melting & boiling points** (due to **weak covalent, van der Waals, or hydrogen bonds**)
+
+** **Concept Assessment Exercise 4.10**
+*** **Compare general properties of metals and non-metals**
+
+@endmindmap
+
+            `} />
+
       </section>
        
       <div className="bg-gradient-to-r from-gray-100 to-blue-200 text-gray-900">

@@ -65,6 +65,59 @@ mindmapDiagram {
 @endmindmap`}
         />
 
+        <PlantUMLDiagram code={`
+          @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **4.8 Noble Gases**
+** **Definition**
+*** Found in **Group 18 (VIIIA)**
+*** Also known as **Inert Gases**
+*** **General Electron Configuration**: ns² np⁶ (**except He: 1s²**)
+*** **Monoatomic, odorless, colorless gases**
+*** **Very low reactivity** due to **complete valence shell**
+*** Includes: **He, Ne, Ar, Kr, Xe, Rn, Og**
+
+
+** **Properties**
+*** **Low Reactivity**
+**** **Complete valence shell → Stable** (unlikely to form bonds)
+*** **Colorless & Odorless**
+*** **Monoatomic Gases**
+*** **Low Boiling & Melting Points**
+*** **Poor Conductors of Electricity**
+left side
+
+** **Uses of Noble Gases**
+*** **Lighting** (e.g., **Neon signs**)
+*** **Refrigeration Systems**
+*** **Welding** (as shielding gas)
+*** **Filling gas exhaust lines**
+*** **Used in Special Industrial Applications**
+
+** **Electronic Configuration of Noble Gases**
+*** **Helium (He, Z=2):** 1s²
+*** **Neon (Ne, Z=10):** 1s² 2s² 2p⁶
+*** **Argon (Ar, Z=18):** 1s² 2s² 2p⁶ 3s² 3p⁶
+*** **Krypton (Kr, Z=36):** 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶
+*** **Xenon (Xe, Z=54):** 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s² 5p⁶
+
+@endmindmap
+
+          `} />
+
       </section>
       <div className="bg-gradient-to-r from-blue-100 to-purple-100 text-gray-800">
         <div className="max-w-4xl mx-auto p-8">

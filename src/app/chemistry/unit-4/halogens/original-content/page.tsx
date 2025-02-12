@@ -1,121 +1,154 @@
-import { NextPage } from 'next';
-import Head from 'next/head';
+import React from 'react';
 
-const Halogens: NextPage = () => {
+const HalogensPage = () => {
   return (
-    <div className="min-h-screen bg-white text-gray-900">
-      <Head>
-        <title>Halogens</title>
-        <meta name="description" content="Learn about the Halogens including their properties, appearance, density, reactivity, and more." />
-      </Head>
+    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+        <div className="p-8">
+          {/* Main Header */}
+          <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+            4.7 HALOGENS
+          </h1>
 
-      <main className="p-6 max-w-4xl mx-auto">
-        <header className="mb-8">
-          <h1 className="text-3xl font-bold mb-4">4.7 Halogens</h1>
-          <p>
-            The elements in Group 17 (or Group VII-A) are called halogens. The name &quot;halogen&quot; is derived from the Greek words &quot;halous&quot; meaning salt and &quot;gen&quot; meaning former. Halogens include fluorine, chlorine, bromine, iodine, astatine, and tennessine (astatine and tennessine are radioactive elements with less known properties). All halogens are reactive non-metals and exist as diatomic molecules.
-          </p>
-        </header>
+          {/* Introduction */}
+          <div className="space-y-6">
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <p className="text-lg">
+                The elements in group 17 (or Gruop VII-A) are called halogens. The name halogen is derived from the Greek words "halous" meaning salt and "gen" meaning former. Halogens include fluorine, chlorine, bromine, fodine, astatine, and tenessine (astatine and tenessine are radio- active elements. Little is known about their properties). All halogens are reactive non-metals and exist as diatomic molecules.
+              </p>
+            </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">4.7.1 Appearance of Halogens</h2>
-          <p>
-            Halogens exist as diatomic, colored molecular substances. The color of halogens darkens as you go down the group:
-          </p>
-          <ul className="list-disc ml-6">
-            <li>Fluorine (F₂): Pale yellow gas</li>
-            <li>Chlorine (Cl₂): Yellow-green gas</li>
-            <li>Bromine (Br₂): Red-brown liquid</li>
-            <li>Iodine (I₂): Grey-black solid, turns into dark purple vapors on warming</li>
-          </ul>
-        </section>
+            {/* Appearance Section */}
+            <div className="mt-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">
+                4.7.1 Appearance of halogens
+              </h2>
+              <div className="bg-yellow-50 p-6 rounded-lg">
+                <p className="text-lg">
+                  They all exist as diatomic coloured molecular substances. The colour of halogen become darker as you go down the group. At room temperature and pressure(RTP) fluorine(F₂) exist as pale yellow gas, chlorine(Cl₂) as yellow-green gas, bromine (Br₂) as red-brown liquid and iodine(I₂) as grey-black solid. lodine easily turn into a dark purple vapours on warming.
+                </p>
+              </div>
+            </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Electronic Configuration</h2>
-          <p>
-            Halogens possess 7 electrons in their valence shell with the general electronic configuration ns²np⁵. They need only one more electron to complete their valence shell, hence they tend to gain one electron to form univalent negative ions: F⁻, Cl⁻, Br⁻, I⁻.
-          </p>
-        </section>
+            {/* Electronic Configuration */}
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-4">Electronic Configuration</h3>
+              <p className="text-lg">
+                Halogens possess 7 electrons in their valence shell. They have general electronic configuration ns²np⁵. They need only one electron to complete their valence shell. Consequently, they tend to gain one electron to form univalent negative ions, F⁻, Cl⁻, Br⁻, I⁻.
+              </p>
+            </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Density of Halogens</h2>
-          <p>
-            As you move down the group, the number of electrons and protons increases, resulting in a larger atomic size and volume. However, the mass increase is greater than the volume increase, so density generally increases:
-          </p>
-          <table className="min-w-full bg-gray-100 border border-gray-300">
-            <thead>
-              <tr>
-                <th className="py-2 px-4 border-b">Halogen</th>
-                <th className="py-2 px-4 border-b">Density (g/cm³ at 25 °C)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="py-2 px-4 border-b">Fluorine</td>
-                <td className="py-2 px-4 border-b">0.0017</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4 border-b">Chlorine</td>
-                <td className="py-2 px-4 border-b">0.0032</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4 border-b">Bromine</td>
-                <td className="py-2 px-4 border-b">3.1028</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4 border-b">Iodine</td>
-                <td className="py-2 px-4 border-b">4.933</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+            {/* Density Section */}
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-4">Density of halogens</h3>
+              <p className="text-lg mb-4">
+                As you move down the group the number of electrons and protons increases, the size of the atom increases and the volume increases. However, the increase in mass exceeds the increase in volume, so the density, which is mass per unit volume, increases in general. Also fluorine and chlorine are gases, bromine is a liquid, and iodine is a solid. So, the forces of attraction between molecules increase down the group. Solid iodine has molecules that are highly attracted and tightly packed together than bromine. Therefore, as you go down the group of halogens, the forces of attraction between molecules increase and the density of the halogen increases.
+              </p>
+              
+              {/* Density Table */}
+              <div className="bg-white rounded-lg overflow-hidden shadow-sm mt-4">
+                <table className="w-full">
+                  <thead className="bg-gray-50">
+                    <tr>
+                      <th className="px-4 py-2 text-left text-lg font-bold">Halogen</th>
+                      <th className="px-4 py-2 text-left text-lg font-bold">Density (g/cm³ at 25°C)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="border px-4 py-2 text-lg">Fluorine</td>
+                      <td className="border px-4 py-2 text-lg">0.0017</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-lg">Chlorine</td>
+                      <td className="border px-4 py-2 text-lg">0.0032</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-lg">Bromine</td>
+                      <td className="border px-4 py-2 text-lg">3.1028</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-lg">lodine</td>
+                      <td className="border px-4 py-2 text-lg">4.933</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Reactivity of Halogens</h2>
-          <p>
-            The reactivity of halogens is related to their ability to gain an electron and form halide ions (F⁻, Cl⁻, Br⁻, I⁻). Fluorine is the most reactive halogen due to its high tendency to gain electrons. Reactivity decreases down the group as electronegativity decreases:
-          </p>
-          <p>Order of decreasing reactivity: F₂ ≥ Cl₂ ≥ Br₂ ≥ I₂</p>
-        </section>
+            {/* Reactivity Section */}
+            <div className="bg-yellow-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-4">Reactivity of halogens</h3>
+              <p className="text-lg mb-4">
+                The reactivity of halogens is directly related to their ability to gain an electron and form a halide ion (fluoride ion F⁻, chloride ion Cl⁻, bromide ion Br⁻, iodide ion I⁻) when they react with other elements. Fluorine has the greatest tendency to gain electrons and form a halide ion, making it the most reactive halogen. As you move down the group, the electronegativity of the halogens decreases. This leads to a decrease in reactivity. Which halogen is the least reactive? Bromine or lodine. Because halogens have a strong tendency to gain electrons, they have a strong oxidizing power, and this power decreases down the group. Thus, the order of decreasing oxidizing power is:
+              </p>
+              <p className="text-lg text-center font-bold">
+                F₂ > Cl₂ > Br₂ > I₂
+              </p>
+            </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Displacement Reactions of Halogens</h2>
-          <p>
-            The oxidizing power of F₂ is the highest, and I₂ has the lowest. This means that a free halogen can oxidize or displace the ion of the halogen next to it in the group from their aqueous solutions. For example:
-          </p>
-          <ul className="list-disc ml-6">
-            <li>F₂ can oxidize and displace all other halide ions.</li>
-            <li>Cl₂ can oxidize Br⁻ and I⁻ ions.</li>
-            <li>I₂ cannot oxidize any halide ion.</li>
-          </ul>
-        </section>
+            {/* Displacement Reactions */}
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-4">Displacement reactions of halogens</h3>
+              <p className="text-lg mb-4">
+                Oxidizing power of F₂ is the highest and that of I₂ is lowest. Due to the relative strength as oxidizing agent, it is possible for a free halogen to oxidize or displace the ion of halogen next to it in the group from their aqueous solutions. This means F₂ can oxidize and displace all the halide ions to free halogen. For example,
+              </p>
+              <div className="bg-white p-4 rounded-lg space-y-2">
+                <p className="text-lg">F₂ + 2KCl → 2KF + Cl₂</p>
+                <p className="text-lg">F₂ + 2KBr → 2KF + Br₂</p>
+                <p className="text-lg">F₂ + 2NaI → 2NaF + I₂</p>
+              </div>
+              <p className="text-lg mt-4">
+                Similarly Cl₂ can oxidize Br⁻ and I⁻ ions. But I₂ can not oxidize any halide ion.
+              </p>
+            </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Hydrogen Halides and Their Thermal Stabilities</h2>
-          <p>
-            Halogens react with hydrogen to form hydrogen halides:
-            <code className="bg-gray-100 p-1">H₂ + X₂ → 2HX</code>
-            where X = F₂, Cl₂, Br₂, I₂. The strength of the hydrogen-halogen bond decreases from HF to HI due to the decreasing electronegativity difference between hydrogen and halogen:
-          </p>
-          <ul className="list-disc ml-6">
-            <li>HF ≥ HCl ≥ HBr ≥ HI</li>
-          </ul>
-        </section>
+            {/* Hydrogen Halides Section */}
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-4">Hydrogen halides and their thermal stabilities</h3>
+              <p className="text-lg mb-4">
+                Halogens react with hydrogen to form hydrogen halides.
+              </p>
+              <div className="bg-white p-4 rounded-lg mb-4">
+                <p className="text-lg text-center">H₂ + X₂ → 2HX</p>
+                <p className="text-lg text-center">Where X = F₂, Cl₂, Br₂, I₂</p>
+              </div>
+              <p className="text-lg mb-4">
+                The strength of the hydrogen-halogen bond is related to the electronegativity difference between the hydrogen and halogen atoms. A larger electronegativity difference results in a stronger bond. As we move from HF to HI, the electronegativity difference between the hydrogen and halogen atoms decreases, resulting in weaker bonds in HCl, HBr, and HI. So, the relative thermal stability of hydrogen halides gradually decreases from HF to HI.
+              </p>
+              <p className="text-lg">
+                Consequently, the energy needed to break H-X decreases in the following orders:
+              </p>
+              <p className="text-lg text-center font-bold mt-2">
+                HF > HCl > HBr > HI
+              </p>
+            </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Concept Assessment Exercise 4.9</h2>
-          <p>Which of the following displacement reactions will occur?</p>
-          <ol className="list-decimal ml-6">
-            <li>Cl₂ + 2NaF → 2NaCl + F₂</li>
-            <li>Br₂ + 2KI → 2KBr + I₂</li>
-            <li>I₂ + 2KBr → 2KI + Br₂</li>
-            <li>Cl₂ + 2KBr → 2KCl + Br₂</li>
-            <li>Cl₂ + 2NaI → 2NaCl + I₂</li>
-          </ol>
-        </section>
-      </main>
+            {/* Prediction Section */}
+            <div className="bg-yellow-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-4">Prediction of properties of elements in Group VIIA or Group 17</h3>
+              <p className="text-lg">
+                The elements present in Group 17 or VIIA are called halogens. They are poisonous non-metals that have low melting and boiling points that increase down the group. As a result of this increasing boiling and melting points, the state of the halogens at room temperature, changes from gas to liquid to solid down the group (fluorine and chlorine, the 1st and 2nd halogens, are a gas; bromine, the 3rd halogen is a liquid; and iodine, the 4th halogen, is a solid). The colours of halogens also get darker from top to bottom.
+              </p>
+            </div>
+
+            {/* Concept Assessment Exercise */}
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-4">CONCEPT ASSESSMENT EXERCISE 4.9</h3>
+              <p className="text-lg mb-4">Which of the following displacement reactions will occur?</p>
+              <div className="space-y-2 bg-white p-4 rounded-lg">
+                <p className="text-lg">1. Cl₂ + 2NaF → 2NaCl + F₂</p>
+                <p className="text-lg">2. Br₂ + 2KI → 2KBr + I₂</p>
+                <p className="text-lg">3. I₂ + 2KBr → 2KI + Br₂</p>
+                <p className="text-lg">4. Cl₂ + 2KBr → 2KCl + Br₂</p>
+                <p className="text-lg">5. Cl₂ + 2NaI → 2NaCl + I₂</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Halogens;
+export default HalogensPage;

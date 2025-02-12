@@ -61,6 +61,64 @@ mindmapDiagram {
 @endmindmap`}
         />
 
+<PlantUMLDiagram
+        code={`
+                      @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **4.5 Transition Elements**
+** **Definition**
+*** Found in **d-block** (Groups **3 to 12**) of the periodic table
+*** Have **unique properties** that set them apart from other elements
+
+** **Properties of Transition Elements**
+*** **1. High Density**
+**** Due to **higher atomic masses** and **closely packed structures**
+**** **Examples**:
+***** **Iron (Fe):** 7.87 g/cm³
+***** **Tungsten (W):** 19.3 g/cm³
+
+*** **2. High Melting Points**
+**** Due to **strong metallic bonding** (from partially filled d-sub shells)
+**** **Examples**:
+***** **Tungsten (W):** 3422 °C
+***** **Platinum (Pt):** 1768 °C
+
+*** **3. Variable Oxidation States**
+**** d-sub shell **participates in bonding** along with s-sub shell
+**** **Examples**:
+***** **Iron (Fe):** +2, +3
+***** **Copper (Cu):** +1, +2
+
+*** **4. Coloured Compounds**
+**** Transition metals form **vibrant-colored** compounds
+**** **Examples**:
+***** **Copper compounds:** Blue or Green
+***** **Chromium compounds:** Red or Green
+
+*** **5. Catalysts in Industrial Processes**
+**** Widely used in industry to **speed up chemical reactions**
+**** **Examples**:
+***** (a) **Iron (Fe):** Haber Process (**Ammonia Synthesis**)
+***** (b) **Platinum (Pt) & Palladium (Pd):** Catalytic Converters (**Reduce Emissions**)
+***** (c) **Nickel (Ni):** Used in **margarine production**
+***** (d) **Platinum (Pt):** Contact Process (**Sulfuric Acid Production**)
+
+@endmindmap
+`}
+      />
       </section>
        
       <div className="bg-gradient-to-r from-blue-100 to-indigo-100 p-10 font-sans">
