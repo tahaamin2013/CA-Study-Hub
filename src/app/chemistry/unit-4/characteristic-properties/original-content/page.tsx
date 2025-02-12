@@ -228,7 +228,7 @@ const CharacteristicPropertiesPage = () => {
                   <p className="text-lg">When alkali metals react with water, they produce a metal hydroxide and hydrogen.</p>
                   <div className="bg-white p-4 rounded-lg my-4">
                     <p className="text-lg text-center italic">
-                      metal + water --> metal hydroxide + hydrogen
+                      metal + water --&gt; metal hydroxide + hydrogen
                     </p>
                   </div>
                   <p className="text-lg">The alkali metals become more reactive down the group.</p>
