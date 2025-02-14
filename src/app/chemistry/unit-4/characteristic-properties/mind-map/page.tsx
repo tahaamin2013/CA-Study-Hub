@@ -159,9 +159,8 @@ mindmapDiagram {
 `}
       />
 
-      <PlantUMLDiagram
-        code={`
-                  @startmindmap
+<PlantUMLDiagram
+        code={`@startmindmap
 <style>
 mindmapDiagram {
     node {
@@ -176,50 +175,306 @@ mindmapDiagram {
 }
 </style>
 
-* **4.4 Characteristic Properties**
-** **4.4.2 Reactivity**
-*** **Definition**: Ability of an element to react and form compounds
-*** **Trend Down a Group** ⬇️
-**** Reactivity **increases**
-**** Due to **increase in atomic size**
-**** **Weaker attraction → easier reactions**
-*** **Trend Across a Period** ➡️
-**** **Varies**
-**** **Left side (Groups 1, 2) → Highly reactive (lose electrons)**
-**** **Right side (Groups 16, 17) → Highly reactive (gain electrons)**
+* Metallic Character
+** Definition
+*** Property determining electron loss ability
+*** Forms positive ions (cations)
+*** Position dependent in periodic table
 
-** **4.4.3 Density**
-*** **Definition**: Mass per unit volume of an element
-*** **Trend Down a Group** ⬇️
-**** Density **increases**
-**** **More protons & neutrons → higher atomic mass**
-*** **Trend Across a Period** ➡️
-**** **Density increases → peaks in the middle → then decreases**
+** Trends
+*** Down Group
+**** Increases down group
+**** Due to new electronic shells
+**** Outer electrons farther from nucleus
+**** Weaker attractive forces
 
-** **4.4.4 Alkali Metals Properties**
-*** **Highly Reactive Metals** ⚡
-**** Readily lose **valence electron → form +1 cations**
-**** Reactivity **increases down the group**
-*** **Softness & Low Density** 
-**** **Easily cut with a knife**
-**** Softness **increases down the group**
-**** **Example: Na is harder than K**
-*** **Other Properties**
-**** Excellent **conductors of electricity & heat**
-**** Low **melting points**
-**** **React with H₂O → produce hydrogen & hydroxide**
+*** Across Period
+**** Decreases left to right
+**** Due to increased effective nuclear charge
+**** Same number of shells
+**** Stronger attractive forces
 
-** **4.4.5 Prediction of Group 1 Properties**
-*** **Group 1: Alkali Metals**
-**** **Soft metals with a trend in melting point & reactivity**
-**** **Melting & boiling points decrease down the group**
-**** **Reactivity increases down the group**
-*** **Reaction with Water**
-**** **Metal + Water → Metal Hydroxide + Hydrogen**
-**** Example: **Li, Na, K react with water**
+left side
+
+** Problem Examples
+*** Example 4.6
+**** Compare pairs
+***** Na vs K
+***** Na vs Mg
+**** Solution
+***** K has higher character than Na
+***** Na has higher character than Mg
+
+*** Exercise 4.8
+**** Lower metallic character
+***** Li vs K
+***** Mg vs Ca
+***** Compare ionization energy & electron affinity
+
+** Problem Solving Strategy
+*** Check group position
+**** Lower = more metallic
+*** Check period position
+**** Left = more metallic
+*** Consult periodic table
 @endmindmap
 `}
       />
+
+      
+<PlantUMLDiagram
+        code={`@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+* Reactivity
+** Definition
+*** Capability to form new compounds
+*** Interaction with other elements
+
+** Group Trends
+*** Increases down group
+*** Reasons
+**** Larger atomic size
+**** Outer electrons farther from nucleus
+**** Weaker attractive forces
+**** Easier chemical reactions
+
+left side
+
+** Period Trends
+*** Left Side (Groups 1 & 2)
+**** Highly reactive
+**** Tends to lose electrons
+**** Forms positive ions
+
+*** Right Side (Groups 16 & 17)
+**** Highly reactive
+**** Tends to gain electrons
+**** Forms negative ions
+
+@endmindmap
+`}
+      />
+
+
+      
+<PlantUMLDiagram
+        code={`@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Density
+** Group Trends
+*** Increases down group
+*** Reasons
+**** Increasing atomic mass
+**** Larger atomic size
+**** More protons & neutrons
+**** Heavier nucleus
+left side
+** Period Trends
+*** Pattern
+**** Increases left to right
+**** Peaks in middle
+**** Decreases towards right
+*** Variable pattern
+**** Not uniform increase/decrease
+**** Maximum around center
+
+@endmindmap
+`}
+      />
+
+<PlantUMLDiagram
+        code={`@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+* Alkali Metals Properties
+** Reactivity
+*** Highly reactive metals
+*** Readily form +1 cations
+*** Increases down group
+*** Lose valence electrons easily
+left side
+** Physical Properties
+*** Softness
+**** Easily cut with knife
+**** Increases down group
+**** K softer than Na
+
+*** Low Density
+**** Decreases down group
+
+*** Conductivity
+**** Excellent electrical conductors
+**** Excellent heat conductors
+
+*** Melting Points
+**** Low melting points
+right side
+
+** Chemical Properties
+*** Monovalent Elements
+*** Water Reactivity
+**** React with H₂O
+**** Produce hydrogen gas
+**** Form metal hydroxides
+
+@endmindmap
+`}
+      />
+
+
+<PlantUMLDiagram
+        code={`@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Group 1 (Alkali Metals)
+** Group Name
+*** Called Alkali Metals
+*** Examples include Li, Na, K
+
+** Physical Properties
+*** Softness
+**** Very soft metals
+**** Increases down group
+
+
+*** Thermal Properties
+**** Melting points decrease down group
+**** Boiling points decrease down group
+
+left side
+
+** Chemical Properties
+*** Water Reactivity
+**** General Reaction
+***** Metal + Water →
+***** Metal Hydroxide + Hydrogen
+
+*** Reactivity Trend
+**** Increases down group
+**** Examples
+***** Lithium
+***** Sodium
+***** Potassium
+
+
+@endmindmap
+`}
+      />
+
+      
+<PlantUMLDiagram
+        code={`@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Position of Unknown Elements
+** Determining Factors
+*** Electronic Configuration
+**** Influences chemical behavior
+**** Similar within groups
+**** Key for position prediction
+
+*** Periodic Trends
+**** Atomic size
+**** Ionization energy
+**** Electron affinity
+**** Electronegativity
+**** Reactivity
+left side
+** Example Problem (Element 19)
+*** Problem Strategy
+**** Step 1
+***** Write electronic configuration
+***** 1s², 2s², 2p⁶, 3s², 3p⁶, 4s¹
+
+**** Step 2
+***** Analyze valence configuration
+***** Identify group and period
+
+*** Solution
+**** Group Determination
+***** 4s¹ indicates Group 1
+***** Alkali metal family
+
+**** Period Determination
+***** n=4 indicates Period 4
+
+
+** Property Prediction
+*** Compare with neighbors
+**** Melting point
+**** Density
+**** Reactivity
+*** Based on periodic trends
+**** Higher/lower than elements above
+**** Higher/lower than elements below
+
+@endmindmap
+`}
+      />
+
+
+
+
 
       <PlantUMLDiagram
         code={`
