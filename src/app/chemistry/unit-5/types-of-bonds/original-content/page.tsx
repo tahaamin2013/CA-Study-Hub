@@ -30,7 +30,7 @@ const Unit05_3 = () => {
                 <li>Magnesium belongs to Group IIA in the periodic table. It has two valence electrons. A magnesium atom loses these electrons to achieve noble gas configuration. Represent this by drawing the complete electronic configuration or using an electron dot structure. This number also corresponds to the Group number in the periodic table.
                 </li>
             </ol>
-            <div className="fds">
+            <div>
         <h2>Solution:</h2>
         <p><strong>(a) Formation of Na⁺ ion:</strong></p>
         <p className="formula">Na (1s² 2s² 2p⁶ 3s¹) - e⁻ → Na⁺ (1s² 2s² 2p⁶)</p>
@@ -197,23 +197,23 @@ const Unit05_3 = () => {
 gains one electron to form F ion. Na atom by losing one electron and F atom by gaining one electron acquire nearest noble gas electronic configuration. You need one F ion for each Na' ion. Therefore, NaF is an ionic compound.
 </p>
         </div>
-         <div class="">
+         <div className="">
 
-        <h1 class="text-2xl font-bold mt-6 mb-4">Concept Assessment Exercise 5.4</h1>
-        <p class="mb-4">Recognize the following compounds as having ionic bonds:</p>
-        <ul class="list-disc pl-6 mb-4">
+        <h1 className="text-2xl font-bold mt-6 mb-4">Concept Assessment Exercise 5.4</h1>
+        <p className="mb-4">Recognize the following compounds as having ionic bonds:</p>
+        <ul className="list-disc pl-6 mb-4">
             <li>(a) KCl</li>
             <li>(b) AlCl₃</li>
             <li>(c) MgF₂</li>
             <li>(d) NaF</li>
             <li>(e) NaBr</li>
         </ul>
-        <h2 class="text-xl font-semibold mb-2">5.3.2 Covalent Bonds</h2>
-        <p class="mb-4">Nonmetal atoms tend to share electrons with each other or with other nonmetal atoms, forming a chemical bond called a covalent bond. A chemical bond formed by mutual sharing of electrons between two atoms is called a covalent bond. General representation of a covalent bond is given below.
+        <h2 className="text-xl font-semibold mb-2">5.3.2 Covalent Bonds</h2>
+        <p className="mb-4">Nonmetal atoms tend to share electrons with each other or with other nonmetal atoms, forming a chemical bond called a covalent bond. A chemical bond formed by mutual sharing of electrons between two atoms is called a covalent bond. General representation of a covalent bond is given below.
         </p>
-        <p class="mb-4">Consider the formation of a covalent bond between two hydrogen atoms. A hydrogen atom has one valence electron. Two hydrogen atoms share their valence electrons to form a diatomic molecule.</p>
-        <p class="mb-4">H + H → H:H (shared pair of electrons)</p>
-        <p class="mb-4">In the formation of this molecule, each hydrogen atom reaches the electronic configuration of the noble gas helium with two valence electrons. An electron pair in the region between two atoms attracts both hydrogen nuclei. This creates a strong electrostatic attraction between the shared electrons and the two nuclei. This means that the situation is more stable than in individual atoms. Because of this stability, the two atoms form a covalent bond.
+        <p className="mb-4">Consider the formation of a covalent bond between two hydrogen atoms. A hydrogen atom has one valence electron. Two hydrogen atoms share their valence electrons to form a diatomic molecule.</p>
+        <p className="mb-4">H + H → H:H (shared pair of electrons)</p>
+        <p className="mb-4">In the formation of this molecule, each hydrogen atom reaches the electronic configuration of the noble gas helium with two valence electrons. An electron pair in the region between two atoms attracts both hydrogen nuclei. This creates a strong electrostatic attraction between the shared electrons and the two nuclei. This means that the situation is more stable than in individual atoms. Because of this stability, the two atoms form a covalent bond.
         </p>
         <p className='font-bold'> In a covalent bond, a strong electrostatic forve of attraction between the bonding electrons and two atomic nuclei binds them together.
         </p>
@@ -236,9 +236,9 @@ Can you explain the formation of N, molecules?
 </p>
 
 
-        <h2 class="text-xl font-semibold mb-2">Example 5.5: Drawing electron cross and dot structures for simple covalent molecules containing single covalent bonds
+        <h2 className="text-xl font-semibold mb-2">Example 5.5: Drawing electron cross and dot structures for simple covalent molecules containing single covalent bonds
         </h2>
-        <p class="mb-4">Draw electron cross and dot structures for (a) CH, that is a major component of natural gas (b) H.O that covers about 80% of the earth crust.
+        <p className="mb-4">Draw electron cross and dot structures for (a) CH, that is a major component of natural gas (b) H.O that covers about 80% of the earth crust.
         </p>
 <p>
 <h1 className='text-xl font-bold'>Problem Solving Strategy:</h1>
@@ -249,16 +249,16 @@ Use cross to represent electrons of the other atoms. <br />
 
 </p>
 
-        <h3 class="text-lg font-semibold mb-2">Solution:</h3>
-        <div class="mb-4">
-            <p class="font-semibold">(a) CH₄</p>
+        <h3 className="text-lg font-semibold mb-2">Solution:</h3>
+        <div className="mb-4">
+            <p className="font-semibold">(a) CH₄</p>
             <p>(1) C has four electrons in the valence shell and needs four electrons to complete its octet. H has only one valence electron and needs one electron to complete the duplet. So C can form four single bonds with four H-atoms. C is the central element.
 </p>
 <p>(ii) Connect the atoms with a dot and a cross
 </p>
         </div>
-        <div class="mb-4">
-            <p class="font-semibold">(b) H₂O</p>
+        <div className="mb-4">
+            <p className="font-semibold">(b) H₂O</p>
             <p>
                 
   <p className='mb-4'>
@@ -271,54 +271,54 @@ Use cross to represent electrons of the other atoms. <br />
             </p>
         </div>
     </div>
-    <h1 class="text-2xl font-bold mb-4">Example 5.4: Recognizing a Compound as Having Ionic Bonds</h1>
-        <p class="mb-4">Recognize the following compounds as having ionic bonds.</p>
-        <ul class="list-disc pl-6 mb-4">
+    <h1 className="text-2xl font-bold mb-4">Example 5.4: Recognizing a Compound as Having Ionic Bonds</h1>
+        <p className="mb-4">Recognize the following compounds as having ionic bonds.</p>
+        <ul className="list-disc pl-6 mb-4">
             <li><strong>(a)</strong> MgO</li>
             <li><strong>(b)</strong> NaF</li>
         </ul>
-        <h2 class="text-xl font-semibold mb-2">Problem Solving Strategy:</h2>
-        <ol class="list-decimal pl-6 mb-4">
+        <h2 className="text-xl font-semibold mb-2">Problem Solving Strategy:</h2>
+        <ol className="list-decimal pl-6 mb-4">
             <li>The metal atom loses electrons to form cations and non-metal atom gains electrons to form anions.</li>
             <li>The number of electrons lost by metal atoms of group IA, IIA, and IIIA equals the group number. The number of electrons gained by the non-metal atoms is equal to 8 minus the group number.</li>
             <li>Find the simplest ratio of cations to anions to identify the compound.</li>
         </ol>
-        <h2 class="text-xl font-semibold mb-2">Solution:</h2>
-        <div class="mb-4">
-            <p class="font-semibold">(a) MgO</p>
+        <h2 className="text-xl font-semibold mb-2">Solution:</h2>
+        <div className="mb-4">
+            <p className="font-semibold">(a) MgO</p>
             <p>Mg is a metal and O is a non-metal. A Mg atom has two electrons in the outermost shell, so it loses two electrons to form an Mg ion. Since an O atom has six electrons in the outermost shell, it gains two electrons to form an O' ion. In this way, both atoms acquire the nearest noble gas configuration. For every Mg ion, you need one O' ion. The chemical formula of the resulting compound is MgO. Therefore, MgO is an ionic compound.</p>
         </div>
-        <div class="mb-4">
-            <p class="font-semibold">(b) NaF</p>
+        <div className="mb-4">
+            <p className="font-semibold">(b) NaF</p>
             <p>Na is a metal and F is a non-metal. A Na atom has one electron in the outermost shell, so it loses one electron to form a Na' ion. Since an F atom has seven electrons in the outermost shell, it gains one electron to form an F ion. The Na atom, by losing one electron, and the F atom, by gaining one electron, acquire the nearest noble gas electronic configuration. You need one F ion for each Na' ion. Therefore, NaF is an ionic compound.</p>
         </div>
-        <h1 class="text-2xl font-bold mt-6 mb-4">Concept Assessment Exercise 5.4</h1>
-        <p class="mb-4">Recognize the following compounds as having ionic bonds:</p>
-        <ul class="list-disc pl-6 mb-4">
+        <h1 className="text-2xl font-bold mt-6 mb-4">Concept Assessment Exercise 5.4</h1>
+        <p className="mb-4">Recognize the following compounds as having ionic bonds:</p>
+        <ul className="list-disc pl-6 mb-4">
             <li>(a) KCl</li>
             <li>(b) AlCl₃</li>
             <li>(c) MgF₂</li>
             <li>(d) NaF</li>
             <li>(e) NaBr</li>
         </ul>
-        <h2 class="text-xl font-semibold mb-2">5.3.2 Covalent Bonds</h2>
-        <p class="mb-4">Nonmetal atoms tend to share electrons with each other or with other nonmetal atoms, forming a chemical bond called a covalent bond. A chemical bond formed by mutual sharing of electrons between two atoms is called a covalent bond.</p>
-        <p class="mb-4">Consider the formation of a covalent bond between two hydrogen atoms. A hydrogen atom has one valence electron. Two hydrogen atoms share their valence electrons to form a diatomic molecule.</p>
-        <p class="mb-4">H + H → H:H (shared pair of electrons)</p>
-        <p class="mb-4">In the formation of this molecule, each hydrogen atom reaches the electronic configuration of the noble gas helium with two valence electrons. The shared electron pair creates a strong electrostatic attraction between the bonding electrons and the two nuclei, making the molecule more stable than the individual atoms.</p>
-        <h2 class="text-xl font-semibold mb-2">Example 5.5: Drawing Electron Cross and Dot Structures</h2>
-        <p class="mb-4">Draw electron cross and dot structures for:</p>
-        <ul class="list-disc pl-6 mb-4">
+        <h2 className="text-xl font-semibold mb-2">5.3.2 Covalent Bonds</h2>
+        <p className="mb-4">Nonmetal atoms tend to share electrons with each other or with other nonmetal atoms, forming a chemical bond called a covalent bond. A chemical bond formed by mutual sharing of electrons between two atoms is called a covalent bond.</p>
+        <p className="mb-4">Consider the formation of a covalent bond between two hydrogen atoms. A hydrogen atom has one valence electron. Two hydrogen atoms share their valence electrons to form a diatomic molecule.</p>
+        <p className="mb-4">H + H → H:H (shared pair of electrons)</p>
+        <p className="mb-4">In the formation of this molecule, each hydrogen atom reaches the electronic configuration of the noble gas helium with two valence electrons. The shared electron pair creates a strong electrostatic attraction between the bonding electrons and the two nuclei, making the molecule more stable than the individual atoms.</p>
+        <h2 className="text-xl font-semibold mb-2">Example 5.5: Drawing Electron Cross and Dot Structures</h2>
+        <p className="mb-4">Draw electron cross and dot structures for:</p>
+        <ul className="list-disc pl-6 mb-4">
             <li>(a) CH₄ (Methane)</li>
             <li>(b) H₂O (Water)</li>
         </ul>
-        <h3 class="text-lg font-semibold mb-2">Solution:</h3>
-        <div class="mb-4">
-            <p class="font-semibold">(a) CH₄</p>
+        <h3 className="text-lg font-semibold mb-2">Solution:</h3>
+        <div className="mb-4">
+            <p className="font-semibold">(a) CH₄</p>
             <p>Carbon has four valence electrons and needs four more to complete its octet. Each hydrogen atom has one valence electron and needs one more to complete its duplet. Carbon forms four single covalent bonds with four hydrogen atoms.</p>
         </div>
-        <div class="mb-4">
-            <p class="font-semibold">(b) H₂O</p>
+        <div className="mb-4">
+            <p className="font-semibold">(b) H₂O</p>
             <p>Oxygen has six valence electrons and needs two more to complete its octet. Each hydrogen atom has one valence electron and needs one more. Oxygen forms two single covalent bonds with two hydrogen atoms.</p>
         </div>
         </div>
