@@ -473,53 +473,6 @@ left side
       />
 
 
-
-
-
-      <PlantUMLDiagram
-        code={`
-                    @startmindmap
-<style>
-mindmapDiagram {
-    node {
-        BackgroundColor lightBlue
-    }
-    :depth(1) {
-        BackgroundColor lightGreen
-    }
-    :depth(2) {
-        BackgroundColor lightYellow
-    }
-}
-</style>
-
-* **4.4.6 Position of Unknown Element in the Periodic Table**
-** **Determining the Position of an Unknown Element**
-*** **Electronic Configuration & Chemical Behavior**
-**** Elements in the same group have **similar electronic configurations**
-**** Electronic configuration helps **determine the element’s position**
-*** **Trends & Patterns in the Periodic Table**
-**** **Atomic size, ionization energy, electron affinity, electronegativity, reactivity** follow periodic trends
-**** **Unknown element’s properties** can be estimated by comparing it to known elements
-
-** **Example 4.7: Identifying Position of an Unknown Element**
-*** **Given: Atomic number 19**
-*** **Problem-Solving Strategy**
-**** **Step 1**: Write **electronic configuration**  
-***** **1s², 2s², 2p⁶, 3s², 3p⁶, 4s¹**
-**** **Step 2**: Identify **Valence Shell Configuration**  
-***** **4s¹ → Indicates an Alkali Metal**
-**** **Step 3**: Determine Group & Period  
-***** **Group 1 → Alkali Metals**
-***** **Period 4 → Principal Quantum Number n = 4**
-**** **Step 4**: Predict Properties  
-***** Compare with **elements above and below it**
-***** Predict **melting point, density, reactivity**
-
-@endmindmap
-`}
-      />
-
       <div className="bg-gradient-to-r from-blue-100 to-green-200 text-gray-900">
         <div className="max-w-4xl mx-auto p-8">
           <h1 className="text-4xl font-bold text-center mb-8">
