@@ -189,12 +189,12 @@ const Unit05_3 = () => {
         <h2 className="text-xl font-semibold mb-2">Solution:</h2>
         <div className="mb-4">
             <p className="font-semibold">(a) MgO</p>
-            <p>Mg is metal and O is non-metal. A Mg atom has two electrons in outermost shell. So it loses two electrons to form Mg ion. Since an O atom has six electrons in outermost shell, so it gains two electrons to form O' ion. In this way both the atoms acquire nearest noble gas configuration. For every Mg ion you need one O' ion. Chemical formula of resulting compound is MgO. Therefore MgO is an ionic compound.
+            <p>Mg is metal and O is non-metal. A Mg atom has two electrons in outermost shell. So it loses two electrons to form Mg ion. Since an O atom has six electrons in outermost shell, so it gains two electrons to form O&apos; ion. In this way both the atoms acquire nearest noble gas configuration. For every Mg ion you need one O&apos; ion. Chemical formula of resulting compound is MgO. Therefore MgO is an ionic compound.
             </p>
         </div>
         <div>
-            <p><span>(b)</span>  Na is metal and F is non-metal. A Na atom has one electron in outmost shell. So it loses one electron to form Na' ion. Since a F atom has seven electrons in outermost shell, so it
-gains one electron to form F ion. Na atom by losing one electron and F atom by gaining one electron acquire nearest noble gas electronic configuration. You need one F ion for each Na' ion. Therefore, NaF is an ionic compound.
+            <p><span>(b)</span>  Na is metal and F is non-metal. A Na atom has one electron in outmost shell. So it loses one electron to form Na&apos; ion. Since a F atom has seven electrons in outermost shell, so it
+gains one electron to form F ion. Na atom by losing one electron and F atom by gaining one electron acquire nearest noble gas electronic configuration. You need one F ion for each Na&apos; ion. Therefore, NaF is an ionic compound.
 </p>
         </div>
          <div className="">
@@ -286,11 +286,11 @@ Use cross to represent electrons of the other atoms. <br />
         <h2 className="text-xl font-semibold mb-2">Solution:</h2>
         <div className="mb-4">
             <p className="font-semibold">(a) MgO</p>
-            <p>Mg is a metal and O is a non-metal. A Mg atom has two electrons in the outermost shell, so it loses two electrons to form an Mg ion. Since an O atom has six electrons in the outermost shell, it gains two electrons to form an O' ion. In this way, both atoms acquire the nearest noble gas configuration. For every Mg ion, you need one O' ion. The chemical formula of the resulting compound is MgO. Therefore, MgO is an ionic compound.</p>
+            <p>Mg is a metal and O is a non-metal. A Mg atom has two electrons in the outermost shell, so it loses two electrons to form an Mg ion. Since an O atom has six electrons in the outermost shell, it gains two electrons to form an O&apos; ion. In this way, both atoms acquire the nearest noble gas configuration. For every Mg ion, you need one O&apos; ion. The chemical formula of the resulting compound is MgO. Therefore, MgO is an ionic compound.</p>
         </div>
         <div className="mb-4">
             <p className="font-semibold">(b) NaF</p>
-            <p>Na is a metal and F is a non-metal. A Na atom has one electron in the outermost shell, so it loses one electron to form a Na' ion. Since an F atom has seven electrons in the outermost shell, it gains one electron to form an F ion. The Na atom, by losing one electron, and the F atom, by gaining one electron, acquire the nearest noble gas electronic configuration. You need one F ion for each Na' ion. Therefore, NaF is an ionic compound.</p>
+            <p>Na is a metal and F is a non-metal. A Na atom has one electron in the outermost shell, so it loses one electron to form a Na&apos; ion. Since an F atom has seven electrons in the outermost shell, it gains one electron to form an F ion. The Na atom, by losing one electron, and the F atom, by gaining one electron, acquire the nearest noble gas electronic configuration. You need one F ion for each Na&apos; ion. Therefore, NaF is an ionic compound.</p>
         </div>
         <h1 className="text-2xl font-bold mt-6 mb-4">Concept Assessment Exercise 5.4</h1>
         <p className="mb-4">Recognize the following compounds as having ionic bonds:</p>
