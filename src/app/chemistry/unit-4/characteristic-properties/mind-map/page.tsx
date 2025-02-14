@@ -60,6 +60,10 @@ mindmapDiagram {
     node {
         BackgroundColor lightBlue
     }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
     :depth(1) {
         BackgroundColor lightGreen
     }
@@ -70,10 +74,25 @@ mindmapDiagram {
 </style>
 
 * **4.4 Characteristic Properties**
-** **Based on**
-*** Periodicity
+** **In a given group based on**
+*** Periodicity/perodic properties/Periodic Trends
+****[#66CCFF] Shielding Effect
+*****_ Increases down a group
+*****_ Constant across a period
+****[#66CCFF] Atomic Size
+*****_ Decreases across a period
+*****_ Increases down a group
+****[#66CCFF] Ionization Energy
+*****_ Increases across a period
+*****_ Decreases down a group
+****[#66CCFF] Electron Affinity
+*****_ Increases (magnitude) across a period
+*****_ Decreases down a group
+****[#66CCFF] Electronegativity
+*****_ Increases across a period
+*****_ Decreases down a group
 *** Chemical Reactivity
-** **Group 1: Alkali Metals**
+** **Group 1: Alkali Metals  Group 2: Alkaline Earth Metals*** <<group>>
 *** Includes **Li, Na, K**
 *** **Properties**
 **** Highly reactive metals
@@ -84,14 +103,14 @@ mindmapDiagram {
 **** Outer electron farther from nucleus
 **** Electron is lost more easily
 *** **Reactivity Order**
-**** **Li < Na < K** 
-**** **Sodium is more reactive than lithium**
-**** **Which is more reactive? Na or K?**
-** **Group 2: Alkaline Earth Metals**
-*** Similar trend as Group 1
-*** **Reactivity Order**
-**** **Mg < Ca**
-**** **Which is more reactive? Mg or Ca?**
+**** Group 1
+***** **Li < Na < K** 
+***** **Sodium is more reactive than lithium**
+***** **Which is more reactive? Na or K?**
+**** Group 2
+***** **Mg < Ca**
+***** **Which is more reactive? Mg or Ca?**
+
 @endmindmap
               `}
       />

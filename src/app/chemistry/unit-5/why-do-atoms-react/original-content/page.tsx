@@ -18,7 +18,7 @@ const Unit05 = () => {
         two electrons in its valence shell.
       </p>
       <p className="text-gray-700 mb-4">
-        He = 1s<sup>2</sup> Ne 1s<sup>2</sup>, 2s<sup>2</sup>, 2p<sup>6</sup> Ar
+        He = 1s<sup>2</sup> <br /> Ne 1s<sup>2</sup>, 2s<sup>2</sup>, 2p<sup>6</sup> <br /> Ar
         1s<sup>2</sup>, 2s<sup>2</sup>, 2p<sup>6</sup>, 3s<sup>2</sup>, 3p
         <sup>6</sup>
       </p>
@@ -51,9 +51,7 @@ const Unit05 = () => {
       </p>
       <h2 className="text-xl font-semibold mb-2">Duplet Rule</h2>
       <p className="text-gray-700 mb-4">
-        The tendency of atoms to acquire two electronic configurations in their
-        outermost shell during bond formation is called the duplet rule. They
-        attain electronic configuration like helium.
+      The tendency of atoms to acquire two electronic configuration in their outermost shell during bond formation is called duplet rule. They attain electronic configuration like helium.
       </p>
       <p className="text-gray-700 mb-4">
         For Example

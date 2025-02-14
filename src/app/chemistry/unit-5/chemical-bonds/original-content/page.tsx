@@ -15,7 +15,8 @@ const Unit05_2 = () => {
         Metals are electropositive in nature because all metal atoms lose electrons from their outermost shell in order to become stable and become positively charged. They have low ionization energy and low electronegativity allowing them to easily lose electrons. Therefore, they can form positive ions by losing electrons.
       </p>
       <p className="mt-4">
-        Example:
+      
+      Example:
         <br />
         Na → Na<sup>+</sup> + e<sup>-</sup>
         <br />
@@ -27,7 +28,8 @@ const Unit05_2 = () => {
       <p className="mt-4">
         For example:
         <br />
-        F + e<sup>-</sup> → F<sup>-</sup>
+        F + e<sup>-</sup> → F<sup>-</sup><br />
+        O + 2e<sup>-</sup> → O<sup>2-</sup>
       </p>
     </div>
   );

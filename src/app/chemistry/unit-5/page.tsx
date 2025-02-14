@@ -7,6 +7,18 @@ import Link from "next/link";
 const data = [
     {
         id: "1",
+        title: "Introduction",
+        links: [
+            { href: "/chemistry/unit-5/introduction/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-5/introduction/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-5/introduction/mind-map", text: "MIND MAP", icon: Brain },
+            { href: "/chemistry/unit-5/introduction/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-5/introduction/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-5/introduction/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
+        ],
+    },
+    {
+        id: "1",
         title: "5.1 WHY DO ATOMS REACT?",
         links: [
             { href: "/chemistry/unit-5/why-do-atoms-react/original-content", text: "ORIGINAL CONTENT", icon: List },

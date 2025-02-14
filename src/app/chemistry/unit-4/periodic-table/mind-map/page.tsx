@@ -300,6 +300,86 @@ mindmapDiagram {
 `}
         />
 
+<PlantUMLDiagram
+          code={`
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+      BackgroundColor lightGreen
+    }
+    :depth(2) {
+      BackgroundColor lightYellow
+    }
+    :depth(3) {
+      BackgroundColor lightPink
+    }
+}
+</style>
+* Electronic Configuration
+** Symbols for Atoms and Ions
+*** Definition
+**** The symbol for an atom represents the element
+**** Element symbol (one or two letters)
+**** Mass number (left superscript)
+**** Atomic number (left subscript)
+**** Charge (right superscript)
+*** Example: Magnesium Ion (Mg²⁺)
+**** **Symbol:** ²⁴₁₂Mg²⁺
+**** **Components:**
+***** **Mg** represents Magnesium
+***** **Upper left (24):** Mass number
+***** **Lower left (12):** Atomic number
+***** **Upper right (+2):** Charge
+***** The atomic number is often omitted
+** Shells
+*** Defined by Bohr's atomic theory
+*** Electrons revolve in circular paths (shells/orbits)
+*** Each shell has **fixed energy** (energy level)
+*** **Shell notation:**
+**** n = 1 → **K shell**
+**** n = 2 → **L shell**
+**** n = 3 → **M shell**
+**** As **n increases** → Energy & distance from nucleus increase
+left-side
+** Sub-Shells
+*** Shells are subdivided into **sub-shells (sub-energy levels)**
+*** **Notation:**
+**** **K shell (n = 1):** 1s
+**** **L shell (n = 2):** 2s, 2p
+**** **M shell (n = 3):** 3s, 3p, 3d
+**** **N shell (n = 4):** 4s, 4p, 4d, 4f
+*** **Electron Capacity:**
+**** **s-sub-shell:** max **2** electrons
+**** **p-sub-shell:** max **6** electrons
+**** **d-sub-shell:** max **10** electrons
+**** **f-sub-shell:** max **14** electrons
+*** **Energy order of sub-shells:**
+**** 1s < 2s < 2p < 3s < 3p < 4s < 3d ...
+** Aufbau Principle
+*** **Order of Orbital Filling**
+**** 1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s → 4f → 5d → 6p → 7s → 5f → 6d → 7p
+*** **Orbital Capacities**
+**** s-orbital → 2 electrons
+**** p-orbital → 6 electrons
+**** d-orbital → 10 electrons
+**** f-orbital → 14 electrons
+** Placement of Elements
+*** **Block of an Element**
+**** Determined by the orbital where the last electron is placed
+*** **Period of an Element**
+**** Determined by the **principal quantum number (n)** of the valence electron
+*** **Group of an Element**
+**** **s-block** → Group number = Number of valence electrons
+**** **p-block** → Group number = Valence electrons + 10
+
+@endmindmaps
+`}
+        />
+
      <div className="flex flex-col sm:flex-row justify-between">
      <Image
           src="/Aufbau-Principle.png"
