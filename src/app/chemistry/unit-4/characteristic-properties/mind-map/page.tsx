@@ -9,47 +9,7 @@ const MagneticMindmap = () => {
         <h1 className="text-4xl font-bold text-blue-500">
           Characteristic Properties
         </h1>
-        <PlantUMLDiagram
-          code={`
-@startmindmap
-*[#FFFF00] Periodicity and Characteristic Properties
-**[#FF9933] Periodic Trends
-***[#66CCFF] Shielding Effect
-****_ Increases down a group
-****_ Constant across a period
-***[#66CCFF] Atomic Size
-****_ Decreases across a period
-****_ Increases down a group
-***[#66CCFF] Ionization Energy
-****_ Increases across a period
-****_ Decreases down a group
-***[#66CCFF] Electron Affinity
-****_ Increases (magnitude) across a period
-****_ Decreases down a group
-***[#66CCFF] Electronegativity
-****_ Increases across a period
-****_ Decreases down a group
-**[#99CC00] Characteristic Properties
-***[#FF6666] Metallic Character
-****_ Increases down a group
-****_ Decreases across a period
-***[#FF6666] Reactivity
-****_ Generally increases down a group
-****_ Varies across a period
-***[#FF6666] Density
-****_ Generally increases down a group
-****_ Varies across a period
-***[#FF6666] Alkali Metals (Group 1)
-****_ Highly reactive
-****_ Soft and low density
-****_ Excellent conductors
-****_ Low melting points
-****_ React with water
-***[#FF6666] Predicting Properties
-****_ Based on group trends
-****_ Electronic configuration
-@endmindmap`}
-        />
+       
       </section>
 
       <PlantUMLDiagram
@@ -93,7 +53,6 @@ mindmapDiagram {
 *****_ Decreases down a group
 *** Chemical Reactivity
 ** **Group 1: Alkali Metals  Group 2: Alkaline Earth Metals*** <<group>>
-*** Includes **Li, Na, K**
 *** **Properties**
 **** Highly reactive metals
 **** General electron configuration: **ns¹**
@@ -115,50 +74,7 @@ mindmapDiagram {
               `}
       />
 
-      <PlantUMLDiagram
-        code={`@startmindmap
-<style>
-mindmapDiagram {
-    node {
-        BackgroundColor lightBlue
-    }
-    :depth(1) {
-        BackgroundColor lightGreen
-    }
-    :depth(2) {
-        BackgroundColor lightYellow
-    }
-}
-</style>
-
-* **4.4.1 Metallic Character**
-** **Definition**
-*** Tendency to lose electrons and form **cations**
-*** Stronger tendency = Higher metallic character
-** **Factors Affecting Metallic Character**
-*** **Position in Periodic Table**
-**** **Trend Down Group** ⬇️
-***** **Metallic character increases**
-***** Due to **addition of new shells**
-***** **Weaker nuclear attraction → easier electron loss**
-**** **Trend Across Period** ➡️
-***** **Metallic character decreases**
-***** **Stronger nuclear attraction → harder to lose electrons**
-***** Number of shells remains **same**
-** **Example 4.6: Identifying Higher Metallic Character**
-*** **Which has higher metallic character?**
-**** **(a) Na or K → K**
-**** **(b) Na or Mg → Mg**
-** **Concept Assessment 4.8**
-*** **Which has lower metallic character?**
-**** (a) Li or K
-**** (b) Mg or Ca
-*** **Compare and Contrast:**
-**** **Ionization Energy vs Electron Affinity**
-@endmindmap
-`}
-      />
-
+    
 <PlantUMLDiagram
         code={`@startmindmap
 <style>
@@ -178,6 +94,7 @@ mindmapDiagram {
 * Metallic Character
 ** Definition
 *** Property determining electron loss ability
+*** Stronger tendency = Higher metallic character
 *** Forms positive ions (cations)
 *** Position dependent in periodic table
 
