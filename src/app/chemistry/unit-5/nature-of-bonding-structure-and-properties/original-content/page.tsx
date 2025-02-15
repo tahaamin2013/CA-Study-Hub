@@ -57,58 +57,58 @@ electricity when melted or dissolved in water. in order to be soluble in water, 
       </p>
 
 
-      <h2 class="text-xl font-bold mb-4">Table 5.1: Melting and Boiling Points of Some Covalent Compounds</h2>
-        <table class="w-full border-collapse border border-gray-300">
+      <h2 className="text-xl font-bold mb-4">Table 5.1: Melting and Boiling Points of Some Covalent Compounds</h2>
+        <table className="w-full border-collapse border border-gray-300">
             <thead>
-                <tr class="bg-gray-200">
-                    <th class="border border-gray-300 px-4 py-2">Compound</th>
-                    <th class="border border-gray-300 px-4 py-2">Melting Point (°C)</th>
-                    <th class="border border-gray-300 px-4 py-2">Boiling Point (°C)</th>
+                <tr className="bg-gray-200">
+                    <th className="border border-gray-300 px-4 py-2">Compound</th>
+                    <th className="border border-gray-300 px-4 py-2">Melting Point (°C)</th>
+                    <th className="border border-gray-300 px-4 py-2">Boiling Point (°C)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="border border-gray-300 px-4 py-2">Water (H₂O)</td>
-                    <td class="border border-gray-300 px-4 py-2">0</td>
-                    <td class="border border-gray-300 px-4 py-2">100</td>
+                    <td className="border border-gray-300 px-4 py-2">Water (H₂O)</td>
+                    <td className="border border-gray-300 px-4 py-2">0</td>
+                    <td className="border border-gray-300 px-4 py-2">100</td>
                 </tr>
                 <tr>
-                    <td class="border border-gray-300 px-4 py-2">Methane (CH₄)</td>
-                    <td class="border border-gray-300 px-4 py-2">-183</td>
-                    <td class="border border-gray-300 px-4 py-2">-162</td>
+                    <td className="border border-gray-300 px-4 py-2">Methane (CH₄)</td>
+                    <td className="border border-gray-300 px-4 py-2">-183</td>
+                    <td className="border border-gray-300 px-4 py-2">-162</td>
                 </tr>
                 <tr>
-                    <td class="border border-gray-300 px-4 py-2">Ethanol (CH₃CH₂OH)</td>
-                    <td class="border border-gray-300 px-4 py-2">-117</td>
-                    <td class="border border-gray-300 px-4 py-2">78</td>
+                    <td className="border border-gray-300 px-4 py-2">Ethanol (CH₃CH₂OH)</td>
+                    <td className="border border-gray-300 px-4 py-2">-117</td>
+                    <td className="border border-gray-300 px-4 py-2">78</td>
                 </tr>
             </tbody>
         </table>
         
-        <h2 class="text-xl font-bold mt-6 mb-4">Table 5.2: Melting and Boiling Points of Some Ionic Compounds</h2>
-        <table class="w-full border-collapse border border-gray-300">
+        <h2 className="text-xl font-bold mt-6 mb-4">Table 5.2: Melting and Boiling Points of Some Ionic Compounds</h2>
+        <table className="w-full border-collapse border border-gray-300">
             <thead>
-                <tr class="bg-gray-200">
-                    <th class="border border-gray-300 px-4 py-2">Compound</th>
-                    <th class="border border-gray-300 px-4 py-2">Melting Point (°C)</th>
-                    <th class="border border-gray-300 px-4 py-2">Boiling Point (°C)</th>
+                <tr className="bg-gray-200">
+                    <th className="border border-gray-300 px-4 py-2">Compound</th>
+                    <th className="border border-gray-300 px-4 py-2">Melting Point (°C)</th>
+                    <th className="border border-gray-300 px-4 py-2">Boiling Point (°C)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="border border-gray-300 px-4 py-2">Sodium Chloride (NaCl)</td>
-                    <td class="border border-gray-300 px-4 py-2">801</td>
-                    <td class="border border-gray-300 px-4 py-2">1465</td>
+                    <td className="border border-gray-300 px-4 py-2">Sodium Chloride (NaCl)</td>
+                    <td className="border border-gray-300 px-4 py-2">801</td>
+                    <td className="border border-gray-300 px-4 py-2">1465</td>
                 </tr>
                 <tr>
-                    <td class="border border-gray-300 px-4 py-2">Sodium Fluoride (NaF)</td>
-                    <td class="border border-gray-300 px-4 py-2">996</td>
-                    <td class="border border-gray-300 px-4 py-2">1695</td>
+                    <td className="border border-gray-300 px-4 py-2">Sodium Fluoride (NaF)</td>
+                    <td className="border border-gray-300 px-4 py-2">996</td>
+                    <td className="border border-gray-300 px-4 py-2">1695</td>
                 </tr>
                 <tr>
-                    <td class="border border-gray-300 px-4 py-2">Magnesium Chloride (MgCl₂)</td>
-                    <td class="border border-gray-300 px-4 py-2">714</td>
-                    <td class="border border-gray-300 px-4 py-2">1412</td>
+                    <td className="border border-gray-300 px-4 py-2">Magnesium Chloride (MgCl₂)</td>
+                    <td className="border border-gray-300 px-4 py-2">714</td>
+                    <td className="border border-gray-300 px-4 py-2">1412</td>
                 </tr>
             </tbody>
         </table>
@@ -204,7 +204,7 @@ in small sizes.
 
     </li>
 </ol>
-    
+
     </div>
   );
 };
