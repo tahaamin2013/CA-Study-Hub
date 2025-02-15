@@ -43,7 +43,7 @@ const data = [
     },
     {
         id: "4",
-        title: "6.4 AVOGADRO&apos;sNUMBER AND MOLE",
+        title: "6.4 AVOGADRO NUMBER AND MOLE",
         links: [
             { href: "/chemistry/unit-6/avogadros-number-and-mole/original-content", text: "ORIGINAL CONTENT", icon: List },
             { href: "/chemistry/unit-6/avogadros-number-and-mole/notes", text: "NOTES", icon: BookOpen },
@@ -119,8 +119,7 @@ const ComputerSystemsDashboard = () => {
     return (
         <div className="min-h-screen text-white  px-3 bg-gradient-to-br from-gray-900 to-gray-800" style={{ fontFamily: '"Poppins", sans-serif' }}>
             <h1 className="text-6xl font-extrabold mb-16 text-center text-white">
-                Chemical Bonding
-            </h1>
+Stoichiometery            </h1>
             <div className="flex flex-wrap gap-5 justify-center">
                 {data.map((section) => (
                     <Section key={section.id} section={section} />

@@ -1,5 +1,3 @@
-// pages/unit06.js
-
 import React from 'react';
 
 export default function Unit06() {
@@ -18,62 +16,88 @@ export default function Unit06() {
       </p>
 
       <ol className="list-decimal pl-5 mb-2">
-        <li>Write the symbols for the cation first and then the symbols for the anion and their charges.</li>
-        <li>Balance the charges on the cations and anions using the smallest coefficient. The total charge on the cation must equal the total charge on the anion because an ionic compound is neutral.</li>
-        <li>Write coefficients as subscripts for each ion.</li>
-        <li>Write the formula of the ionic compound. For this, leave out all the charge subscripts which are 1.</li>
+      <li><strong>Step 1:</strong> Write the symbols for the cation first and then the symbols for the anion along with their charges.</li>
+      <li><strong>Step 2:</strong> Balance the charges on the cations and anions using the smallest coefficient. The total charge on the cation must equal the total charge on the anion because an ionic compound is neutral.</li>
+      <li><strong>Step 3:</strong> Write coefficients as subscripts for each ion.</li>
+      <li><strong>Step 4:</strong> Write the formula of the ionic compound. Leave out all charges and subscripts which are 1.</li>
+
       </ol>
 
       <p className="mb-2">
         For example, the chemical formula of sodium chloride is written as follows;
       </p>
       <pre className="bg-gray-100 p-3 rounded">
-        Na Cl <sup>+1</sup> <sup>-1</sup> → NaCl
+        Na<sup>+1</sup> Cl<sup>-1</sup><br />
+        1 (+1) = (-1)1 <br />
+        Na<sub>1</sub> Cl<sub>1</sub> = NaCl
       </pre>
 
       <p className="mb-2">
         Example 2, the chemical formula of aluminium oxide is written as follows;
       </p>
       <pre className="bg-gray-100 p-3 rounded">
-        Al O <sup>+3</sup> <sup>-2</sup> → Al<sub>2</sub>O<sub>3</sub>
+        Al<sup>+3</sup> O<sup>-2</sup> <br /> 
+        2(+3) = (-2)3 <br />
+        +6 = -6 <br />
+        Al<sub>2</sub> O<sub>2</sub>
       </pre>
 
       <h4 className="text-lg font-semibold mb-2">Table indicating names and symbols for cations and anions</h4>
 
-      <table className="table-auto w-full mb-4">
-        <thead>
-          <tr>
-            <th className="border px-4 py-2">Cations</th>
-            <th className="border px-4 py-2">Anions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="border px-4 py-2">Lithium</td>
-            <td className="border px-4 py-2">Fluoride</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">Sodium</td>
-            <td className="border px-4 py-2">Chloride</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">Potassium</td>
-            <td className="border px-4 py-2">Bromide</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">Magnesium</td>
-            <td className="border px-4 py-2">Nitrite</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">Calcium</td>
-            <td className="border px-4 py-2">Nitrate</td>
-          </tr>
-          <tr>
-            <td className="border px-4 py-2">Copper</td>
-            <td className="border px-4 py-2">Sulfate</td>
-          </tr>
-        </tbody>
-      </table>
+      <table class="min-w-full bg-white border border-gray-300 rounded-lg shadow-md">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="px-4 py-2 border">Cations</th>
+                        <th class="px-4 py-2 border"> </th>
+                        <th class="px-4 py-2 border">Anions</th>
+                        <th class="px-4 py-2 border"> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border">
+                        <td class="px-4 py-2 border">Lithium</td>
+                        <td class="px-4 py-2 border">Li</td>
+                        <td class="px-4 py-2 border">Fluoride</td>
+                        <td class="px-4 py-2 border">F⁻</td>
+                    </tr>
+                    <tr class="border">
+                        <td class="px-4 py-2 border">Sodium</td>
+                        <td class="px-4 py-2 border">Na</td>
+                        <td class="px-4 py-2 border">Chloride</td>
+                        <td class="px-4 py-2 border">Cl⁻</td>
+                    </tr>
+                    <tr class="border">
+                        <td class="px-4 py-2 border">Ammonium</td>
+                        <td class="px-4 py-2 border">NH₄⁺</td>
+                        <td class="px-4 py-2 border">Nitrite</td>
+                        <td class="px-4 py-2 border">NO₂⁻</td>
+                    </tr>
+                    <tr class="border">
+                        <td class="px-4 py-2 border">Potassium</td>
+                        <td class="px-4 py-2 border">K</td>
+                        <td class="px-4 py-2 border">Bromide</td>
+                        <td class="px-4 py-2 border">Br⁻</td>
+                    </tr>
+                    <tr class="border">
+                        <td class="px-4 py-2 border">Magnesium</td>
+                        <td class="px-4 py-2 border">Mg²⁺</td>
+                        <td class="px-4 py-2 border">Nitrate</td>
+                        <td class="px-4 py-2 border">NO₃⁻</td>
+                    </tr>
+                    <tr class="border">
+                        <td class="px-4 py-2 border">Calcium</td>
+                        <td class="px-4 py-2 border">Ca²⁺</td>
+                        <td class="px-4 py-2 border">Phosphate</td>
+                        <td class="px-4 py-2 border">PO₄³⁻</td>
+                    </tr>
+                    <tr class="border">
+                        <td class="px-4 py-2 border">Copper (II)</td>
+                        <td class="px-4 py-2 border">Cu²⁺</td>
+                        <td class="px-4 py-2 border">Sulfate</td>
+                        <td class="px-4 py-2 border">SO₄²⁻</td>
+                    </tr>
+                </tbody>
+            </table>
     </div>
   );
 }

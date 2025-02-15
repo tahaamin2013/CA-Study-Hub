@@ -271,56 +271,97 @@ Use cross to represent electrons of the other atoms. <br />
             </p>
         </div>
     </div>
-    <h1 className="text-2xl font-bold mb-4">Example 5.4: Recognizing a Compound as Having Ionic Bonds</h1>
-        <p className="mb-4">Recognize the following compounds as having ionic bonds.</p>
+  
+  <h1 className='text-xl font-bold'>Concept Assessment Exercise 5.5</h1>
+<p className='mb-3'>Draw electron cross and dot structures for the following molecules:
+</p>
+<p className='mb-3'>(a) NH,
+</p>
+<p className='mb-3'>(b) HCI
+    </p>
+<p className='mb-3'>(c) CH,OH
+</p>
+
+<h1 className="text-2xl font-bold mb-4">Example 5.6: Drawing electron cross and dot structure for molecules containing multiple bonds
+</h1>
+        <p className="mb-4">Draw electron cross and dot structures for the following molecules:</p>
         <ul className="list-disc pl-6 mb-4">
-            <li><strong>(a)</strong> MgO</li>
-            <li><strong>(b)</strong> NaF</li>
+            <li>(a) CO₂, a component of air responsible for the greenhouse effect.</li>
+            <li>(b) HCN, used as an insecticide.</li>
         </ul>
         <h2 className="text-xl font-semibold mb-2">Problem Solving Strategy:</h2>
         <ol className="list-decimal pl-6 mb-4">
-            <li>The metal atom loses electrons to form cations and non-metal atom gains electrons to form anions.</li>
-            <li>The number of electrons lost by metal atoms of group IA, IIA, and IIIA equals the group number. The number of electrons gained by the non-metal atoms is equal to 8 minus the group number.</li>
-            <li>Find the simplest ratio of cations to anions to identify the compound.</li>
+            <li>Decide from the formula which atom is to be in the center. Show its valence electrons by dots. Note the number of electrons it needs to complete the octet.</li>
+            <li>Show valence electrons of the other atoms by crosses and find the number of electrons each atom needs to complete its octet or duplet.</li>
+            <li>Connect the central atom with the other atoms by electron pairs to satisfy the octet rule.</li>
         </ol>
         <h2 className="text-xl font-semibold mb-2">Solution:</h2>
         <div className="mb-4">
-            <p className="font-semibold">(a) MgO</p>
-            <p>Mg is a metal and O is a non-metal. A Mg atom has two electrons in the outermost shell, so it loses two electrons to form an Mg ion. Since an O atom has six electrons in the outermost shell, it gains two electrons to form an O&apos; ion. In this way, both atoms acquire the nearest noble gas configuration. For every Mg ion, you need one O&apos; ion. The chemical formula of the resulting compound is MgO. Therefore, MgO is an ionic compound.</p>
+            <p className="font-semibold">(a) CO₂</p>
+           
+<p className='mb-4'>        
+(1) C has four electrons in the valence shell. It needs four electrons to complete octet.       
+</p>
+<p className='mb-4'>
+(fi) Each oxygen atom has six valence electrons and needs two electrons to have an octet.
+
+</p>
+<p className='mb-4'>
+(iii) C is central atom, arrange O-atoms around it.
+
+</p>
+<p className='mb-4'>
+(iv) Since C needs four electrons and there are only two oxygen atoms. So it will share its two electrons with each oxygen atom.
+
+</p>
+       
         </div>
         <div className="mb-4">
-            <p className="font-semibold">(b) NaF</p>
-            <p>Na is a metal and F is a non-metal. A Na atom has one electron in the outermost shell, so it loses one electron to form a Na&apos; ion. Since an F atom has seven electrons in the outermost shell, it gains one electron to form an F ion. The Na atom, by losing one electron, and the F atom, by gaining one electron, acquire the nearest noble gas electronic configuration. You need one F ion for each Na&apos; ion. Therefore, NaF is an ionic compound.</p>
+            <p className="font-semibold">(b) HCN</p>
+<p className='mb-4'>
+(1) H has one, Chas four and N has five electrons.
+
+</p>
+<p className='mb-4'>
+(ii) C needs four and N needs three electrons. So C shares one electron with H to form a single bond and three electrons with N to form a triple bond. This will satisfy octet rule.
+
+</p>
+
         </div>
-        <h1 className="text-2xl font-bold mt-6 mb-4">Concept Assessment Exercise 5.4</h1>
-        <p className="mb-4">Recognize the following compounds as having ionic bonds:</p>
+        <h1 className="text-2xl font-bold mb-4">CONCEPT ASSESSMENT EXERCISE 5.6</h1>
+        <p className="mb-4">Draw electron cross and electron dot structures for the following molecules:</p>
         <ul className="list-disc pl-6 mb-4">
-            <li>(a) KCl</li>
-            <li>(b) AlCl₃</li>
-            <li>(c) MgF₂</li>
-            <li>(d) NaF</li>
-            <li>(e) NaBr</li>
+            <li>(a) CS₂ - an organic solvent that dissolves sulfur, phosphorus, etc.</li>
+            <li>(b) N₂ - a component of air.</li>
+            <li>(c) C₂H₆ - ethane, a component of natural gas.</li>
         </ul>
-        <h2 className="text-xl font-semibold mb-2">5.3.2 Covalent Bonds</h2>
-        <p className="mb-4">Nonmetal atoms tend to share electrons with each other or with other nonmetal atoms, forming a chemical bond called a covalent bond. A chemical bond formed by mutual sharing of electrons between two atoms is called a covalent bond.</p>
-        <p className="mb-4">Consider the formation of a covalent bond between two hydrogen atoms. A hydrogen atom has one valence electron. Two hydrogen atoms share their valence electrons to form a diatomic molecule.</p>
-        <p className="mb-4">H + H → H:H (shared pair of electrons)</p>
-        <p className="mb-4">In the formation of this molecule, each hydrogen atom reaches the electronic configuration of the noble gas helium with two valence electrons. The shared electron pair creates a strong electrostatic attraction between the bonding electrons and the two nuclei, making the molecule more stable than the individual atoms.</p>
-        <h2 className="text-xl font-semibold mb-2">Example 5.5: Drawing Electron Cross and Dot Structures</h2>
-        <p className="mb-4">Draw electron cross and dot structures for:</p>
-        <ul className="list-disc pl-6 mb-4">
-            <li>(a) CH₄ (Methane)</li>
-            <li>(b) H₂O (Water)</li>
-        </ul>
-        <h3 className="text-lg font-semibold mb-2">Solution:</h3>
-        <div className="mb-4">
-            <p className="font-semibold">(a) CH₄</p>
-            <p>Carbon has four valence electrons and needs four more to complete its octet. Each hydrogen atom has one valence electron and needs one more to complete its duplet. Carbon forms four single covalent bonds with four hydrogen atoms.</p>
-        </div>
-        <div className="mb-4">
-            <p className="font-semibold">(b) H₂O</p>
-            <p>Oxygen has six valence electrons and needs two more to complete its octet. Each hydrogen atom has one valence electron and needs one more. Oxygen forms two single covalent bonds with two hydrogen atoms.</p>
-        </div>
+
+        <h2 className="text-xl font-semibold mb-2">5.3.3 Types of Covalent Bond on the Basis of Polarity:</h2>
+        <h3 className="text-lg font-semibold mb-2">Non-Polar Covalent Bond:</h3>
+        <p className="mb-4">A covalent bond may form between two similar atoms such as in H₂, N₂, O₂, Cl₂, etc. It can also occur between two different atoms, as in HCl, H₂O, NH₃, HCN, CO, etc. When two identical atoms share electron pairs, both atoms exert the same force on the shared electron pairs. Such a covalent bond is called a non-polar covalent bond. For example, bonds H-H, O=O, etc. are non-polar covalent bonds.</p>
+
+        <h3 className="text-lg font-semibold mb-2">Polar Covalent Bond:</h3>
+        <p className="mb-4">On the other hand, when two different atoms share an electron pair, both atoms exert different forces on the shared electron pair. The more electronegative atom pulls the shared electron pairs towards itself with a greater force than the other atom. Thus, the more electronegative atom attracts some of the electron density towards itself. This makes it partially negatively charged and the other atoms partially positively charged. Such a covalent bond is called a polar covalent bond. The forces of attraction between molecules are called intermolecular forces. For example, H-C
+</p>
+        
+        <h2 className="text-xl font-semibold mb-2">5.3.4 Coordinate Covalent Bond</h2>
+        <p className="mb-4">A coordinate covalent bond is a type of covalent bond where the shared electron pair comes from a single atom (called donor). Atoms are held together because both nuclei attract a pair of electrons. Once a covalent bond is formed, it is impossible to distinguish the origin of the electrons. Such bonding is usually observed when metal ions bind to ligands. However, nonmetals can also participate in this bond. The reaction between a Lewis acid and a base is a covalent coordinate bond.
+        </p>
+
+        <h3 className="text-lg font-semibold mb-2">Examples of Coordinate Covalent Bonds:</h3>
+        <ol className="list-decimal pl-6 mb-4">
+            <li><strong>Ammonium (NH₄⁺) Ion:</strong> The ammonium ion is formed from the reaction of ammonia (NH₃) gas with hydrogen chloride (HCl) gas. In NH₄⁺, the fourth hydrogen is attached by a coordinate covalent bond because only the hydrogen's nucleus is transferred from the chlorine to the nitrogen. The hydrogen's electron remains on the chlorine, forming a negative chloride (Cl⁻) ion.</li>
+            <li><strong>Hydronium Ion (H₃O⁺):</strong> When hydrogen chloride (HCI) gas dissolves in water to make hydrochloric acid (HCl aq.), a coordinate covalent bond is formed in the hydronium ion. The hydrogen (H) nucleus is transferred to the water (H,O) molecule, which has a lone pair of electrons to form hydronium. So, H does not contribute any electrons to the bond.
+            </li>
+            <li><strong>Ammonia Boron Trifluoride (NH₃-BF₃):</strong> Boron trifluoride (BF,) is a compound that does not have a noble gas structure around the boron(B) atom. The boron only has three pairs of electrons in its valence shell and requires a pair to complete the orbital. Hence, BF, is electron deficient. The lone pair on the nitrogen (N) of the ammonia (NH,) molecule is used to overcome that deficiency, and a complex compound forms through a coordinate covalent bond.
+            </li>
+        </ol>
+        <h1 className='font-bold'>CONCEPT ASSESSMENT EXERCISE 5.7
+        </h1>
+        <p>1. Differentiate between polar and non-polar covalent bonds.
+        </p>
+        <p>2. How is coordinate covalent bond different from normal covalent bond?</p>
+        
         </div>
     );
 };

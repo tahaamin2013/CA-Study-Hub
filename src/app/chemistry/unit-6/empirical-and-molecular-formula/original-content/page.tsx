@@ -3,25 +3,9 @@ import React from 'react';
 export default function Unit06() {
     return (
         <div className="p-6 max-w-4xl mx-auto">
-            <h1 className="text-2xl font-bold mb-4">UNIT 06</h1>
-            <h2 className="text-xl font-semibold mb-3">STOICHIOMETRY</h2>
 
-            <div className="mb-6">
-                <h3 className="text-lg font-semibold">Student Learning Outcomes (SLOS)</h3>
-                <p className="mb-2">After completing this lesson, the student will be able to:</p>
-                <ul className="list-disc pl-5">
-                    <li>State the formulae of common elements and compounds.</li>
-                    <li>Define molecular formula of a compound as the number and type of different atoms in one molecule.</li>
-                    <li>Define empirical formula of a compound as the simplest whole number ratio of different atoms in a molecule.</li>
-                    <li>Deduce the formula and name of a binary compound from ions given relevant information.</li>
-                    <li>Deduce the formula of a molecular substance from a given structure of molecules.</li>
-                    <li>Use the relationship amount of substance = mass/molar mass to calculate number of moles, mass, molar mass, relative mass (atomic/molecular/formula) and number of particles.</li>
-                    <li>Define mole as amount of substance containing Avogadro&apos;s  number (6.022 x 10&quot;) of particles.</li>
-                    <li>Explain the relationship between a mole and Avogadro&apos;s  constant.</li>
-                    <li>Construct chemical equations and ionic equations to show reactants forming products, including state symbols.</li>
-                    <li>Deduce the symbol equation with state symbols for a chemical reaction given relevant information.</li>
-                </ul>
-            </div>
+
+       
 
             <div className="mb-6">
                 <h3 className="text-lg font-semibold">INTRODUCTION</h3>
@@ -45,7 +29,7 @@ export default function Unit06() {
                 <h4 className="text-lg font-semibold">6.1.2 Molecular Formula</h4>
                 <p className="mb-2">A molecular formula is an expression that specifies the number of atoms of each element in one molecule of a compound. This shows the actual number of atoms in each molecule. For example, the molecular formula of hydrogen peroxide is H₂O,. It shows that each molecule of hydrogen peroxide is made up of two hydrogen atoms and two atoms of oxygen. Similarly C₂H₂O, is molecular formula of glucose. It shows that every molecule of glucose has 6 carbon atoms, 12 hydrogen atoms and 6 oxygen atoms. The molecular formula of a compound shows the simplest ratio between different atoms present in the compound.</p>
                 <p className="mb-2">Benzene is a compound of carbon and hydrogen. It contains one C atom for every H atom. Each benzene molecule actually has six carbon atoms and six hydrogen atoms. Identify the empirical and molecular formulas of benzene from the following formulas.</p>
-                <p className="mb-2">CH<br />CH</p>
+                <p className="mb-2">C<sub>2</sub>H<sub>2</sub> <br />CH</p>
                 <p className="mb-2">Molecular formulas for water and carbon dioxide are H₂O and CO, respectively. What are empirical formulas for these compounds?</p>
                 <p className="mb-2">For many compounds, empirical and molecular formulas are same. For example water (H₂O), carbon dioxide (CO,) ammonia (NH,), methane (CH,), sulphur dioxide (SO,) etc. Can you show it why?</p>
             </div>

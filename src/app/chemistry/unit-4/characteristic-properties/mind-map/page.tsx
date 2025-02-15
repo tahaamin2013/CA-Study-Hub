@@ -9,9 +9,7 @@ const MagneticMindmap = () => {
         <h1 className="text-4xl font-bold text-blue-500">
           Characteristic Properties
         </h1>
-       
       </section>
-
       <PlantUMLDiagram
         code={`
               @startmindmap

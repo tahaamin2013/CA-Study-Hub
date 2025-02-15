@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+ol {
+  list-style-type: disc; /* ya bullet ya circle */
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
