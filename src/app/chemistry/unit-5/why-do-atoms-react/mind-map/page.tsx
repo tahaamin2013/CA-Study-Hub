@@ -56,6 +56,240 @@ const MagneticMindmap = () => {
 
 `}
         />
+      
+                <PlantUMLDiagram
+          code={`
+                @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+* Atomic Reactivity
+** Periodic Table Groups
+*** Normal Elements
+**** Group IA
+**** Group IIA
+**** Group IIIA
+**** Group IVA
+**** Group VA
+**** Group VIA
+**** Group VIIA
+**** Group VIIIA (Noble Gases)
+***** Characteristics
+****** Chemically Inert
+****** Very Stable
+****** Exist as Atoms
+****** Complete Valence Shell
+****** Found in Atmosphere
+
+***** Electronic Configuration
+****** General Form
+******* ns² np⁶
+******* 8 Valence Electrons
+******* Exception: He (2 electrons)
+
+left side
+
+** Noble Gas Examples
+*** Helium (He)
+**** Electronic Config
+***** 1s²
+***** 2 Valence Electrons
+
+*** Neon (Ne)
+**** Electronic Config
+***** 1s²
+***** 2s²
+***** 2p⁶
+
+*** Argon (Ar)
+**** Electronic Config
+***** 1s²
+***** 2s²
+***** 2p⁶
+***** 3s²
+***** 3p⁶
+
+** Lewis Theory (1916)
+*** Octet Rule
+**** 8 Electrons
+**** Explains Stability
+**** Explains Reactivity
+
+*** Duplet Rule
+**** 2 Electrons
+**** Applies to Helium
+@endmindmap
+
+            `}
+        />
+                <PlantUMLDiagram
+          code={`
+                @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Octet Rule
+** Core Principle
+*** Eight Electrons in Valence Shell
+*** Maximum Stability
+*** Applies to Major Group Elements
+*** Based on s and p Electrons
+
+** Applications
+*** Major Group Elements
+**** Predictive Tool
+**** Chemical Behavior
+**** Bonding Patterns
+
+*** Example Molecules
+**** Oxygen
+**** Nitrogen
+**** Halogens
+
+left side
+
+** Exceptions
+*** Duplet Rule
+**** Applicable Elements
+***** Hydrogen
+***** Helium
+***** Lithium
+**** Based on s Orbital
+**** Two Electron Stability
+
+** Examples of Unstable Config
+*** Sodium (Na)
+**** Initial Config
+***** 1s² 2s² 2p⁶ 3s¹
+***** Unstable
+***** Reactive
+***** Incomplete Octet
+
+**** After Losing Electron
+***** 1s² 2s² 2p⁶
+***** Matches Neon
+***** Stable Configuration
+
+*** Chlorine (Cl)
+**** Initial Config
+***** 1s² 2s² 2p⁶ 3s² 3p⁵
+***** Unstable
+***** Reactive
+***** Incomplete Octet
+
+**** After Gaining Electron
+***** 1s² 2s² 2p⁶ 3s² 3p⁶
+***** Matches Argon
+***** Stable Configuration
+@endmindmap
+            `}
+        />
+
+<PlantUMLDiagram
+          code={`
+                @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+* Duplet Rule
+** Core Concept
+*** Two Electrons in Outer Shell
+*** Achieves Helium-like Configuration
+*** Applies to Elements Near Helium
+*** Based on s Orbital
+
+** Reference Element
+*** Helium
+**** Electronic Config
+***** 1s²
+**** Properties
+***** Chemically Inert
+***** Two Valence Electrons
+***** Stable Configuration
+
+left side
+
+** Examples
+*** Lithium (Li)
+**** Initial Config
+***** 1s² 2s¹
+**** Transformation
+***** Loses 1 Electron
+***** Forms Li⁺
+**** Final Config
+***** 1s²
+***** Matches Helium
+
+*** Beryllium (Be)
+**** Initial Config
+***** 1s² 2s²
+**** Transformation
+***** Loses 2 Electrons
+***** Forms Be²⁺
+**** Final Config
+***** 1s²
+***** Matches Helium
+
+*** Hydrogen (H)
+**** Initial Config
+***** 1s¹
+**** Transformation
+***** Gains/Shares 1 Electron
+**** Final Config
+***** 1s²
+***** Matches Helium
+
+** Applications
+*** Bond Formation
+*** Chemical Reactivity
+*** Stability Prediction
+*** Ion Formation
+@endmindmap
+            `}
+        />
 
       </section>
 
