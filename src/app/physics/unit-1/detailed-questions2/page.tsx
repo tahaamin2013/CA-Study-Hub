@@ -21,7 +21,7 @@ const questionsAndAnswers: QuestionAnswer[] = [
   {
     question: "Define the branches of Physics.",
     answer: `
-        <ul class="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2">
             <li><strong>Mechanics:</strong> Study of motion of objects, its causes and effects.</li>
             <li><strong>Heat:</strong> Deals with nature, modes of transfer, and effects of heat.</li>
             <li><strong>Sound:</strong> Concerns audible sound waves, their production, properties, and applications.</li>
@@ -73,49 +73,49 @@ const questionsAndAnswers: QuestionAnswer[] = [
   {
     question: "Explain the Importance of Physics in daily life.",
     answer: `
-    <div class="space-y-5">
-        <ul class="list-disc list-inside space-y-2">
+    <div className="space-y-5">
+        <ul className="list-disc list-inside space-y-2">
             <li><strong>Technologies:</strong> Modern technologies, such as cars, airplanes, and domestic appliances, are based on Physics principles.</li>
             <li><strong>Communication:</strong> Devices like radios, TVs, telephones, and computers are results of Physics applications.</li>
             <li><strong>Impact:</strong> Physics impacts commerce, industry, agriculture, education, and overall human life, improving standards of living.</li>
             <li><strong>Challenges:</strong> Inventions also have caused environmental pollution and harmful effects.</li>
         </ul>
-        <h2 class="text-2xl font-semibold mb-2">Rapid Progress in Science</h2>
-    <p class="mb-4">
+        <h2 className="text-2xl font-semibold mb-2">Rapid Progress in Science</h2>
+    <p className="mb-4">
       The rapid progress in science during the recent years has become possible due to the discoveries and inventions in the field of Physics. The technologies are the applications of scientific principles. Most of the technologies of our modern society throughout the world are related to Physics.
     </p>
-    <ul class="list-disc list-inside mb-4">
+    <ul className="list-disc list-inside mb-4">
       <li>A car is made on the principles of mechanics.</li>
       <li>A refrigerator is based on the principle of thermodynamics.</li>
     </ul>
     
-    <h2 class="text-2xl font-semibold mb-2">Daily Life Usage</h2>
-    <p class="mb-4">
+    <h2 className="text-2xl font-semibold mb-2">Daily Life Usage</h2>
+    <p className="mb-4">
       In our daily life, we hardly find a device where physics is not involved.
     </p>
-    <ul class="list-disc list-inside mb-4">
+    <ul className="list-disc list-inside mb-4">
       <li>Consider pulley that makes it easy to lift heavy loads.</li>
       <li>Electricity is used not only to get light but also mechanical energy drives fans and electric motors, etc.</li>
       <li>The cars, aeroplanes, and other means of transport have shortened the distances, and now people do not live in isolation.</li>
       <li>Domestic appliances such as air conditioners, refrigerators, vacuum washing machines, and microwave ovens are used in houses.</li>
     </ul>
     
-    <h2 class="text-2xl font-semibold mb-2">Communication</h2>
-    <p class="mb-4">
+    <h2 className="text-2xl font-semibold mb-2">Communication</h2>
+    <p className="mb-4">
       The means of communication such as radio, TV, telephone, and computer are the result of applications of physics. These devices have made our lives much easier, faster, and more comfortable than in the past.
     </p>
     
-    <h3 class="text-xl font-semibold mb-2">Mobile Phone</h3>
-    <p class="mb-4">
+    <h3 className="text-xl font-semibold mb-2">Mobile Phone</h3>
+    <p className="mb-4">
       It allows us to contact people anywhere in the world and to get the latest worldwide information. We can take and save pictures, send and receive messages from our friends. We can also receive radio transmission and use it as a calculator.
     </p>
     
-    <h2 class="text-2xl font-semibold mb-2">Destruction in the World</h2>
-    <p class="mb-4">
+    <h2 className="text-2xl font-semibold mb-2">Destruction in the World</h2>
+    <p className="mb-4">
       The scientific inventions have also caused harm and destruction of serious nature. One such destruction is environmental pollution, and another is deadly weapons.
     </p>
     
-    <h2 class="text-2xl font-semibold mb-2">Conclusion</h2>
+    <h2 className="text-2xl font-semibold mb-2">Conclusion</h2>
     <p>
       Physics has also registered its glory in commerce and industry, trade, agriculture, education, and, in a nutshell, on all pages of human life. Because of research in physics, the standard of human living is improving day by day.
     </p>
@@ -149,23 +149,23 @@ const questionsAndAnswers: QuestionAnswer[] = [
     question: "Write a note on Vernier Calipers.",
     answer: `
         <p><strong>Vernier Calipers</strong> are used for precise measurements of small lengths.</p>
-        <ul class="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2">
             <li><strong>Main Scale:</strong> Measures in centimeters and millimeters.</li>
             <li><strong>Vernier Scale:</strong> Allows reading smaller divisions accurately.</li>
             <li><strong>Pitch:</strong> 1 millimeter.</li>
         </ul>
-         <div class="space-y-5 my-14">
-    <h1 class="text-3xl font-bold mb-4">Physics Measurements and Units</h1>
+         <div className="space-y-5 my-14">
+    <h1 className="text-3xl font-bold mb-4">Physics Measurements and Units</h1>
     
-    <section class="mb-6">
-      <h2 class="text-2xl font-semibold mb-2">Vernier Calipers</h2>
-      <p class="mb-4">
+    <section className="mb-6">
+      <h2 className="text-2xl font-semibold mb-2">Vernier Calipers</h2>
+      <p className="mb-4">
         Vernier Calipers are an instrument used to measure very small lengths accurately to one tenth of a millimeter.
       </p>
      
      <div>
-     <h3 class="text-xl font-semibold mb-2">Construction</h3>
-     <p class="mb-4">
+     <h3 className="text-xl font-semibold mb-2">Construction</h3>
+     <p className="mb-4">
      Vernier Calipers consist of two jaws and two scales connected with these jaws.
      </p>
      <div className="flex flex-col gap-3">
@@ -174,12 +174,12 @@ const questionsAndAnswers: QuestionAnswer[] = [
      </div>
      </div>
 
-      <h3 class="text-xl font-semibold mb-2">Main Scale</h3>
-      <ul class="list-disc list-inside mb-4">
+      <h3 className="text-xl font-semibold mb-2">Main Scale</h3>
+      <ul className="list-disc list-inside mb-4">
         <li>The longer line on the main scale represents centimeters and smaller lines, millimeters.</li>
       </ul>
-      <h3 class="text-xl font-semibold mb-2">Pitch</h3>
-      <ul class="list-disc list-inside mb-4">
+      <h3 className="text-xl font-semibold mb-2">Pitch</h3>
+      <ul className="list-disc list-inside mb-4">
         <li>The separation between two smaller lines on the main scale is called the pitch of the surnier calipers. It is one milli meter(Imm)</li>
       </ul>
     </section>
@@ -217,7 +217,7 @@ const questionsAndAnswers: QuestionAnswer[] = [
       "Pick out the base units in the following: Joule, Newton, kilogram, hertz, mole, ampere, meter, Kelvin, coulomb and watt.",
     answer: `
         <p><strong>Base units:</strong></p>
-        <ul class="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2">
             <li>Kilogram (mass)</li>
             <li>Mole (quantity of substance)</li>
             <li>Ampere (electric current)</li>
@@ -351,55 +351,55 @@ const questionsAndAnswers: QuestionAnswer[] = [
     answer: `
         <div>
   <div className="max-w-4xl mx-auto p-6">
-        <h1 class="text-2xl font-bold mb-4">Q.No.4 Write a note on the Screw Gauge</h1>
-        <p class="mb-4">
+        <h1 className="text-2xl font-bold mb-4">Q.No.4 Write a note on the Screw Gauge</h1>
+        <p className="mb-4">
           A screw gauge is the instrument used to measure small lengths accurately up to one-hundredth part of a millimeter. It is also called a micrometer screw gauge. Its accuracy is greater than that of a vernier caliper.
         </p>
         
-        <h2 class="text-xl font-semibold mb-2">Construction</h2>
-        <p class="mb-4">
+        <h2 className="text-xl font-semibold mb-2">Construction</h2>
+        <p className="mb-4">
           It consists of a U-shaped metal stud at one end. A hollow cylinder (or sleeve) has a millimeter scale over it along a line called the index line, parallel to its axis. The hollow circular scale acts as a nut. A thimble has a threaded spindle inside it.
         </p>
 
-        <h3 class="text-lg font-semibold mb-2">Circular Scale</h3>
-        <p class="mb-4">
+        <h3 className="text-lg font-semibold mb-2">Circular Scale</h3>
+        <p className="mb-4">
           The thimble has 100 divisions around one end. It is the circular scale of the screw gauge. As the thimble completes one rotation, 100 divisions pass the index line, and the thimble moves 1 mm along the main scale. Thus, each division of the circular scale crossing the index line moves the thimble through 1/100 mm or 0.01 mm on the main scale.
         </p>
 
-        <h3 class="text-lg font-semibold mb-2">Pitch</h3>
-        <p class="mb-4">
+        <h3 className="text-lg font-semibold mb-2">Pitch</h3>
+        <p className="mb-4">
           As the thimble completes one rotation, the spindle moves 1 mm along the index line. The distance between consecutive threads on the spindle is 1 mm; this distance is called the pitch of the screw gauge.
         </p>
 
-        <h3 class="text-lg font-semibold mb-2">Least Count</h3>
-        <p class="mb-4">
+        <h3 className="text-lg font-semibold mb-2">Least Count</h3>
+        <p className="mb-4">
           The least count of a screw gauge can be found as follows:
           <br />
-          <code class="bg-gray-100 p-1 rounded">Least count = pitch of screw gauge / number of divisions on the circular scale</code>
+          <code className="bg-gray-100 p-1 rounded">Least count = pitch of screw gauge / number of divisions on the circular scale</code>
           <br />
-          <code class="bg-gray-100 p-1 rounded">= 1 mm / 100 = 0.01 mm = 0.001 cm</code>
+          <code className="bg-gray-100 p-1 rounded">= 1 mm / 100 = 0.01 mm = 0.001 cm</code>
           <br />
           The least count of the screw gauge is 0.01 mm or 0.001 cm.
         </p>
 
-        <h3 class="text-lg font-semibold mb-2">Zero Error of Screw Gauge</h3>
-        <p class="mb-4">
+        <h3 className="text-lg font-semibold mb-2">Zero Error of Screw Gauge</h3>
+        <p className="mb-4">
           If we close the gap between the spindle and the stud of the screw gauge by rotating the ratchet in the clockwise direction, and if the zero of the circular scale coincides with the index line, then the zero error will be zero. If the zero of the circular scale does not coincide with the index line, then there is a zero error in the screw gauge.
         </p>
-        <div class="pb-6">
-  <h3 class="text-lg font-semibold mb-2">Positive Zero Error</h3>
-  <p class="mb-4">
+        <div className="pb-6">
+  <h3 className="text-lg font-semibold mb-2">Positive Zero Error</h3>
+  <p className="mb-4">
     If the zero of the circular scale is behind (below) the index line, it will measure slightly more than the actual thickness, and this is called positive zero error.
   </p>
-  <p class="mb-4">
+  <p className="mb-4">
     <strong>Zero Correction:</strong> In this case, multiply the number of divisions of the circular scale that have not crossed the index line by the least count of the screw gauge to find the zero error. This error will be subtracted from the observed measurement.
   </p>
 
-  <h3 class="text-lg font-semibold mb-2">Negative Zero Error</h3>
-  <p class="mb-4">
+  <h3 className="text-lg font-semibold mb-2">Negative Zero Error</h3>
+  <p className="mb-4">
     If the zero of the circular scale has crossed (above) the index line, it will show slightly less than the actual thickness, and this is called negative zero error.
   </p>
-  <p class="mb-4">
+  <p className="mb-4">
     <strong>Zero Correction:</strong> In this case, multiply the number of divisions of the circular scale that have crossed the index line by the least count of the screw gauge to find the zero error. This error will be added to the observed measurement.
   </p>
 </div>
@@ -447,7 +447,7 @@ const questionsAndAnswers: QuestionAnswer[] = [
   //   {
   //     question: "What are the types of zero errors in measurement instruments?",
   //     answer: `
-  //         <ul class="list-disc list-inside space-y-2">
+  //         <ul className="list-disc list-inside space-y-2">
   //             <li><strong>Positive Zero Error:</strong> Occurs if the zero of the scale is behind the index line.</li>
   //             <li><strong>Negative Zero Error:</strong> Occurs if the zero of the scale is ahead of the index line.</li>
   //         </ul>
@@ -497,19 +497,19 @@ const questionsAndAnswers: QuestionAnswer[] = [
 @endmindmap
 `,
     answer: `
-      <div class="max-w-4xl mx-auto p-6">
-  <p class="mb-4">
+      <div className="max-w-4xl mx-auto p-6">
+  <p className="mb-4">
     A common physical balance is a laboratory instrument that is used to measure the mass of various objects by comparison.
   </p>
 
-  <h2 class="text-xl font-semibold mb-2">Construction</h2>
-  <p class="mb-4">
+  <h2 className="text-xl font-semibold mb-2">Construction</h2>
+  <p className="mb-4">
     It consists of a beam resting at the center on a fulcrum as shown in the figure. The beam carries scale pans over the hooks on either side. Unknown mass is placed on the left pan. Find some suitable standard masses that cause the pointer to remain at zero on raising the beam.
   </p>
 
-  <div class="mb-4">
-    <p class="font-semibold mb-2">Components:</p>
-    <ul class="list-disc pl-5">
+  <div className="mb-4">
+    <p className="font-semibold mb-2">Components:</p>
+    <ul className="list-disc pl-5">
       <li>Beam</li>
       <li>Balancing Screw</li>
       <li>Pillar</li>
@@ -523,9 +523,9 @@ const questionsAndAnswers: QuestionAnswer[] = [
     </ul>
   </div>
 
-  <h2 class="text-xl font-semibold mb-2">Example: Find the mass of a small stone by a physical balance</h2>
-  <h3 class="text-lg font-semibold mb-2">Solution</h3>
-  <ol class="list-decimal pl-5 mb-4">
+  <h2 className="text-xl font-semibold mb-2">Example: Find the mass of a small stone by a physical balance</h2>
+  <h3 className="text-lg font-semibold mb-2">Solution</h3>
+  <ol className="list-decimal pl-5 mb-4">
     <li>Follow the steps to measure the mass of a given object.</li>
     <li>Adjust leveling screws with the help of a plumb line to level the platform of the physical balance.</li>
     <li>Raise the beam gently by turning the arresting knob clockwise. Using balancing screws at the ends of its beam, bring the pointer to the zero position.</li>
@@ -540,28 +540,28 @@ const questionsAndAnswers: QuestionAnswer[] = [
     question:
       "Which one of the following is the most accurate: Beam balance, Physical balance, and Electronic balance?",
     answer: `
-        <div class="max-w-4xl mx-auto p-6">
-  <p class="mb-4">
+        <div className="max-w-4xl mx-auto p-6">
+  <p className="mb-4">
     The mass of one rupee coin is measured using different balances as given below:
   </p>
 
-  <div class="mb-4">
-    <h3 class="text-lg font-semibold mb-2">Beam Balance</h3>
-    <p class="mb-2">
+  <div className="mb-4">
+    <h3 className="text-lg font-semibold mb-2">Beam Balance</h3>
+    <p className="mb-2">
       Mass of coin = 3.2 g. A sensitive balance may be able to measure mass accurately as small as 0.1 g or 100 mg.
     </p>
   </div>
 
-  <div class="mb-4">
-    <h3 class="text-lg font-semibold mb-2">Physical Balance</h3>
-    <p class="mb-2">
+  <div className="mb-4">
+    <h3 className="text-lg font-semibold mb-2">Physical Balance</h3>
+    <p className="mb-2">
       Mass of the coin = 3.24 g. The least count of a physical balance is 0.01 g or 10 mg. Therefore, the measurement taken by a physical balance would be more precise than that of a sensitive beam balance.
     </p>
   </div>
 
-  <div class="mb-4">
-    <h3 class="text-lg font-semibold mb-2">Electronic Balance</h3>
-    <p class="mb-2">
+  <div className="mb-4">
+    <h3 className="text-lg font-semibold mb-2">Electronic Balance</h3>
+    <p className="mb-2">
       Mass of coin = 3.247 g. The least count of an electronic balance is 0.001 g or 1 mg. Therefore, the measurement would be more precise than that of a sensitive physical balance. The electronic balance is the most sensitive balance among all the balances given above.
     </p>
   </div>
@@ -588,36 +588,36 @@ const questionsAndAnswers: QuestionAnswer[] = [
   {
     question: "Write a note on the Stopwatch.",
     answer: `
-       <div class="max-w-4xl mx-auto p-6">
-  <p class="mb-4">
+       <div className="max-w-4xl mx-auto p-6">
+  <p className="mb-4">
     "An instrument used to measure the time interval or specific period of an event is known as a stop watch."
   </p>
 
-  <h3 class="text-lg font-semibold mb-2">Types of Stop Watch</h3>
-  <p class="mb-4">There are two types of stop watches:</p>
+  <h3 className="text-lg font-semibold mb-2">Types of Stop Watch</h3>
+  <p className="mb-4">There are two types of stop watches:</p>
 
-  <ul class="list-disc pl-5 mb-4">
+  <ul className="list-disc pl-5 mb-4">
     <li>Mechanical stop watch</li>
     <li>Electronic stop watch (digital stop watch)</li>
   </ul>
 
-  <h4 class="text-lg font-semibold mb-2">Mechanical Stop Watch</h4>
-  <p class="mb-4">
+  <h4 className="text-lg font-semibold mb-2">Mechanical Stop Watch</h4>
+  <p className="mb-4">
     A mechanical stop watch can measure a time interval up to a minimum of 0.1 seconds.
   </p>
-  <p class="mb-4">
+  <p className="mb-4">
     <strong>How to Use:</strong> A mechanical stop watch has a knob that is used to wind the spring that powers the watch. It can also be used as the start, stop, and reset button. The watch starts when the knob is pressed once. When pressed a second time, it stops the watch, while the third press brings the needle back to the zero position.
   </p>
 
-  <h4 class="text-lg font-semibold mb-2">Electronic/Digital Stop Watch</h4>
-  <p class="mb-4">
+  <h4 className="text-lg font-semibold mb-2">Electronic/Digital Stop Watch</h4>
+  <p className="mb-4">
     A digital stop watch, commonly used in laboratories, can measure a time interval accurately up to 1/100 second or 0.01 seconds.
   </p>
-  <p class="mb-4">
+  <p className="mb-4">
     <strong>How to Use:</strong> The digital stop watch starts to indicate the time elapsed when the start/stop button is pressed. As soon as the start/stop button is pressed again, it stops and indicates the time interval recorded between the start and stop of an event. A reset button restores its initial zero settings.
   </p>
 
-  <p class="mb-4">
+  <p className="mb-4">
     The watch is named "stop watch" because it can be started or stopped at will as required when the duration of the time is to be measured.
   </p>
 </div>
@@ -651,35 +651,35 @@ const questionsAndAnswers: QuestionAnswer[] = [
     question:
       "What do you know about the Measuring Cylinder? How is the volume of liquids measured using this cylinder?",
     answer: `
-      <div class="max-w-4xl mx-auto p-6">
-  <p class="mb-4">
+      <div className="max-w-4xl mx-auto p-6">
+  <p className="mb-4">
     A measuring cylinder is a cylindrical tube that is used to measure the volume of liquid or powdered substances. It is also used to find the volume of an irregular-shaped solid insoluble in a liquid by the displacement method.
   </p>
 
-  <h3 class="text-lg font-semibold mb-2">Construction</h3>
-  <p class="mb-4">
+  <h3 className="text-lg font-semibold mb-2">Construction</h3>
+  <p className="mb-4">
     It is made of transparent plastic or glass, and it has a vertical scale in milliliters (ml) or cubic centimeters (cm³). Measuring cylinders have different capacities ranging from 100 ml to 2500 ml.
   </p>
 
-  <h3 class="text-lg font-semibold mb-2">Measurement of Volume</h3>
-  <p class="mb-4">
+  <h3 className="text-lg font-semibold mb-2">Measurement of Volume</h3>
+  <p className="mb-4">
     When a liquid is put into it, the volume is noted on the scale in front of the meniscus of the liquid. The meniscus of most liquids curves downwards, while the meniscus of mercury curves upwards.
   </p>
 
-  <h3 class="text-lg font-semibold mb-2">Precautions</h3>
-  <p class="mb-4">
+  <h3 className="text-lg font-semibold mb-2">Precautions</h3>
+  <p className="mb-4">
     To measure the volume of the liquid correctly, the following precautions should be kept in mind:
   </p>
-  <ul class="list-disc pl-5 mb-4">
+  <ul className="list-disc pl-5 mb-4">
     <li>The cylinder must be placed on a horizontal surface.</li>
     <li>The eye should be kept level with the bottom of the meniscus (curved surface). When the eye is above the liquid level, the meniscus appears higher on the scale. Similarly, when the eye is below the liquid level, the meniscus appears lower than the actual height of the liquid.</li>
   </ul>
 
-  <div class="mb-4">
-    <p class="font-semibold mb-2">Incorrect Position</p>
-    <img src="/path-to-image/incorrect-position.png" alt="Incorrect position" class="w-full h-auto mb-2" />
-    <p class="font-semibold mb-2">Correct Position</p>
-    <img src="/path-to-image/correct-position.png" alt="Correct position" class="w-full h-auto" />
+  <div className="mb-4">
+    <p className="font-semibold mb-2">Incorrect Position</p>
+    <img src="/path-to-image/incorrect-position.png" alt="Incorrect position" className="w-full h-auto mb-2" />
+    <p className="font-semibold mb-2">Correct Position</p>
+    <img src="/path-to-image/correct-position.png" alt="Correct position" className="w-full h-auto" />
   </div>
 </div>
 
@@ -710,26 +710,26 @@ const questionsAndAnswers: QuestionAnswer[] = [
     question:
       "How is the volume of irregular shapes measured using the displacement method?",
     answer: `
-       <div class="max-w-4xl mx-auto p-6">
-  <p class="mb-4">
+       <div className="max-w-4xl mx-auto p-6">
+  <p className="mb-4">
     Volume of irregular-shaped solids is found by the displacement method.
   </p>
 
-  <h3 class="text-lg font-semibold mb-2">Displacement Method</h3>
-  <p class="mb-4">
+  <h3 className="text-lg font-semibold mb-2">Displacement Method</h3>
+  <p className="mb-4">
     The solid is lowered into a measuring cylinder containing a liquid. The level of the liquid rises. The increase in the volume of the liquid is equal to the volume of the given solid object.
   </p>
 
-  <h3 class="text-lg font-semibold mb-2">Method</h3>
-  <p class="mb-4">
+  <h3 className="text-lg font-semibold mb-2">Method</h3>
+  <p className="mb-4">
     Let us find the volume of a small stone. 
   </p>
-  <ol class="list-decimal pl-5 mb-4">
-    <li>Take the initial volume <code class="bg-gray-100 p-1 rounded">Vi</code> of water in the cylinder.</li>
+  <ol className="list-decimal pl-5 mb-4">
+    <li>Take the initial volume <code className="bg-gray-100 p-1 rounded">Vi</code> of water in the cylinder.</li>
     <li>Tie the solid with a thread.</li>
     <li>Lower the solid into the cylinder until it is fully immersed in water.</li>
-    <li>Note the final volume <code class="bg-gray-100 p-1 rounded">Vf</code> of water and the solid.</li>
-    <li>The volume of the solid will be <code class="bg-gray-100 p-1 rounded">Vf - Vi</code>.</li>
+    <li>Note the final volume <code className="bg-gray-100 p-1 rounded">Vf</code> of water and the solid.</li>
+    <li>The volume of the solid will be <code className="bg-gray-100 p-1 rounded">Vf - Vi</code>.</li>
   </ol>
 </div>
 
@@ -757,44 +757,44 @@ const questionsAndAnswers: QuestionAnswer[] = [
     question:
       "Define and explain Significant figures. What are the main points to be kept in mind while determining the significant figures of a result?",
     answer: `
-        <div class="max-w-4xl mx-auto p-6">
-  <p class="mb-4">
+        <div className="max-w-4xl mx-auto p-6">
+  <p className="mb-4">
     In any measurement, the accurately known digits and the first doubtful digit in an expression are called significant figures. They reflect the precision of a measured value of a physical quantity.
   </p>
 
-  <h3 class="text-lg font-semibold mb-2">Accuracy of Measurement</h3>
-  <p class="mb-4">
+  <h3 className="text-lg font-semibold mb-2">Accuracy of Measurement</h3>
+  <p className="mb-4">
     The value of a physical quantity is expressed by a number followed by some suitable unit. Every measurement is an attempt to find the true value. The accuracy in measuring a physical quantity depends upon various factors:
   </p>
-  <ul class="list-disc pl-5 mb-4">
+  <ul className="list-disc pl-5 mb-4">
     <li>The quality of the measuring instrument</li>
     <li>The skill of the observer</li>
     <li>The number of observations made</li>
   </ul>
 
-  <h3 class="text-lg font-semibold mb-2">Example</h3>
-  <p class="mb-4">
+  <h3 className="text-lg font-semibold mb-2">Example</h3>
+  <p className="mb-4">
     A student measures the length of a book as 18 cm using a measuring tape. The number of significant figures in this measurement is two. The left digit is the accurately known digit, while the digit 8 is a doubtful digit, which the student may not be sure about.
   </p>
-  <p class="mb-4">
+  <p className="mb-4">
     Another student measures the same book using a ruler and claims its length to be 18.4 cm. In this case, all three figures are significant. The two left digits 1 and 8 are accurately known, while the digit 4 is the doubtful digit.
   </p>
-  <p class="mb-4">
+  <p className="mb-4">
     A third student records the length of the book as 18.425 cm using the same ruler. The number of significant figures is again three, consisting of the two accurately known digits 1 and 8, and the first doubtful digit 4. The digits 2 and 5 are not significant because the measurement is limited by the instrument.
   </p>
-  <p class="mb-4">
+  <p className="mb-4">
     An improvement in the quality of measurement by using a better instrument increases the significant figures in the measured result. Significant figures include all the digits that are known accurately and the one estimated digit. More significant figures mean greater precision.
   </p>
 
-  <h3 class="text-lg font-semibold mb-2">Rules for Determining Significant Figures</h3>
-  <p class="mb-4">The following rules are helpful in identifying significant figures:</p>
-  <ul class="list-disc pl-5 mb-4">
+  <h3 className="text-lg font-semibold mb-2">Rules for Determining Significant Figures</h3>
+  <p className="mb-4">The following rules are helpful in identifying significant figures:</p>
+  <ul className="list-disc pl-5 mb-4">
     <li>Non-zero digits are always significant.</li>
-    <li>Zeros in between two significant figures are also significant. For example, in <code class="bg-gray-100 p-1 rounded">1.406</code>, the number of significant figures is 4.</li>
-    <li>In any observation, the zeros on the left side of the decimal point for the purpose of spacing the decimal point are not significant. For example, in <code class="bg-gray-100 p-1 rounded">0.0036</code>, the number of significant figures is 2.</li>
-    <li>Final or ending zeros on the right side of decimal fractions are considered significant. For example, the number of significant figures in <code class="bg-gray-100 p-1 rounded">2.450</code> is four.</li>
+    <li>Zeros in between two significant figures are also significant. For example, in <code className="bg-gray-100 p-1 rounded">1.406</code>, the number of significant figures is 4.</li>
+    <li>In any observation, the zeros on the left side of the decimal point for the purpose of spacing the decimal point are not significant. For example, in <code className="bg-gray-100 p-1 rounded">0.0036</code>, the number of significant figures is 2.</li>
+    <li>Final or ending zeros on the right side of decimal fractions are considered significant. For example, the number of significant figures in <code className="bg-gray-100 p-1 rounded">2.450</code> is four.</li>
     <li>In whole numbers that end in one or more zeros without a decimal point, these zeros may or may not be significant. In such cases, express the quantity using scientific notation.</li>
-    <li>If numbers are recorded in scientific notation, then all the digits before the power of 10 are significant. For example, in <code class="bg-gray-100 p-1 rounded">1.40 x 10<sup>3</sup></code>, the number of significant figures is three.</li>
+    <li>If numbers are recorded in scientific notation, then all the digits before the power of 10 are significant. For example, in <code className="bg-gray-100 p-1 rounded">1.40 x 10<sup>3</sup></code>, the number of significant figures is three.</li>
   </ul>
 </div>
 
@@ -835,11 +835,11 @@ const questionsAndAnswers: QuestionAnswer[] = [
   {
     question: "Write down the rules to round off the numbers.",
     answer: `
-       <div class="max-w-4xl mx-auto p-6">
-  <p class="mb-4">
+       <div className="max-w-4xl mx-auto p-6">
+  <p className="mb-4">
     The following rules are used to round off numbers:
   </p>
-  <ol class="list-decimal pl-5 mb-4">
+  <ol className="list-decimal pl-5 mb-4">
     <li>
       If the last digit is less than 5, then it is simply dropped. This decreases the number of significant digits in the figure.
       <br /> 
@@ -854,7 +854,7 @@ const questionsAndAnswers: QuestionAnswer[] = [
       If the last digit is 5, then it is rounded to get the nearest even number.
       <br />
       <strong>Example:</strong>
-      <ul class="list-disc pl-5 mt-2">
+      <ul className="list-disc pl-5 mt-2">
         <li>1.35 is rounded to 1.4</li>
         <li>1.45 is rounded to 1.4</li>
       </ul>

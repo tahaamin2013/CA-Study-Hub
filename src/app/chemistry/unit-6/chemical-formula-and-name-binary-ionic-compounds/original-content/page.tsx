@@ -44,57 +44,57 @@ export default function Unit06() {
 
       <h4 className="text-lg font-semibold mb-2">Table indicating names and symbols for cations and anions</h4>
 
-      <table class="min-w-full bg-white border border-gray-300 rounded-lg shadow-md">
+      <table className="min-w-full bg-white border border-gray-300 rounded-lg shadow-md">
                 <thead>
-                    <tr class="bg-gray-200">
-                        <th class="px-4 py-2 border">Cations</th>
-                        <th class="px-4 py-2 border"> </th>
-                        <th class="px-4 py-2 border">Anions</th>
-                        <th class="px-4 py-2 border"> </th>
+                    <tr className="bg-gray-200">
+                        <th className="px-4 py-2 border">Cations</th>
+                        <th className="px-4 py-2 border"> </th>
+                        <th className="px-4 py-2 border">Anions</th>
+                        <th className="px-4 py-2 border"> </th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="border">
-                        <td class="px-4 py-2 border">Lithium</td>
-                        <td class="px-4 py-2 border">Li</td>
-                        <td class="px-4 py-2 border">Fluoride</td>
-                        <td class="px-4 py-2 border">F⁻</td>
+                    <tr className="border">
+                        <td className="px-4 py-2 border">Lithium</td>
+                        <td className="px-4 py-2 border">Li</td>
+                        <td className="px-4 py-2 border">Fluoride</td>
+                        <td className="px-4 py-2 border">F⁻</td>
                     </tr>
-                    <tr class="border">
-                        <td class="px-4 py-2 border">Sodium</td>
-                        <td class="px-4 py-2 border">Na</td>
-                        <td class="px-4 py-2 border">Chloride</td>
-                        <td class="px-4 py-2 border">Cl⁻</td>
+                    <tr className="border">
+                        <td className="px-4 py-2 border">Sodium</td>
+                        <td className="px-4 py-2 border">Na</td>
+                        <td className="px-4 py-2 border">Chloride</td>
+                        <td className="px-4 py-2 border">Cl⁻</td>
                     </tr>
-                    <tr class="border">
-                        <td class="px-4 py-2 border">Ammonium</td>
-                        <td class="px-4 py-2 border">NH₄⁺</td>
-                        <td class="px-4 py-2 border">Nitrite</td>
-                        <td class="px-4 py-2 border">NO₂⁻</td>
+                    <tr className="border">
+                        <td className="px-4 py-2 border">Ammonium</td>
+                        <td className="px-4 py-2 border">NH₄⁺</td>
+                        <td className="px-4 py-2 border">Nitrite</td>
+                        <td className="px-4 py-2 border">NO₂⁻</td>
                     </tr>
-                    <tr class="border">
-                        <td class="px-4 py-2 border">Potassium</td>
-                        <td class="px-4 py-2 border">K</td>
-                        <td class="px-4 py-2 border">Bromide</td>
-                        <td class="px-4 py-2 border">Br⁻</td>
+                    <tr className="border">
+                        <td className="px-4 py-2 border">Potassium</td>
+                        <td className="px-4 py-2 border">K</td>
+                        <td className="px-4 py-2 border">Bromide</td>
+                        <td className="px-4 py-2 border">Br⁻</td>
                     </tr>
-                    <tr class="border">
-                        <td class="px-4 py-2 border">Magnesium</td>
-                        <td class="px-4 py-2 border">Mg²⁺</td>
-                        <td class="px-4 py-2 border">Nitrate</td>
-                        <td class="px-4 py-2 border">NO₃⁻</td>
+                    <tr className="border">
+                        <td className="px-4 py-2 border">Magnesium</td>
+                        <td className="px-4 py-2 border">Mg²⁺</td>
+                        <td className="px-4 py-2 border">Nitrate</td>
+                        <td className="px-4 py-2 border">NO₃⁻</td>
                     </tr>
-                    <tr class="border">
-                        <td class="px-4 py-2 border">Calcium</td>
-                        <td class="px-4 py-2 border">Ca²⁺</td>
-                        <td class="px-4 py-2 border">Phosphate</td>
-                        <td class="px-4 py-2 border">PO₄³⁻</td>
+                    <tr className="border">
+                        <td className="px-4 py-2 border">Calcium</td>
+                        <td className="px-4 py-2 border">Ca²⁺</td>
+                        <td className="px-4 py-2 border">Phosphate</td>
+                        <td className="px-4 py-2 border">PO₄³⁻</td>
                     </tr>
-                    <tr class="border">
-                        <td class="px-4 py-2 border">Copper (II)</td>
-                        <td class="px-4 py-2 border">Cu²⁺</td>
-                        <td class="px-4 py-2 border">Sulfate</td>
-                        <td class="px-4 py-2 border">SO₄²⁻</td>
+                    <tr className="border">
+                        <td className="px-4 py-2 border">Copper (II)</td>
+                        <td className="px-4 py-2 border">Cu²⁺</td>
+                        <td className="px-4 py-2 border">Sulfate</td>
+                        <td className="px-4 py-2 border">SO₄²⁻</td>
                     </tr>
                 </tbody>
             </table>
