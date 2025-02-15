@@ -41,7 +41,7 @@ electricity when melted or dissolved in water. in order to be soluble in water, 
 
       <h4 className="text-2xl font-semibold mt-8">Conduction of Electricity through Acids</h4>
       <p className="mt-4">
-      Covalent compounds have no free charged particles, so they do not conduct electricity. However, some covalent compounds conduct electricity when dissolved in water. For instance, acids like HCI, H,SO,, HNO, etc. When these acids are dissolved in water, they ionize and form high concentrations of H' ions and negatively charged ions. These ions can move freely in aqueous solution. Therefore, aqueous solutions of acids conduct electricity.
+      Covalent compounds have no free charged particles, so they do not conduct electricity. However, some covalent compounds conduct electricity when dissolved in water. For instance, acids like HCI, H,SO,, HNO, etc. When these acids are dissolved in water, they ionize and form high concentrations of H&apos; ions and negatively charged ions. These ions can move freely in aqueous solution. Therefore, aqueous solutions of acids conduct electricity.
       </p>
       <p className="mt-4">
       Metals are good conductor of electricity because they have free electrons. These electrons are not associated with a single atom. These electrons begin to flow under the influence of electricity. Therefore metals allow electricity to pass through.
@@ -120,7 +120,7 @@ electricity when melted or dissolved in water. in order to be soluble in water, 
       <h4 className="text-2xl font-semibold mt-8">5.5.1 Graphite
       </h4>
       <p className="mt-4">
-      Graphite's name is derived from the Greek word "graphein," meaning "to write." It is commonly called black lead. Graphite is an allotrope of carbon. Graphite is formed when carbon is subjected to the intense heat and pressure of the earth's crust and upper mantle.
+      Graphite&apos;s name is derived from the Greek word &quot;graphein,&quot; meaning &quot;to write.&quot; It is commonly called black lead. Graphite is an allotrope of carbon. Graphite is formed when carbon is subjected to the intense heat and pressure of the earth&apos;s crust and upper mantle.
 
       </p>
       <p className="mt-4 text-lg">
@@ -162,7 +162,7 @@ bearing, piston rings, and valves.
 
       </h4>
       <p className="mt-1">
-      In a diamond, the carbon atoms are arranged tetrahedrally. Each carbon atom is attached to four other carbon atoms 1.544 x 10 meter away with a C-C-C bond angle of 109.5°. It is a strong, rigid three-dimensional structure that results in an infinite network of atoms. This accounts for diamond's hardness, extraordinary strength and durability and gives diamond a higher density than graphite (3.514 grams per cubic centimeter).
+      In a diamond, the carbon atoms are arranged tetrahedrally. Each carbon atom is attached to four other carbon atoms 1.544 x 10 meter away with a C-C-C bond angle of 109.5°. It is a strong, rigid three-dimensional structure that results in an infinite network of atoms. This accounts for diamond&apos;s hardness, extraordinary strength and durability and gives diamond a higher density than graphite (3.514 grams per cubic centimeter).
       </p>
 
       <h4 className="text-md font-semibold mt-8">Properties and uses of Diamond
