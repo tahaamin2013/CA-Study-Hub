@@ -236,6 +236,20 @@ const CharacteristicPropertiesPage = () => {
               </div>
             </div>
 
+                      <div className="mt-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">
+                Activity 4.5
+              </h2>
+              <div className="bg-blue-50 p-6 rounded-lg mb-6">
+                <p className="text-lg mb-4">
+                Predict the properties of other elements in Group I, from the data given above.
+                </p>
+                <p className="text-lg mb-4">
+                The element after Potassium is Rubidium and you can predict that its reaction with water will be much more violent. We can also predict that Rubidium will have a lower melting and boiling point than the three elements above it. And the elements below Rubidium will be even more reactive and have very low melting and boiling points. It will also react with water to for metal hydroxide and hydrogen.
+                </p>
+              </div>
+            </div>
+
             {/* Unknown Element Section */}
             <div className="mt-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">

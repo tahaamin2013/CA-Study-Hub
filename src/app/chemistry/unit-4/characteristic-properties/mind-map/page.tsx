@@ -222,6 +222,8 @@ left side
 `}
       />
 
+<Image src="/density_balls_b.png" alt="Density Balls" width={900} height={900} />
+
 <PlantUMLDiagram
         code={`@startmindmap
 <style>
@@ -237,7 +239,7 @@ mindmapDiagram {
     }
 }
 </style>
-* Alkali Metals Properties
+* Group IA - Alkali Metals Properties (Li, Na, K, Rb, Cs, Fr)
 ** Reactivity
 *** Highly reactive metals
 *** Readily form +1 cations
@@ -251,7 +253,7 @@ left side
 **** K softer than Na
 
 *** Low Density
-**** Decreases down group
+**** Increases down group
 
 *** Conductivity
 **** Excellent electrical conductors
@@ -265,9 +267,9 @@ right side
 *** Monovalent Elements
 *** Water Reactivity
 **** React with H₂O
-**** Produce hydrogen gas
 **** Form metal hydroxides
-
+**** Produce hydrogen gas
+**** 2M+2H₂​O→2MOH+H₂ ​↑
 @endmindmap
 `}
       />
@@ -289,7 +291,7 @@ mindmapDiagram {
 }
 </style>
 
-* Group 1 (Alkali Metals)
+* Prediction of Properties of Other Elements in Group 1 (Alkali Metals)
 ** Group Name
 *** Called Alkali Metals
 *** Examples include Li, Na, K
@@ -298,7 +300,6 @@ mindmapDiagram {
 *** Softness
 **** Very soft metals
 **** Increases down group
-
 
 *** Thermal Properties
 **** Melting points decrease down group
@@ -319,11 +320,24 @@ left side
 ***** Sodium
 ***** Potassium
 
+** Activity 4.5
+*** Predict properties of Group I elements
+**** Based on given data
+*** Rubidium (Next after Potassium)
+**** Reaction with water
+***** Much more violent
+**** Melting & Boiling Point
+***** Lower than elements above it
+*** Elements below Rubidium
+**** Even more reactive
+**** Very low melting and boiling points
+**** React with water
+***** Form metal hydroxide
+***** Release hydrogen
 
 @endmindmap
 `}
       />
-
       
 <PlantUMLDiagram
         code={`@startmindmap

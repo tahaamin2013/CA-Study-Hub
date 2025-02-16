@@ -28,6 +28,54 @@ left side
 ***[#lightgreen] How do trees give earth all its oxygen?
 @endmindmap
 `;
+const umlCode2 = `@startmindmap
+skinparam backgroundColor white
+
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+        FontColor black
+        FontSize 14
+    }
+}
+</style>
+
+*[#FFB6C1] Computer
+**[#98FB98] Definition
+***[#E0FFFF] Machine for problem solving
+***[#E0FFFF] Accepts inputs
+***[#E0FFFF] Performs operations
+***[#E0FFFF] Produces outputs
+
+**[#DDA0DD] Key Characteristics
+***[#F0E68C] Cannot think independently
+***[#F0E68C] Follows programmed instructions
+***[#F0E68C] Executes algorithms
+***[#F0E68C] Faster than humans
+***[#F0E68C] More accurate than humans
+left side
+**[#87CEEB] Programming Requirements
+***[#FFE4B5] Understanding real-world problems
+***[#FFE4B5] Developing solutions
+***[#FFE4B5] Converting solutions to instructions
+***[#FFE4B5] Creating programs
+
+**[#98FB98] Core Components
+***[#E6E6FA] Processor
+***[#E6E6FA] Main Memory
+
+**[#FFA07A] Operation Process
+***[#B0E0E6] Input acceptance
+***[#B0E0E6] Processing
+***[#B0E0E6] Output generation
+
+**[#F0E68C] Types
+***[#FFB6C1] Vary by size
+***[#FFB6C1] Vary by capacity
+***[#FFB6C1] Share basic computation principles
+@endmindmap
+`;
   
   const markdownContent = `
   # UML Diagram
@@ -120,6 +168,11 @@ left side
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
               MindMap
             </h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">
+              Introduction
+            </h3>
+            <PlantUMLDiagram code={umlCode2} />
+
             <PlantUMLDiagram code={umlCode} />
           </div>
         </section>

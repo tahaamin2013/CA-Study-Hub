@@ -346,7 +346,7 @@ Use cross to represent electrons of the other atoms. <br />
         
         <h2 className="text-xl font-semibold mb-2">5.3.4 Coordinate Covalent Bond</h2>
         <p className="mb-4">A coordinate covalent bond is a type of covalent bond where the shared electron pair comes from a single atom (called donor). Atoms are held together because both nuclei attract a pair of electrons. Once a covalent bond is formed, it is impossible to distinguish the origin of the electrons. Such bonding is usually observed when metal ions bind to ligands. However, nonmetals can also participate in this bond. The reaction between a Lewis acid and a base is a covalent coordinate bond.
-        </p>
+            </p>
 
         <h3 className="text-lg font-semibold mb-2">Examples of Coordinate Covalent Bonds:</h3>
         <ol className="list-decimal pl-6 mb-4">
