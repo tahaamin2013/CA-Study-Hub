@@ -24,7 +24,7 @@ export default function ComputingProblems() {
       <ul className="list-disc list-inside mb-4">
         <li>The problem whether a given number is odd (or even).</li>
         <li>The problem whether a given number is a prime number.</li>
-        <li>The problem that is there any occurrence of "aa"? in a sequence x of English alphabets.</li>
+        <li>The problem that is there any occurrence of &quot;aa&quot;? in a sequence x of English alphabets.</li>
       </ul>
       <h2 className="text-xl font-semibold mb-2">Search Problems:</h2>
       <p className="mb-4">
@@ -60,7 +60,7 @@ export default function ComputingProblems() {
         These problems work on the principle that if an event/decision has A number of choices and another decision/event
         has B number of choices then the total number of possible unique combinations would be AxB.
       </p>
-      <p>Let's solve counting problems.</p>
+      <p>Let&apos;s solve counting problems.</p>
       <h3 className="text-lg font-medium mb-2">Example:</h3>
       <p className="mb-4">
       One event is numbers of shirts, and another event is number of pants you own then how many pairs of shirts and pants you can make from it. 
