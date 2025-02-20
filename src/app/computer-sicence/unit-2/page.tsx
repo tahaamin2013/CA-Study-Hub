@@ -22,6 +22,7 @@ const data = [
     links: [
       { href: "/computer-sicence/unit-2/identifying-computing-problem/notes", text: "Notes", icon: BookOpen },
       { href: "/computer-sicence/unit-2/identifying-computing-problem/mind-map", text: "Mind Map", icon: Brain },
+      { href: "/computer-sicence/unit-2/identifying-computing-problem/original-content", text: "Original Content", icon: BookOpen },
       { href: "/computer-sicence/unit-2/identifying-computing-problem/quiz", text: "MCQs", icon: HelpCircle },
       { href: "/computer-sicence/unit-2/identifying-computing-problem/brief-questions", text: "Brief Questions", icon: FileText },
       { href: "/computer-sicence/unit-2/identifying-computing-problem/detailed-questions", text: "Detailed Questions", icon: List },

@@ -100,7 +100,16 @@ mindmapDiagram {
 **** d-sub shell **participates in bonding** along with s-sub shell
 **** **Examples**:
 ***** **Iron (Fe):** +2, +3
+****** +2 oxidation state (loses 2 electrons, forming Fe²⁺)
+******* FeO (Iron(II) oxide) has Fe²⁺
+****** +3 oxidation state (loses 3 electrons, forming Fe³⁺)
+******* Fe₂O₃ (Iron(III) oxide) has Fe³⁺
+
 ***** **Copper (Cu):** +1, +2
+****** +1 oxidation state (loses 1 electron, forming Cu⁺)
+******* Cu₂O (Copper(I) oxide) has Cu⁺
+****** +2 oxidation state (loses 2 electrons, forming Cu²⁺)
+******* CuO (Copper(II) oxide) has Cu²⁺
 
 *** **4. Coloured Compounds**
 **** Transition metals form **vibrant-colored** compounds
@@ -112,7 +121,7 @@ mindmapDiagram {
 **** Widely used in industry to **speed up chemical reactions**
 **** **Examples**:
 ***** (a) **Iron (Fe):** Haber Process (**Ammonia Synthesis**)
-***** (b) **Platinum (Pt) & Palladium (Pd):** Catalytic Converters (**Reduce Emissions**)
+***** (b) **Platinum (Pt) & Palladium (Pd):** Catalytic Converters (**Reduce Harmful Emissions in automobiles & industrial units**)
 ***** (c) **Nickel (Ni):** Used in **margarine production**
 ***** (d) **Platinum (Pt):** Contact Process (**Sulfuric Acid Production**)
 

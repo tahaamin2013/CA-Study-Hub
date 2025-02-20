@@ -160,6 +160,163 @@ left side
 
 @endmindmap
 `} />
+
+<PlantUMLDiagram code={`
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+    :depth(3) {
+        BackgroundColor lightCoral
+    }
+}
+</style>
+
+* **4.7 Halogens**
+** **Definition**
+*** Elements in **Group 17 (Group VII-A)**
+*** Name from Greek: **"halous" (salt) + "gen" (former)**
+*** **Highly reactive non-metals**
+*** **Exist as diatomic molecules**
+
+** **Elements in Group 17**
+*** **Fluorine (F)**
+*** **Chlorine (Cl)**
+*** **Bromine (Br)**
+*** **Iodine (I)**
+*** **Astatine (At)** (Radioactive, little known)
+*** **Tennessine (Ts)** (Radioactive, little known)
+
+** **Appearance of Halogens**
+*** Exist as **diatomic, colored molecular substances**
+*** **Color darkens** as you move **down the group**
+
+*** **Halogens at Room Temperature & Pressure (RTP)**
+**** **Fluorine (F₂)** → **Pale yellow gas**
+**** **Chlorine (Cl₂)** → **Yellow-green gas**
+**** **Bromine (Br₂)** → **Red-brown liquid**
+**** **Iodine (I₂)** → **Grey-black solid**
+***** Turns into **dark purple vapor** when warmed
+
+** **Electronic Configuration**
+*** **7 electrons** in valence shell
+*** **General Configuration: ns² np⁵**
+*** **Electron Gain & Ion Formation**
+**** Need **1 more electron** to complete octet
+**** Form **univalent negative ions** (X⁻)
+***** **Fluoride (F⁻)**
+***** **Chloride (Cl⁻)**
+***** **Bromide (Br⁻)**
+***** **Iodide (I⁻)**
+
+** **Density of Halogens**
+*** **Increase in Density Down the Group**
+**** More **electrons & protons** → **Larger atomic size**
+**** **Mass increases more than volume** → **Higher density**
+**** **Stronger intermolecular forces** in lower halogens
+**** **More compact molecular arrangement** in solids
+
+*** **Physical State of Halogens**
+**** **Fluorine (F₂) → Gas**
+**** **Chlorine (Cl₂) → Gas**
+**** **Bromine (Br₂) → Liquid**
+**** **Iodine (I₂) → Solid**
+
+*** **Density Values (g/cm³ at 25°C)**
+**** **Fluorine:** 0.0017
+**** **Chlorine:** 0.0032
+**** **Bromine:** 3.1028
+**** **Iodine:** 4.933
+left side
+
+** **Reactivity of Halogens**
+*** **Reactivity is linked to Electron Gain**
+**** Halogens **gain 1 electron** to form **halide ions** (F⁻, Cl⁻, Br⁻, I⁻)
+**** **Fluorine (F₂) is the most reactive** → highest electron affinity
+**** **Reactivity decreases down the group**
+**** **Bromine (Br₂) and Iodine (I₂) are the least reactive**
+
+*** **Electronegativity & Reactivity**
+**** **Electronegativity decreases** down the group
+**** Lower electronegativity → **Lower reactivity**
+**** Fluorine has the **strongest tendency to gain electrons**
+
+*** **Oxidizing Power**
+**** Halogens are **strong oxidizing agents** (they gain electrons easily)
+**** **Oxidizing power decreases down the group**
+**** **Order of decreasing oxidizing power:**
+***** **F₂ > Cl₂ > Br₂ > I₂**
+
+** **Displacement Reactions of Halogens**
+*** **Oxidizing Power & Displacement**
+**** **F₂ has the highest oxidizing power** → Can oxidize all halide ions
+**** **I₂ has the lowest oxidizing power** → Cannot oxidize any halide ion
+
+*** **Halogen Displacement Reactions**
+**** **Fluorine (F₂) Reactions:**
+***** **F₂ + 2KCl → 2KF + Cl₂**
+***** **F₂ + 2KBr → 2KF + Br₂**
+***** **F₂ + 2NaI → 2NaF + I₂**
+
+**** **Chlorine (Cl₂) Reactions:**
+***** **Cl₂ can oxidize Br⁻ and I⁻ to Br₂ and I₂**
+
+**** **Iodine (I₂) Limitation:**
+***** **I₂ cannot oxidize any halide ion** due to lowest oxidizing power
+
+
+** **Hydrogen Halides & Thermal Stabilities**
+*** **Formation of Hydrogen Halides**
+**** **Reaction Formula:** H₂ + X₂ → 2HX
+**** **X can be:** F₂, Cl₂, Br₂, I₂
+
+*** **Bond Strength & Electronegativity**
+**** **Stronger Bond → Higher Electronegativity Difference**
+**** **Electronegativity Decreases Down the Group**
+**** **As a Result:**
+***** **HF has the strongest bond**
+***** **HI has the weakest bond**
+
+*** **Thermal Stability Trend**
+**** **Thermal stability decreases from HF to HI**
+**** **Order of Stability:**
+***** **HF > HCl > HBr > HI**
+***** **HF requires the most energy to break**
+***** **HI requires the least energy to break**
+
+** **Group VIIA (Group 17) - Halogens**
+*** **General Properties**
+**** **Poisonous Non-Metals**
+**** **Low Melting & Boiling Points**
+***** **Increase Down the Group**
+***** **State at Room Temperature Changes**
+****** **Fluorine & Chlorine → Gases**
+****** **Bromine → Liquid**
+****** **Iodine → Solid**
+**** **Colour Darkens from Top to Bottom**
+
+*** **Concept Assessment Exercise 4.9**
+**** **Determine Displacement Reactions**
+***** **Possible Reactions:**
+****** **Cl₂ + 2NaF → 2NaCl + F₂**
+****** **Br₂ + 2KI → 2KBr + I₂**
+****** **I₂ + 2KBr → 2KI + Br₂**
+****** **Cl₂ + 2KBr → 2KCl + Br₂**
+****** **Cl₂ + 2NaI → 2NaCl + I₂**
+
+@endmindmap
+
+    `} />
+
+
       </section>
        
 
