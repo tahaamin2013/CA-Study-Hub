@@ -250,6 +250,8 @@ left side
 **** Fluorine has the **strongest tendency to gain electrons**
 
 *** **Oxidizing Power**
+**** Oxidation is the lose of electron by an element
+**** Oxidation Agent is the reactant containing the element that is reduced
 **** Halogens are **strong oxidizing agents** (they gain electrons easily)
 **** **Oxidizing power decreases down the group**
 **** **Order of decreasing oxidizing power:**
@@ -263,8 +265,14 @@ left side
 *** **Halogen Displacement Reactions**
 **** **Fluorine (F₂) Reactions:**
 ***** **F₂ + 2KCl → 2KF + Cl₂**
+****** Cl⁻ loses electrons to form Cl₂, which is oxidation.
+****** F₂ takes electrons from Cl⁻ to form F⁻, making it the oxidizing agent.
 ***** **F₂ + 2KBr → 2KF + Br₂**
+****** Br⁻ loses electrons to form Br₂ (oxidation).
+****** F₂ gains electrons to form F⁻ (oxidizing agent).
 ***** **F₂ + 2NaI → 2NaF + I₂**
+****** I⁻ loses electrons to form I₂ (oxidation).
+****** F₂ gains electrons to form F⁻ (oxidizing agent).
 
 **** **Chlorine (Cl₂) Reactions:**
 ***** **Cl₂ can oxidize Br⁻ and I⁻ to Br₂ and I₂**
@@ -279,13 +287,14 @@ left side
 **** **X can be:** F₂, Cl₂, Br₂, I₂
 
 *** **Bond Strength & Electronegativity**
-**** **Stronger Bond → Higher Electronegativity Difference**
+**** **Stronger Bond → Higher Electronegativity Difference between Hydrogen & Halogen Atoms**
 **** **Electronegativity Decreases Down the Group**
 **** **As a Result:**
 ***** **HF has the strongest bond**
 ***** **HI has the weakest bond**
 
 *** **Thermal Stability Trend**
+**** Thermal stability means a substance doesn't break down easily when heated.
 **** **Thermal stability decreases from HF to HI**
 **** **Order of Stability:**
 ***** **HF > HCl > HBr > HI**
@@ -307,10 +316,15 @@ left side
 **** **Determine Displacement Reactions**
 ***** **Possible Reactions:**
 ****** **Cl₂ + 2NaF → 2NaCl + F₂**
+******* Not Possible
 ****** **Br₂ + 2KI → 2KBr + I₂**
+******* Possible
 ****** **I₂ + 2KBr → 2KI + Br₂**
+******* Not Possible
 ****** **Cl₂ + 2KBr → 2KCl + Br₂**
+******* Possible
 ****** **Cl₂ + 2NaI → 2NaCl + I₂**
+******* Possible
 
 @endmindmap
 
