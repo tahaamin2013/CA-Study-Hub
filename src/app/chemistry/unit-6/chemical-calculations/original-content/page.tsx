@@ -372,7 +372,7 @@ moles of ozone is formed in a storm?
 1. Aspirin is a compound that contains carbon, hydrogen and oxygen. It is used as a painkiller. An aspirin tablet contains 1.25 x 10 molecules. How many moles of this compound are present in the tablet?
 
 </p>
-2. A method used to prevent rusting in ships and underground pipelines involves connecting the iron to a block of a more active metal such as magnesium. This method is called cathodic protection. How many moles of magnesium are present in 1 billion (1 x 10") atoms of magnesium.
+2. A method used to prevent rusting in ships and underground pipelines involves connecting the iron to a block of a more active metal such as magnesium. This method is called cathodic protection. How many moles of magnesium are present in 1 billion (1 x 10&quot;) atoms of magnesium.
 
         </div>
     );
