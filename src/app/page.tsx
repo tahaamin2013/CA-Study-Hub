@@ -14,23 +14,32 @@ type Section = {
 
 const data: Section[] = [
   { id: "2", link: "/physics", title: "Physics", color: "#45B7D1" },
+  
   { id: "3", link: "/chemistry", title: "Chemistry", color: "#4ECDC4" },
   {
     id: "1",
-    link: "/computer-sicence",
-    title: "Computer Science",
+    link: "/modern-economic-theory",
+    title: "Modern Economic Theory",
     color: "#FF6B6B",
   },
+  
   {
     id: "5",
     link: "/islamic-studies",
     title: "Islamic Studies",
     color: "#25CCF7",
   },
+ 
   // { id: "4", link: "/pak-studies", title: "Pak Studies", color: "#F7B731" },
   { id: "8", link: "/mathematics", title: "Mathematics", color: "#FF9FF3" },
   { id: "6", link: "/english", title: "English", color: "#54A0FF" },
   { id: "7", link: "/urdu", title: "Urdu", color: "#5F27CD" },
+  {
+    id: "1",
+    link: "/computer-sicence",
+    title: "Computer Science",
+    color: "#FF6B6B",
+  },
   {
     id: "9",
     link: "/tarjuma-tul-guran-ul-majeed",

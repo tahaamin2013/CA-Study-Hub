@@ -1,6 +1,5 @@
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 import React from "react";
-import Image from "next/image";
 
 const MagneticMindmap = () => {
   return (
