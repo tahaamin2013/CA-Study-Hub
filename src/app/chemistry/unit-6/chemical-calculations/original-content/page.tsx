@@ -108,7 +108,7 @@ moles of ozone is formed in a storm?
                 Problem solving strategy:
                 <br />
                 Ozone is a molecular substance. Determine its molar mass and use it to convert moles to mass in grams. <br />
-                9.05 moles of O, —> 	?g of
+                9.05 moles of O, —{">"}	?g of
             </p>
             <p className="mb-2">
                 Solution:
@@ -145,7 +145,7 @@ moles of ozone is formed in a storm?
                 <br />
                 Carbon dioxide is a molecular substance. Determine its molar mass and use it to convert moles to mass in grams.
             </p>
-            <p>0.25 molers of CO <sub>2</sub> ---> ? g of CO <sub>2</sub></p>
+            <p>0.25 molers of CO <sub>2</sub> ---{">"} ? g of CO <sub>2</sub></p>
             <p className="mb-2">
                 Solution:
                 <br />
@@ -186,31 +186,60 @@ moles of ozone is formed in a storm?
                 <br />
                 Hydrogen and ice are molecular substances. Determine their molar masses. Use the molar mass of each to convert the masses in grams to moles.
             </p>
-            <p>mass ---> ? moles</p>
+            <p>mass ---{">"} ? moles</p>
             <p className="mb-2">
                 Solution:
                 <br />
-                a) Molar mass of H<sub>2</sub> = 2 x 1.008 = 2.016 g/mol
-                <br />
-                Moles of 5 g of H<sub>2</sub> = 5 g / 2.016 g/mol = 2.48 moles
-                <br />
-                b) Molar mass of H<sub>2</sub>O = 2 x 1.008 + 16 = 18.016 g/mol
-                <br />
-                Moles of 100 g of H<sub>2</sub>O = 100 g / 18.016 g/mol = 5.55 moles
+                <table className="w-full border-collapse border border-gray-300">
+            <thead>
+                <tr className="bg-gray-200">
+                    <th className="border border-gray-300 p-2">Substance</th>
+                    <th className="border border-gray-300 p-2">Calculation</th>
+                    <th className="border border-gray-300 p-2">Mass / Moles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td className="border border-gray-300 p-2">H₂</td>
+                    <td className="border border-gray-300 p-2">1.008 × 2</td>
+                    <td className="border border-gray-300 p-2">2.016 g</td>
+                </tr>
+                <tr className="bg-gray-100">
+                    <td className="border border-gray-300 p-2">1 g of H₂</td>
+                    <td className="border border-gray-300 p-2">1 / 2.016</td>
+                    <td className="border border-gray-300 p-2">0.496 moles</td>
+                </tr>
+                <tr>
+                    <td className="border border-gray-300 p-2">5 g of H₂</td>
+                    <td className="border border-gray-300 p-2">(1 / 2.016) × 5</td>
+                    <td className="border border-gray-300 p-2">2.48 moles</td>
+                </tr>
+                <tr className="bg-gray-100">
+                    <td className="border border-gray-300 p-2">H₂O</td>
+                    <td className="border border-gray-300 p-2">2 × 1.008 + 16</td>
+                    <td className="border border-gray-300 p-2">18.016 g</td>
+                </tr>
+                <tr>
+                    <td className="border border-gray-300 p-2">1 g of H₂O</td>
+                    <td className="border border-gray-300 p-2">1 / 18.016</td>
+                    <td className="border border-gray-300 p-2">0.0555 moles</td>
+                </tr>
+                <tr className="bg-gray-100">
+                    <td className="border border-gray-300 p-2">100 g of H₂O</td>
+                    <td className="border border-gray-300 p-2">(1 / 18.016) × 100</td>
+                    <td className="border border-gray-300 p-2">5.55 moles</td>
+                </tr>
+            </tbody>
+        </table>
             </p>
 
             <h4 className="text-md font-medium mb-2">CONCEPT ASSESSMENT EXERCISE 6.5</h4>
             <p className="mb-2">
-                1. The molecular formula of a compound used for bleaching hair is H<sub>2</sub>O<sub>2</sub>. Calculate:
-                <br />
-                (a) Mass of this compound that would contain 2.5 moles.
-                <br />
-                (b) Number of moles of this compound that would exactly weigh 30 g.
-                <br />
-                2. A spoon of table salt, NaCl, contains 12.5 grams of this salt. Calculate the number of moles it contains.
-                <br />
-                3. Before the digestive system is X-rayed, people are required to swallow suspensions of barium sulfate (BaSO<sub>4</sub>). Calculate the mass of one mole of BaSO<sub>4</sub>.
-            </p>
+            1. The molecular formula of a compound used for bleaching hair is H,O,. Calculate (a) Mass of this compound that would contain 2.5 moles. (b) No. of moles of this compound that would exactly weigh 30g.
+<br />2. Aspoon of table salt, NaCl contains 12.5grams of this salt. Calculate the number of moles it contains.
+<br /> 3. Before the digestive systems X-rayed, people are required to swallow suspensions of barium sulphate BaSO, Calculate mass of one mole of BaSO,.
+
+           </p>
 
             <h3 className="text-lg font-semibold mb-2">6.5.2 Mole-Particles Calculations</h3>
 
@@ -228,50 +257,123 @@ moles of ozone is formed in a storm?
             <p className="mb-2">
                 Solution:
                 <br />
-                1. 1 mole of Zn contains 6.022 x 10<sup>23</sup> Zn atoms
-                <br />
-                1.25 moles of Zn contain = 6.022 x 10<sup>23</sup> x 1.25 = 7.53 x 10<sup>23</sup> Zn atoms
-                <br />
-                2. 1 mole of Al contains 6.022 x 10<sup>23</sup> Al atoms
-                <br />
-                0.2 moles of Al contain = 6.022 x 10<sup>23</sup> x 0.2 = 1.2044 x 10<sup>23</sup> Al atoms
             </p>
 
-            <h4 className="text-md font-medium mb-2">Example 6.8: Calculating the number of molecules in given moles of a substance</h4>
-            <p className="mb-2">
-                1. Methane (CH<sub>4</sub>) is the major component of natural gas. How many molecules are present in 0.5 moles of a pure sample of methane?
-                <br />
-                2. What is the number of molecules in 1.6 moles of H<sub>2</sub>O<sub>2</sub>?
-            </p>
-            <p className="mb-2">
-                Problem solving strategy:
-                <br />
-                Convert moles of substance to number of molecules using Avogadro&apos;s number.
-            </p>
-            <p className="mb-2">
-                Solution:
-                <br />
-                1. 1 mole of CH<sub>4</sub> contains 6.022 x 10<sup>23</sup> molecules
-                <br />
-                0.5 moles of CH<sub>4</sub> contains = 6.022 x 10<sup>23</sup> x 0.5 = 3.011 x 10<sup>23</sup> molecules
-                <br />
-                2. 1.6 moles of H<sub>2</sub>O<sub>2</sub> contains = 6.022 x 10<sup>23</sup> x 1.6 = 9.635 x 10<sup>23</sup> molecules
-            </p>
+            <div>
+                <h2 className="text-xl font-semibold mb-2">Solution:</h2>
+                <ol className="list-decimal list-inside space-y-4">
+                    <li>
+                        1 mole of Zn contains = 6.022 x 10<sup>23</sup> atoms<br/>
+                        1.25 moles of Zn contain = 6.022 x 10<sup>23</sup> x 1.25<br/>
+                        = 7.53 x 10<sup>23</sup> Zn atoms
+                    </li>
+                    <li>
+                        1 mole of Al contains = 6.022 x 10<sup>23</sup> atoms<br />
+                        So 0.2 moles of Al will contain = 6.022 x 10<sup>23</sup> x 0.2<br />
+                        = 1.2044 x 10<sup>23</sup> atoms
+                    </li>
+                </ol>
+            </div>
 
-            <h4 className="text-md font-medium mb-2">CONCEPT ASSESSMENT EXERCISE 6.6</h4>
-            <p className="mb-2">
-                1. Calculate the number of molecules in the following:
-                <br />
-                (a) 0.5 moles of CH<sub>4</sub>
-                <br />
-                (b) 2.5 moles of NH<sub>3</sub>
-                <br />
-                2. Calculate the number of moles in:
-                <br />
-                (a) 1.2 x 10<sup>23</sup> molecules of CH<sub>4</sub>
-                <br />
-                (b) 5.1 x 10<sup>22</sup> molecules of H<sub>2</sub>SO<sub>4</sub>
-            </p>
+            <h1 className="text-2xl font-bold mb-6">Example 6.8: Calculating the number of molecules in given moles of a substance</h1>
+
+<div className="space-y-6">
+    <div>
+        <p className="mb-4">1. Methane (CH₄) is the major component of natural gas. How many molecules are present in 0.5 moles of a pure sample of methane?</p>
+    </div>
+
+    <div>
+        <p className="mb-4">2. At high temperature hydrogen sulphide (H₂S) gas given off by a volcano is oxidized by air to sulphur dioxide (SO₂). Sulphur dioxide reacts with water to form acid rain. How many molecules are there in 0.25 moles of SO₂</p>
+    </div>
+
+    <div>
+        <h2 className="text-xl font-semibold mb-2">Problem solving strategy:</h2>
+        <p className="mb-4">Remember that CH₄ is a molecular compound, thus 1 mole of methane will have 6.022 x 10<sup>23</sup> molecules. Similarly, SO₂ is a molecular compound, its one mole will also have 6.022 x 10<sup>23</sup> molecules.</p>
+    </div>  
+    </div>  
+
+    <div>
+        <h2 className="text-xl font-semibold mb-2">Solution:</h2>
+        <ol className="list-decimal list-inside space-y-4">
+            <li>
+                1 mole of CH₄ contains = 6.022 x 10<sup>23</sup> molecules<br/>
+                So, 0.5 moles of CH₄ will contain = 6.022 x 10<sup>23</sup> x 0.5<br/>
+                = 3.011 x 10<sup>23</sup> molecules
+            </li>
+            <li>
+                1 mole of SO₂ contains = 6.022 x 10<sup>23</sup> molecules<br/>
+                So, 0.25 moles of SO₂ will contain = 6.022 x 10<sup>23</sup> x 0.25<br/>
+                = 1.5055 x 10<sup>23</sup> molecules
+            </li>
+        </ol>
+    </div>  
+
+    <h1 className="text-2xl font-bold mb-6">Example 6.9: Calculating the number of moles in the given number of atoms</h1>
+
+<div className="space-y-6">
+    <div>
+        <p className="mb-4">
+            Titanium is corrosion resistant metal that is used in rockets, aircrafts and jet engines. Calculate the number of moles of this metal in a sample containing 3.011 x 10<sup>23</sup> Ti-atoms.
+        </p>
+    </div>
+
+    <div>
+        <h2 className="text-xl font-semibold mb-2">Problem solving strategy:</h2>
+        <p className="mb-4">
+            Remember that 1 mole of an element contains 6.022 x 10<sup>23</sup> atoms.<br/>
+            Thus, 6.022 x 10<sup>23</sup> atoms = 1 mole<br/>
+            3.011 x 10<sup>23</sup> atoms = ? moles
+        </p>
+    </div>
+
+    <div>
+        <h2 className="text-xl font-semibold mb-2">Solution:</h2>
+        <p className="mb-4">
+            6.022 x 10<sup>23</sup> Ti atoms = 1 mole of Ti<br/>
+            1 Ti atom = 1/6.022 x 10<sup>23</sup> moles of Ti<br/>
+            3.011 x 10<sup>23</sup> Ti atoms = (1/6.022 x 10<sup>23</sup>) × 3.011 x 10<sup>23</sup> moles of Ti<br/>
+            = 0.5 moles of Ti
+        </p>
+    </div>
+</div>
+<h1 className="text-2xl font-bold mb-6">Example 6.10: Calculating number of moles in the given number of molecules</h1>
+
+<div className="space-y-6">
+    <div>
+        <p className="mb-4">
+            Formaldehyde is used to preserve dead animals. Its molecular formula is CH₂O. Calculate the number of moles that would contain 3.011 x 10<sup>23</sup> molecules of this compound.
+        </p>
+    </div>
+
+    <div>
+        <h2 className="text-xl font-semibold mb-2">Problem Solving Strategy:</h2>
+        <p className="mb-4">
+            Remember that 1 mole of any compound contains 6.022 x 10<sup>23</sup> molecules.<br/>
+            Thus, 6.022 x 10<sup>23</sup> molecules = 1 mole of compound<br/>
+            3.011 x 10<sup>23</sup> molecules = ? moles
+        </p>
+    </div>
+
+    <div>
+        <h2 className="text-xl font-semibold mb-2">Solution:</h2>
+        <p className="mb-4">
+            6.022 x 10<sup>23</sup> molecules = 1 mole of formaldehyde<br/>
+            1 molecule = 1/6.022 x 10<sup>23</sup> moles of formaldehyde<br/>
+            3.011 x 10<sup>23</sup> molecules = (1/6.022 x 10<sup>23</sup>) × 3.011 x 10<sup>23</sup> moles of formaldehyde<br/>
+            = 0.5 moles of formaldehyde
+        </p>
+    </div>
+</div>
+
+
+<h1 className="font-bold text-xl">CONCEPT ASSESSMENT EXERCISE 6.5
+</h1>
+<p>
+1. Aspirin is a compound that contains carbon, hydrogen and oxygen. It is used as a painkiller. An aspirin tablet contains 1.25 x 10 molecules. How many moles of this compound are present in the tablet?
+
+</p>
+2. A method used to prevent rusting in ships and underground pipelines involves connecting the iron to a block of a more active metal such as magnesium. This method is called cathodic protection. How many moles of magnesium are present in 1 billion (1 x 10") atoms of magnesium.
+
         </div>
     );
 }

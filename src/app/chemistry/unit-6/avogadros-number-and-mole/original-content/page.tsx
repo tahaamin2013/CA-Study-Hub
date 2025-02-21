@@ -111,27 +111,27 @@ export default function Unit06() {
         Molecular mass of a substance expressed in grams is called gram molecular mass.
         <br />
        <p>
-       <table class="w-full border-collapse border border-gray-300">
+       <table className="w-full border-collapse border border-gray-300">
             <thead>
-                <tr class="bg-gray-200">
-                    <th class="border border-gray-300 p-2">Compound</th>
-                    <th class="border border-gray-300 p-2">Calculation</th>
-                    <th class="border border-gray-300 p-2">Molecular Mass (amu)</th>
-                    <th class="border border-gray-300 p-2">Gram Molecular Mass (g)</th>
+                <tr className="bg-gray-200">
+                    <th className="border border-gray-300 p-2">Compound</th>
+                    <th className="border border-gray-300 p-2">Calculation</th>
+                    <th className="border border-gray-300 p-2">Molecular Mass (amu)</th>
+                    <th className="border border-gray-300 p-2">Gram Molecular Mass (g)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="border border-gray-300 p-2">H₂O</td>
-                    <td class="border border-gray-300 p-2">2 × 1.008 + 16</td>
-                    <td class="border border-gray-300 p-2">18.016</td>
-                    <td class="border border-gray-300 p-2">18.016</td>
+                    <td className="border border-gray-300 p-2">H₂O</td>
+                    <td className="border border-gray-300 p-2">2 × 1.008 + 16</td>
+                    <td className="border border-gray-300 p-2">18.016</td>
+                    <td className="border border-gray-300 p-2">18.016</td>
                 </tr>
-                <tr class="bg-gray-100">
-                    <td class="border border-gray-300 p-2">C₆H₁₂O₆</td>
-                    <td class="border border-gray-300 p-2">6 × 12 + 12 × 1.008 + 16 × 6</td>
-                    <td class="border border-gray-300 p-2">180.096</td>
-                    <td class="border border-gray-300 p-2">180.096</td>
+                <tr className="bg-gray-100">
+                    <td className="border border-gray-300 p-2">C₆H₁₂O₆</td>
+                    <td className="border border-gray-300 p-2">6 × 12 + 12 × 1.008 + 16 × 6</td>
+                    <td className="border border-gray-300 p-2">180.096</td>
+                    <td className="border border-gray-300 p-2">180.096</td>
                 </tr>
             </tbody>
         </table>
@@ -145,27 +145,27 @@ export default function Unit06() {
         <br />
         An ionic compound is represented by the formula unit that represents the simplest ratio between the ions of a compound. For example NaCl, KCl, CuSO<sub>4</sub>, etc.
         <br />
-        <table class="w-full border-collapse border border-gray-300">
+        <table className="w-full border-collapse border border-gray-300">
             <thead>
-                <tr class="bg-gray-200">
-                    <th class="border border-gray-300 p-2">Compound</th>
-                    <th class="border border-gray-300 p-2">Calculation</th>
-                    <th class="border border-gray-300 p-2">Formula Mass (amu)</th>
-                    <th class="border border-gray-300 p-2">Gram Formula Mass (g)</th>
+                <tr className="bg-gray-200">
+                    <th className="border border-gray-300 p-2">Compound</th>
+                    <th className="border border-gray-300 p-2">Calculation</th>
+                    <th className="border border-gray-300 p-2">Formula Mass (amu)</th>
+                    <th className="border border-gray-300 p-2">Gram Formula Mass (g)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="border border-gray-300 p-2">NaCl</td>
-                    <td class="border border-gray-300 p-2">23 + 35.5</td>
-                    <td class="border border-gray-300 p-2">58.5</td>
-                    <td class="border border-gray-300 p-2">58.5</td>
+                    <td className="border border-gray-300 p-2">NaCl</td>
+                    <td className="border border-gray-300 p-2">23 + 35.5</td>
+                    <td className="border border-gray-300 p-2">58.5</td>
+                    <td className="border border-gray-300 p-2">58.5</td>
                 </tr>
-                <tr class="bg-gray-100">
-                    <td class="border border-gray-300 p-2">KCl</td>
-                    <td class="border border-gray-300 p-2">39 + 35.5</td>
-                    <td class="border border-gray-300 p-2">74.5</td>
-                    <td class="border border-gray-300 p-2">74.5</td>
+                <tr className="bg-gray-100">
+                    <td className="border border-gray-300 p-2">KCl</td>
+                    <td className="border border-gray-300 p-2">39 + 35.5</td>
+                    <td className="border border-gray-300 p-2">74.5</td>
+                    <td className="border border-gray-300 p-2">74.5</td>
                 </tr>
             </tbody>
         </table>

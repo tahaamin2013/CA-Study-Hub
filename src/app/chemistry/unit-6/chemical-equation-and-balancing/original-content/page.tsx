@@ -45,10 +45,10 @@ export default function ChemicalEquationsAndBalancing() {
         <br />
         2 O-atoms on both sides
         <br />
-        Note that the number of atoms of each type is the same on the reactant side and the product side. Such a chemical equation is called a balanced chemical equation.
+        Note that the number of atoms of each type are the same on the reactant side adn the product side. Such a chemical equation is called a balanced chemical equation dead the product
+chemical reaction, it is unbalanced? <br /> Consider the following reaction;
       </p>
       <p className="mb-2">
-        If the chemical equation is unbalanced, consider the following reaction:
         <br />
         <strong>Reactants:</strong> CH<sub>4</sub> + O<sub>2</sub>
         <br />
@@ -60,50 +60,72 @@ export default function ChemicalEquationsAndBalancing() {
         <br />
         2 O-atoms on the left and 3 O-atoms on the right
       </p>
-      <p className="mb-2">
-        Balance one element at a time using coefficients. Always start with the lowest coefficient. Remember that you should not change subscripts in a chemical formula.
-        <br />
-        <strong>Step 1:</strong> Put a coefficient 2 before H<sub>2</sub>O to balance H-atoms:
-        <br />
-        CH<sub>4</sub> + O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O
-        <br />
-        <strong>Step 2:</strong> Balance O-atoms. There are 4 O-atoms on the right side, so put a coefficient 2 before O<sub>2</sub>:
-        <br />
-        CH<sub>4</sub> + 2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O
-        <br />
-        <strong>Step 3:</strong> Check the equation again. It is now balanced.
-      </p>
+     <p>
+          C-atoms are balanced, but H and O-atoms are unbalanced.
+          Balance one element at a time. To balance the chemical equation use co-efficients. Always start with the lowest co-efficient. Remember that you should not change subscripts in a chemical formula.
+        </p>
 
-      <h3 className="text-lg font-semibold mb-2">6.6.2 Exploring Ionic Equations</h3>
-      <p className="mb-2">
-        A chemical equation in which substances dissolved in water are written as individual ions is called an ionic equation. For example:
-        <br />
-        <strong>Reaction:</strong> HCl(aq) + NaOH(aq) → NaCl(aq) + H<sub>2</sub>O(l)
-        <br />
-        Write the substances that are soluble in water in their dissociated form:
-        <br />
-        H<sup>+</sup>(aq) + Cl<sup>–</sup>(aq) + Na<sup>+</sup>(aq) + OH<sup>–</sup>(aq) → Na<sup>+</sup>(aq) + Cl<sup>–</sup>(aq) + H<sub>2</sub>O(l)
-        <br />
-        Remove common ions from both sides. These ions do not actually take part in the chemical reaction and are called spectator ions. Write the net ionic equation:
-        <br />
-        H<sup>+</sup>(aq) + OH<sup>–</sup>(aq) → H<sub>2</sub>O(l)
-      </p>
+        <h3 className="font-bold mt-6 mb-4">Step 1</h3>
+        <div className="my-4">
+          Put a co-efficient 2 before H<sub>2</sub>O to balance H-atoms.
+          <div className="my-2 font-mono">
+            CH<sub>4</sub>(g) + O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2H<sub>2</sub>O
+          </div>
+        </div>
 
-      <h4 className="text-md font-medium mb-2">Example 6.12: Transform the Following Chemical Equations into Ionic Equations</h4>
-      <p className="mb-2">
-        1. Mg + H<sub>2</sub>SO<sub>4</sub> → MgSO<sub>4</sub> + H<sub>2</sub>
-        <br />
-        2. H<sub>2</sub>SO<sub>4</sub> + Ba(OH)<sub>2</sub> → BaSO<sub>4</sub> + 2H<sub>2</sub>O
-      </p>
+        <h3 className="font-bold mt-6 mb-4">Step 2</h3>
+        <div className="my-4">
+          Now balance O-atoms. There are 2 O-atoms on the left side and 3 O-atoms on the right side. Put 2 before O<sub>2</sub>,
+          <div className="my-2 font-mono">
+            CH<sub>4</sub>(g) + 2O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2H<sub>2</sub>O
+          </div>
+        </div>
 
-      <h4 className="text-md font-medium mb-2">CONCEPT ASSESSMENT EXERCISE 6.7</h4>
-      <p className="mb-2">
-        Transform the following chemical equations into ionic equations:
-        <br />
-        1. AgNO<sub>3</sub>(aq) + NaCl(aq) → AgCl(s) + NaNO<sub>3</sub>(aq)
-        <br />
-        2. Zn(s) + 2HCl(aq) → ZnCl<sub>2</sub>(aq) + H<sub>2</sub>(g)
-      </p>
-    </div>
+        <h3 className="font-bold mt-6 mb-4">Step 3</h3>
+        <p>
+          Now check the equation again, it is balanced.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 mb-4">6.6.2 Exploring ionic equation</h2>
+        <p>
+          A chemical equation in which substances dissolved in water are written as individual ions is called an ionic equation. For example,
+        </p>
+        <div className="my-4 font-mono">
+          HCl(aq) + NaOH(aq) → NaCl(aq) + H<sub>2</sub>O(l)
+        </div>
+
+        <p className="mt-4">
+          Write the substances that are soluble in water in their dissociated form.
+        </p>
+        <div className="my-4 font-mono">
+          H<sup>+</sup>(aq) + Cl<sup>-</sup>(aq) + Na<sup>+</sup>(aq) + OH<sup>-</sup>(aq) → Na<sup>+</sup>(aq) + Cl<sup>-</sup>(aq) + H<sub>2</sub>O(l)
+        </div>
+
+        <p className="mt-4">
+          Remove common ions from both sides. These ions do not actually take part in the chemical reaction and are called spectator ions. Write net ionic equation.
+        </p>
+        <div className="my-4 font-mono">
+          H<sup>+</sup>(aq) + OH<sup>-</sup>(aq) → H<sub>2</sub>O(l)
+        </div>
+
+        <h3 className="font-bold mt-6 mb-4">Example 6.12: Transform the following chemical equations into ionic equations.</h3>
+        <div className="my-4 font-mono">
+          Mg + H<sub>2</sub>SO<sub>4</sub> → MgSO<sub>4</sub> + H<sub>2</sub>
+          <br />
+          Mg<sup>2+</sup> + H<sup>+</sup> + SO<sub>4</sub><sup>2-</sup> → Mg<sup>2+</sup> + SO<sub>4</sub><sup>2-</sup> + H<sub>2</sub>
+          <br />
+          Mg + 2H<sup>+</sup> → Mg<sup>2+</sup> + H<sub>2</sub>
+        </div>
+
+        <h3 className="font-bold mt-6 mb-4">CONCEPT ASSESSMENT EXERCISE 6.7</h3>
+        <p>
+          Transform the following chemical equations into ionic equations.
+        </p>
+        <div className="my-4 font-mono">
+          1. AgNO<sub>3</sub> + NaCl → AgCl + NaNO<sub>3</sub>
+          <br />
+          2. Zn + 2HCl → ZnCl<sub>2</sub> + H<sub>2</sub>
+        </div>
+ </div>
   );
 }
