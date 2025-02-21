@@ -10,37 +10,689 @@ const MagneticMindmap = () => {
                 </h1>
                 <PlantUMLDiagram
                     code={`
-@startmindmap
-* 5.3 TYPES OF BONDS
-** Ionic Bonds
-*** Formed when one atom loses an electron to form a cation and the other gains an electron to form an anion.
-*** Example 5.1: Formation of Cations
-**** Na: Na (1s² 2s² 2p⁶ 3s¹) → Na⁺ (1s² 2s² 2p⁶)
-**** Mg: Mg (1s² 2s² 2p⁶ 3s²) → Mg²⁺ (1s² 2s² 2p⁶)
-*** Concept Assessment Exercise 5.1
-**** Cations formation for Li (atomic no. 3) and Al (atomic no. 13)
-**** Electron dot structures for K and Ca.
-*** Example 5.2: Formation of Anions
-**** O (1s² 2s² 2p⁴) + 2e⁻ → O²⁻ (1s² 2s² 2p⁶)
-**** F (1s² 2s² 2p⁵) + e⁻ → F⁻ (1s² 2s² 2p⁶)
-*** Concept Assessment Exercise 5.2
-**** Anions formation for S (atomic No. 16) and Cl (atomic No. 17)
-**** Electron dot structures for N, P, Br, H.
-*** Ionic Bond Characteristics
-**** Opposite charges attract (Anions and Cations).
-**** Strong electrostatic attraction forms ionic bonds.
-**** Ionic compounds are electrically neutral.
-*** Example 5.3: Representing Ionic Bond Formation
-**** Na + Cl → NaCl (Sodium Chloride)
-**** Mg + F₂ → MgF₂ (Magnesium Fluoride)
-*** Concept Assessment Exercise 5.3
-**** Ionic compounds formation for K & Br, Al & O, Li & S.
-**** Writing formulae for Calcium & Fluoride, Lithium & Chloride, Potassium & Oxide.
-** Covalent Bonds
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* TYPES OF BONDS
+** Ionic bonds
+left side
+** Covalent bonds
+@endmindmap
+
+`}
+                />
+
+
+<PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Ionic Bonds
+** Formation
+*** Between two atoms
+*** One atom loses electron (Cation)
+*** Other atom gains electron (Anion)
+** Characteristics
+*** Strong electrostatic forces
+*** Attraction between opposite charges
+**** Positive metal ions
+**** Negative non-metal ions
+left side
+** Ionic Compounds
+*** Formed by ions joined by electrostatic forces
+*** Electrically neutral
+**** Total positive charge equals total negative charge
+*** Contains both cations and anions
+@endmindmap
+
+`}
+                />
+
+
+<PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Cation Formation
+** Formation Process
+*** Sodium (Na+)
+**** Group IA element
+**** Electronic config
+***** Initial: 1s² 2s² 2p⁶ 3s¹
+***** Final: 1s² 2s² 2p⁶
+**** Loses 1 valence electron
+*** Magnesium (Mg2+)
+**** Group IIA element
+**** Electronic config
+***** Initial: 1s² 2s² 2p⁶ 3s²
+***** Final: 1s² 2s² 2p⁶
+**** Loses 2 valence electrons
+left side
+** Key Concepts
+*** Noble gas configuration
+*** Electron loss process
+*** Group number correlation
+**** Group IA → +1 charge
+**** Group IIA → +2 charge
+** Practice Problems
+*** Lithium (Li) Atomic number 3
+**** Formation of cation
+*** Aluminum (Al) Atomic number 13
+**** Formation of Cations
+*** Potassium (K)
+**** Formation of Cations using electrons dot structure
+*** Calcium (Ca)
+**** Formation of Cations using electrons dot structure
 @endmindmap
 `}
                 />
 
+
+<PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Anion Formation
+** Process Examples
+*** Oxygen (O²⁻)
+**** Group VIA element
+**** Electronic config
+***** Initial: 1s² 2s² 2p⁴
+***** Final: 1s² 2s² 2p⁶
+**** Gains 2 electrons
+*** Fluorine (F⁻)
+**** Group VIIA element
+**** Electronic config
+***** Initial: 1s² 2s² 2p⁵
+***** Final: 1s² 2s² 2p⁶
+**** Gains 1 electron
+** Formation Strategy
+*** Write electronic configuration
+*** Calculate electrons needed
+*** Show electron addition
+left side
+** Practice Problems
+*** Sulfur (S)
+**** Atomic number 16
+*** Chlorine (Cl)
+**** Atomic number 17
+*** Other Elements using electron dot structuresa
+**** Nitrogen (N)
+**** Phosphorus (P)
+**** Bromine (Br)
+**** Hydrogen (H)
+** Ionic Bonding
+*** Electrostatic attraction
+*** Charge neutrality
+**** Total positive = Total negative
+*** Forms ionic compounds
+*** Strong electrostatic forces
+@endmindmap
+
+`}
+                />
+
+<PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Ionic Bond Formation
+** Formation Rules
+*** Metal forms cations
+**** Group IA → +1
+**** Group IIA → +2
+**** Group IIIA → +3
+*** Non-metal forms anions
+*** Neutral compound formation
+**** Balance of charges
+**** Simplest ratio needed
+** Example Compounds
+*** Sodium Chloride (NaCl)
+**** Components
+***** Na (metal)
+***** Cl (non-metal)
+**** Equation
+***** 2Na + Cl₂ → 2NaCl
+*** Magnesium Fluoride (MgF₂)
+**** Components
+***** Mg (metal)
+***** F (non-metal)
+**** Equation
+***** Mg + F₂ → MgF₂
+**** Ratio
+***** One Mg²⁺ to two F⁻
+** Use electron dot and electron cross structures to right the equation for formation of ionic compound
+*** Mg and O
+*** Al and Cl
+** Key Concepts
+*** Electron transfer
+*** Charge balance
+*** Structural representation
+**** Electron dot
+**** Electron cross
+@endmindmap
+
+`}
+                />
+                <PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Identifying Ionic Compounds
+** General Rules
+*** Metal + Non-metal combination
+*** Electron Transfer Process
+**** Metals lose electrons
+**** Non-metals gain electrons
+*** Noble Gas Configuration
+** Example Compounds
+*** Magnesium Oxide (MgO)
+**** Metal: Mg (Group IIA)
+***** Loses 2 electrons
+**** Non-metal: O (Group VIA)
+***** Gains 2 electrons
+**** Ratio: 1:1
+*** Sodium Fluoride (NaF)
+**** Metal: Na (Group IA)
+***** Loses 1 electron
+**** Non-metal: F (Group VIIA)
+***** Gains 1 electron
+**** Ratio: 1:1
+** Recognize these compounds as having ionic bonds
+*** Potassium Chloride
+**** KCl
+*** Aluminum Chloride
+**** AlCl₃
+*** Magnesium Fluoride
+**** MgF₂
+*** Sodium Compounds
+**** NaF
+**** NaBr
+** Key Concepts
+*** Group number correlation
+**** Metal loss = Group number
+**** Non-metal gain = 8 - Group number
+*** Charge balance
+*** Simplest ratio determination
+@endmindmap
+`}
+                />
+                <PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+* Covalent Bonds
+** Basic Concept
+*** Electron sharing between nonmetals
+*** Strong electrostatic attraction
+*** Shared electrons attract both nuclei
+** Bond Formation Types
+*** Single Covalent Bond
+**** One electron pair shared
+**** Examples
+***** H₂ molecule
+****** H + H → H:H
+***** F₂ molecule
+****** Each F shares one electron
+*** Double Covalent Bond
+**** Two electron pairs shared
+**** Example
+***** O₂ molecule
+****** Each O shares two electrons
+*** Triple Covalent Bond
+**** Three electron pairs shared
+**** Example
+***** N₂ molecule
+left side
+** Key Features
+*** Electron Representation
+**** Electron dot structure
+**** Electron cross structure
+**** Dash notation (-)
+*** Lone Pairs
+**** Unshared electron pairs
+**** Important for structure
+** Bond Stability
+*** Noble gas configuration
+*** Octet completion
+*** Electrostatic forces
+**** Between shared electrons
+**** Between atomic nuclei
+@endmindmap
+`}
+                />
+
+<PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Drawing electron cross and dot structures for single covalent bonds
+** Problem Solving Steps
+*** Identify Central Atom
+**** Based on electron contribution
+**** Position in molecule
+*** Arrange Other Atoms
+**** Connect with single bonds
+**** Show electron sharing
+*** Verify Octet Rule
+** Example Molecules
+*** Methane (CH₄)
+**** Carbon is central
+**** Four C-H single bonds
+**** Complete octet for C
+**** Complete duplet for H
+*** Water (H₂O)
+**** Oxygen is central
+**** Two O-H single bonds
+**** Complete octet for O
+**** Complete duplet for H
+**** Four lone pairs on O
+left side
+** Draw electron cross and dot structures
+*** Ammonia (NH₃)
+*** Hydrogen Chloride (HCl)
+*** Methanol (CH₃OH)
+** Key Concepts
+*** Electron Representation
+**** Dots for one atom
+**** Crosses for other atom
+*** Bond Requirements
+**** Octet rule for main atoms
+**** Duplet rule for hydrogen
+*** Lone Pairs
+**** Unshared electrons
+**** Important for structure
+@endmindmap
+
+`}
+                />
+                        
+                                <PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* Drawing electron cross and dot structures for Multiple Covalent Bonds
+** Drawing Strategy
+*** Identify Central Atom
+**** Based on valence electrons
+**** Position in molecule
+*** Electron Distribution
+**** Count needed electrons
+**** Plan sharing arrangement
+*** Bond Formation Rules
+**** Satisfy octet rule
+**** Multiple bond formation
+** Example Molecules
+*** Carbon Dioxide (CO₂)
+**** Central carbon
+**** Double bonds with oxygen
+**** C needs 4 electrons
+**** Each O needs 2 electrons
+*** Hydrogen Cyanide (HCN)
+**** Structure
+***** Single H-C bond
+***** Triple C-N bond
+**** Electron distribution
+***** H: 1 electron
+***** C: 4 electrons
+***** N: 5 electrons
+left side
+** Draw electron cross and electron dot structures
+*** Carbon Disulfide (CS₂)
+*** Nitrogen (N₂)
+*** Ethane (C₂H₆)
+** Key Concepts
+*** Multiple Bond Types
+**** Double bonds
+**** Triple bonds
+*** Electron Counting
+**** Valence electrons
+**** Shared pairs
+*** Octet Completion
+**** Through multiple sharing
+**** Complete shell structure
+@endmindmap
+`}
+                />
+
+<PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+* Covalent Bond Polarity
+** Non-Polar Covalent Bonds
+*** Definition
+**** Equal electron sharing
+**** Between identical atoms
+*** Examples
+**** H₂
+**** N₂
+**** O₂
+**** Cl₂
+*** Characteristics
+**** Equal electronegativity
+**** Symmetric electron distribution
+** Polar Covalent Bonds
+*** Definition
+**** Unequal electron sharing
+**** Between different atoms
+*** Examples
+**** HCl
+**** H₂O
+**** NH₃
+**** CO
+*** Characteristics
+**** Different electronegativity
+**** Partial charges develop
+***** δ+ on less electronegative atom
+***** δ- on more electronegative atom
+** Intermolecular Forces
+*** Between molecules
+*** Affects properties
+*** Strength varies
+** Key Factors
+*** Electronegativity
+**** Determines polarity
+**** Electron pulling power
+*** Electron Distribution
+**** Symmetric vs asymmetric
+**** Affects bond character
+@endmindmap
+`}
+                />
+                                      <PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+* Covalent Bond Polarity
+
+** Polar Covalent Bonds
+*** Definition
+**** Unequal electron sharing
+**** Between different atoms
+*** Examples
+**** HCl
+**** H₂O
+**** NH₃
+**** CO
+*** Characteristics
+**** Different electronegativity
+**** Partial charges develop
+***** δ+ on less electronegative atom
+***** δ- on more electronegative atom
+left side
+** Intermolecular Forces
+*** Between molecules
+*** Affects properties
+*** Strength varies
+** Key Factors
+*** Electronegativity
+**** Determines polarity
+**** Electron pulling power
+*** Electron Distribution
+**** Symmetric vs asymmetric
+**** Affects bond character
+** Non-Polar Covalent Bonds
+*** Definition
+**** Equal electron sharing
+**** Between identical atoms
+*** Examples
+**** H₂
+**** N₂
+**** O₂
+**** Cl₂
+*** Characteristics
+**** Equal electronegativity
+**** Symmetric electron distribution
+@endmindmap
+`}
+                />
+                                                      <PlantUMLDiagram
+                    code={`
+                         @startmindmap
+                <style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+                .group {
+        BackgroundColor lightBlue
+            MaximumWidth 200
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+* Coordinate Covalent Bond
+** Basic Concept
+*** Electron pair from single donor
+*** Both nuclei attract shared pair
+*** Indistinguishable after formation
+** Examples
+*** Ammonium Ion (NH₄⁺)
+**** Formation
+***** NH₃ + HCl reaction
+***** H⁺ from HCl
+***** Lone pair from N
+**** Results in
+***** NH₄⁺ and Cl⁻
+*** Hydronium Ion (H₃O⁺)
+**** Formation
+***** H₂O + HCl reaction
+***** H⁺ from HCl
+***** Lone pair from O
+*** NH₃-BF₃ Complex
+**** Components
+***** NH₃ (electron donor)
+***** BF₃ (electron acceptor)
+**** Characteristics
+***** B is electron deficient
+***** N provides lone pair
+left side
+** Key Features
+*** Bond Formation
+**** Single source of electrons
+**** Shared by both atoms
+*** Common Scenarios
+**** Metal-ligand binding
+**** Lewis acid-base reactions
+** Comparison
+*** vs Normal Covalent
+**** Electron source differs
+**** Final bond similar
+*** vs Ionic Bond
+**** Sharing vs transfer
+**** Directional nature
+@endmindmap
+`}
+                />
             </section>
             <div className="bg-gradient-to-r from-blue-100 to-green-100 p-10 font-sans">
                 <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">

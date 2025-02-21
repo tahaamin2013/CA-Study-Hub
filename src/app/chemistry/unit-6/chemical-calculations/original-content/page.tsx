@@ -26,12 +26,62 @@ export default function ChemicalCalculations() {
             <p className="mb-2">
                 Solution:
                 <br />
-                a) 1 mole of Na = 23 g
-                <br />
-                b) Nitrogen occurs as diatomic molecules. Molecular mass of N<sub>2</sub> = 14 x 2 = 28 amu = 28 g
-                <br />
-                c) Sucrose (C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>): Molecular mass = 12 x 12 + 1 x 22 + 16 x 11 = 144 + 22 + 176 = 342 g
-            </p>
+        
+        <h3 className="text-lg font-semibold mb-2">(a) 1 Mole of Na</h3>
+        <table className="w-full border-collapse border border-zinc-300 mb-4">
+            <thead>
+                <tr className="bg-zinc-200">
+                    <th className="border border-zinc-300 p-2">Element</th>
+                    <th className="border border-zinc-300 p-2">Mass (g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td className="border border-zinc-300 p-2">Na</td>
+                    <td className="border border-zinc-300 p-2">23</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h3 className="text-lg font-semibold mb-2">(b) Nitrogen occurs as a ditomic molecules <br /> Molecular Mass of N₂</h3>
+        <table className="w-full border-collapse border border-zinc-300 mb-4">
+            <thead>
+                <tr className="bg-zinc-200">
+                    <th className="border border-zinc-300 p-2">Molecule</th>
+                    <th className="border border-zinc-300 p-2">Calculation</th>
+                    <th className="border border-zinc-300 p-2">Mass (amu)</th>
+                    <th className="border border-zinc-300 p-2">Mass (g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td className="border border-zinc-300 p-2">N₂</td>
+                    <td className="border border-zinc-300 p-2">14 × 2</td>
+                    <td className="border border-zinc-300 p-2">28</td>
+                    <td className="border border-zinc-300 p-2">28</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h3 className="text-lg font-semibold mb-2">Therefore, mass of 1 mole of n<sub>2</sub> <br />(c) Molecular Mass of C₁₂H₂₂O₁₁ (Sucrose)</h3>
+        <table className="w-full border-collapse border border-zinc-300">
+            <thead>
+                <tr className="bg-zinc-200">
+                    <th className="border border-zinc-300 p-2">Molecule</th>
+                    <th className="border border-zinc-300 p-2">Calculation</th>
+                    <th className="border border-zinc-300 p-2">Mass (amu)</th>
+                    <th className="border border-zinc-300 p-2">Mass (g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td className="border border-zinc-300 p-2">C₁₂H₂₂O₁₁</td>
+                    <td className="border border-zinc-300 p-2">(12 × 12) + (1 × 22) + (16 × 11)</td>
+                    <td className="border border-zinc-300 p-2">144 + 22 + 176</td>
+                    <td className="border border-zinc-300 p-2">342</td>
+                </tr>
+            </tbody>
+        </table>            </p>
 
             <h4 className="text-md font-medium mb-2">CONCEPT ASSESSMENT EXERCISE 6.4</h4>
             <p className="mb-2">
@@ -50,36 +100,76 @@ export default function ChemicalCalculations() {
 
             <h3 className="text-lg font-semibold mb-2">Example 6.4: Calculating the mass of a given number of moles of a substance</h3>
             <p className="mb-2">
-                Oxygen is converted to ozone (O<sub>3</sub>) during thunderstorms. Calculate the mass of ozone if 9.05 moles of ozone are formed in a storm.
+            Oxygen is converted to ozone (0,) during thunder storms. Calculate the mass of ozone if 9.05
+moles of ozone is formed in a storm?
+
             </p>
             <p className="mb-2">
                 Problem solving strategy:
                 <br />
-                Ozone is a molecular substance. Determine its molar mass and use it to convert moles to mass in grams.
+                Ozone is a molecular substance. Determine its molar mass and use it to convert moles to mass in grams. <br />
+                9.05 moles of O, —> 	?g of
             </p>
             <p className="mb-2">
                 Solution:
                 <br />
-                Molar mass of O<sub>3</sub> = 16 x 3 = 48 g
-                <br />
-                Mass of 9.05 moles of O<sub>3</sub> = 48 g x 9.05 = 434.4 g
+                <table className="w-full border-collapse border border-zinc-300">
+            <thead>
+                <tr className="bg-zinc-200">
+                    <th className="border border-zinc-300 p-2">Moles of O₂</th>
+                    <th className="border border-zinc-300 p-2">Calculation</th>
+                    <th className="border border-zinc-300 p-2">Mass (g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td className="border border-zinc-300 p-2">1 mole</td>
+                    <td className="border border-zinc-300 p-2">16 × 3</td>
+                    <td className="border border-zinc-300 p-2">48 g</td>
+                </tr>
+                <tr className="bg-zinc-100">
+                    <td className="border border-zinc-300 p-2">9.05 moles</td>
+                    <td className="border border-zinc-300 p-2">48 × 9.05</td>
+                    <td className="border border-zinc-300 p-2">434.4 g</td>
+                </tr>
+            </tbody>
+        </table>
             </p>
 
-            <h3 className="text-lg font-semibold mb-2">Example 6.5: When natural gas burns CO<sub>2</sub> is formed</h3>
+            <h3 className="text-lg font-semibold mb-2">Example:6.5: When natural gas burns CO <sub>2</sub> is formed. If 0.25 moles of CO <sub>2</sub> is formed, what mass of CO <sub>2</sub> Is produced?
+            </h3>
             <p className="mb-2">
-                If 0.25 moles of CO<sub>2</sub> are formed, what mass of CO<sub>2</sub> is produced?
             </p>
             <p className="mb-2">
                 Problem solving strategy:
                 <br />
                 Carbon dioxide is a molecular substance. Determine its molar mass and use it to convert moles to mass in grams.
             </p>
+            <p>0.25 molers of CO <sub>2</sub> ---> ? g of CO <sub>2</sub></p>
             <p className="mb-2">
                 Solution:
                 <br />
-                Molar mass of CO<sub>2</sub> = 12 + 16 x 2 = 44 g
-                <br />
-                Mass of 0.25 moles of CO<sub>2</sub> = 44 g x 0.25 = 11 g
+                <table className="w-full border-collapse border border-zinc-300">
+            <thead>
+                <tr className="bg-zinc-200">
+                    <th className="border border-zinc-300 p-2">Moles of CO₂</th>
+                    <th className="border border-zinc-300 p-2">Calculation</th>
+                    <th className="border border-zinc-300 p-2">Mass (g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td className="border border-zinc-300 p-2">1 mole</td>
+                    <td className="border border-zinc-300 p-2">12 + 16 × 2</td>
+                    <td className="border border-zinc-300 p-2">44 g</td>
+                </tr>
+                <tr className="bg-zinc-100">
+                    <td className="border border-zinc-300 p-2">0.25 moles</td>
+                    <td className="border border-zinc-300 p-2">44 × 0.25</td>
+                    <td className="border border-zinc-300 p-2">11 g</td>
+                </tr>
+            </tbody>
+        </table>
             </p>
 
             <h3 className="text-lg font-semibold mb-2">Example 6.6: Converting grams to moles</h3>
@@ -90,11 +180,13 @@ export default function ChemicalCalculations() {
                 <br />
                 (b) A block of ice that weighs 100 g.
             </p>
+    
             <p className="mb-2">
                 Problem solving strategy:
                 <br />
                 Hydrogen and ice are molecular substances. Determine their molar masses. Use the molar mass of each to convert the masses in grams to moles.
             </p>
+            <p>mass ---> ? moles</p>
             <p className="mb-2">
                 Solution:
                 <br />

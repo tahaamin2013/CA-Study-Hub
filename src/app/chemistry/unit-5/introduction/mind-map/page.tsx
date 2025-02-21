@@ -25,53 +25,50 @@ mindmapDiagram {
 }
 </style>
 
-* Universe Matter Composition
-** Compounds and Mixtures
-*** Human Bodies
-*** Animal Bodies
-*** Plant Bodies
-*** Rocks
-*** Soil
-*** Petroleum
-*** Coal
-** In compounds different kinds of atom are bounded together. 
-** Elements with Unbonded Atoms
-*** Noble Gases
-**** Helium
-**** Neon
-**** Argon
-**** Xenon
-**** Krypton
+* INTRODUCTION
+
+** Matter Composition
+*** Compounds
+**** Different atoms bonded together
+**** Examples
+***** Human, animal, plant bodies
+***** Rocks, soil
+***** Petroleum, coal
+*** Mixtures
+**** Complex mixtures of compounds
+*** Elements (Few)
+**** Unbounded atoms
+**** Examples
+***** Helium (He)
+***** Neon (Ne)
+***** Argon (Ar)
+***** Xenon (Xe)
+***** Krypton (Kr)
 
 left side
 
-** Chemical Bonding
-*** Effects on Properties
-**** Hardness
-**** Toughness
-**** Softness
-**** Flexibility
-
-*** Applications
+** Bonding & Structure
+*** Profound effect on properties
+*** Examples of varying properties
+**** Hard & Tough substances
+**** Soft & Flexible substances
+*** Applications & Related Questions
 **** Resins
-***** Paint for Infrastructure
-****** Dams
-****** Bridges
-****** Buildings
-****** Automobiles
-***** Adhesive Properties
+***** Used in paints (dams, bridges, buildings, automobiles)
+***** What makes them sticky?
+**** Adhesives (Glue)
+***** How do they bind surfaces?
+***** What is the nature of linkages?
 
-**** Adhesives
-***** Glue
-***** Binding Mechanisms
-***** Surface Linkages
-
+** Key Concept
+*** Chemical Bonding
 *** Molecular Structure
-**** Determines Material Behavior
-**** Influences Bond Types
-**** Affects Physical Properties
-@endmindmap
-`}
+
+** Importance
+*** Understanding behavior of substances
+*** Basis for further study
+
+@endmindmap`}
                 />
     </div>
   )

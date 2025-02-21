@@ -32,25 +32,37 @@ export default function Unit06() {
       </p>
 
       <h3 className="text-lg font-semibold mb-2">6.4.1 Gram Atomic Mass, Gram Molecular Mass and Gram Formula Mass</h3>
-
+      <p className="mb-2">
+        A mole Of S-atoms <br />
+(6.022 x 10<sup>23</sup> S-atoms)
+</p>
+<p className="mb-2">
+        Is this mass of S-atoms equal to its atomic mass?
+      </p>
       <p className="mb-2">
         What is the mass of 6.022 x 10<sup>23</sup> S-atoms?
       </p>
 
       <p className="mb-2">
+       A mole of C- atoms <br />
+(6.022 x 10<sup>23</sup> C-atoms)
+</p>
+
+      <p className="mb-2">
         What is the mass of one mole of C-atoms?
       </p>
 
-      <p className="mb-2">
-        Is this mass of S-atoms equal to its atomic mass?
-      </p>
+ 
 
       <p className="mb-2">
         Is this mass of C-atoms equal to its atomic mass?
       </p>
 
-      <p className="mb-2">
-        Atomic mass of an element expressed in grams is called gram atomic mass. Is the gram atomic mass of C-atoms 12 g? What is the gram atomic mass of S-atoms?
+      <p className="mb-2 font-bold">
+        Atomic mass of an element expressed in grams is called gram atomic mass.
+      </p>
+      <p>
+      Is the gram atomic mass of C-atoms 12 g? <br /> What is the gram atomic mass of S-atoms?
       </p>
 
       <p className="mb-2">
@@ -98,23 +110,65 @@ export default function Unit06() {
       <p className="mb-2">
         Molecular mass of a substance expressed in grams is called gram molecular mass.
         <br />
-        Molecular mass of H<sub>2</sub>O = 2 x 1.008 + 16 = 18.016 amu = 18.016 g
-        <br />
-        Molecular mass of C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> = 6 x 12 + 12 x 1.008 + 16 x 6 = 180.096 amu = 180.096 g
-      </p>
+       <p>
+       <table class="w-full border-collapse border border-gray-300">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="border border-gray-300 p-2">Compound</th>
+                    <th class="border border-gray-300 p-2">Calculation</th>
+                    <th class="border border-gray-300 p-2">Molecular Mass (amu)</th>
+                    <th class="border border-gray-300 p-2">Gram Molecular Mass (g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border border-gray-300 p-2">H₂O</td>
+                    <td class="border border-gray-300 p-2">2 × 1.008 + 16</td>
+                    <td class="border border-gray-300 p-2">18.016</td>
+                    <td class="border border-gray-300 p-2">18.016</td>
+                </tr>
+                <tr class="bg-gray-100">
+                    <td class="border border-gray-300 p-2">C₆H₁₂O₆</td>
+                    <td class="border border-gray-300 p-2">6 × 12 + 12 × 1.008 + 16 × 6</td>
+                    <td class="border border-gray-300 p-2">180.096</td>
+                    <td class="border border-gray-300 p-2">180.096</td>
+                </tr>
+            </tbody>
+        </table>
+       </p>
+             </p>
 
-      <p className="mb-2">
-        Therefore, gram molecular mass of C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> = 180.096 g
-      </p>
+
 
       <p className="mb-2">
         Formula mass of a substance expressed in grams is called gram formula mass.
         <br />
         An ionic compound is represented by the formula unit that represents the simplest ratio between the ions of a compound. For example NaCl, KCl, CuSO<sub>4</sub>, etc.
         <br />
-        Formula mass of NaCl = 23 + 35.5 = 58.5 amu = 58.5 g
-        <br />
-        Formula mass of KCl = 39 + 35.5 = 74.5 amu = 74.5 g
+        <table class="w-full border-collapse border border-gray-300">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="border border-gray-300 p-2">Compound</th>
+                    <th class="border border-gray-300 p-2">Calculation</th>
+                    <th class="border border-gray-300 p-2">Formula Mass (amu)</th>
+                    <th class="border border-gray-300 p-2">Gram Formula Mass (g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border border-gray-300 p-2">NaCl</td>
+                    <td class="border border-gray-300 p-2">23 + 35.5</td>
+                    <td class="border border-gray-300 p-2">58.5</td>
+                    <td class="border border-gray-300 p-2">58.5</td>
+                </tr>
+                <tr class="bg-gray-100">
+                    <td class="border border-gray-300 p-2">KCl</td>
+                    <td class="border border-gray-300 p-2">39 + 35.5</td>
+                    <td class="border border-gray-300 p-2">74.5</td>
+                    <td class="border border-gray-300 p-2">74.5</td>
+                </tr>
+            </tbody>
+        </table>
       </p>
 
       <h3 className="text-lg font-semibold mb-2">6.4.2 Difference between the Terms Gram Atomic Mass, Gram Molecular Mass and Gram Formula Mass</h3>
