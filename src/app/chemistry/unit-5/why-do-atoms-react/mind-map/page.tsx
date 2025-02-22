@@ -112,18 +112,20 @@ mindmapDiagram {
 
 * Octet Rule
 ** Core Principle
-*** Eight Electrons in Valence Shell
-*** Maximum Stability
-*** Applies to Major Group Elements
-*** Based on s and p Electrons
+*** Definition
+**** Atoms most stable with 8 valence electrons
+**** Represents optimal electron configuration
+*** Application
+**** Only Applies to major group elements
+**** Based on s and p electrons only
+*** Chemical Bonding
+**** Atoms form bonds to achieve 8 electrons
+**** Results in stable molecules
+*** Predictive Power
+**** Predicts chemical behavior
+**** Helps understand main group elements
 
-** Applications
-*** Major Group Elements
-**** Predictive Tool
-**** Chemical Behavior
-**** Bonding Patterns
-
-*** Example Molecules
+*** Example Molecules follow the octet principle
 **** Oxygen
 **** Nitrogen
 **** Halogens

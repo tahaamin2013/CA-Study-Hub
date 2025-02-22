@@ -1,15 +1,14 @@
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 import React from "react";
-import Image from 'next/image'
+import Image from "next/image";
 
 const MagneticMindmap = () => {
-    return (
-        <div className="p-8 flex flex-col gap-8">
-            <section>
-                <h1 className="text-4xl font-bold text-blue-500">TYPES OF BONDS
-                </h1>
-                <PlantUMLDiagram
-                    code={`
+  return (
+    <div className="p-8 flex flex-col gap-8">
+      <section>
+        <h1 className="text-4xl font-bold text-blue-500">TYPES OF BONDS</h1>
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -36,11 +35,10 @@ left side
 @endmindmap
 
 `}
-                />
+        />
 
-
-<PlantUMLDiagram
-                    code={`
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -79,11 +77,10 @@ left side
 @endmindmap
 
 `}
-                />
+        />
 
-
-<PlantUMLDiagram
-                    code={`
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -135,11 +132,26 @@ left side
 **** Formation of Cations using electrons dot structure
 @endmindmap
 `}
-                />
+        />
 
+        <div className="flex items-center justify-between">
+          <Image
+            src="/K-dot-structure.jpg"
+            alt="K dot structure"
+            width={500}
+            height={500}
+          />
+          <Image
+            src="/dot-structure-of-calcuim.png"
+            className="mx-10"
+            alt="K dot structure"
+            width={500}
+            height={500}
+          />
+        </div>
 
-<PlantUMLDiagram
-                    code={`
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -195,12 +207,19 @@ left side
 *** Forms ionic compounds
 *** Strong electrostatic forces
 @endmindmap
-
 `}
-                />
+        />
 
-<PlantUMLDiagram
-                    code={`
+        <Image
+          src="/electron-dot-structure-of-nitrogen-anion.png"
+          className="my-5"
+          alt="K dot structure"
+          width={500}
+          height={500}
+        />
+
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -257,9 +276,9 @@ mindmapDiagram {
 @endmindmap
 
 `}
-                />
-                <PlantUMLDiagram
-                    code={`
+        />
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -317,9 +336,9 @@ mindmapDiagram {
 *** Simplest ratio determination
 @endmindmap
 `}
-                />
-                <PlantUMLDiagram
-                    code={`
+        />
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -377,10 +396,41 @@ left side
 **** Between atomic nuclei
 @endmindmap
 `}
-                />
+        />
 
-<PlantUMLDiagram
-                    code={`
+        <div className="flex items-center justify-between flex-wrap">
+          <Image
+            src="/669e2a24ae8c5529a9da74a4_168005.image1.jpeg"
+            className="my-5"
+            alt="formation-of-hydrogen-molecule"
+            width={500}
+            height={500}
+          />
+          <Image
+            src="/NVT_SCI_TECH_DIG_X_P1_C09_E16_004_S01.png"
+            className="my-5"
+            alt="formation-of-hydrogen-molecule"
+            width={500}
+            height={500}
+          />
+          <Image
+            src="/triple covalend bond.jpg"
+            className="my-5"
+            alt="formation-of-hydrogen-molecule"
+            width={500}
+            height={500}
+          />
+          <Image
+            src="/669e2a1b9ee33e23fd91a3a4_168008.image0.jpeg"
+            className="my-5"
+            alt="formation-of-hydrogen-molecule"
+            width={500}
+            height={500}
+          />
+        </div>
+
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -439,10 +489,31 @@ left side
 @endmindmap
 
 `}
-                />
-                        
-                                <PlantUMLDiagram
-                    code={`
+        />
+        <div className="grid grid-cols-2 gap-5">
+          <div className="flex flex-col items-center justify-center text-center">
+            <h1 className="text-4xl font-bold">Methene</h1>
+            <Image
+              src="/methane-covalend-bond.png"
+              className="my-5"
+              alt="formation-of-hydrogen-molecule"
+              width={500}
+              height={500}
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center text-center">
+            <h1 className="text-4xl font-bold">Water</h1>
+            <Image
+              src="/water-covalend-bond.png"
+              className="my-5"
+              alt="formation-of-hydrogen-molecule"
+              width={500}
+              height={500}
+            />
+          </div>
+        </div>
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -455,7 +526,7 @@ mindmapDiagram {
     }
     :depth(1) {
         BackgroundColor lightGreen
-    }
+        }
     :depth(2) {
         BackgroundColor lightYellow
     }
@@ -504,10 +575,27 @@ left side
 **** Complete shell structure
 @endmindmap
 `}
-                />
+        />
+<Image
+  src="/carbon-dioxide-covalent-bond.png"
+  className="my-5"
+  alt="formation-of-hydrogen-molecule"
+  width={700}
+  height={700}
+/>
+<div className="flex items-start justify-center text-center flex-col">
+    <h1 className="text-2xl font-bold">HCN (Hydrogen Cyanide) Covalent Bond</h1>
+<Image
+  src="/hcn-covalent-bond.png"
+  className="my-5"
+  alt="formation-of-hydrogen-molecule"
+  width={700}
+  height={700}
+/>
+  </div>
 
-<PlantUMLDiagram
-                    code={`
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -553,6 +641,7 @@ mindmapDiagram {
 **** Partial charges develop
 ***** δ+ on less electronegative atom
 ***** δ- on more electronegative atom
+left side
 ** Intermolecular Forces
 *** Between molecules
 *** Affects properties
@@ -566,9 +655,9 @@ mindmapDiagram {
 **** Affects bond character
 @endmindmap
 `}
-                />
-                                      <PlantUMLDiagram
-                    code={`
+        />
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -629,9 +718,9 @@ left side
 **** Symmetric electron distribution
 @endmindmap
 `}
-                />
-                                                      <PlantUMLDiagram
-                    code={`
+        />
+        <PlantUMLDiagram
+          code={`
                          @startmindmap
                 <style>
 mindmapDiagram {
@@ -692,88 +781,120 @@ left side
 **** Directional nature
 @endmindmap
 `}
-                />
-            </section>
-            <div className="bg-gradient-to-r from-blue-100 to-green-100 p-10 font-sans">
-                <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">
-                    <h1 className="text-4xl font-bold text-center text-black mb-8">Types of Bonds: Ionic Bonds</h1>
+        />
+      </section>
+      <div className="bg-gradient-to-r from-blue-100 to-green-100 p-10 font-sans">
+        <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">
+          <h1 className="text-4xl font-bold text-center text-black mb-8">
+            Types of Bonds: Ionic Bonds
+          </h1>
 
-                    <section className="mb-8">
-                        <h2 className="text-2xl font-semibold text-black mb-4">Two Main Types of Bonds</h2>
-                        <ul className="list-disc pl-5 text-lg text-gray-700">
-                            <li>Ionic bonds</li>
-                            <li>Covalent bonds</li>
-                        </ul>
-                    </section>
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-black mb-4">
+              Two Main Types of Bonds
+            </h2>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+              <li>Ionic bonds</li>
+              <li>Covalent bonds</li>
+            </ul>
+          </section>
 
-                    <section className="mb-8">
-                        <h3 className="text-xl font-semibold text-black mb-4">Ionic Bond Formation</h3>
-                        <p className="text-lg text-gray-700">
-                            Ionic bonds occur between two atoms, where one atom loses electron(s) to form a cation and the other atom gains electron(s) to form an anion.
-                        </p>
-                    </section>
+          <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Ionic Bond Formation
+            </h3>
+            <p className="text-lg text-gray-700">
+              Ionic bonds occur between two atoms, where one atom loses
+              electron(s) to form a cation and the other atom gains electron(s)
+              to form an anion.
+            </p>
+          </section>
 
-                    <section className="mb-8">
-                        <h3 className="text-xl font-semibold text-black mb-4">Cation Formation</h3>
-                        <ul className="list-disc pl-5 text-lg text-gray-700">
-                            <li>Example: Na → Na⁺ (1s² 2s² 2p⁶)</li>
-                            <li>Example: Mg → Mg²⁺ (1s² 2s² 2p⁶)</li>
-                        </ul>
-                    </section>
+          <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Cation Formation
+            </h3>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+              <li>Example: Na → Na⁺ (1s² 2s² 2p⁶)</li>
+              <li>Example: Mg → Mg²⁺ (1s² 2s² 2p⁶)</li>
+            </ul>
+          </section>
 
-                    <section className="mb-8">
-                        <h3 className="text-xl font-semibold text-black mb-4">Anion Formation</h3>
-                        <ul className="list-disc pl-5 text-lg text-gray-700">
-                            <li>Example: O + 2e⁻ → O²⁻ (1s² 2s² 2p⁶)</li>
-                            <li>Example: F + e⁻ → F⁻ (1s² 2s² 2p⁶)</li>
-                        </ul>
-                    </section>
+          <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Anion Formation
+            </h3>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+              <li>Example: O + 2e⁻ → O²⁻ (1s² 2s² 2p⁶)</li>
+              <li>Example: F + e⁻ → F⁻ (1s² 2s² 2p⁶)</li>
+            </ul>
+          </section>
 
-                    <section className="mb-8">
-                        <h3 className="text-xl font-semibold text-black mb-4">Ionic Bond Characteristics</h3>
-                        <p className="text-lg text-gray-700">
-                            Ionic bonds are characterized by a strong electrostatic attraction between oppositely charged ions, resulting in compounds that are electrically neutral overall.
-                        </p>
-                    </section>
+          <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Ionic Bond Characteristics
+            </h3>
+            <p className="text-lg text-gray-700">
+              Ionic bonds are characterized by a strong electrostatic attraction
+              between oppositely charged ions, resulting in compounds that are
+              electrically neutral overall.
+            </p>
+          </section>
 
-                    <section className="mb-8">
-                        <h3 className="text-xl font-semibold text-black mb-4">Ionic Compound Formation</h3>
-                        <ul className="list-disc pl-5 text-lg text-gray-700">
-                            <li>Example: Na + Cl → NaCl (Sodium Chloride)</li>
-                            <li>Example: Mg + F₂ → MgF₂ (Magnesium Fluoride)</li>
-                        </ul>
-                    </section>
+          <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Ionic Compound Formation
+            </h3>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+              <li>Example: Na + Cl → NaCl (Sodium Chloride)</li>
+              <li>Example: Mg + F₂ → MgF₂ (Magnesium Fluoride)</li>
+            </ul>
+          </section>
 
-                    <section className="mb-8">
-                        <h3 className="text-xl font-semibold text-black mb-4">Key Concepts</h3>
-                        <ul className="list-disc pl-5 text-lg text-gray-700">
-                            <li>Metal atoms form cations, non-metal atoms form anions.</li>
-                            <li>Electrons lost by metals in groups IA, IIA, IIIA equal the group number.</li>
-                            <li>The final compound formula is based on the simplest ratio of cations to anions.</li>
-                        </ul>
-                    </section>
+          <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Key Concepts
+            </h3>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+              <li>Metal atoms form cations, non-metal atoms form anions.</li>
+              <li>
+                Electrons lost by metals in groups IA, IIA, IIIA equal the group
+                number.
+              </li>
+              <li>
+                The final compound formula is based on the simplest ratio of
+                cations to anions.
+              </li>
+            </ul>
+          </section>
 
-                    <section className="mb-8">
-                        <h3 className="text-xl font-semibold text-black mb-4">Representation Methods</h3>
-                        <ul className="list-disc pl-5 text-lg text-gray-700">
-                            <li>Electron dot structures</li>
-                            <li>Electron cross structures</li>
-                            <li>Chemical equations</li>
-                        </ul>
-                    </section>
+          <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Representation Methods
+            </h3>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+              <li>Electron dot structures</li>
+              <li>Electron cross structures</li>
+              <li>Chemical equations</li>
+            </ul>
+          </section>
 
-                    <section>
-                        <h3 className="text-xl font-semibold text-black mb-4">Practice Exercises</h3>
-                        <ul className="list-disc pl-5 text-lg text-gray-700">
-                            <li>Formation of various cations and anions</li>
-                            <li>Representation of ionic compounds using different structures</li>
-                            <li>Writing formulas for ionic compounds</li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
+          <section>
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Practice Exercises
+            </h3>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+              <li>Formation of various cations and anions</li>
+              <li>
+                Representation of ionic compounds using different structures
+              </li>
+              <li>Writing formulas for ionic compounds</li>
+            </ul>
+          </section>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default MagneticMindmap;

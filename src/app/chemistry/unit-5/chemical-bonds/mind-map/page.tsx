@@ -85,6 +85,49 @@ left side
 `}
         />
 
+<PlantUMLDiagram code={`
+
+@startmindmap
+<style>
+mindmapDiagram {
+   node {
+       BackgroundColor #E1F5FE
+       BorderColor #01579B
+       FontColor black
+   }
+   :depth(1) {
+       BackgroundColor #C8E6C9
+   }
+   :depth(2) {
+       BackgroundColor #FFECB3
+   }
+   :depth(3) {
+       BackgroundColor #F8BBD0
+   }
+}
+</style>
+* 5.2 CHEMICAL BONDS
+** Electrical Forces of Attraction
+*** Hold Atoms Together
+** Electronic Structure
+*** Explains Bonding
+** Reactivity
+*** Atoms (non-noble gases)
+**** Tendency to React
+**** Gain Stability
+***** Losing Electrons (Electropositivity)
+****** In Metal Atoms
+******* Alkali Metals (Group 1)
+******* Alkaline Earth Metals (Group 2)
+******* Transition Metals (Groups 3-12)
+***** Gaining Electrons (Electronegativity)
+****** In Non-Metal Atoms
+***** Sharing Electrons
+**** Next Noble Gas Element Configuration
+@endmindmap
+`} />
+
+
 <PlantUMLDiagram
           code={`
             @startmindmap
