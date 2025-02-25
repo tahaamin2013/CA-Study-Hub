@@ -7,86 +7,75 @@ import Link from "next/link";
 const data = [
     {
         id: "1",
-        title: "6.1 EMPIRICAL FORMULA AND MOLECULAR FORMULA",
+        title: "Introduction",
         links: [
-            { href: "/chemistry/unit-6/empirical-and-molecular-formula/original-content", text: "ORIGINAL CONTENT", icon: List },
-            { href: "/chemistry/unit-6/empirical-and-molecular-formula/notes", text: "NOTES", icon: BookOpen },
-            { href: "/chemistry/unit-6/empirical-and-molecular-formula/mind-map", text: "MIND MAP", icon: Brain },
-            { href: "/chemistry/unit-6/empirical-and-molecular-formula/quiz", text: "MCQS", icon: HelpCircle },
-            { href: "/chemistry/unit-6/empirical-and-molecular-formula/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
-            { href: "/chemistry/unit-6/empirical-and-molecular-formula/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
+            { href: "/chemistry/unit-7/introduction/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-7/introduction/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-7/introduction/mind-map", text: "MIND MAP", icon: Brain },
+            { href: "/chemistry/unit-7/introduction/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-7/introduction/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-7/introduction/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
     {
         id: "2",
-        title: "6.2 MOLECULAR MASS AND FORMULA MASS",
+        title: "7.1 OXIDATION AND REDUCTION",
         links: [
-            { href: "/chemistry/unit-6/molecular-mass-and-formula-mass/original-content", text: "ORIGINAL CONTENT", icon: List },
-            { href: "/chemistry/unit-6/molecular-mass-and-formula-mass/notes", text: "NOTES", icon: BookOpen },
-            { href: "/chemistry/unit-6/molecular-mass-and-formula-mass/mind-map", text: "MIND MAP", icon: Brain },
-            { href: "/chemistry/unit-6/molecular-mass-and-formula-mass/quiz", text: "MCQS", icon: HelpCircle },
-            { href: "/chemistry/unit-6/molecular-mass-and-formula-mass/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
-            { href: "/chemistry/unit-6/molecular-mass-and-formula-mass/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
+            { href: "/chemistry/unit-7/oxidation-and-reduction/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-7/oxidation-and-reduction/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-7/oxidation-and-reduction/mind-map", text: "MIND MAP", icon: Brain },
+            { href: "/chemistry/unit-7/oxidation-and-reduction/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-7/oxidation-and-reduction/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-7/oxidation-and-reduction/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
+
     {
         id: "3",
-        title: "6.3 CHEMICAL FORMULA AND NAME OF BINARY IONIC COMPOUNDS",
+        title: "7.2 OXIDATION STATES AND RULES FOR ASSIGNING OXIDATION STATES",
         links: [
-            { href: "/chemistry/unit-6/chemical-formula-and-name-of-binary-ionic-compounds/original-content", text: "ORIGINAL CONTENT", icon: List },
-            { href: "/chemistry/unit-6/chemical-formula-and-name-of-binary-ionic-compounds/notes", text: "NOTES", icon: BookOpen },
-            { href: "/chemistry/unit-6/chemical-formula-and-name-of-binary-ionic-compounds/mind-map", text: "MIND MAP", icon: Brain },
-            { href: "/chemistry/unit-6/chemical-formula-and-name-of-binary-ionic-compounds/quiz", text: "MCQS", icon: HelpCircle },
-            { href: "/chemistry/unit-6/chemical-formula-and-name-of-binary-ionic-compounds/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
-            { href: "/chemistry/unit-6/chemical-formula-and-name-of-binary-ionic-compounds/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
+            { href: "/chemistry/unit-7/oxidation-states-and-rules-for-assigning-oxidation-states/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-7/oxidation-states-and-rules-for-assigning-oxidation-states/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-7/oxidation-states-and-rules-for-assigning-oxidation-states/mind-map", text: "MIND MAP", icon: Brain },
+            { href: "/chemistry/unit-7/oxidation-states-and-rules-for-assigning-oxidation-states/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-7/oxidation-states-and-rules-for-assigning-oxidation-states/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-7/oxidation-states-and-rules-for-assigning-oxidation-states/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
     {
         id: "4",
-        title: "6.4 AVOGADRO&apos;sNUMBER AND MOLE",
+        title: "7.3 FORMULA OF AN IONIC COMPOUND",
         links: [
-            { href: "/chemistry/unit-6/avogadros-number-and-mole/original-content", text: "ORIGINAL CONTENT", icon: List },
-            { href: "/chemistry/unit-6/avogadros-number-and-mole/notes", text: "NOTES", icon: BookOpen },
-            { href: "/chemistry/unit-6/avogadros-number-and-mole/mind-map", text: "MIND MAP", icon: Brain },
-            { href: "/chemistry/unit-6/avogadros-number-and-mole/quiz", text: "MCQS", icon: HelpCircle },
-            { href: "/chemistry/unit-6/avogadros-number-and-mole/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
-            { href: "/chemistry/unit-6/avogadros-number-and-mole/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
+            { href: "/chemistry/unit-7/formula-of-an-ionic-compound/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-7/formula-of-an-ionic-compound/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-7/formula-of-an-ionic-compound/mind-map", text: "MIND MAP", icon: Brain },
+            { href: "/chemistry/unit-7/formula-of-an-ionic-compound/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-7/formula-of-an-ionic-compound/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-7/formula-of-an-ionic-compound/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
     {
         id: "5",
-        title: "6.5 CHEMICAL CALCULATIONS",
+        title: "7.4 OXIDIZING AND REDUCING AGENTS",
         links: [
-            { href: "/chemistry/unit-6/chemical-calculations/original-content", text: "ORIGINAL CONTENT", icon: List },
-            { href: "/chemistry/unit-6/chemical-calculations/notes", text: "NOTES", icon: BookOpen },
-            { href: "/chemistry/unit-6/chemical-calculations/mind-map", text: "MIND MAP", icon: Brain },
-            { href: "/chemistry/unit-6/chemical-calculations/quiz", text: "MCQS", icon: HelpCircle },
-            { href: "/chemistry/unit-6/chemical-calculations/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
-            { href: "/chemistry/unit-6/chemical-calculations/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
+            { href: "/chemistry/unit-7/oxidizing-and-reducing-agents/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-7/oxidizing-and-reducing-agents/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-7/oxidizing-and-reducing-agents/mind-map", text: "MIND MAP", icon: Brain },
+            { href: "/chemistry/unit-7/oxidizing-and-reducing-agents/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-7/oxidizing-and-reducing-agents/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-7/oxidizing-and-reducing-agents/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
     {
         id: "6",
-        title: "6.6 CHEMICAL EQUATION AND BALANCING",
+        title: "7.5 CORROSION AND ITS PREVENTION",
         links: [
-            { href: "/chemistry/unit-6/chemical-equation-and-balancing/original-content", text: "ORIGINAL CONTENT", icon: List },
-            { href: "/chemistry/unit-6/chemical-equation-and-balancing/notes", text: "NOTES", icon: BookOpen },
-            { href: "/chemistry/unit-6/chemical-equation-and-balancing/mind-map", text: "MIND MAP", icon: Brain },
-            { href: "/chemistry/unit-6/chemical-equation-and-balancing/quiz", text: "MCQS", icon: HelpCircle },
-            { href: "/chemistry/unit-6/chemical-equation-and-balancing/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
-            { href: "/chemistry/unit-6/chemical-equation-and-balancing/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
-        ],
-    },
-    {
-        id: "7",
-        title: "6.7 MOLECULAR AND STRUCTURAL FORMULA",
-        links: [
-            { href: "/chemistry/unit-6/molecular-and-structural-formula/original-content", text: "ORIGINAL CONTENT", icon: List },
-            { href: "/chemistry/unit-6/molecular-and-structural-formula/notes", text: "NOTES", icon: BookOpen },
-            { href: "/chemistry/unit-6/molecular-and-structural-formula/mind-map", text: "MIND MAP", icon: Brain },
-            { href: "/chemistry/unit-6/molecular-and-structural-formula/quiz", text: "MCQS", icon: HelpCircle },
-            { href: "/chemistry/unit-6/molecular-and-structural-formula/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
-            { href: "/chemistry/unit-6/molecular-and-structural-formula/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
+            { href: "/chemistry/unit-7/corrosion-and-its-prevention/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-7/corrosion-and-its-prevention/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-7/corrosion-and-its-prevention/mind-map", text: "MIND MAP", icon: Brain },
+            { href: "/chemistry/unit-7/corrosion-and-its-prevention/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-7/corrosion-and-its-prevention/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-7/corrosion-and-its-prevention/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
 ];
@@ -119,7 +108,7 @@ const ComputerSystemsDashboard = () => {
     return (
         <div className="min-h-screen text-white  px-3 bg-gradient-to-br from-gray-900 to-gray-800" style={{ fontFamily: '"Poppins", sans-serif' }}>
             <h1 className="text-6xl font-extrabold mb-16 text-center text-white">
-                Chemical Bonding
+            ELECTROCHEMISTRY
             </h1>
             <div className="flex flex-wrap gap-5 justify-center">
                 {data.map((section) => (

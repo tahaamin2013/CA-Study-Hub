@@ -490,9 +490,11 @@ left side
 
 `}
         />
+  
+  
         <div className="grid grid-cols-2 gap-5">
           <div className="flex flex-col items-center justify-center text-center">
-            <h1 className="text-4xl font-bold">Methene</h1>
+            <h1 className="text-4xl font-bold">Methane</h1>
             <Image
               src="/methane-covalend-bond.png"
               className="my-5"
@@ -596,7 +598,7 @@ left side
 
         <PlantUMLDiagram
           code={`
-                         @startmindmap
+@startmindmap
                 <style>
 mindmapDiagram {
     node {
@@ -616,120 +618,46 @@ mindmapDiagram {
 </style>
 * Covalent Bond Polarity
 ** Non-Polar Covalent Bonds
-*** Definition
-**** Equal electron sharing
-**** Between identical atoms
-*** Examples
-**** H₂
-**** N₂
-**** O₂
-**** Cl₂
-*** Characteristics
-**** Equal electronegativity
-**** Symmetric electron distribution
-** Polar Covalent Bonds
-*** Definition
-**** Unequal electron sharing
-**** Between different atoms
-*** Examples
-**** HCl
-**** H₂O
-**** NH₃
-**** CO
-*** Characteristics
-**** Different electronegativity
-**** Partial charges develop
-***** δ+ on less electronegative atom
-***** δ- on more electronegative atom
+*** **Definition**
+**** **Forms Between Similar Atoms** (e.g., H₂, N₂, O₂, Cl₂)
+**** **Can Also Occur Between Different Atoms** (e.g., CH₄ (Methane), CCl₄ (Carbon tetrachloride))
+*** **Characteristics**
+**** **Equal Force on Shared Electrons**
+**** **Electrons Shared Equally**
+*** **Examples**
+**** **H-H Bond**
+**** **O=O Bond**
 left side
-** Intermolecular Forces
-*** Between molecules
-*** Affects properties
-*** Strength varies
-** Key Factors
-*** Electronegativity
-**** Determines polarity
-**** Electron pulling power
-*** Electron Distribution
-**** Symmetric vs asymmetric
-**** Affects bond character
+** Polar Covalent Bonds
+*** **Definition**
+**** **Forms Between Different Atoms**
+**** **Unequal Sharing of Electrons**
+*** Electronegativity Effect
+**** More Electronegative Atom Pulls Electrons Stronger
+**** Creates Partial Charges
+***** More Electronegative Atom → Partial Negative (-)
+***** Less Electronegative Atom → Partial Positive (+)
+*** **Intermolecular Forces**
+**** **Attraction Between Polar Molecules**
+*** **Examples**
+**** **H-Cl Bond**
+***** Example: In HCl, Cl (δ⁻)
+***** Example: In HCl, H (δ⁺)
+**** **H₂O (Water)**
+***** Example: In H₂O, O pulls electrons more than H
+**** **NH₃ (Ammonia)**
 @endmindmap
 `}
         />
-        <PlantUMLDiagram
-          code={`
-                         @startmindmap
-                <style>
-mindmapDiagram {
-    node {
-        BackgroundColor lightBlue
-    }
-                .group {
-        BackgroundColor lightBlue
-            MaximumWidth 200
-    }
-    :depth(1) {
-        BackgroundColor lightGreen
-    }
-    :depth(2) {
-        BackgroundColor lightYellow
-    }
-}
-</style>
-* Covalent Bond Polarity
 
-** Polar Covalent Bonds
-*** Definition
-**** Unequal electron sharing
-**** Between different atoms
-*** Examples
-**** HCl
-**** H₂O
-**** NH₃
-**** CO
-*** Characteristics
-**** Different electronegativity
-**** Partial charges develop
-***** δ+ on less electronegative atom
-***** δ- on more electronegative atom
-left side
-** Intermolecular Forces
-*** Between molecules
-*** Affects properties
-*** Strength varies
-** Key Factors
-*** Electronegativity
-**** Determines polarity
-**** Electron pulling power
-*** Electron Distribution
-**** Symmetric vs asymmetric
-**** Affects bond character
-** Non-Polar Covalent Bonds
-*** Definition
-**** Equal electron sharing
-**** Between identical atoms
-*** Examples
-**** H₂
-**** N₂
-**** O₂
-**** Cl₂
-*** Characteristics
-**** Equal electronegativity
-**** Symmetric electron distribution
-@endmindmap
-`}
-        />
-        <PlantUMLDiagram
-          code={`
-                         @startmindmap
-                <style>
+ <Image src="/c0286492-800px-wm.jpg" alt="c0286492-800px-wm" width={400} height={400} />
+ 
+<PlantUMLDiagram code={`
+  @startmindmap
+<style>
 mindmapDiagram {
     node {
         BackgroundColor lightBlue
-    }
-                .group {
-        BackgroundColor lightBlue
-            MaximumWidth 200
     }
     :depth(1) {
         BackgroundColor lightGreen
@@ -739,49 +667,45 @@ mindmapDiagram {
     }
 }
 </style>
-* Coordinate Covalent Bond
-** Basic Concept
-*** Electron pair from single donor
-*** Both nuclei attract shared pair
-*** Indistinguishable after formation
-** Examples
-*** Ammonium Ion (NH₄⁺)
-**** Formation
-***** NH₃ + HCl reaction
-***** H⁺ from HCl
-***** Lone pair from N
-**** Results in
-***** NH₄⁺ and Cl⁻
-*** Hydronium Ion (H₃O⁺)
-**** Formation
-***** H₂O + HCl reaction
-***** H⁺ from HCl
-***** Lone pair from O
-*** NH₃-BF₃ Complex
-**** Components
-***** NH₃ (electron donor)
-***** BF₃ (electron acceptor)
-**** Characteristics
-***** B is electron deficient
-***** N provides lone pair
+
+* **Coordinate Covalent Bond **
 left side
-** Key Features
-*** Bond Formation
-**** Single source of electrons
-**** Shared by both atoms
-*** Common Scenarios
-**** Metal-ligand binding
-**** Lewis acid-base reactions
-** Comparison
-*** vs Normal Covalent
-**** Electron source differs
-**** Final bond similar
-*** vs Ionic Bond
-**** Sharing vs transfer
-**** Directional nature
+** **Examples**
+*** **Ammonium (NH₄⁺) Ion**
+**** **Formed from NH₃ + HCl reaction**
+**** **Fourth hydrogen attached via coordinate covalent bond**
+**** **Hydrogen nucleus transfers from Cl to N**
+**** **Chlorine retains electron, forming Cl⁻ ion**
+*** **Hydronium Ion (H₃O⁺)**
+**** **Formed when HCl dissolves in water (H₂O)**
+**** **H⁺ nucleus transfers to H₂O molecule**
+**** **Water's lone pair forms coordinate covalent bond**
+*** **Ammonia Boron Trifluoride (NH₃-BF₃)**
+**** **Boron trifluoride (BF₃) is electron deficient**
+**** **Boron lacks a full valence shell**
+**** **Nitrogen in NH₃ donates lone pair to BF₃**
+**** **Forms a coordinate covalent bond to complete boron's valence shell**
+right side
+** **Definition**
+*** Also called Dative Covalent Bond
+*** **A Covalent Bond Where Shared Electrons Come From a Single Atom (Donor)**
+*** **Both Nuclei Attract the Shared Electron Pair**
+** **Key Characteristics**
+*** **Formed Between a Donor and an Acceptor**
+*** **After Formation, Electrons Are Indistinguishable**
+** **Common Observations**
+*** **Occurs in Metal Ions Binding to Ligands**
+*** **Also Observed in Nonmetals**
+** **Relation to Lewis Theory**
+*** **Reaction Between Lewis Acid and Lewis Base**
+*** **Forms a Coordinate Covalent Bond**
 @endmindmap
-`}
-        />
+
+  `} />
+
+<Image src="/png-clipart-coordinate-covalent-bond-chemical-bond-lewis-structure-ammonium-others-angle-text.png" alt='png-clipart-coordinate-covalent-bond-chemical-bond-lewis-structure-ammonium-others-angle-text' className="mt-2" width={800} height={800} />
+<Image src="/h2ohcldiag.GIF" alt='h2ohcldiag' className="mt-5" width={800} height={800} />
+<Image src="/ammonia-boron-trifluoride-formula.svg" alt='h2ohcldiag' className="mt-5" width={800} height={800} />
       </section>
       <div className="bg-gradient-to-r from-blue-100 to-green-100 p-10 font-sans">
         <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">

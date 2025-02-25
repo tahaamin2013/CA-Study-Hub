@@ -11,34 +11,92 @@ const MagneticMindmap = () => {
         <PlantUMLDiagram
           code={`
 @startmindmap
-* 5.4 INTERMOLECULAR FORCES
+* Dipole-Dipole Forces
 ** Definition
-*** An attractive force existing between molecules.
-** Dipole-Dipole Forces
-*** Occur between polar molecules.
-*** Slightly negative end of one molecule attracts the slightly positive end of another.
-*** Examples:
-**** Resins used in paints and dyes for protection and visual appeal.
-**** Resins provide toughness, flexibility, adhesion, and chemical resistance.
-**** Synthetic resins offer water resistance and involve dipole-dipole interactions.
-** Hydrogen Bonding
-*** Occurs when hydrogen is covalently bonded to highly electronegative atoms (O, N, F).
-*** Hydrogen becomes electron-deficient and bonds to a lone pair on a nearby electronegative atom.
-*** Importance:
-**** Determines properties of water, proteins, DNA, and synthetic materials.
-**** Adhesive action in paints and resins due to hydrogen bonding.
-** Society, Technology, and Science
-*** Epoxy Adhesives:
-**** Excellent chemical resistance, good adhesion, and heat resistance.
-**** Used in propellers, aircraft parts, boats, cars, and trucks.
-**** Contains partially positively charged H-atoms and oxygen atoms with lone pairs.
-**** Forms H-bonds, making them sticky and strong.
-**** Used in modern aircraft, boats, automobiles, and spacecraft.
-**** Essential in daily life for various applications.
+*** Dipole-dipole interactions occur between polar molecules
+** Example
+*** Figure 5.1 shows these interactions
+** Applications
+*** Paints and dyes
+**** Protect solid surfaces from atmospheric effects
+**** Provide visual appeal
+*** Resins
+**** Coat materials for toughness, flexibility, adhesion, and chemical resistance
+**** Used in dams, bridges, floors, trains, buses, cars, etc.
+**** Synthetic resins used where water resistance is required
+**** Chemically, resins are either adhesive or form bond linkages
+***** Bond linkages help materials stick together
+** Nature of Dipole-Dipole Interactions
+*** Slightly negative end of a polar molecule is weakly attracted to the slightly positive end of another molecule
+*** These attracting forces are called dipole-dipole interactions
 @endmindmap
-
 `}
         />
+
+        <Image src="/dipole=dipole-forces.png" alt='Dipole Dipole' width={500} height={500} />
+        <Image src="/dipole.gif" alt='Dipole Dipole' width={500} height={500} />
+
+<PlantUMLDiagram code={`
+    
+    @startmindmap
+* Hydrogen Bonding
+** Definition
+*** Hydrogen bonding is a special type of dipole-dipole interaction but much stronger.
+*** Hydrogen bonding specifically occurs when hydrogen is bonded to highly electronegative atoms (O, N, or F)
+*** Hydrogen covalently bonded to an electronegative atom (O, N, F)
+*** Weakly bonded to a lone pair of another electronegative atom
+*** Can occur within the same molecule or between nearby molecules
+** Mechanism
+*** Electronegative atoms make hydrogen electron-deficient
+*** Electron-deficient hydrogen interacts with lone pairs to compensate deficiency
+** Example
+*** Figure 5.2 shows hydrogen bonding in water molecules
+** Importance
+*** Determines properties of water
+*** Affects biological molecules (proteins, DNA)
+*** Influences synthetic materials (glue, paints, resins)
+** Applications
+*** Adhesive action of paints and dyes due to hydrogen bonding
+*** Synthetic resins bind surfaces via hydrogen bonding or dipole-dipole interactions
+@endmindmap
+`} />
+
+<PlantUMLDiagram code={`
+    @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **Society, Technology, and Science**
+** **Epoxy Adhesives**
+*** **Excellent properties**
+**** **Chemical resistance**
+**** **Good adhesion**
+**** **High heat resistance**
+**** **Forms strong and tough coating**
+*** **Applications**
+**** **Used in aircraft, boats, cars, trucks, spacecraft**
+**** **Essential for assembling, saving money, and reducing weight**
+*** **Chemical Nature**
+**** **Contains partially positive H-atoms**
+**** **Oxygen atoms with lone pairs**
+**** **Sticky due to hydrogen bonding**
+**** **Adheres strongly to other substances**
+*** **Daily Life Importance**
+**** **Used in modern transportation**
+**** **Glues and adhesives have become essential in daily life**
+@endmindmap
+    `} />
 
       </section>
       <div className="bg-gradient-to-r from-blue-100 to-purple-100 p-10 font-sans">
