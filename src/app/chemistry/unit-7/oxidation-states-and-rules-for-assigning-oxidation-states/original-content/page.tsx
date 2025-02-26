@@ -42,7 +42,7 @@ const Page = () => {
       <h2 className="text-xl font-semibold mt-6 mb-2">7.2.2 Rules for Assigning Oxidation States or Numbers</h2>
       <ol className="list-decimal list-inside mb-4">
         <li className="mb-2">The oxidation state of any uncombined or free elements is always zero e.g., oxidation state of Zn, Na, H in H,, S in S, etc is zero.</li>
-        <li className="mb-2">In simple ions, oxidation state is same as their charge e.g., oxidation state of Na in Na"and Ca in Ca is +1 and +2 respectively.</li>
+        <li className="mb-2">In simple ions, oxidation state is same as their charge e.g., oxidation state of Na in Na&quot;and Ca in Ca is +1 and +2 respectively.</li>
         <li className="mb-2">In a complex ion the sum of oxidation states of atoms is equal to the charge on their ion. e.g., in CO,&apos, the sum of oxidation states of C and 30 atoms is -2. Similarly, in NH,&quot;, the sum of oxidation states of N and 4H atoms is +1.</li>
         <li className="mb-2">The oxidation number of each of the atoms in a molecule or compound is counted separately and their algebraic sum is zero e.g., In HCL, the sum of oxidation states of H and Cl atoms is zero. Similarly in CO,, the sum of oxidation states of one C and 2 oxygen atoms is zero.</li>
       </ol>

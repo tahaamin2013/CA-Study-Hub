@@ -42,7 +42,7 @@ const Page = () => {
 
       <h2 className="text-xl font-bold mt-6 mb-4">Activity 7.2</h2>
       <p className="mb-4">
-        Prepare an aqueous solution of potassium iodide and transfer it to a 10 cm<sup>3</sup> test tube. Add about 5 cm<sup>3</sup> of hydrogen peroxide to it. What&apos;'s going on? The solution turns reddish-brown, indicating the formation of iodine.
+        Prepare an aqueous solution of potassium iodide and transfer it to a 10 cm<sup>3</sup> test tube. Add about 5 cm<sup>3</sup> of hydrogen peroxide to it. What&apos;s going on? The solution turns reddish-brown, indicating the formation of iodine.
         <br />
         Potassium iodide is a reducing agent. Often used to test for the presence of oxidizing agents. When a potassium iodide solution is added to an acidified hydrogen peroxide solution, the solution turns reddish-brown. The appearance of this color is due to the formation of iodine (I<sub>2</sub>).
         <br />

@@ -5,7 +5,7 @@ const Page = () => {
     <div className="p-6 font-sans text-gray-800">
       <h1 className="text-2xl font-bold mb-4">7.3 FORMULA OF AN IONIC COMPOUND</h1>
       <p className="mb-4">
-        To determine the formula of an ionic compound from the ionic charges and oxidation numbers of the constituent ions, you must determine the simplest whole-number ratio of cations (positively charged ions) to anions (negatively charged ions) that results in a neutral compound. Ionic compounds are electrically neutral, meaning that the total positive charge of the cations is equal to the total negative charge of the anions. Let's go through step by step to derive the formula:
+        To determine the formula of an ionic compound from the ionic charges and oxidation numbers of the constituent ions, you must determine the simplest whole-number ratio of cations (positively charged ions) to anions (negatively charged ions) that results in a neutral compound. Ionic compounds are electrically neutral, meaning that the total positive charge of the cations is equal to the total negative charge of the anions. Let&apos;s go through step by step to derive the formula:
       </p>
 
       <h2 className="text-xl font-semibold mb-2">Example: Calcium chloride</h2>
