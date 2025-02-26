@@ -43,7 +43,7 @@ const Page = () => {
       <ol className="list-decimal list-inside mb-4">
         <li className="mb-2">The oxidation state of any uncombined or free elements is always zero e.g., oxidation state of Zn, Na, H in H,, S in S, etc is zero.</li>
         <li className="mb-2">In simple ions, oxidation state is same as their charge e.g., oxidation state of Na in Na"and Ca in Ca is +1 and +2 respectively.</li>
-        <li className="mb-2">In a complex ion the sum of oxidation states of atoms is equal to the charge on their ion. e.g., in CO,', the sum of oxidation states of C and 30 atoms is -2. Similarly, in NH,", the sum of oxidation states of N and 4H atoms is +1.</li>
+        <li className="mb-2">In a complex ion the sum of oxidation states of atoms is equal to the charge on their ion. e.g., in CO,&apos, the sum of oxidation states of C and 30 atoms is -2. Similarly, in NH,&quot;, the sum of oxidation states of N and 4H atoms is +1.</li>
         <li className="mb-2">The oxidation number of each of the atoms in a molecule or compound is counted separately and their algebraic sum is zero e.g., In HCL, the sum of oxidation states of H and Cl atoms is zero. Similarly in CO,, the sum of oxidation states of one C and 2 oxygen atoms is zero.</li>
       </ol>
 
@@ -85,7 +85,7 @@ const Page = () => {
 
       <h3 className="text-lg font-semibold mt-4 mb-2">Monoatomic ions and their oxidation numbers</h3>
       <p className="mb-4">
-        The oxidation number of a monatomic ion is equal to its charge. For example, Na' is formed after a Na atom has lost one electron to gain a +1 charge. So its oxidation number is +1. Similarly, a chlorine atom forms a Cl ion after gaining one electron to obtain a 1 charge. So its oxidation number is -1. The oxidation number of an atom is the number of electrons the atom has lost or gained. Because a monatomic ion is formed by the gain or loss of electrons from a single atom, its charge is equal to its oxidation number.
+        The oxidation number of a monatomic ion is equal to its charge. For example, Na&apos is formed after a Na atom has lost one electron to gain a +1 charge. So its oxidation number is +1. Similarly, a chlorine atom forms a Cl ion after gaining one electron to obtain a 1 charge. So its oxidation number is -1. The oxidation number of an atom is the number of electrons the atom has lost or gained. Because a monatomic ion is formed by the gain or loss of electrons from a single atom, its charge is equal to its oxidation number.
       </p>
 
       <h3 className="text-lg font-semibold mt-4 mb-2">Polyatomic ions and their oxidation numbers</h3>
@@ -95,12 +95,12 @@ const Page = () => {
 
       <h2 className="text-xl font-semibold mt-6 mb-2">7.2.3 Determining the Oxidation Number of an Atom in a Compound</h2>
       <p className="mb-4">
-        Let's see how to use rules discussed in section 7.2.2 to determine the oxidation number of an atom of an element in a compound.
+        Let&aposs see how to use rules discussed in section 7.2.2 to determine the oxidation number of an atom of an element in a compound.
       </p>
 
       <h3 className="text-lg font-semibold mt-4 mb-2">Example 7.3: Determining oxidation number</h3>
       <p className="mb-4">
-        Adevice called Breathalyzer is used by police to test a person's breath for alcohol. It contains an acidic solution of potassium dichromate K,Cr,O,. It is a strong oxidizing agent. Determine oxidation state of Cr in it.
+        Adevice called Breathalyzer is used by police to test a person&aposs breath for alcohol. It contains an acidic solution of potassium dichromate K,Cr,O,. It is a strong oxidizing agent. Determine oxidation state of Cr in it.
       </p>
       <h4 className="font-semibold mt-2 mb-2">Problem Solving Strategy:</h4>
       <p className="mb-4">
@@ -167,7 +167,7 @@ const Page = () => {
       <ol className="list-decimal list-inside mb-4">
         <li className="mb-2">S in sulphate ion, SO,</li>
         <li className="mb-2">P in phosphate ion, PO,</li>
-        <li className="mb-2">N in ammonium ion, NH,"</li>
+        <li className="mb-2">N in ammonium ion, NH,&quot;</li>
       </ol>
     </div>
   );

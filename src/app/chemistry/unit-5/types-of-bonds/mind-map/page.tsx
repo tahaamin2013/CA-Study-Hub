@@ -61,8 +61,14 @@ mindmapDiagram {
 * Ionic Bonds
 ** Formation
 *** Between two atoms
-*** One atom loses electron (Cation)
-*** Other atom gains electron (Anion)
+*** One atom loses electron to form cation (Electropositivity)
+**** In Metals
+***** Alkali Metals (Group 1)
+***** Alkaline Earth Metals (Group 2)
+***** Transition Metals (Groups 3-12)
+
+*** Other atom gains electron to form anion (Electronegativity)
+**** In Non-Metals
 ** Characteristics
 *** Strong electrostatic forces
 *** Attraction between opposite charges
