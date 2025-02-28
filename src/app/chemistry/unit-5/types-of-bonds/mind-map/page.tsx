@@ -63,25 +63,45 @@ mindmapDiagram {
 *** Between two atoms
 *** One atom loses electron to form cation (Electropositivity)
 **** In Metals
-***** Alkali Metals (Group 1)
-***** Alkaline Earth Metals (Group 2)
-***** Transition Metals (Groups 3-12)
-
+***** Alkali Metals IA (Group 1) → +1
+***** Alkaline Earth Metals IIA (Group 2) → +2
+***** Transition Metals IIIA (Groups 3-12) → +3
 *** Other atom gains electron to form anion (Electronegativity)
 **** In Non-Metals
+
+*** Neutral compound formation
+**** Balance of charges
+**** Simplest ratio needed
+
 ** Characteristics
 *** Strong electrostatic forces
 *** Attraction between opposite charges
 **** Positive metal ions
 **** Negative non-metal ions
+
 left side
 ** Ionic Compounds
 *** Formed by ions joined by electrostatic forces
 *** Electrically neutral
 **** Total positive charge equals total negative charge
 *** Contains both cations and anions
-@endmindmap
 
+** Example Compounds
+*** Sodium Chloride (NaCl)
+**** Components
+***** Na (metal)
+***** Cl (non-metal)
+**** Equation
+***** 2Na + Cl₂ → 2NaCl
+*** Magnesium Fluoride (MgF₂)
+**** Components
+***** Mg (metal)
+***** F (non-metal)
+**** Equation
+***** Mg + F₂ → MgF₂
+**** Ratio
+***** One Mg²⁺ to two F⁻
+@endmindmap
 `}
         />
 

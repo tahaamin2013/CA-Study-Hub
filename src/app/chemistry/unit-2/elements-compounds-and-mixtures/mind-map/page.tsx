@@ -11,20 +11,13 @@ const MagneticMindmap = () => {
 @startmindmap
 <style>
 mindmapDiagram {
-    node {
-        BackgroundColor lightGreen
-    }
-    :depth(1) {
-      BackgroundColor lightBlue
-    }
-    :depth(2) {
-      BackgroundColor pink
-    }
-    :depth(3) {
-      BackgroundColor lightyellow
-    }
+  node {
+    FontSize 14
+    FontStyle bold
+  }
 }
 </style>
+
 * Matter Classification
 ** Pure Substance
 *** Element
@@ -69,7 +62,6 @@ mindmapDiagram {
 ***** Sand and Iron Filings
 *** Physical combination of substances
 *** Particles have different chemical compositions
-left side
 ** Differences Between Compounds and Mixtures
 *** Composition
 **** Compounds: Fixed ratio of elements
