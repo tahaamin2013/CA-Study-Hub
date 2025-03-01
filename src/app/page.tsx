@@ -16,6 +16,7 @@ const data: Section[] = [
   { id: "2", link: "/physics", title: "Physics", color: "#45B7D1" },
   
   { id: "3", link: "/chemistry", title: "Chemistry", color: "#4ECDC4" },
+  { id: "3", link: "/principles-of-marketing", title: "Principles of Marketing", color: "#5F27CD" },
   {
     id: "1",
     link: "/modern-economic-theory",
@@ -33,6 +34,7 @@ const data: Section[] = [
   // { id: "4", link: "/pak-studies", title: "Pak Studies", color: "#F7B731" },
   { id: "8", link: "/mathematics", title: "Mathematics", color: "#FF9FF3" },
   { id: "6", link: "/english", title: "English", color: "#54A0FF" },
+  { id: "6", link: "/principles-of-marketing", title: "Principles of Marketing", color: "#54A0FF" },
   { id: "7", link: "/urdu", title: "Urdu", color: "#5F27CD" },
   {
     id: "1",

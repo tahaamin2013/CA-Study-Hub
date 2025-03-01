@@ -496,7 +496,7 @@ mindmapDiagram {
 **** Two O-H single bonds
 **** Complete octet for O
 **** Complete duplet for H
-**** Four lone pairs on O
+**** Two lone pairs on O
 left side
 ** Draw electron cross and dot structures
 *** Ammonia (NH₃)
