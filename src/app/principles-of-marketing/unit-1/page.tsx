@@ -639,7 +639,7 @@ mindmapDiagram {
 **** Colleges
 **** Hospitals
 **** Museums
-**** Symphony orchestras
+**** Symphony orchestras v
 **** Churches
 ** Marketing Forms
 *** Traditional forms

@@ -89,6 +89,18 @@ const data = [
             { href: "/chemistry/unit-5/metallic-bonds/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
+    {
+        id: "7",
+        title: "Chapter Rownd Up",
+        links: [
+            { href: "/chemistry/unit-5/round-up/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-5/round-up/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-5/round-up/mind-map", text: "MIND MAP", icon: Brain },
+            { href: "/chemistry/unit-5/round-up/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-5/round-up/textbook-questions", text: "TEXTBOOK QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-5/round-up/short-response-questions", text: "SHORT RESPONSE QUESTIONS", icon: List },
+        ],
+    },
 ];
 
 
