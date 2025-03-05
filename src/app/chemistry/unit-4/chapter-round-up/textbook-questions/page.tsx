@@ -17,13 +17,13 @@ const Page = () => {
           <br />
           OR
           <br />
-          How is the modern periodic table different from Mendeleev's periodic table?
+          How is the modern periodic table different from Mendeleev&apos;s periodic table?
         </li>
         <li>Discuss Modern Periodic Table or Long form of periodic table.</li>
         <li>Define periods. How many periods are there in the long form of the periodic table?</li>
         <li>What do you mean by group? Explain different groups of the periodic table.</li>
         <li>Write names of some groups in the periodic table.</li>
-        <li>Write the order in which the orbitals fill up according to Aufbau's principle.</li>
+        <li>Write the order in which the orbitals fill up according to Aufbau&apos;s principle.</li>
         <li>Write the maximum number of electrons accommodated in s-orbital, p-orbital, d-orbital, and f-orbital.</li>
         <li>Discuss the position of different blocks of the elements in the periodic table.</li>
         <li>Write down rules for determining the period of an element and the group of an element.</li>
@@ -32,12 +32,12 @@ const Page = () => {
           elements in the periods of the periodic table.
         </li>
         <li>Define periods and groups.</li>
-        <li>What was Dobereiner's contribution towards the classification of elements?</li>
-        <li>State Mendeleev's periodic law.</li>
+        <li>What was Dobereiner&apos;s contribution towards the classification of elements?</li>
+        <li>State Mendeleev&apos;s periodic law.</li>
         <li>Why and how are elements arranged in a period?</li>
         <li>How did Newlands arrange the elements?</li>
         <li>What is the periodic law? And who introduced the name "Periodic Table"?</li>
-        <li>Why was an improvement made in Mendeleev's periodic table?</li>
+        <li>Why was an improvement made in Mendeleev&apos;s periodic table?</li>
         <li>How many elements are placed in the 4th period?</li>
         <li>From which element does the lanthanide series start?</li>
         <li>From which period does the actinide series start?</li>
@@ -250,8 +250,8 @@ const Page = () => {
         <li>What are noble gases? Discuss their same characters.</li>
         <li>Write down a comparison of general properties of metals and non-metals.</li>
         <li>Why do elements in the same group have similar chemical properties?</li>
-        <li>How does the valence electron configuration affect an element's chemical behavior?</li>
-        <li>What role does the outermost shell play in determining an element's reactivity?</li>
+        <li>How does the valence electron configuration affect an element&apos;s chemical behavior?</li>
+        <li>What role does the outermost shell play in determining an element&apos;s reactivity?</li>
         <li>How do similar valence electrons lead to similar types of chemical bonds?</li>
         <li>
           In what way does electronic configuration influence the formation of ions by elements in the same group?

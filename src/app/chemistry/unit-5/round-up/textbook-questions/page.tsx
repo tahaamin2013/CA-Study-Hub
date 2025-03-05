@@ -96,7 +96,7 @@ const ChemicalBondsQuestions = () => {
           <br />
           (a) CH<sub>4</sub>, a major component of natural gas.
           <br />
-          (b) H<sub>2</sub>O, which covers about 80% of the Earth's crust.
+          (b) H<sub>2</sub>O, which covers about 80% of the Earth&apos;s crust.
         </li>
         <li>
           Draw electron cross and dot structures for the following molecules:

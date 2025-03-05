@@ -77,7 +77,7 @@ const ShortResponseQuestions = () => {
           <br />
           a) Explain why both diamond and graphite have high melting points.
           <br />
-          b) Explain why graphite is used in pencil 'leads' for writing.
+          b) Explain why graphite is used in pencil &apos;leads&apos; for writing.
           <br />
           c) Explain why diamond is used on the tips of high-speed drills.
         </li>

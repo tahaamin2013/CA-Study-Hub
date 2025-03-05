@@ -18,7 +18,7 @@ const page = () => {
 (b) 3p, 2p <br />
 (c) 3s, 4s 
 </p>
-<p>8. Draw Bohr's model for the following atoms indicating the location for electron, protons and neutrons. </p>
+<p>8. Draw Bohr&apos;s model for the following atoms indicating the location for electron, protons and neutrons. </p>
 <p>
 (a) Potassium (Atomic No 19, Mass No 39) <br /> 
 (b) Silicon (Atomic No.14, Mass No 28)  <br />
@@ -81,7 +81,7 @@ const page = () => {
 
 </p>
 <p>
-9: Compare and contrast the concepts of nucleon number and atomic mass in the context of an atom's composition. 
+9: Compare and contrast the concepts of nucleon number and atomic mass in the context of an atom&apos;s composition. 
 
 </p>
 <p>

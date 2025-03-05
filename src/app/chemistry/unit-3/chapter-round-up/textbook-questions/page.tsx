@@ -8,16 +8,16 @@ const page = () => {
 <p className='mb-5'>
 Q2: What do you know about Dalton atomic theory? 
 OR <br />
-Write down the main postulates of Dalton's Atomic Theory. 
+Write down the main postulates of Dalton&apos;s Atomic Theory. 
 OR  <br />
-Why Dalton's atomic theory is considered as a base for modern atomic concepts.
+Why Dalton&apos;s atomic theory is considered as a base for modern atomic concepts.
 </p>
 
 
 <p className='mb-5'>
-Q3: Give an account of the experiment that led Rutherford to conclude that every atom has a positively charged nucleus that occupies a very small volume. What were the drawbacks of Rutherford's nuclear model of the atom? (Cantab Exercise Question) 
+Q3: Give an account of the experiment that led Rutherford to conclude that every atom has a positively charged nucleus that occupies a very small volume. What were the drawbacks of Rutherford&apos;s nuclear model of the atom? (Cantab Exercise Question) 
 OR <br />
-Summarize Rutherford's model of an atom and explain how he developed this model based on the results of his famous gold-foil experiment. 
+Summarize Rutherford&apos;s model of an atom and explain how he developed this model based on the results of his famous gold-foil experiment. 
 OR  <br />
 Discuss Rutherford gold metal foil experiment in the light of structure of atom 
 OR  <br />
@@ -28,18 +28,18 @@ OR <br />
 How Rutherford discovered that atom has a nucleus located at the centre of the atom?
 </p>
 <p className='mb-5'>
-Q4: State the postulates of Bohr's theory of the hydrogen atom. Write an expression for the nth orbit of a hydrogen atom. Also, write an expression for the radius of any orbit in the atom? 
+Q4: State the postulates of Bohr&apos;s theory of the hydrogen atom. Write an expression for the nth orbit of a hydrogen atom. Also, write an expression for the radius of any orbit in the atom? 
 Cantab Exercise Question) 
 OR  <br />
-State the postulates which Bohr suggested to overcome the shortcomings of the Rutherford's atomic model. 
+State the postulates which Bohr suggested to overcome the shortcomings of the Rutherford&apos;s atomic model. 
 OR <br />
-Explain how Bohr's atomic theory differed from Rutherford's atomic theory? 
+Explain how Bohr&apos;s atomic theory differed from Rutherford&apos;s atomic theory? 
 OR <br />
 How did Bohr proved that an atom must exist? 
 OR <br />
 Explain how Bohr helped in understanding the structure of atoms? 
 OR <br />
-Explain how Bohr's atomic model is different from Rutherford atomic model? 
+Explain how Bohr&apos;s atomic model is different from Rutherford atomic model? 
 </p>
 <p className='mb-5'>
 Q5: How can Bohr's atomic model be applied to hydrogen atom to calculate the radius and energy of shell? 
@@ -65,7 +65,7 @@ Q10: Explore the concept of nuclear force including binding of proton, neutron a
 
 </p>
 <p className='mb-5'>
-Q11: What are the limitations of Bohr's atomic model? 
+Q11: What are the limitations of Bohr&apos;s atomic model? 
 
 </p>
 <p className='mb-5'>
@@ -109,7 +109,7 @@ Q20: Define isotopes. Discuss isotopes of Hydrogen, Carbon, Chlorine, and Uraniu
 
 </p>
 <p className='mb-5'>
-Q21: How does the discovery of isotopes contradicted Dalton's atomic theory? 
+Q21: How does the discovery of isotopes contradicted Dalton&apos;s atomic theory? 
 
 </p>
 <p className='mb-5'>
