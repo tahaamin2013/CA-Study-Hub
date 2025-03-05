@@ -49,7 +49,7 @@ const ChemistryQuestions = () => {
 
       <h2>Q7: Write the procedures for writing chemical formula and name of binary ionic compounds.</h2>
 
-      <h2>Q8: Discuss the concept of mole and Avogadro's number.</h2>
+      <h2>Q8: Discuss the concept of mole and Avogadro&apos;s number.</h2>
 
       <h2>Q9: Write the difference between the terms gram atomic mass, gram molecular mass, and gram formula mass.</h2>
 

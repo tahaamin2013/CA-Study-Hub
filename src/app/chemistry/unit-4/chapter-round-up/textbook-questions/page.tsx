@@ -36,7 +36,7 @@ const Page = () => {
         <li>State Mendeleev&apos;s periodic law.</li>
         <li>Why and how are elements arranged in a period?</li>
         <li>How did Newlands arrange the elements?</li>
-        <li>What is the periodic law? And who introduced the name "Periodic Table"?</li>
+        <li>What is the periodic law? And who introduced the name &quot;Periodic Table&quot;?</li>
         <li>Why was an improvement made in Mendeleev&apos;s periodic table?</li>
         <li>How many elements are placed in the 4th period?</li>
         <li>From which element does the lanthanide series start?</li>

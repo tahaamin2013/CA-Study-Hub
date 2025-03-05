@@ -17,7 +17,7 @@ const ShortResponseQuestions = () => {
 
       <h2>6. Define ion, molecular ion, formula unit, free radical, atomic number, mass number, atomic mass unit.</h2>
 
-      <h2>7. Describe how Avogadro's number is related to a mole of any substance.</h2>
+      <h2>7. Describe how Avogadro&apos;s number is related to a mole of any substance.</h2>
 
       <h2>8. Calculate the number of moles of each substance in samples with the following masses:</h2>
 
@@ -63,7 +63,7 @@ const ShortResponseQuestions = () => {
 
       <h3>6. If a reaction produces 5 moles of a product with a molar mass of 20 g/mol, calculate the mass of the product formed.</h3>
 
-      <h3>7. How is Avogadro's number used to relate the number of particles to the number of moles in a given sample? Provide an example for better understanding.</h3>
+      <h3>7. How is Avogadro&apos;s number used to relate the number of particles to the number of moles in a given sample? Provide an example for better understanding.</h3>
 
       <h3>8. Calculate the molar mass of NaCl and determine the number of moles present in 58.5 grams of sodium chloride.</h3>
 
