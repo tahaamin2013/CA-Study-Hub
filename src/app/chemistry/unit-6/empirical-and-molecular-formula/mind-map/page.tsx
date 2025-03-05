@@ -19,12 +19,12 @@ const MagneticMindmap = () => {
 *** Define empirical formula
 *** Deduce formulas and names of binary compounds
 *** Calculate moles, mass, molar mass
-*** Define mole and Avogadro&apos;s constant
+*** Define mole and Avogadro's constant
 *** Construct chemical equations
 ** Introduction
 *** Historical context
 **** Ancient Greek philosophy
-**** John Dalton&apos;s atomic theory
+**** John Dalton's atomic theory
 **** 20th century atomic structure
 ** Empirical Formula
 *** Definition
@@ -39,6 +39,7 @@ const MagneticMindmap = () => {
 **** Hydrogen peroxide (H2O2)
 **** Glucose (C6H12O6)
 **** Benzene (C6H6)
+left side
 ** Relationship between Formulas
 *** Sometimes identical
 **** Water (H2O)
@@ -61,6 +62,148 @@ const MagneticMindmap = () => {
 *** Caffeine formula
 @endmindmap`}
         />
+
+        <PlantUMLDiagram code={
+          `@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **INTRODUCTION**
+** **1. Ancient Greek Philosophers**
+*** **Elemental Substance Theory**  
+**** Some believed everything was made of **water**  
+**** Others thought it was **air**  
+**** Some believed in **four elemental substances**  
+** **2. 19th Century - John Dalton**  
+*** **Proposed Atomic Theory**  
+*** Led to **rapid progress in chemistry**  
+** **3. 20th Century - Advanced Atomic Model**  
+*** Observations showed **need for a new atomic theory**  
+*** **Atoms have a complex internal structure**  
+** **4. Purpose of this Chapter**
+*** **Understanding Matter**  
+*** Learning **basic definitions** for **Grade XI**
+@endmindmap
+`
+        } />
+
+          <PlantUMLDiagram code={
+            `
+              @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **Chemical Formulas**
+** **1. Definition**
+*** Shows **elements in a compound**  
+*** Indicates **whole number ratio** of atoms  
+** **2. Components of a Chemical Formula**
+*** **Elemental Symbols** - Represent elements  
+*** **Numerical Subscripts** - Indicate number of atoms  
+** **3. Types of Chemical Formulas**
+*** **Empirical Formula**
+**** **1. Definition**
+***** Simplest **integer ratio** of atoms of each element in a compound  
+**** **2. Example: Hydrogen Peroxide (H₂O₂)**
+***** **H:O ratio** = **1:1**  
+***** Empirical formula = **HO**  
+**** **3. Example: Glucose (C₆H₁₂O₆)**
+***** **C:H:O ratio** = **1:2:1**  
+***** Empirical formula = **CH₂O**
+*** **Molecular Formula**
+**** **1. Definition**
+***** Specifies the **actual number** of atoms in a molecule  
+***** Shows the **exact composition** of a compound  
+**** **2. Examples**
+***** Hydrogen Peroxide → **H₂O₂**  
+***** Glucose → **C₆H₁₂O₆**  
+***** Benzene → **C₆H₆**  
+***** Water → **H₂O**  
+***** Carbon Dioxide → **CO₂**  
+**** **3. Empirical vs Molecular Formula**
+***** **Empirical formula** shows the **simplest ratio**  
+***** **Molecular formula** shows the **exact number of atoms**  
+***** Examples:
+****** **Benzene (C₆H₆)** → Empirical formula = **CH**  
+****** **Glucose (C₆H₁₂O₆)** → Empirical formula = **CH₂O**  
+****** **Water (H₂O)** → Same for both  
+****** **Carbon Dioxide (CO₂)** → Same for both  
+
+@endmindmap
+            `
+          } />
+
+          <PlantUMLDiagram code={`
+              @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **Formulae of Elements and Compounds**
+** **1. Elements and Their Formulae**
+*** Hydrogen → **H₂**
+*** Oxygen → **O₂**
+*** Nitrogen → **N₂**
+*** Fluorine → **F₂**
+*** Chlorine → **Cl₂**
+*** Bromine → **Br₂**
+** **2. Compounds and Their Formulae**
+*** Water → **H₂O**
+*** Carbon Dioxide → **CO₂**
+*** Hydrochloric Acid → **HCl**
+*** Sodium Hydroxide → **NaOH**
+*** Copper (II) Sulphate → **CuSO₄**
+*** Glucose → **C₆H₁₂O₆**
+** **3. Concept Assessment Exercises**
+*** **Exercise 6.1: Empirical Formula Calculation**
+**** **(a)** Carbon:Hydrogen = **1:4** → **CH₄**
+**** **(b)** Carbon:Hydrogen = **2:6** → **CH₃**
+**** **(c)** Carbon:Hydrogen = **2:2** → **CH**
+**** **(d)** Carbon:Hydrogen = **6:6** → **CH**
+*** **Exercise 6.2: Empirical and Molecular Formulas**
+**** **Aspirin (C₉H₈O₄)**
+***** **Empirical Formula** → **C₉H₈O₄**
+***** **Molecular Formula** → **C₉H₈O₄**
+**** **Acetic Acid (C₂H₄O₂)**
+***** **Empirical Formula** → **CH₂O**
+***** **Molecular Formula** → **C₂H₄O₂**
+**** **Caffeine (C₈H₁₀N₄O₂)**
+***** **Empirical Formula** → **C₄H₅N₂O**
+@endmindmap
+            `} />
+
       </section>
 
       <div className="p-6 bg-white text-gray-900 border border-gray-200 rounded-lg shadow-md">

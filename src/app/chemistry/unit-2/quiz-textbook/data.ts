@@ -23,7 +23,7 @@ export const quiz = {
       id: 4,
       question: "Matter can be described by both its",
       answers: ["(a) physical properties and chemical properties", "(b) Physical Properties ", "(c) Chemical Properties", "(d) Colligative Properties"],
-      correctAnswer: "(a) physical properties and chemical properties ",
+      correctAnswer: "(a) physical properties and chemical properties",
     },
     {
       id: 5,
@@ -53,7 +53,7 @@ export const quiz = {
       id: 9,
       question: "A material exhibits fluidity like a liquid but can be oriented in specific directions like a solid. This behavior is most likely characteristic of ",
       answers: ["(a) Plasma", "(b) Bose-Einstein condensate", "(c) Liquid crystal ", "(d) Neutron star"],
-      correctAnswer: "(c) Liquid crysta",
+      correctAnswer: "(c) Liquid crystal",
     },
     {
       id: 10,
