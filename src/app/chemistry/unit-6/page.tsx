@@ -89,6 +89,18 @@ const data = [
             { href: "/chemistry/unit-6/molecular-and-structural-formula/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
+    {
+        id: "8",
+        title: "Chapter Rownd Up",
+        links: [
+            { href: "/chemistry/unit-6/chapter-roundup/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-6/chapter-roundup/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-6/chapter-roundup/mind-map", text: "MIND MAP", icon: Brain },
+            { href: "/chemistry/unit-6/chapter-roundup/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-6/chapter-roundup/textbook-questions", text: "TEXT QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-6/chapter-roundup/short-questions", text: "SHORT RESPONSE QUESTIONS", icon: List },
+        ],
+    },
 ];
 
 
