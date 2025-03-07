@@ -165,7 +165,7 @@ const ShortResponseQuestions = () => {
 
           {/* Question 21 */}
           <div>
-            <p className="font-semibold">21: Analyze the following statement: "The sum of oxidation numbers in a polyatomic ion is always equal to the charge on the ion." Explain why this statement is true.</p>
+            <p className="font-semibold">21: Analyze the following statement: &quot;The sum of oxidation numbers in a polyatomic ion is always equal to the charge on the ion.&quot; Explain why this statement is true.</p>
           </div>
 
           {/* Question 22 */}
@@ -180,7 +180,7 @@ const ShortResponseQuestions = () => {
 
           {/* Question 24 */}
           <div>
-            <p className="font-semibold">24: Define the term "corrosion" and provide examples of methods used to prevent corrosion, mentioning both barrier methods and sacrificial protection.</p>
+            <p className="font-semibold">24: Define the term &quot;corrosion&quot; and provide examples of methods used to prevent corrosion, mentioning both barrier methods and sacrificial protection.</p>
           </div>
 
           {/* Question 25 */}

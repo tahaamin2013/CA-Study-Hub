@@ -50,7 +50,7 @@ const ChemistryPage = () => {
               <li>P in phosphate ion, PO<sub>4</sub><sup>3-</sup></li>
               <li>Let oxidation number of P = X</li>
             </ol>
-            <p>A device called breathalyzer is used by police to test a person's breath for alcohol. It contains an acidic solution of potassium dichromate K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>. It is a strong oxidizing agent. Determine oxidation state of Cr in it.</p>
+            <p>A device called breathalyzer is used by police to test a person&apos;s breath for alcohol. It contains an acidic solution of potassium dichromate K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>. It is a strong oxidizing agent. Determine oxidation state of Cr in it.</p>
             <p>Boric acid H<sub>3</sub>BO<sub>3</sub> is used in eye wash. What is the oxidation state of B in this acid?</p>
             <p>What is the oxidation number of C in carbonate ion, CO<sub>3</sub><sup>2-</sup>?</p>
           </div>
