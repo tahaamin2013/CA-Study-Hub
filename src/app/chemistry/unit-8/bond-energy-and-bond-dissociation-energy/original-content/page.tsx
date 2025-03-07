@@ -30,11 +30,12 @@ const BondEnergy = () => {
           </ol>
         </p>
         <pre className="bg-gray-100 p-4 rounded mb-4">
-          ΔH° = Sum of bond dissociation energies of reactants - Sum of bond energies of products
-          ΔH° = [B.E of H-H + B.E. of I-I] - [2 × B.E of H-I]
-          ΔH° = [436 + 151] - [2 × 299]
-          ΔH° = 587 - 598
-          ΔH° = -11 kJ/mol
+          ΔH° = Sum of bond dissociation energies of reactants - Sum of bond energies of products <br />
+          ΔH° = [B.E of H-H + B.E. of I-I] - [2 × B.E of H-I] <br />
+          ΔH° = [436 + 151] - [2 × 299] <br />
+          ΔH° = 587 - 598 <br />
+          ΔH° = -11 kJ/mol <br />Reaction Progress with Time
+
         </pre>
         <p className="mb-4">
           Note that the enthalpy of reaction calculated using bond energy data is often different from values determined experimentally.

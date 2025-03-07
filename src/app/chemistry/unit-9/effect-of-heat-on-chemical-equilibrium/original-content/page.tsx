@@ -41,22 +41,7 @@ const EffectOfHeatOnChemicalEquilibriumPage = () => {
                 CoCl<sub>2</sub>.6H<sub>2</sub>O (pink solid) &rarr; CoCl<sub>2</sub> (blue solid) + 6H<sub>2</sub>O
             </p>
 
-            <h3 className="text-lg font-semibold mb-2">KEY POINTS</h3>
-            <ul className="list-disc list-inside mb-4">
-                <li>A reaction in which the products can react together to re-form the original reactants is called a reversible reaction.</li>
-                <li>A reversible reaction is shown by the symbol &rarr;.</li>
-                <li>Anhydrous copper(ll) sulphate is a white solid.</li>
-                <li>Hydrated copper(ll) sulphate is a blue solid.</li>
-                <li>Anhydrous cobalt (ll) chloride is a blue solid.</li>
-                <li>Hydrated cobalt(ll) chloride is a pink solid.</li>
-                <li>A state of a chemical reaction in which forward and reverse reactions take place at the same rate is called chemical equilibrium.</li>
-            </ul>
-
-            <h3 className="text-lg font-semibold mb-2">References for additional information</h3>
-            <ul className="list-disc list-inside mb-4">
-                <li>Chemistry, Roger Norris, Lawrie Ryan, and David Acaster.</li>
-                <li>Principles of chemical equilibrium, Kenneth Denbigh.</li>
-            </ul>
+         
         </div>
     );
 };

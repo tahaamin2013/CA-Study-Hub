@@ -32,30 +32,7 @@ const OxidesAndHydroxides = () => {
                 </p>
             </section>
 
-            <section className="mb-6">
-                <h3 className="text-lg font-semibold mb-4">KEY POINTS</h3>
-                <ul className="list-disc pl-6 mb-4">
-                    <li className="mb-2">According to Arrhenius theory, an acid is a substance that ionizes in water to produce H⁺ ions, and a base is a substance that ionizes in water to produce OH⁻ ions.</li>
-                    <li className="mb-2">A Bronsted-Lowry acid is a proton donor and a base is a proton acceptor.</li>
-                    <li className="mb-2">A strong acid completely dissociates in aqueous solution, and a weak acid dissociates partially in aqueous solution.</li>
-                    <li className="mb-2">A strong base completely dissociates in aqueous solution, and a weak base dissociates partially in aqueous solution.</li>
-                    <li className="mb-2">Bases are oxides and hydroxides of metals.</li>
-                    <li className="mb-2">Alkalis are water-soluble bases.</li>
-                    <li className="mb-2">Acids neutralize bases to form salt and water.</li>
-                    <li className="mb-2">Acids decompose carbonates to form salt, water, and carbon dioxide.</li>
-                    <li className="mb-2">Acids corrode metals and form salt and hydrogen.</li>
-                </ul>
-            </section>
-
-            <section className="mb-6">
-                <h3 className="text-lg font-semibold mb-4">References for Additional Information</h3>
-                <ul className="list-disc pl-6 mb-4">
-                    <li className="mb-2">Longman Chemistry for IGCSE.</li>
-                    <li className="mb-2">IGCSE Chemistry.</li>
-                    <li className="mb-2">Cambridge IGCSE Chemistry.</li>
-                    <li className="mb-2">Theories of Acids and Base Chemiguide.</li>
-                </ul>
-            </section>
+       
         </div>
     );
 };

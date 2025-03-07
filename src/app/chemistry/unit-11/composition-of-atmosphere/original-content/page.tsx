@@ -73,7 +73,6 @@ const EnvironmentalChemistry = () => {
             <p className="mb-4">Other gases</p>
             <p className="mb-4">0.00003</p>
 
-            <h2 className="text-xl font-semibold mb-4">Chemistry</h2>
             <p className="mb-4">
                 Besides gases, there are varying amounts of water vapour in the air. There is little water in the air ver the desert
                 amounts in the tropical rainforest, the air may contain little water in the air This means the amount of water vapour

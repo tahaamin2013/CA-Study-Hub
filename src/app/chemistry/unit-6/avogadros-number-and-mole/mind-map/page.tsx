@@ -109,7 +109,7 @@ mindmapDiagram {
 
             <PlantUMLDiagram code={
                 `
-                    @startmindmap
+@startmindmap
 <style>
 mindmapDiagram {
     node {
@@ -123,23 +123,38 @@ mindmapDiagram {
     }
 }
 </style>
+* Difference Between Gram Atomic Mass, Gram Molecular Mass & Gram Formula Mass
+** Definition
+*** Gram Atomic Mass → One mole of atoms of an element
+**** Hydrogen (H) → 1 g/mol
+**** Oxygen (O) → 16 g/mol
+**** Calcium (Ca) → 40 g/mol
+*** Gram Molecular Mass → One mole of molecules of a compound or molecular element
+**** Oxygen Gas (O₂) → 32 g/mol
+**** Water (H₂O) → 18 g/mol
+**** Carbon Dioxide (CO₂) → 44 g/mol
 
-* **Difference Between Gram Atomic Mass, Gram Molecular Mass & Gram Formula Mass**
-** **Definition**
-*** **Gram Atomic Mass** → One mole of atoms of an element
-*** **Gram Molecular Mass** → One mole of molecules of a compound or molecular element
-*** **Gram Formula Mass** → One mole of ionic formula units of a compound
-** **Number of Particles**
-*** **Gram Atomic Mass** → Contains **6.022 × 10²³ atoms**
-*** **Gram Molecular Mass** → Contains **6.022 × 10²³ molecules**
-*** **Gram Formula Mass** → Contains **6.022 × 10²³ formula units**
-** **Molar Mass**
-*** **All three** represent molar mass
-*** **Definition:** Mass of **one mole** of a substance in grams
-*** **Mole Representation:** 
-**** **Atomic mass**, **Molecular mass**, or **Formula mass** expressed in grams
+*** Gram Formula Mass → One mole of ionic formula units of a compound
+**** Sodium Chloride (NaCl) → 58.5 g/mol
+**** Calcium Carbonate (CaCO₃) → 100 g/mol
+**** Magnesium Sulfate (MgSO₄) → 120 g/mol
 
+*** Formula Unit → The **smallest** whole-number ratio of ions in an **ionic compound**
+**** Example: **NaCl** (Sodium Chloride) consists of Na⁺ and Cl⁻ in a 1:1 ratio
+**** Example: **CaCO₃** (Calcium Carbonate) consists of Ca²⁺ and CO₃²⁻ in a 1:1 ratio
+
+** Number of Particles
+*** Gram Atomic Mass → Contains **6.022 × 10²³ atoms**
+*** Gram Molecular Mass → Contains **6.022 × 10²³ molecules**
+*** Gram Formula Mass → Contains **6.022 × 10²³ formula units**
+
+** Molar Mass
+*** All three represent molar mass
+*** Definition: Molar Mass is mass of **one mole** of a substance in grams
+*** Mole Representation:
+**** Atomic mass, Molecular mass, or Formula mass expressed in grams
 @endmindmap
+
                 `
             } />
       </section>

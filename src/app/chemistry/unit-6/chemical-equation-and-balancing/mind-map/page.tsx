@@ -7,55 +7,148 @@ const MagneticMindmap = () => {
     <div className="p-8 flex flex-col gap-8">
       <section>
         <h1 className="text-4xl font-bold text-blue-500">
-        Chemical Equations and Balancing        </h1>
+        Chemical Equations and Balancing</h1>
         <PlantUMLDiagram
           code={`
 @startmindmap
-*[#LightBlue] Chemical Equations and Balancing
-** Definition
-*** Symbolic representation of a chemical reaction
-*** Reactants → Products
-** Writing Chemical Equations
-*** Step 1: Word equation
-*** Step 2: Symbols and formulae
-**** Physical states in parentheses
-***** (s) for solid
-***** (l) for liquid
-***** (g) for gas
-***** (aq) for aqueous
-*** Example: Burning of Coal
-**** C + O2 → CO2
-** Balancing Chemical Equations
-*** Principle
-**** Number of atoms remains the same
-**** Same number of each atom type on both sides
-*** Steps for Balancing
-**** Balance one element at a time
-**** Use coefficients, not subscripts
-**** Start with the lowest coefficient
-*** Example: CH4 + O2 → CO2 + H2O
-**** Step 1: Balance H atoms
-**** Step 2: Balance O atoms
-**** Step 3: Check final equation
-** Ionic Equations
-*** Definition
-**** Substances in water written as individual ions
-*** Steps
-**** Write dissociated forms of soluble substances
-**** Remove spectator ions
-**** Write net ionic equation
-*** Example
-**** HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(l)
-**** Net: H+(aq) + OH-(aq) → H2O(l)
-** Concept Assessment Exercises
-*** Writing chemical equations
-**** Burning of hydrogen
-**** Burning of magnesium
-*** Transforming to ionic equations
-**** AgNO3 + NaCl reaction
-**** Zn + HCl reaction
-@endmindmap`}
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **Chemical Equation and Balancing**
+** **Definition**
+*** **Chemical Equation** = Symbolic representation of a chemical reaction
+*** **Reactants** → **Substances that start the reaction**
+*** **Products** → **Substances formed in the reaction**
+*** **Arrow (→)** shows the direction of the chemical change
+** **Steps to Write a Chemical Equation**
+*** **Step 1: Identify Reactants & Products**
+    **** Write a **word equation** (Reactants → Products)
+*** **Step 2: Use Chemical Symbols**
+    **** Replace words with **symbols & formulae**
+    **** Indicate **physical states**:
+    ***** (s) = Solid
+    ***** (l) = Liquid
+    ***** (g) = Gas
+    ***** (aq) = Aqueous solution
+** **Example 6.11: Burning of Coal**
+*** **Word Equation:** Coal + Oxygen → Carbon Dioxide
+*** **Symbolic Equation:** C + O₂ → CO₂
+** **Concept Assessment Exercise 6.6**
+*** **1. Burning of Hydrogen**
+    **** H₂ + O₂ → H₂O
+*** **2. Burning of Magnesium**
+    **** Mg + O₂ → MgO
+@endmindmap
+`}
         />
+
+            <PlantUMLDiagram code={`
+                @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **Balancing a Chemical Equation**
+** **Basic Principle**
+*** Chemical reaction **only rearranges atoms**, it does not create or destroy them
+*** **Balanced Equation** → Number of atoms of each type must be equal on both sides
+** **Example 1: Already Balanced Reaction**
+*** **Reactants:** C + O₂
+*** **Products:** CO₂
+*** **Atom Count:**
+    **** C-atoms: 1 (Reactants) = 1 (Products)
+    **** O-atoms: 2 (Reactants) = 2 (Products)
+*** ✅ This equation is already balanced
+** **Example 2: Unbalanced Reaction**
+*** **Reactants:** CH₄ + O₂
+*** **Products:** CO₂ + H₂O
+*** **Atom Count (Before Balancing)**
+    **** C-atoms: 1 (Reactants) = 1 (Products) ✅
+    **** H-atoms: 4 (Reactants) ≠ 2 (Products) ❌
+    **** O-atoms: 2 (Reactants) ≠ 3 (Products) ❌
+** **Steps to Balance**
+*** **Step 1: Balance Hydrogen (H)**
+    **** Add **coefficient 2** before H₂O
+    **** CH₄(g) + O₂(g) → CO₂(g) + **2H₂O**
+*** **Step 2: Balance Oxygen (O)**
+    **** Now O-atoms: **2 (Reactants) ≠ 4 (Products)** ❌
+    **** Add **coefficient 2** before O₂
+    **** CH₄(g) + **2O₂(g)** → CO₂(g) + 2H₂O
+*** **Step 3: Verify**
+    **** C-atoms: 1 = 1 ✅
+    **** H-atoms: 4 = 4 ✅
+    **** O-atoms: 4 = 4 ✅
+    **** **Equation is now balanced!** 🎯
+@endmindmap
+              `} />
+
+<PlantUMLDiagram code={
+    `
+    @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **Exploring Ionic Equations**
+** Definition
+*** A chemical equation where substances dissolved in water are written as individual ions
+** Example Process
+*** Original Equation
+**** HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(l)
+*** Step 1: Write soluble substances in dissociated form
+**** H+(aq) + Cl-(aq) + Na+(aq) + OH-(aq) → Na+(aq) + Cl-(aq) + H2O(l)
+*** Step 2: Remove spectator ions
+**** Spectator ions: Na+(aq) and Cl-(aq)
+**** These ions appear on both sides and don't participate in the reaction
+*** Step 3: Write net ionic equation
+**** H+(aq) + OH-(aq) → H2O(l)
+** **Example 6.12: Magnesium and Sulfuric Acid**
+*** **Molecular Equation:**  
+    **** Mg + H₂SO₄ → MgSO₄ + H₂
+*** **Ionic Equation:**  
+    **** Mg(s) + 2H⁺(aq) + SO₄²⁻(aq) → Mg²⁺(aq) + SO₄²⁻(aq) + H₂(g)
+*** **Net Ionic Equation:**  
+    **** Remove spectator ion (SO₄²⁻)
+    **** Mg + 2H⁺ → Mg²⁺ + H₂
+** **Concept Assessment Exercise 6.7**
+*** Transform into Ionic Equations:
+    **** 1. **AgNO₃ + NaCl → AgCl + NaNO₃**
+    **** 2. **Zn + 2HCl → ZnCl₂ + H₂**
+@endmindmap
+`
+} />
+
       </section>
 
       <div className="p-6 bg-white text-gray-900 border border-gray-200 rounded-lg shadow-md">

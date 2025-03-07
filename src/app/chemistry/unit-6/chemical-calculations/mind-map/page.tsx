@@ -10,52 +10,114 @@ const MagneticMindmap = () => {
         Chemical Calculations        </h1>
         <PlantUMLDiagram
           code={`
-@startmindmap
-*[#LightBlue] Chemical Calculations
-** Mole-Mass Calculations
-*** Calculating molar mass
-**** Elements (metals)
-**** Molecular substances
-**** Examples
-***** Na: 23 g/mol
-***** N2: 28 g/mol
-***** C12H22O11: 342 g/mol
-*** Mass from moles
-**** Example: Ozone in thunderstorms
-***** 9.05 moles O3 = 434.4 g
-**** Example: CO2 from burning natural gas
-***** 0.25 moles CO2 = 11 g
-*** Moles from mass
-**** Example: Hydrogen in balloon
-***** 5 g H2 = 2.48 moles
-**** Example: Ice block
-***** 100 g H2O = 5.55 moles
-** Mole-Particles Calculations
-*** Atoms from moles
-**** Example: Zinc
-***** 1.25 moles Zn = 7.53 x 10^23 atoms
-**** Example: Aluminum foil
-***** 0.2 moles Al = 1.2044 x 10^23 atoms
-*** Molecules from moles
-**** Example: Methane
-***** 0.5 moles CH4 = 3.011 x 10^23 molecules
-**** Example: Hydrogen peroxide
-***** 1.6 moles H2O2 = 9.635 x 10^23 molecules
-*** Moles from particles
-**** Example: Methane
-***** 1.2 x 10^23 molecules CH4 = 0.199 moles
-**** Example: Sulfuric acid
-***** 5.1 x 10^22 molecules H2SO4 = 0.0847 moles
-** Concept Assessment Exercises
-*** Mole-Mass problems
-**** H2O2 calculations
-**** NaCl calculations
-**** BaSO4 molar mass
-*** Mole-Particles problems
-**** CH4 and NH3 molecule calculations
-**** Moles from CH4 and H2SO4 molecules
-@endmindmap`}
+              @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **Mole-Mass Calculations**
+** **Example 6.3: Molar Mass Calculation**
+*** **(a) Sodium (Na)** → **Molar Mass = 23 g**
+*** **(b) Nitrogen (N₂)** → **Molar Mass = 28 g** (14 × 2)
+*** **(c) Sucrose (C₁₂H₂₂O₁₁)** → **Molar Mass = 342 g** 
+    **** **Calculation:** (12 × 12) + (1 × 22) + (16 × 11)
+** **Concept Assessment Exercise 6.4**
+*** **Calculate the mass of one mole of:** 
+    **** Copper (Cu)
+    **** Iodine (I)
+    **** Potassium (K)
+    **** Oxygen (O₂)
+*** **Differentiate between:**
+    **** Gram formula mass vs. Gram molecular mass
+    ** **Example 6.4: Mass of Given Moles**
+    *** **Problem:** Calculate the mass of **9.05 moles** of Ozone (O₃)
+    *** **Solution:** 
+    **** **Molar Mass of O₃ = 48 g**
+    **** **9.05 moles × 48 g** = **434.4 g**
+    left side
+    ** **Example 6.5: Mass of CO₂ Formed**
+*** **Problem:** 0.25 moles of CO₂ is formed. What is its mass?
+*** **Solution:** 
+    **** **Molar Mass of CO₂ = 44 g**
+    **** **0.25 × 44 g = 11 g**
+    ** **Example 6.6: Converting Grams to Moles**
+*** **Problem 1:** **5 g of H₂** → **How many moles?**
+    **** **Molar Mass of H₂ = 2.016 g**
+    **** **Moles = (5 / 2.016) = 2.48 moles**
+*** **Problem 2:** **100 g of Ice (H₂O)** → **How many moles?**
+    **** **Molar Mass of H₂O = 18.016 g**
+    **** **Moles = (100 / 18.016) = 5.55 moles**
+** **Concept Assessment Exercise 6.5**
+*** **1. Calculate:**
+    **** (a) Mass of 2.5 moles of H₂O₂ (Hydrogen Peroxide)
+    **** (b) Number of moles in 30 g of H₂O₂
+*** **2. Find the moles in:**
+    **** **12.5 g of NaCl (Table Salt)**
+*** **3. Mass of one mole of BaSO₄ (Barium Sulfate)**
+@endmindmap
+
+            `}
         />
+  
+  
+            <PlantUMLDiagram code={`
+                @startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightBlue
+    }
+    :depth(1) {
+        BackgroundColor lightGreen
+    }
+    :depth(2) {
+        BackgroundColor lightYellow
+    }
+}
+</style>
+
+* **Mole-Particles Calculations**
+** **Example 6.7: Atoms in Given Moles**
+*** **1. Zinc (Zn) - 1.25 moles**
+    **** **1 mole Zn** = **6.022 × 10²³ atoms**
+    **** **1.25 moles Zn** = **7.53 × 10²³ atoms**
+*** **2. Aluminium (Al) - 0.2 moles**
+    **** **1 mole Al** = **6.022 × 10²³ atoms**
+    **** **0.2 moles Al** = **1.2044 × 10²³ atoms**
+** **Example 6.8: Molecules in Given Moles**
+*** **1. Methane (CH₄) - 0.5 moles**
+    **** **1 mole CH₄** = **6.022 × 10²³ molecules**
+    **** **0.5 moles CH₄** = **3.011 × 10²³ molecules**
+*** **2. Sulphur Dioxide (SO₂) - 0.25 moles**
+    **** **1 mole SO₂** = **6.022 × 10²³ molecules**
+    **** **0.25 moles SO₂** = **1.5055 × 10²³ molecules**
+** **Example 6.9: Moles from Given Atoms**
+*** **Titanium (Ti) - 3.011 × 10²³ atoms**
+    **** **6.022 × 10²³ atoms** = **1 mole Ti**
+    **** **3.011 × 10²³ atoms** = **0.5 moles Ti**
+** **Example 6.10: Moles from Given Molecules**
+*** **Formaldehyde (CH₂O) - 3.011 × 10²³ molecules**
+    **** **6.022 × 10²³ molecules** = **1 mole CH₂O**
+    **** **3.011 × 10²³ molecules** = **0.5 moles CH₂O**
+** **Concept Assessment Exercise 6.5**
+*** **1. Aspirin Mole Calculation**
+    **** Tablet contains **1.25 × 10²³ molecules**
+    **** Find **moles of aspirin**
+*** **2. Cathodic Protection with Magnesium**
+    **** **1 billion Mg atoms (1 × 10⁹)**
+    **** Find **moles of Mg**
+@endmindmap
+              `} />
       </section>
 
       <div className="p-6 bg-gray-50 text-gray-800">

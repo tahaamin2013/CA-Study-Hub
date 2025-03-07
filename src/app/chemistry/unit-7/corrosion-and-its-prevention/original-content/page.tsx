@@ -48,7 +48,11 @@ const Page = () => {
           <h3 className="text-xl font-semibold mb-2">3. Coating with a Thin Layer of Another Metal</h3>
           <p className="mb-4">
             Metals that readily corrode can be protected by coating with a thin layer of another metal that resists corrosion. This can be done by:
+            <p>(a) Tinning</p>
+          <p>(b) Galvanizing (Coating with Zinc)</p>
+          <p>(c) Electroplating </p>
           </p>
+        
           <ul className="list-disc pl-8 mb-4">
             <li className="mb-2">
               <strong>(a) Tinning:</strong> In the process of tin plating, a clean iron sheet is dipped in a bath of molten tin. It is then passed through a hot pair of rollers. Tin protects iron effectively since it is very stable.

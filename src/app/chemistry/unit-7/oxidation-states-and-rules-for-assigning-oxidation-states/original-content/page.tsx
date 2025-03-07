@@ -95,7 +95,7 @@ const Page = () => {
 
       <h2 className="text-xl font-semibold mt-6 mb-2">7.2.3 Determining the Oxidation Number of an Atom in a Compound</h2>
       <p className="mb-4">
-        Let&aposs see how to use rules discussed in section 7.2.2 to determine the oxidation number of an atom of an element in a compound.
+        Let&apos;s see how to use rules discussed in section 7.2.2 to determine the oxidation number of an atom of an element in a compound.
       </p>
 
       <h3 className="text-lg font-semibold mt-4 mb-2">Example 7.3: Determining oxidation number</h3>
