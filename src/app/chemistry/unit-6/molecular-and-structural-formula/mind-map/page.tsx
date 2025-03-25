@@ -51,8 +51,11 @@ mindmapDiagram {
 ** **Concept Assessment Exercise 6.8**
 *** Write the molecular formulae for:
 **** CH₃-CH₂-OH
+***** C₂H₆O
 **** CH₃-CH₂-NH₂
+***** C₂H₇N
 **** CH₃-CO-CH₃
+***** C₃H₆O
 @endmindmap
           `} />
       </section>

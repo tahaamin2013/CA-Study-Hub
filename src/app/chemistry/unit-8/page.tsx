@@ -88,6 +88,18 @@ const data = [
             { href: "/chemistry/unit-8/respiration/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
+    {
+        id: "8",
+        title: "Chapter Round up",
+        links: [
+            { href: "/chemistry/unit-8/chapter-round-up/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-8/chapter-round-up/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-8/chapter-round-up/mind-map", text: "MIND MAP", icon: Brain },
+            { href: "/chemistry/unit-8/chapter-round-up/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-8/chapter-round-up/textbook-questions", text: "TEXTBOOK QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-8/chapter-round-up/short-questions", text: "SHORT QUESTIONS", icon: List },
+        ],
+    },
 ];
 
 

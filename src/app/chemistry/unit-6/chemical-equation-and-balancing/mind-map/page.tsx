@@ -143,8 +143,27 @@ mindmapDiagram {
     **** Mg + 2H⁺ → Mg²⁺ + H₂
 ** **Concept Assessment Exercise 6.7**
 *** Transform into Ionic Equations:
-    **** 1. **AgNO₃ + NaCl → AgCl + NaNO₃**
-    **** 2. **Zn + 2HCl → ZnCl₂ + H₂**
+**** Ionic Equation for AgNO₃ + NaCl
+***** Raw Chemical Equation
+****** AgNO₃ (aq) + NaCl (aq) → AgCl (s) + NaNO₃ (aq)
+***** Full Ionic Equation
+****** Ag⁺ (aq) + NO₃⁻ (aq) + Na⁺ (aq) + Cl⁻ (aq) → AgCl (s) + Na⁺ (aq) + NO₃⁻ (aq)
+***** Spectator Ions
+****** Na⁺ (aq)
+****** NO₃⁻ (aq)
+***** Net Ionic Equation
+****** Ag⁺ (aq) + Cl⁻ (aq) → AgCl (s)
+
+**** Ionic Equation for Zn + HCl
+***** Raw Chemical Equation
+****** Zn (s) + 2HCl (aq) → ZnCl₂ (aq) + H₂ (g)
+***** Full Ionic Equation
+****** Zn (s) + 2H⁺ (aq) + 2Cl⁻ (aq) → Zn²⁺ (aq) + 2Cl⁻ (aq) + H₂ (g)
+***** Spectator Ions
+****** Cl⁻ (aq)
+***** Net Ionic Equation
+****** Zn (s) + 2H⁺ (aq) → Zn²⁺ (aq) + H₂ (g)
+
 @endmindmap
 `
 } />
