@@ -12,15 +12,15 @@ const QuestionsPage = () => {
         <li>How does temperature affect cobalt chloride equilibrium?</li>
         <li>Bromide chloride (BrCl) decomposes to form chlorine and Bromine. For this reason write.</li>
         <li>List two examples of everyday processes that involve reversible reactions.</li>
-        <li>Briefly define the term "equilibrium" in a chemical reaction.</li>
+        <li>Briefly define the term &quot;equilibrium&quot; in a chemical reaction.</li>
         <li>In your own words, explain the difference between a reversible and an irreversible reaction.</li>
         <li>How can changing the temperature of a reversible reaction system affect the equilibrium position?</li>
-        <li>Describe the concept of Le Chatelier's Principle in a single sentence.</li>
+        <li>Describe the concept of Le Chatelier&lsquo;s Principle in a single sentence.</li>
         <li>Copper(II) sulfate crystals turn blue when heated (lose water) and colorless when cooled (absorb water). Explain this phenomenon using the concept of reversible reactions.</li>
         <li>Baking soda and vinegar react to form carbon dioxide gas. How can you manipulate the pressure in the system to create more bubbles? Give your reasoning.</li>
         <li>A reversible reaction produces heat. Predict how adding a catalyst would affect the equilibrium position.</li>
         <li>What are some factors that can influence the rate of a chemical reaction?</li>
-        <li>Define the terms "reactant" and "product" in a chemical reaction.</li>
+        <li>Define the terms &quot;reactant&quot; and &quot;product&quot; in a chemical reaction.</li>
         <li>Differentiate between the rate and the equilibrium of a chemical reaction.</li>
         <li>Differentiate between a physical and a chemical change in a substance.</li>
         <li>A sealed container holds a mixture of hydrogen gas (H₂) and oxygen gas (O₂) at equilibrium. If a spark ignites the mixture, how will the equilibrium be affected? Give your reasoning.</li>

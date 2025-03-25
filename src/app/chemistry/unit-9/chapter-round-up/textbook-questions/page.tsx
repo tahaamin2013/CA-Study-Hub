@@ -40,10 +40,10 @@ const QuestionsPage = () => {
             <strong>Q11: What are the main conditions required for chemical equilibrium?</strong>
           </li>
           <li className="mb-4">
-            <strong>Q12: Discuss how Le Chatelier's Principle can be used to predict the behavior of a chemical system when its concentration, volume, or temperature is changed.</strong>
+            <strong>Q12: Discuss how Le Chatelier&lsquo;s Principle can be used to predict the behavior of a chemical system when its concentration, volume, or temperature is changed.</strong>
           </li>
           <li className="mb-4">
-            <strong>Q13: Describe the effects of adding more reactant or product to a system at chemical equilibrium. How does the system respond according to Le Chatelier's Principle?</strong>
+            <strong>Q13: Describe the effects of adding more reactant or product to a system at chemical equilibrium. How does the system respond according to Le Chatelier&lsquo;s Principle?</strong>
           </li>
           <li className="mb-4">
             <strong>Q14: Analyze the impact of temperature changes on the equilibrium of a reversible reaction. How does the direction of the equilibrium shift in response to an increase or decrease in temperature?</strong>

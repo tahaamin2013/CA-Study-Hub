@@ -8,7 +8,7 @@ const QuestionsPage = () => {
 
       <h2>Q2: What is the significance of energy in determining the feasibility and direction of chemical reactions?</h2>
 
-      <h2>Q3: What is the distinction between the "system" and "surroundings" in the context of energy transfer and chemical reactions, and provide an example to illustrate this concept?</h2>
+      <h2>Q3: What is the distinction between the &quot;system&quot; and &quot;surroundings&quot; in the context of energy transfer and chemical reactions, and provide an example to illustrate this concept?</h2>
 
       <h2>Q4: What are thermochemical reactions, and how do exothermic and endothermic reactions differ in terms of energy transfer, providing examples and equations to illustrate each type?</h2>
 
