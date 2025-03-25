@@ -125,6 +125,18 @@ const data = [
             { href: "/chemistry/unit-11/risk-factors/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
+    {
+        id: "1",
+        title: "Chapter Round Up",
+        links: [
+            { href: "/chemistry/unit-11/chapter-round-up/original-content", text: "ORIGINAL CONTENT", icon: List },
+            { href: "/chemistry/unit-11/chapter-round-up/notes", text: "NOTES", icon: BookOpen },
+            { href: "/chemistry/unit-11/chapter-round-up/project", text: "Project", icon: Brain },
+            { href: "/chemistry/unit-11/chapter-round-up/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/chemistry/unit-11/chapter-round-up/textbook-questions", text: "TEXTBOOK QUESTIONS", icon: FileText },
+            { href: "/chemistry/unit-11/chapter-round-up/short-questions", text: "Short QUESTIONS", icon: List },
+        ],
+    },
 ];
 
 
