@@ -40,10 +40,10 @@ const QuestionsPage = () => {
 
         {/* Group 4 */}
           <ol className="list-decimal pl-6 space-y-4">
-            <li className="text-gray-800">What percentage of Pakistan's population faces severe shortages of water annually?</li>
+            <li className="text-gray-800">What percentage of Pakistan&apos;s population faces severe shortages of water annually?</li>
             <li className="text-gray-800">Name the primary river system Pakistan relies on for its water supply. By what year could Pakistan potentially have severe water crisis if current trends continue?</li>
             <li className="text-gray-800">What are two major causes of water scarcity in Pakistan?</li>
-            <li className="text-gray-800">How can recycling water help mitigate Pakistan's water scarcity issue?</li>
+            <li className="text-gray-800">How can recycling water help mitigate Pakistan&apos;s water scarcity issue?</li>
             <li className="text-gray-800">Why is it important for farmers in Pakistan to use water more efficiently?</li>
             <li className="text-gray-800">What is one common water-borne disease mentioned that causes severe diarrhea and dehydration?</li>
             <li className="text-gray-800">How can boiling water help prevent cholera?</li>
