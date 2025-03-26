@@ -45,29 +45,29 @@ mindmapDiagram {
 </style>
 
 * Root [#3498DB]
-** Political Decisions and Business Implications [#F1C40F]
-*** Economic and Business Impact [#2ECC71]
-**** Industrial Policy [#E74C3C]
-**** Policy towards Foreign Capital and Technology [#E74C3C]
-**** Fiscal Policy [#E74C3C]
-**** Foreign Trade Policy [#E74C3C]
-*** Ideologies of Political Parties [#2ECC71]
-**** Communists and Leftists [#E74C3C]
-***** Favor State Control [#C0392B]
-***** Oppose Private Capital [#C0392B]
-***** Against Foreign Investment [#C0392B]
-***** Oppose International Control Over Local Business [#C0392B]
-**** USA and Capitalism [#E74C3C]
-***** Encourages Private Ownership [#C0392B]
-***** Supports Foreign Investment [#C0392B]
-***** Advocates Free Market Policies [#C0392B]
-*** Business Managers' Considerations [#2ECC71]
-**** Understanding Political Ideologies [#E74C3C]
-**** Analyzing Past Approaches of Key Parties [#E74C3C]
-**** Predicting Future Policies [#E74C3C]
-** Government Goals [#F1C40F]
-*** Economic Prosperity [#2ECC71]
-*** Political Stability [#2ECC71]
+** Political Decisions and Business Implications 
+*** Economic and Business Impact
+**** Industrial Policy 
+**** Policy towards Foreign Capital and Technology
+**** Fiscal Policy
+**** Foreign Trade Policy
+*** Ideologies of Political Parties 
+**** Communists and Leftists
+***** Favor State Control
+***** Oppose Private Capital 
+***** Against Foreign Investment 
+***** Oppose International Control Over Local Business [
+**** USA and Capitalism 
+***** Encourages Private Ownership 
+***** Supports Foreign Investment 
+***** Advocates Free Market Policies 
+*** Business Managers' Considerations 
+**** Understanding Political Ideologies 
+**** Analyzing Past Approaches of Key Parties 
+**** Predicting Future Policies 
+** Government Goals 
+*** Economic Prosperity 
+*** Political Stability 
 @endmindmap
 
 `}
@@ -110,21 +110,21 @@ mindmapDiagram {
 }
 </style>
 
-* **Political Factors Affecting Business** #3498DB;line:#2980B9;white
-** Government Spending #F1C40F;line:#F39C12;black
-*** Left-Wing Policies #2ECC71;line:#27AE60;white
-**** Public Services #E74C3C;line:#C0392B;white
+* **Political Factors Affecting Business** 
+** Government Spending
+*** Left-Wing Policies 
+**** Public Services 
 ***** Free Healthcare
 ***** Education for All
 ***** Social Welfare
 **** Infrastructure Development
 **** State-Owned Enterprises
-*** Right-Wing Policies #2ECC71;line:#27AE60;white
-**** Defense & Security #E74C3C;line:#C0392B;white
+*** Right-Wing Policies
+**** Defense & Security 
 ***** Military Spending
 ***** International Alliances
 ***** Expansion of Influence (Neo-Imperialism)
-**** Economic Policies #E74C3C;line:#C0392B;white
+**** Economic Policies 
 ***** Privatization
 ***** Business Deregulation
 ***** Lower Taxes for Corporations
@@ -270,23 +270,23 @@ mindmapDiagram {
   }
 }
 </style>
-* Political Factors Affecting Business #3498DB;line:#2980B9;fontcolor:white
-** Labor Laws #F1C40F;line:#F39C12;fontcolor:black
-*** Minimum Wages #2ECC71;line:#27AE60;fontcolor:white
-*** Insurance Requirements #2ECC71;line:#27AE60;fontcolor:white
-*** Labor-related Taxes #2ECC71;line:#27AE60;fontcolor:white
-*** Employment Regulations #2ECC71;line:#27AE60;fontcolor:white
-*** Impact on Small Businesses #2ECC71;line:#27AE60;fontcolor:white
-**** Increased Expenses #E74C3C;line:#C0392B;fontcolor:white
-**** Over Regulation #E74C3C;line:#C0392B;fontcolor:white
-**** Ease of Doing Business #E74C3C;line:#C0392B;fontcolor:white
-*** International Labor Regulations #2ECC71;line:#27AE60;fontcolor:white
-**** Trade Restrictions #E74C3C;line:#C0392B;fontcolor:white
-**** Child Labor Laws #E74C3C;line:#C0392B;fontcolor:white
-**** Labor Health & Safety Policies #E74C3C;line:#C0392B;fontcolor:white
-**** Western Import Regulations #E74C3C;line:#C0392B;fontcolor:white
-***** Regular Inspections #E74C3C;line:#C0392B;fontcolor:white
-***** Certifications #E74C3C;line:#C0392B;fontcolor:white
+* Political Factors Affecting Business 
+** Labor Laws 
+*** Minimum Wages 
+*** Insurance Requirements
+*** Labor-related Taxes
+*** Employment Regulations
+*** Impact on Small Businesses
+**** Increased Expenses 
+**** Over Regulation 
+**** Ease of Doing Business 
+*** International Labor Regulations
+**** Trade Restrictions 
+**** Child Labor Laws 
+**** Labor Health & Safety Policies 
+**** Western Import Regulations 
+***** Regular Inspections 
+***** Certifications 
 @endmindmap
 
 `}
