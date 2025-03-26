@@ -330,7 +330,6 @@ mindmapDiagram {
 }
 </style>
 
-@startmindmap
 * Political Factors Affecting Business
 ** International Relationship and Policies
 *** Importance of International Relations
