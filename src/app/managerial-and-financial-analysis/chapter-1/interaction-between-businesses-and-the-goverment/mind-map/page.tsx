@@ -5,6 +5,9 @@ const MagneticMindmap = () => {
   return (
     <div className="p-8 flex flex-col gap-8">
       <section>
+      <h1 className="font-bold text-3xl">INTERACTION BETWEEN BUSINESSES AND THE GOVERNMENT
+      </h1>
+
       <PlantUMLDiagram
           code={`@startmindmap
 <style>
