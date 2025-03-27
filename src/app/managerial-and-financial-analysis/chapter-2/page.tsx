@@ -694,7 +694,7 @@ mindmapDiagram {
                     <tr className="bg-gray-100 hover:bg-gray-200">
                         <td className="p-3 border border-gray-300">Increased Interest Rates</td>
                         <td className="p-3 border border-gray-300">May spend less, as they are encouraged to save</td>
-                        <td className="p-3 border border-gray-300">May reduce products’ sizes but leave the price unchanged ('shrinkflation')</td>
+                        <td className="p-3 border border-gray-300">May reduce products’ sizes but leave the price unchanged (&apos;shrinkflation&apos;)</td>
                     </tr>
                     <tr className="bg-white hover:bg-gray-200">
                         <td className="p-3 border border-gray-300">Decreased Interest Rates</td>
