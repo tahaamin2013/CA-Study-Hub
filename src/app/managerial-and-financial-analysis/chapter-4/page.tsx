@@ -8,112 +8,115 @@ const data = [
 
   {
     id: "6",
-    title: "SOCIAL FACTORS AND THEIR INFLUENCE ON BUSINESS",
+    title: "THE IMPACT OF TECHNOLOGICAL CHANGE ON WORKING METHODS",
     links: [
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/original-content",
+        href: "/managerial-and-financial-analysis/chapter-4/the-impact-of-technological-change-on-working-methods/original-content",
         text: "ORIGINAL CONTENT",
         icon: List,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/notes",
+        href: "/managerial-and-financial-analysis/chapter-4/the-impact-of-technological-change-on-working-methods/notes",
         text: "NOTES",
         icon: BookOpen,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/mind-map",
+        href: "/managerial-and-financial-analysis/chapter-4/the-impact-of-technological-change-on-working-methods/mind-map",
         text: "MIND MAP",
         icon: Brain,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/quiz",
+        href: "/managerial-and-financial-analysis/chapter-4/the-impact-of-technological-change-on-working-methods/quiz",
         text: "MCQS",
         icon: HelpCircle,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/brief-questions",
+        href: "/managerial-and-financial-analysis/chapter-4/the-impact-of-technological-change-on-working-methods/brief-questions",
         text: "BRIEF QUESTIONS",
         icon: FileText,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/detailed-questions",
+        href: "/managerial-and-financial-analysis/chapter-4/the-impact-of-technological-change-on-working-methods/detailed-questions",
         text: "DETAILED QUESTIONS",
         icon: List,
       },
     ],
   },
+
   {
     id: "6",
-    title: "2. LEGAL ENVIRONMENT AFFECTING BUSINESS",
+    title: "INFORMATION TECHNOLOGY AND INFORMATION SYSTEMS",
     links: [
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/original-content",
+        href: "/managerial-and-financial-analysis/chapter-4/information-technology-and-information-systems/original-content",
         text: "ORIGINAL CONTENT",
         icon: List,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/notes",
+        href: "/managerial-and-financial-analysis/chapter-4/information-technology-and-information-systems/notes",
         text: "NOTES",
         icon: BookOpen,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/mind-map",
+        href: "/managerial-and-financial-analysis/chapter-4/information-technology-and-information-systems/mind-map",
         text: "MIND MAP",
         icon: Brain,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/quiz",
+        href: "/managerial-and-financial-analysis/chapter-4/information-technology-and-information-systems/quiz",
         text: "MCQS",
         icon: HelpCircle,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/brief-questions",
+        href: "/managerial-and-financial-analysis/chapter-4/information-technology-and-information-systems/brief-questions",
         text: "BRIEF QUESTIONS",
         icon: FileText,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/detailed-questions",
+        href: "/managerial-and-financial-analysis/chapter-4/information-technology-and-information-systems/detailed-questions",
         text: "DETAILED QUESTIONS",
         icon: List,
       },
     ],
   },
+
   {
     id: "6",
-    title: "LEGAL ENVIRONMENT AND EASE OF DOING BUSINESS",
+    title: "IT CONTROL & EFFECTIVENESS",
     links: [
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/original-content",
+        href: "/managerial-and-financial-analysis/chapter-4/control-&-effectiveness/original-content",
         text: "ORIGINAL CONTENT",
         icon: List,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/notes",
+        href: "/managerial-and-financial-analysis/chapter-4/control-&-effectiveness/notes",
         text: "NOTES",
         icon: BookOpen,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/mind-map",
+        href: "/managerial-and-financial-analysis/chapter-4/control-&-effectiveness/mind-map",
         text: "MIND MAP",
         icon: Brain,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/quiz",
+        href: "/managerial-and-financial-analysis/chapter-4/control-&-effectiveness/quiz",
         text: "MCQS",
         icon: HelpCircle,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/brief-questions",
+        href: "/managerial-and-financial-analysis/chapter-4/control-&-effectiveness/brief-questions",
         text: "BRIEF QUESTIONS",
         icon: FileText,
       },
       {
-        href: "/managerial-and-financial-analysis/chapter-3/legal-and-ease-of-doing-business/detailed-questions",
+        href: "/managerial-and-financial-analysis/chapter-4/control-&-effectiveness/detailed-questions",
         text: "DETAILED QUESTIONS",
         icon: List,
       },
     ],
   },
+
 
 ];
 
@@ -147,7 +150,7 @@ const ComputerSystemsDashboard = () => {
       }}
     >
       <h1 className="text-5xl font-extrabold mb-12 text-center text-white">
-      Political environment and business              </h1>
+      Information and communication technologies              </h1>
       <div className="flex flex-wrap gap-5 justify-center">
         {data.map((section) => (
           <Section key={section.id} section={section} />

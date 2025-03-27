@@ -382,6 +382,319 @@ mindmapDiagram {
         />
 
 
+<PlantUMLDiagram
+          code={`@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor lightBlue
+    FontColor black
+    FontSize 14
+  }
+  :depth(1) {
+    BackgroundColor lightGreen
+  }
+  :depth(2) {
+    BackgroundColor gold
+  }
+  :depth(3) {
+    BackgroundColor pink
+  }
+  :depth(4) {
+    BackgroundColor gray
+  }
+  .radioisotopes {
+    BackgroundColor yellow
+  }
+  .isotopes {
+    BackgroundColor cyan
+  }
+  .unstable {
+    BackgroundColor lightPink
+  }
+  .examples {
+    BackgroundColor lightGreen
+  }
+}
+</style>
+* C. Demography
+** Demographic factors
+*** Uncontrollable factors in the business environment
+*** Extremely important in business
+** Study of key statistics
+*** Age
+*** Gender
+*** Race and Ethnicity
+*** Location
+** Importance in Business
+*** Defines market for products and services
+*** Determines workforce size and composition
+*** Influences business decisions
+*** Shopping preferences by generation
+*** Store locations based on demographic study
+** Age Groups
+*** Millennials (Born after 2000)
+**** Exposed to rapid changes
+**** Different outlook on life
+**** Demand modern products/services
+**** Large population segment
+**** Technologically savvy
+**** Higher disposable incomes
+**** Tend to spend freely
+**** Individualistic lifestyle
+*** Generation X (Born 1965-1980)
+*** Baby Boomers (Born 1946-1964)
+**** Nearing retirement
+**** Prefer spending on health & leisure
+**** Investment in financial stability for children
+**** Businesses catering to older demographics
+left side
+** Ethnicity and Nationality
+*** Minorities comprise 38%+ of US population
+*** Higher numbers in Canada, Australia, Middle East
+*** US minority population projected to be 56% by 2060
+*** Workforce diversity benefits businesses
+*** Minority buying power increasing
+*** Marketing campaigns targeting ethnic groups
+*** Ethnic diversity enhances business value
+*** Example: Sundar Pichai as Google CEO
+** Ageing Population
+*** Declining birth rate in Western Europe
+*** Decreasing working-age population
+*** Increased life expectancy
+*** Large retired population vs small working population
+*** Economic burden on fewer taxpayers
+*** Higher government spending on retirees
+** Government Policy for Demographic Change
+*** Controlled immigration to increase workforce
+*** Raising retirement age
+*** Encouraging work beyond retirement
+*** Subsidies/tax incentives for childbirth
+*** Businesses adapting to demographic shifts
+*** Workforce education & training
+** Migrated or Immigrant Population
+*** Increasing international migration
+*** Europe: declining local fertility, rising migrant population
+*** Migrants have higher fertility rates
+*** Changing market dynamics
+*** Demand for Eastern goods in Western markets
+@endmindmap
+
+
+
+`}
+        />
+
+
+<PlantUMLDiagram
+          code={`@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor lightBlue
+    FontColor black
+    FontSize 14
+  }
+  :depth(1) {
+    BackgroundColor lightGreen
+  }
+  :depth(2) {
+    BackgroundColor gold
+  }
+  :depth(3) {
+    BackgroundColor pink
+  }
+  :depth(4) {
+    BackgroundColor gray
+  }
+  .radioisotopes {
+    BackgroundColor yellow
+  }
+  .isotopes {
+    BackgroundColor cyan
+  }
+  .unstable {
+    BackgroundColor lightPink
+  }
+  .examples {
+    BackgroundColor lightGreen
+  }
+}
+</style>
+* D. Wealth Distribution – Income and Social Status
+** Socio-economic Issues Affecting Consumer Spending
+*** Poverty
+*** Unemployment
+*** Special Attention Required from Businesses
+**** Develop Policies
+**** Support Systems
+**** Informative Programs
+**** Consider These Factors When Introducing Products and Services
+** Businesses' Role in Addressing Socio-economic Issues
+*** Create Job Opportunities
+*** Financial Burden on Business
+** Target Market Considerations
+*** Different Income Groups
+**** Luxury Market (e.g., Rolex)
+***** Avoids Classified Ads
+**** Middle to Lower-Income Market (e.g., Imtiaz Supermarket)
+***** Targets Middle to Lower Income Segments
+***** Claims Lower Prices and Large Variety
+***** Promotional Offers Require Mass Reach
+@endmindmap
+
+
+`}
+        />
+        <PlantUMLDiagram
+          code={`@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor lightBlue
+    FontColor black
+    FontSize 14
+  }
+  :depth(1) {
+    BackgroundColor lightGreen
+  }
+  :depth(2) {
+    BackgroundColor gold
+  }
+  :depth(3) {
+    BackgroundColor pink
+  }
+  :depth(4) {
+    BackgroundColor gray
+  }
+  .radioisotopes {
+    BackgroundColor yellow
+  }
+  .isotopes {
+    BackgroundColor cyan
+  }
+  .unstable {
+    BackgroundColor lightPink
+  }
+  .examples {
+    BackgroundColor lightGreen
+  }
+}
+</style>
+
+* E. Health and Education
+** Health
+*** Importance of Health
+**** Healthy individuals contribute to economic progress
+**** Social indicators direct business strategies
+*** Social Indicators
+**** Birth rates
+***** Higher birth rates indicate demand for baby products
+****** Formula milk
+****** Diapers
+**** Life Expectancy
+***** Affects health insurance marketing strategies
+***** Higher life expectancy means a larger labor force
+***** Impacts manufacturing and production industries
+***** Key for pharmaceuticals, drugs, and medical equipment industries
+*** Impact of COVID-19
+**** Positive growth for pharmaceutical and communication technology industries
+**** Negative impact on travel and tourism
+**** Business adaptation
+***** Lockdowns affected businesses worldwide
+***** Businesses adapted by using social media for orders and home delivery
+***** Example: Karachi shopkeepers used social media contacts
+
+** Education
+*** Global Competition
+**** Businesses require higher education and training levels
+**** Illiteracy threatens global competitiveness
+**** Science, technology, math, and engineering education is crucial
+*** Advertising and Communication
+**** Businesses adapt communication based on literacy and awareness
+*** Business Expansion
+**** Education affects expansion into other countries
+**** Lack of skilled human resources hinders business operations and technology transfer
+*** Skill Set Trends
+**** Traditional high demand for college-educated professionals
+**** Emerging trend of hiring based on problem-solving and teamwork skills
+**** Example: Google hires based on real-world problem-solving rather than degrees
+@endmindmap
+
+`}
+        />
+        <PlantUMLDiagram
+          code={`@startmindmap
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor lightBlue
+    FontColor black
+    FontSize 14
+  }
+  :depth(1) {
+    BackgroundColor lightGreen
+  }
+  :depth(2) {
+    BackgroundColor gold
+  }
+  :depth(3) {
+    BackgroundColor pink
+  }
+  :depth(4) {
+    BackgroundColor gray
+  }
+  .radioisotopes {
+    BackgroundColor yellow
+  }
+  .isotopes {
+    BackgroundColor cyan
+  }
+  .unstable {
+    BackgroundColor lightPink
+  }
+  .examples {
+    BackgroundColor lightGreen
+  }
+}
+</style>
+
+* Law and Order
+** Unlawful Acts Impacting Business
+*** Robbery
+*** Theft
+*** Corruption
+*** Hijacking
+** Negative Effects of Unfavorable Law and Order
+*** Loss of Staff and Customers
+*** Increased Insurance/Security Costs
+*** Loss of Profits
+**** Stolen Goods
+*** Decline in Productivity
+**** Loss of Skilled People
+*** Increased Security Expenses
+**** Alarms
+**** Burglar Proofing
+*** Higher Insurance Premiums
+**** Cost of Property Damage
+*** Lower Profits
+**** Affects Expansion
+**** Limits Hiring and Wage Increases
+*** Increased Employee Health Costs
+**** Injuries
+**** Stress
+*** Discourages Foreign Investment
+*** Reduces Tourism
+**** Negative Business Impact
+** Case Study: Political Turmoil in Karachi
+*** Businesses Threatened by Extortionists
+*** Businesses Closed in Karachi
+*** Relocation to Other Parts of Pakistan
+
+@endmindmap
+
+`}
+        />
      
       </section>
 
