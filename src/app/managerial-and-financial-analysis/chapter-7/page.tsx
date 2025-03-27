@@ -155,6 +155,120 @@ const data = [
     ],
   },
 
+  
+  {
+    id: "6",
+    title: "4. STRATEGIC GROUPS AND MARKET SEGMENTATION",
+    links: [
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/original-content",
+        text: "ORIGINAL CONTENT",
+        icon: List,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/notes",
+        text: "NOTES",
+        icon: BookOpen,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/mind-map",
+        text: "MIND MAP",
+        icon: Brain,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/quiz",
+        text: "MCQS",
+        icon: HelpCircle,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/brief-questions",
+        text: "BRIEF QUESTIONS",
+        icon: FileText,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/detailed-questions",
+        text: "DETAILED QUESTIONS",
+        icon: List,
+      },
+    ],
+  },
+
+    
+  {
+    id: "6",
+    title: "5. BOSTON CONSULTING GROUP MATRIX (BCG MATRIX)",
+    links: [
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/buston-consulting-group-matrix/original-content",
+        text: "ORIGINAL CONTENT",
+        icon: List,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/buston-consulting-group-matrix/notes",
+        text: "NOTES",
+        icon: BookOpen,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/buston-consulting-group-matrix/mind-map",
+        text: "MIND MAP",
+        icon: Brain,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/buston-consulting-group-matrix/quiz",
+        text: "MCQS",
+        icon: HelpCircle,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/buston-consulting-group-matrix/brief-questions",
+        text: "BRIEF QUESTIONS",
+        icon: FileText,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/buston-consulting-group-matrix/detailed-questions",
+        text: "DETAILED QUESTIONS",
+        icon: List,
+      },
+    ],
+  },
+
+
+  {
+    id: "6",
+    title: "6. OPPORTUNITIES AND THREATS",
+    links: [
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/opportunities-and-threats/original-content",
+        text: "ORIGINAL CONTENT",
+        icon: List,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/opportunities-and-threats/notes",
+        text: "NOTES",
+        icon: BookOpen,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/opportunities-and-threats/mind-map",
+        text: "MIND MAP",
+        icon: Brain,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/opportunities-and-threats/quiz",
+        text: "MCQS",
+        icon: HelpCircle,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/opportunities-and-threats/brief-questions",
+        text: "BRIEF QUESTIONS",
+        icon: FileText,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-7/opportunities-and-threats/detailed-questions",
+        text: "DETAILED QUESTIONS",
+        icon: List,
+      },
+    ],
+  },
+
 
 ];
 
