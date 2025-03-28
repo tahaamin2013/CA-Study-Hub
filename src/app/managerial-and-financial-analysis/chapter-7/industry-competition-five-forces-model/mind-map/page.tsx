@@ -324,6 +324,40 @@ mindmapDiagram {
 
 <PlantUMLDiagram
           code={`@startmindmap
+            <style>
+mindmapDiagram {
+  node {
+    BackgroundColor lightBlue
+    FontColor black
+    FontSize 14
+  }
+  :depth(1) {
+    BackgroundColor lightGreen
+  }
+  :depth(2) {
+    BackgroundColor gold
+  }
+  :depth(3) {
+    BackgroundColor pink
+  }
+  :depth(4) {
+    BackgroundColor gray
+  }
+  .radioisotopes {
+    BackgroundColor yellow
+  }
+  .isotopes {
+    BackgroundColor cyan
+  }
+  .unstable {
+    BackgroundColor lightPink
+  }
+  .examples {
+    BackgroundColor lightGreen
+  }
+}
+</style>
+
 * Bargaining Power of Suppliers
 ** High Supplier Power
 *** Suppliers charge high prices
