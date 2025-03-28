@@ -192,6 +192,117 @@ const data = [
     ],
   },
 
+
+  {
+    id: "6",
+    title: "5. Resources and Competences",
+    links: [
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/resourses-and-competences/original-content",
+        text: "ORIGINAL CONTENT",
+        icon: List,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/resourses-and-competences/notes",
+        text: "NOTES",
+        icon: BookOpen,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/resourses-and-competences/mind-map",
+        text: "MIND MAP",
+        icon: Brain,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/resourses-and-competences/quiz",
+        text: "MCQS",
+        icon: HelpCircle,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/resourses-and-competences/brief-questions",
+        text: "BRIEF QUESTIONS",
+        icon: FileText,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/resourses-and-competences/detailed-questions",
+        text: "DETAILED QUESTIONS",
+        icon: List,
+      },
+    ],
+  },
+
+  {
+    id: "6",
+    title: "6. Capabilities and Competitive Advantage",
+    links: [
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/capabilities-and-competitive-advantage/original-content",
+        text: "ORIGINAL CONTENT",
+        icon: List,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/capabilities-and-competitive-advantage/notes",
+        text: "NOTES",
+        icon: BookOpen,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/capabilities-and-competitive-advantage/mind-map",
+        text: "MIND MAP",
+        icon: Brain,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/capabilities-and-competitive-advantage/quiz",
+        text: "MCQS",
+        icon: HelpCircle,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/capabilities-and-competitive-advantage/brief-questions",
+        text: "BRIEF QUESTIONS",
+        icon: FileText,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/capabilities-and-competitive-advantage/detailed-questions",
+        text: "DETAILED QUESTIONS",
+        icon: List,
+      },
+    ],
+  },
+
+  {
+    id: "6",
+    title: "7. Analysing Strengths and Weaknesses",
+    links: [
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/analysing-stregths-and-weaknesses/original-content",
+        text: "ORIGINAL CONTENT",
+        icon: List,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/analysing-stregths-and-weaknesses/notes",
+        text: "NOTES",
+        icon: BookOpen,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/analysing-stregths-and-weaknesses/mind-map",
+        text: "MIND MAP",
+        icon: Brain,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/analysing-stregths-and-weaknesses/quiz",
+        text: "MCQS",
+        icon: HelpCircle,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/analysing-stregths-and-weaknesses/brief-questions",
+        text: "BRIEF QUESTIONS",
+        icon: FileText,
+      },
+      {
+        href: "/managerial-and-financial-analysis/chapter-8/analysing-stregths-and-weaknesses/detailed-questions",
+        text: "DETAILED QUESTIONS",
+        icon: List,
+      },
+    ],
+  },
 ];
 
 const Section = ({ section }: any) => {
