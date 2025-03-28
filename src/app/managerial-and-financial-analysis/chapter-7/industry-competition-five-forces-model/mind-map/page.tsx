@@ -324,67 +324,47 @@ mindmapDiagram {
 
 <PlantUMLDiagram
           code={`@startmindmap
-<style>
-mindmapDiagram {
-  node {
-    BackgroundColor lightBlue
-    FontColor black
-    FontSize 14
-  }
-  :depth(1) {
-    BackgroundColor lightGreen
-  }
-  :depth(2) {
-    BackgroundColor gold
-  }
-  :depth(3) {
-    BackgroundColor pink
-  }
-  :depth(4) {
-    BackgroundColor gray
-  }
-  .radioisotopes {
-    BackgroundColor yellow
-  }
-  .isotopes {
-    BackgroundColor cyan
-  }
-  .unstable {
-    BackgroundColor lightPink
-  }
-  .examples {
-    BackgroundColor lightGreen
-  }
-}
-</style>
-* Bargaining Power of Suppliers
-** Impact on Industry
-*** High prices reduce profitability
-*** Competitive market conditions
-** Porter’s View
-*** Suppliers can raise prices
-*** Suppliers can reduce quality
-*** Can squeeze profitability
-** Example: Personal Computer Industry
-*** Software suppliers (e.g., Microsoft) have strong influence
-*** High software costs reduce PC manufacturer profit margins
-** Factors Strengthening Supplier Power
-*** Limited Number of Suppliers
-**** Few suppliers control the market
-*** No Substitute Products
-**** No alternatives available
-*** Differentiated Products
-**** Unique or superior supplier products
-*** Essential Components
-**** Supplier products are critical for final goods
-*** Industry Not Important to Supplier
-**** Suppliers not reliant on industry sales
-*** Forward Integration
-**** Suppliers can enter market as competitors
-** Importance of Supplied Product
-*** Key components (e.g., car engines) give suppliers more power
-*** Less critical parts (e.g., car mirrors) give suppliers less power
-
+Bargaining Power of Suppliers
+** High Supplier Power
+*** Suppliers charge high prices
+*** Buyers unable to pass costs to customers
+*** Low industry profitability
+*** Increased market competition
+** Ways Suppliers Exert Power
+*** Raising prices
+*** Reducing quality of goods/services
+*** Squeezing industry profitability
+*** Industry unable to recover costs
+** Factors Affecting Supplier Power
+*** Importance of the product supplied
+**** Essential components (e.g., car engines) → High power
+**** Less critical components (e.g., car mirrors) → Low power
+** Example: Bargaining Power of Suppliers
+*** Personal Computer Industry
+**** Software suppliers (e.g., Microsoft) have high power
+**** Manufacturers cannot fully pass high costs to customers
+**** Low profit margins in PC manufacturing
+*** Automobile Industry
+**** Engine manufacturers (e.g., Bosch, Cummins) have high power
+**** Car brands depend on key components (e.g., batteries from CATL, Panasonic)
+**** Mirror manufacturers have less power due to many suppliers
+*** Smartphone Industry
+**** Chip suppliers (e.g., Qualcomm, TSMC) have strong power
+**** Limited high-end chip manufacturers force brands to accept high costs
+**** Screen suppliers (e.g., Samsung for OLED displays) have bargaining power
+** Situations Where Supplier Power is Strong
+*** Few suppliers in the market
+**** Example: Intel and AMD dominate the CPU market
+*** No substitutes available for supplied products
+**** Example: Boeing and Airbus dominate the aircraft supply industry
+*** Suppliers offer differentiated or superior products
+**** Example: Nvidia’s dominance in GPU technology
+*** Supplier’s product is crucial for the final product
+**** Example: Lithium-ion batteries in electric vehicles (Tesla, Rivian)
+*** Industry is not an important customer for suppliers
+**** Example: Small clothing brands vs. large fabric suppliers
+*** Suppliers can integrate forward and become competitors
+**** Example: Apple manufacturing its own chips (M1, M2) instead of relying on Intel
 @endmindmap
 `}
         />
