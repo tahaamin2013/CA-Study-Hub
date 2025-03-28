@@ -156,43 +156,6 @@ const data = [
   },
 
   
-  {
-    id: "6",
-    title: "4. STRATEGIC GROUPS AND MARKET SEGMENTATION",
-    links: [
-      {
-        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/original-content",
-        text: "ORIGINAL CONTENT",
-        icon: List,
-      },
-      {
-        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/notes",
-        text: "NOTES",
-        icon: BookOpen,
-      },
-      {
-        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/mind-map",
-        text: "MIND MAP",
-        icon: Brain,
-      },
-      {
-        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/quiz",
-        text: "MCQS",
-        icon: HelpCircle,
-      },
-      {
-        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/brief-questions",
-        text: "BRIEF QUESTIONS",
-        icon: FileText,
-      },
-      {
-        href: "/managerial-and-financial-analysis/chapter-7/strategic-groups-and-market-segementation/detailed-questions",
-        text: "DETAILED QUESTIONS",
-        icon: List,
-      },
-    ],
-  },
-
     
   {
     id: "6",
