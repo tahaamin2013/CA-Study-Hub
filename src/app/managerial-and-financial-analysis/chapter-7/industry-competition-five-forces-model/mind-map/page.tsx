@@ -324,7 +324,7 @@ mindmapDiagram {
 
 <PlantUMLDiagram
           code={`@startmindmap
-Bargaining Power of Suppliers
+* Bargaining Power of Suppliers
 ** High Supplier Power
 *** Suppliers charge high prices
 *** Buyers unable to pass costs to customers
